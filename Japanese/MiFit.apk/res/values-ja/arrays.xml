@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>No activity</item>
+        <item>Light</item>
+        <item>Aerobic</item>
+        <item>Heavy</item>
+    </string-array>
+    <string-array name="long_sit_items">
+        <item>60 minutes</item>
+        <item>90 minutes</item>
+        <item>120 minutes</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Make sure the band is charged and hasn't run out of power."</item>
+        <item>Turn off Bluetooth first, then pair with current device.</item>
+        <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Is your band charged?</item>
+        <item>Is this band paired with another device?</item>
+        <item>Try resetting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Time</item>
+        <item>Steps</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Heart rate</item>
+        <item>Remaining battery</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>"If you don't use Huami sensor for a long time, it goes to sleep. Try to shake it"</item>
+        <item>"Huami sensor battery life is 1 year. If you've been using it for a longer period, maybe there's no power left."</item>
+        <item>Turn off Bluetooth device first, then pair with current device.</item>
+        <item>Try rebooting your phone, and then pair the band.</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Shake Huami sensor</item>
+        <item>Is Huami sensor charged?</item>
+        <item>Is this Huami sensor paired with another device?</item>
+        <item>Try resetting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+        <item>How to sync shoes data?</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>Mi Band</item>
+        <item>Mi Scale</item>
+        <item>Shoes</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>Underweight</item>
+        <item>Healthy</item>
+        <item>Overweight</item>
+        <item>Obese I</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Normal</item>
+        <item>Overweight</item>
+        <item>Obese I</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Underweight</item>
+        <item>Normal</item>
+        <item>Overweight</item>
+        <item>Obese I</item>
+        <item>Obese II</item>
+    </string-array>
+    <string-array name="weight_help_tips">
+        <item>You can step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
+        <item>"If there's no response when you step on the scale, check if the batteries are installed properly."</item>
+        <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
+    </string-array>
+    <string-array name="weight_help_title">
+        <item>Is there enough power left?</item>
+        <item>Are the batteries installed properly?</item>
+        <item>Try restarting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+        <item>How does Mi Scale sync data?</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" jin"</item>
+        <item>" lbs"</item>
+    </string-array>
+</resources>

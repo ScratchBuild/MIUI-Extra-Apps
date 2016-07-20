@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberFoot">
+        <item quantity="other">%s feet</item>
+        <item quantity="one">%s foot</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s inches</item>
+        <item quantity="one">%s inch</item>
+    </plurals>
+    <plurals name="picker_number_of_items_selected">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+</resources>
