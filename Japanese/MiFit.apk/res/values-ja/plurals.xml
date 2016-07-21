@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="numberFoot">
-        <item quantity="other">%s feet</item>
-        <item quantity="one">%s foot</item>
+        <item quantity="other">%sフィート</item>
+        <item quantity="one">%sフィート</item>
     </plurals>
     <plurals name="numberInch">
-        <item quantity="other">%s inches</item>
-        <item quantity="one">%s inch</item>
+        <item quantity="other">%sインチ</item>
+        <item quantity="one">%sインチ</item>
     </plurals>
     <plurals name="picker_number_of_items_selected">
-        <item quantity="other">%1$d selected</item>
-        <item quantity="zero">%1$d selected</item>
-        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d件を選択中</item>
+        <item quantity="zero">%1$d件を選択中</item>
+        <item quantity="one">%1$d件を選択中</item>
     </plurals>
 </resources>
