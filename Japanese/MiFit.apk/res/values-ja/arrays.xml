@@ -24,12 +24,12 @@
         <item>Try rebooting your phone</item>
     </string-array>
     <string-array name="mili_pro_display_items">
-        <item>Time</item>
-        <item>Steps</item>
-        <item>Distance</item>
-        <item>Calories</item>
-        <item>Heart rate</item>
-        <item>Remaining battery</item>
+        <item>時刻</item>
+        <item>歩数</item>
+        <item>距離</item>
+        <item>カロリー</item>
+        <item>心拍数</item>
+        <item>バッテリー残量</item>
     </string-array>
     <string-array name="month_list">
         <item>Jan</item>
