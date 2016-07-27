@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
     <string-array name="hr_sport">
         <item>No activity</item>
         <item>Light</item>
         <item>Aerobic</item>
         <item>Heavy</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Close</item>
+        <item>Near</item>
+        <item>Far</item>
     </string-array>
     <string-array name="long_sit_items">
         <item>60分</item>
@@ -158,4 +169,16 @@
         <item>" jin"</item>
         <item>" lbs"</item>
     </string-array>
+    <string-array name="btg_report_tag_priority_name">
+        <item>Trivial</item>
+        <item>Minor</item>
+        <item>Major</item>
+        <item>Blocker</item>
+    </string-array>
+    <array name="btg_tag_priority_res">
+        <item>@drawable/btg_icon_priority_0_full</item>
+        <item>@drawable/btg_icon_priority_1_full</item>
+        <item>@drawable/btg_icon_priority_2_full</item>
+        <item>@drawable/btg_icon_priority_3_full</item>
+    </array>
 </resources>
