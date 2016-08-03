@@ -74,7 +74,7 @@ It will vibrate again in 10 minutes."</string>
     <string name="alert_list_title">Band notifications</string>
     <string name="alert_msg_unable_start_camera">"Allow Camera usage if you restricted it.
 If you didn't, restart the phone."</string>
-    <string name="alert_title_unable_start_camera">"Can't access Camera"</string>
+    <string name="alert_title_unable_start_camera">カメラにアクセスできません</string>
     <string name="algo_version">Algorithm version: %s</string>
     <string name="am">AM</string>
     <string name="ampm_format">hh:mm a</string>
@@ -133,7 +133,7 @@ Update anyway?"</string>
     <string name="bin_weixin_device_not_connect">Connect Mi Band to add WeChat</string>
     <string name="bind_band_to_analy">Pair Mi Band to analyze your sleep</string>
     <string name="bind_binding">ペアリング中…</string>
-    <string name="bind_camery_exception">Camera error, check camera permissions and try again</string>
+    <string name="bind_camery_exception">カメラのエラー、アクセス権限を確認して再度試してください。</string>
     <string name="bind_failed">"ペアリングできません"</string>
     <string name="bind_failed_help">"Couldn't pair. Restart Bluetooth and try again."</string>
     <string name="bind_failed_net_error">"Couldn't pair, check network and try again."</string>
@@ -347,13 +347,13 @@ Try syncing on the start page."</string>
     <string name="feedback_abandon">破棄</string>
     <string name="feedback_checkoutbox_msg">(Help us locate the problem)</string>
     <string name="feedback_commit">送信</string>
-    <string name="feedback_confirm_cancel_info">Discard feedback message?</string>
+    <string name="feedback_confirm_cancel_info">メッセージの編集を破棄しますか？</string>
     <string name="feedback_contact">Contact info</string>
     <string name="feedback_contact_detail">Enter your email so we could contact you</string>
     <string name="feedback_contact_info_invalid">The contact info you entered is invalid.</string>
     <string name="feedback_content">Describe the issue you want to report</string>
     <string name="feedback_detail_problem">Details</string>
-    <string name="feedback_empty">Enter your feedback in the box above.</string>
+    <string name="feedback_empty">フィードバック内容を入力してください。</string>
     <string name="feedback_failed">フィードバックを送信できませんでした、もう一度試してください</string>
     <string name="feedback_input_correct_contact_info">メールアドレスを入力</string>
     <string name="feedback_knew">Got it</string>
@@ -404,7 +404,7 @@ Continue anyway?"</string>
     <string name="get_image_file_fail">"Can't find image"</string>
     <string name="get_notification_access_tips">Allow Mi Fit access notifications</string>
     <string name="gf_bind_fail">追加できませんでした</string>
-    <string name="gf_bind_succ">Added</string>
+    <string name="gf_bind_succ">追加しました</string>
     <string name="gf_tips">Steps and sleep data will be synced with Google Fit</string>
     <string name="gf_title">Sync fitness data with Google Fit</string>
     <string name="give_up">Discard</string>
@@ -415,7 +415,7 @@ Continue anyway?"</string>
     <string name="gotit">Got it</string>
     <string name="green">Green</string>
     <string name="has_close">Off</string>
-    <string name="heart_rate_times">Heart rate %1$d BPM</string>
+    <string name="heart_rate_times">心拍数 %1$d BPM</string>
     <string name="heavier_than_goal">%1$s heavier than goal</string>
     <string name="hello_world">Hello world!</string>
     <string name="help">Tap to get help</string>
@@ -465,7 +465,7 @@ Keep Bluetooth on when running."</string>
 60%-80% from maximum aerobic heart rate (220-age)"</string>
     <string name="hr_tips2">Connect Mi Band Pulse to measure heart rate.</string>
     <string name="hr_tips3" formatted="false">For example: Jack is 20, his ideal heart rate during workout sessions is 120-160 bpm (60%-80% from 200=220-20).</string>
-    <string name="hr_tips_180">180 steps/min</string>
+    <string name="hr_tips_180">180 歩/分</string>
     <string name="hr_tips_age">年齢</string>
     <string name="hr_tips_arrange">Ideal workout heart rate (BPM)</string>
     <string name="hr_unit">BPM</string>
@@ -570,18 +570,18 @@ firmly on the center of the scale."</string>
     <string name="label_remark_name">Remark</string>
     <string name="label_remind">When your heart rate goes above this level, the band will shortly vibrate twice.</string>
     <string name="label_request_add_friend">Friend requests</string>
-    <string name="label_scan_add">Scan QR code</string>
+    <string name="label_scan_add">QRコードの読み取り</string>
     <string name="label_search_result_empty">"This account doesn't exist."</string>
     <string name="label_share_info1">Scan QR code to add the friend</string>
     <string name="label_share_info2">Open Mi Fit > Friends > Add Friends > Choose QR code from Gallery</string>
     <string name="label_share_to_friend">Share your QR code to let other people follow you</string>
     <string name="label_sleep">Slept last night</string>
-    <string name="label_sleep_data">Sleep data</string>
+    <string name="label_sleep_data">睡眠記録</string>
     <string name="label_sleep_record">%1$s/%2$s Sleep history</string>
     <string name="label_sleep_start_time">Fell asleep</string>
     <string name="label_sleep_time">%1$sh%2$sm</string>
     <string name="label_sleep_time_detail">%1$sh%2$sm</string>
-    <string name="label_sport_data">Activity data</string>
+    <string name="label_sport_data">活動記録</string>
     <string name="label_step">歩数</string>
     <string name="label_step_with_unit">%s</string>
     <string name="label_uid">ID: %1$s</string>
@@ -766,7 +766,7 @@ measurement range (%s)"</string>
     <string name="no_network">Connect to the network</string>
     <string name="no_network_connection">ネットワークに接続できませんでした</string>
     <string name="no_network_connection_retry">Tap to refresh</string>
-    <string name="no_sleep_data">No sleep data</string>
+    <string name="no_sleep_data">睡眠記録なし</string>
     <string name="no_tip"><u>二度と表示しない</u></string>
     <string name="not_connect_network">ネットワークに接続できませんでした</string>
     <string name="not_restore">"Don't restore"</string>
@@ -1240,7 +1240,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sleep_awake_duration">Awake time</string>
     <string name="sleep_awake_time">Woke up</string>
     <string name="sleep_bind_band">Pair Mi Band to understand your sleep better</string>
-    <string name="sleep_chart_no_data">No sleep data</string>
+    <string name="sleep_chart_no_data">睡眠記録なし</string>
     <string name="sleep_deep">Deep sleep</string>
     <string name="sleep_deep_time">Deep sleep</string>
     <string name="sleep_edit">Edit sleep time</string>
@@ -1327,7 +1327,7 @@ to receive notifications"</string>
     <string name="step_type_active">Activity</string>
     <string name="step_type_run">Run</string>
     <string name="step_type_walk">Walk</string>
-    <string name="strange_number_tips">"Don't notify about unknown numbers"</string>
+    <string name="strange_number_tips">不明な番号については通知しない</string>
     <string name="submitting_feedback">送信中…</string>
     <string name="sunday">日曜</string>
     <string name="sync_data">Syncing data %1$s</string>
@@ -1516,7 +1516,7 @@ to make sure you can receive notifications"</string>
     <string name="year">y</string>
     <string name="yes">OK</string>
     <string name="yesterday">昨日</string>
-    <string name="yestoday_no_sleep">No sleep data for last night.</string>
+    <string name="yestoday_no_sleep">昨夜の睡眠記録はありません。</string>
     <string name="your_gender">性別</string>
     <string name="your_height">身長</string>
     <string name="your_weight">体重</string>
