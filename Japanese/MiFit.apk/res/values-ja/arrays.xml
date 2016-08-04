@@ -158,10 +158,10 @@
         <item>Every time you open Mi Fit it will try to sync data automatically.</item>
     </string-array>
     <string-array name="weight_help_title">
-        <item>Is there enough power left?</item>
-        <item>Are the batteries installed properly?</item>
-        <item>Try restarting Bluetooth</item>
-        <item>Try rebooting your phone</item>
+        <item>バッテリー残量は充分ありますか？</item>
+        <item>電池は正しくインストールされていますか？</item>
+        <item>Bluetoothを再起動してみてください</item>
+        <item>お使いの携帯を再起動してみてください</item>
         <item>How does Mi Scale sync data?</item>
     </string-array>
     <string-array name="weight_unit">
