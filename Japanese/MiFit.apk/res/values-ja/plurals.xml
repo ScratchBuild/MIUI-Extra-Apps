@@ -10,7 +10,6 @@
     </plurals>
     <plurals name="picker_number_of_items_selected">
         <item quantity="other">%1$d件を選択中</item>
-        <item quantity="zero">%1$d件を選択中</item>
         <item quantity="one">%1$d件を選択中</item>
     </plurals>
 </resources>

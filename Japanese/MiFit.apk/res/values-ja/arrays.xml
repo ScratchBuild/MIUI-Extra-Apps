@@ -166,7 +166,7 @@
     </string-array>
     <string-array name="weight_unit">
         <item>" kg"</item>
-        <item>" jin"</item>
+        <item>" Jin"</item>
         <item>" lbs"</item>
     </string-array>
     <string-array name="btg_report_tag_priority_name">
