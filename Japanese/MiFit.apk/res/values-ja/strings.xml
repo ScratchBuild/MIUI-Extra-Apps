@@ -54,7 +54,7 @@
     <string name="agree">同意</string>
     <string name="agree_ux">ユーザーエクスペリエンスプログラムに登録</string>
     <string name="alarm_close_failed">"Couldn't turn off"</string>
-    <string name="alarm_delete_failed">"Couldn't delete"</string>
+    <string name="alarm_delete_failed">削除できませんでした</string>
     <string name="alarm_help_subtitle_01">You can add up to 10 alarms with Mi Band 2</string>
     <string name="alarm_help_subtitle_02">Tap the band to stop alarm</string>
     <string name="alarm_help_subtitle_03">"Tap the band to make it stop vibrating.
@@ -236,7 +236,7 @@ Try syncing on the start page."</string>
     <string name="bracelet_notify_text">"Don't forget to put the band on"</string>
     <string name="bracelet_notify_title">充電完了</string>
     <string name="bracelet_store_desc">Mi Store</string>
-    <string name="break_best_step_record">Broke personal record!</string>
+    <string name="break_best_step_record">個人記録を更新しました！</string>
     <string name="bt_operation_failed_tips">Bluetooth is not working properly. Wait a minute or two and try again.</string>
     <string name="button_search_friend">検索</string>
     <string name="button_send_care">応援</string>
@@ -1299,8 +1299,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="smart_alarm_done">Done</string>
     <string name="smart_lock_low_version">Android version is too old, update to 5.0 or later</string>
     <string name="smart_play_google_fit">Google Fit</string>
-    <string name="smart_play_no_app_tip">"Select apps
-to receive notifications"</string>
+    <string name="smart_play_no_app_tip">通知を受信するアプリを選択</string>
     <string name="smart_play_qq">QQ</string>
     <string name="smart_play_screen_sleep_title">Only receive when the screen is off</string>
     <string name="smart_play_wechat">WeChat</string>
@@ -1391,7 +1390,7 @@ Update to Android 4.4 or later."</string>
     <string name="title_activity_weight_goals_setting">Weight goals setting</string>
     <string name="title_activity_weight_report">Activity report</string>
     <string name="title_add_friend">Add</string>
-    <string name="title_friend_detail">Details</string>
+    <string name="title_friend_detail">詳細</string>
     <string name="title_friend_list">Friends</string>
     <string name="title_heart_list">心拍数</string>
     <string name="title_message">Messages</string>
@@ -1597,7 +1596,7 @@ to make sure you can receive notifications"</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="data_not_supported">--</string>
-    <string name="discovery_net_tips">"Couldn't connect to the network"</string>
+    <string name="discovery_net_tips">ネットワークに接続できませんでした</string>
     <string name="running_hour">%d時間</string>
     <string name="running_hour_min" formatted="false">%d時間%d分</string>
     <string name="running_hour_min_sec" formatted="false">%d時間%d分%d秒</string>
