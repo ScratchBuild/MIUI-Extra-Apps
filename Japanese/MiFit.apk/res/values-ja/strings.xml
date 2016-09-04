@@ -84,7 +84,7 @@ It will vibrate again in 10 minutes."</string>
     <string name="am">AM</string>
     <string name="ampm_format">hh:mm a</string>
     <string name="ampm_format_hhmmss">hh:mm:ss a</string>
-    <string name="anti_theft">Anti-lost alarm</string>
+    <string name="anti_theft">紛失防止アラーム</string>
     <string name="anti_theft_tips">"Mi Band will vibrate when it's disconnected"</string>
     <string name="apk_download_ok">Downloaded Mi Fit successfully</string>
     <string name="apk_force_upgrade_wifi_status">"Using mobile data may create additional traffic costs.
@@ -441,7 +441,7 @@ Continue anyway?"</string>
     <string name="gf_bind_succ">追加しました</string>
     <string name="gf_tips">Steps and sleep data will be synced with Google Fit</string>
     <string name="gf_title">Sync fitness data with Google Fit</string>
-    <string name="give_up">Discard</string>
+    <string name="give_up">破棄する</string>
     <string name="goal_rank">%1$s, ahead of %2$d%% people</string>
     <string name="goal_weight_for_figure">Weight goal: %s</string>
     <string name="googlefit">Google Fit</string>
@@ -523,7 +523,7 @@ Keep Bluetooth on when running."</string>
     <string name="id_broadcast">Discoverable</string>
     <string name="id_broadcast_not_bound">Pair Mi Band to use Discoverable mode</string>
     <string name="idbroadcast_logo_tips">Turn on to be visible to nearby devices</string>
-    <string name="identify">Privacy</string>
+    <string name="identify">プライバシー</string>
     <string name="identify_broadcast">Discoverable</string>
     <string name="incoming_call_alert">通話着信</string>
     <string name="incoming_call_alert_logo_tips">Keep band connected to device via Bluetooth</string>
@@ -534,7 +534,7 @@ Keep Bluetooth on when running."</string>
     <string name="incoming_call_not_bound">Pair Mi Band to receive incoming call notifications</string>
     <string name="incoming_call_whitelist_tips">"If you're using Phone assistant,
 add Mi Fit to exceptions"</string>
-    <string name="input_family_member_name">Enter name</string>
+    <string name="input_family_member_name">名前を入力</string>
     <string name="input_person_name">Come up with a cool nickname for yourself</string>
     <string name="input_precise_person_info">Create your profile</string>
     <string name="input_precise_user_info">Mi Fit uses this info to calculate stats and provide hints</string>
@@ -625,7 +625,7 @@ firmly on the center of the scale."</string>
     <string name="label_remind_new">Mi Band will vibrate when your heart rate goes above the set level</string>
     <string name="label_request_add_friend">Friend request</string>
     <string name="label_scan_add">QRコードの読み取り</string>
-    <string name="label_search_result_empty">"This account doesn't exist."</string>
+    <string name="label_search_result_empty">このアカウントは存在しません。</string>
     <string name="label_share_info1">Scan QR code to add a friend</string>
     <string name="label_share_info2">"Save QR code > Open Mi Fit >
 Friends > Scan QR code >
@@ -776,8 +776,8 @@ measurement range (%s)"</string>
     <string name="mili_setting_vibrate_notify_tips">Show notifications on the phone when the band vibrates</string>
     <string name="mili_settting_mili_nfc">HuaShan</string>
     <string name="mili_settting_mili_pro">Mi Band 2</string>
-    <string name="mili_time_display_item">Time format</string>
-    <string name="mili_time_display_item_tips">Select time format</string>
+    <string name="mili_time_display_item">時刻の形式</string>
+    <string name="mili_time_display_item_tips">時刻の形式を選択</string>
     <string name="mine_add_more_device">Add device</string>
     <string name="mine_ave_daystep">Avg steps</string>
     <string name="mine_ave_totaldays">Streak</string>
@@ -1573,7 +1573,7 @@ Update to Android 4.4 or later."</string>
     <string name="time">Time</string>
     <string name="time_format_hour_min">%1$s時間%2$s分</string>
     <string name="time_format_min">%s分</string>
-    <string name="time_type_title">Select time format</string>
+    <string name="time_type_title">時刻の形式を選択</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_heart_rate_detial">心拍数の詳細</string>
     <string name="title_activity_heart_rate_tip">心拍数について</string>
@@ -1608,7 +1608,7 @@ Update to Android 4.4 or later."</string>
     <string name="toast_no_more_data">No more data</string>
     <string name="toast_operation_failed">Something went wrong</string>
     <string name="toast_user_info_error">The user info you entered is invalid</string>
-    <string name="today">Today</string>
+    <string name="today">今日</string>
     <string name="today_not_sync">Not synced today</string>
     <string name="today_sync_failed">同期できませんでした</string>
     <string name="total_record_data">Kept records for %1$d days, total</string>
@@ -1617,7 +1617,7 @@ Update to Android 4.4 or later."</string>
     <string name="turn_on">Turn on</string>
     <string name="two">火</string>
     <string name="unbind">Unpair</string>
-    <string name="unbind_google_fit">Remove from Google Fit</string>
+    <string name="unbind_google_fit">Google Fitから削除</string>
     <string name="unbind_mili_support_sensorhub_tips">Band will stop working after you unpair. Steps will be counted by the phone.</string>
     <string name="unbind_mili_tips">Mi Band will stop working after you unpair</string>
     <string name="unbind_qq_health_dialog_title">Unpair QQ Health?</string>
