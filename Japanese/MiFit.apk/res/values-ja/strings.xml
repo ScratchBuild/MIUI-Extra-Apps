@@ -56,14 +56,14 @@
     <string name="air_quality_title">Air quality</string>
     <string name="air_quality_very_bad">Very poor</string>
     <string name="air_quality_very_good">Great</string>
-    <string name="alarm_close_failed">"Couldn't turn off"</string>
+    <string name="alarm_close_failed">"オフにできませんでした"</string>
     <string name="alarm_delete_failed">削除できませんでした</string>
-    <string name="alarm_help_subtitle_01">You can add up to 10 alarms with Mi Band 2</string>
-    <string name="alarm_help_subtitle_02">Tap the band to stop alarm</string>
-    <string name="alarm_help_subtitle_03">"Tap the band to make it stop vibrating.
-It will vibrate again in 10 minutes."</string>
-    <string name="alarm_help_subtitle_04">You can add up to 3 alarms with Mi Band</string>
-    <string name="alarm_help_subtitle_05">Will vibrate again in 10 minutes</string>
+    <string name="alarm_help_subtitle_01">"Mi Band 2には最大10個までアラームを追加できます"</string>
+    <string name="alarm_help_subtitle_02">"アラームを停止するにはバンドをタップします"</string>
+    <string name="alarm_help_subtitle_03">"振動を停止するにはバンドをタップします。
+これは10分後に再び振動します。"</string>
+    <string name="alarm_help_subtitle_04">"Mi Bandには最大3個までアラームを追加できます"</string>
+    <string name="alarm_help_subtitle_05">"10分後に再び振動します"</string>
     <string name="alarm_help_title_01">Just enough</string>
     <string name="alarm_help_title_02">Simple</string>
     <string name="alarm_help_title_03">起きる時間です！まだ眠いですか？</string>
@@ -75,9 +75,9 @@ It will vibrate again in 10 minutes."</string>
     <string name="alarm_save_failed">保存できませんでした</string>
     <string name="alarm_save_success">保存が完了しました</string>
     <string name="alert_app_max_number_tips">アプリは5つまで登録できます</string>
-    <string name="alert_disable">Off</string>
-    <string name="alert_enable">On</string>
-    <string name="alert_list_title">Band notifications</string>
+    <string name="alert_disable">"オフ"</string>
+    <string name="alert_enable">"オン"</string>
+    <string name="alert_list_title">"バンドの通知"</string>
     <string name="alert_msg_unable_start_camera">Allow Mi Band to access camera in the Settings</string>
     <string name="alert_title_unable_start_camera">カメラにアクセスできません</string>
     <string name="algo_version">Algorithm: %s</string>
