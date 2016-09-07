@@ -340,14 +340,14 @@ Time spent: %s"</string>
     <string name="trans_device_disconnected">"デバイスが切断されました"</string>
     <string name="trans_connecting_toast">"接続中…"</string>
     <string name="trans_connect_failed_toast">"接続できませんでした"</string>
-    <string name="trans_device_mi1">小米手机1</string>
-    <string name="trans_device_mi1s">小米手机1S</string>
-    <string name="trans_device_mi2">小米手机2</string>
-    <string name="trans_device_mi2a">小米手机2A</string>
-    <string name="trans_device_mi3">小米手机3</string>
-    <string name="trans_device_mi4">小米手机4</string>
-    <string name="trans_device_minote">小米Note</string>
-    <string name="trans_device_minotepro">小米Note顶配版</string>
+    <string name="trans_device_mi1">"Xiaomi Mi1"</string>
+    <string name="trans_device_mi1s">"Xiaomi Mi1S"</string>
+    <string name="trans_device_mi2">"Xiaomi Mi2"</string>
+    <string name="trans_device_mi2a">"Xiaomi Mi2A"</string>
+    <string name="trans_device_mi3">"Xiaomi Mi3"</string>
+    <string name="trans_device_mi4">"Xiaomi Mi4"</string>
+    <string name="trans_device_minote">"Xiaomi Mi Note"</string>
+    <string name="trans_device_minotepro">"Xiaomi Mi Note Pro"</string>
     <string name="trans_no_permission">Allow access to %s to back up files</string>
     <string name="trans_entrance_tips">"Move contacts, messages, apps,
 and files to your Mi Phone"</string>
