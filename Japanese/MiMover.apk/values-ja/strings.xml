@@ -267,7 +267,7 @@
     <string name="feature_title_account">"アカウント"</string>
     <string name="account_summary">Backup Google Account, Mi Account, and other user data</string>
     <string name="local_select_sysdata">"システム"</string>
-    <string name="system_backup_info">System settings and Home screen layout</string>
+    <string name="system_backup_info">"システム設定とホーム画面のレイアウト"</string>
     <string name="local_select_userapp">"アプリ"</string>
     <string name="software_backup_info">App data</string>
     <string name="local_select_account_contact">"アカウントと連絡先"</string>
@@ -279,7 +279,7 @@
     <string name="local_select_doc">"ドキュメント"</string>
     <string name="files_backup_info">"SDカード上のすべてのファイル (写真、音楽、動画、アプリのデータ、その他を含む)"</string>
     <string name="err_low_storage">"十分な空き領域がありません"</string>
-    <string name="button_start">Start</string>
+    <string name="button_start">"開始"</string>
     <string name="button_send">"送信"</string>
     <string name="button_finish">"完了"</string>
     <string name="button_cancel">"キャンセル"</string>

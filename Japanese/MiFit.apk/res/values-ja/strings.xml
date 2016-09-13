@@ -98,7 +98,7 @@ WeChat, QQ, Facebook, Twitter, Mi Talk, Sina Weibo,
 Snapchat, Amazfit, Mi Fit, Taobao.
 For example, WeChat:
 "</string>
-    <string name="app_alert_common">Other apps will show these icons:</string>
+    <string name="app_alert_common">他のアプリではこれらのアイコンが表示されます:</string>
     <string name="app_day_report_content">タップして詳細を表示</string>
     <string name="app_day_report_title">Walked %1$d steps today. Cool!</string>
     <string name="app_day_report_title_low">Walked %1$d steps</string>
@@ -144,7 +144,7 @@ For example, WeChat:
     <string name="baby_weight_tips">"Weight shouldn't be excessively controlled for infants and children"</string>
     <string name="baby_weight_too_small_weight">Difference between 2 weigh-ins is %1$s</string>
     <string name="baby_weight_warning_content">Make sure the scale, the floor, and your feet are dry</string>
-    <string name="band_alarm">Alarm</string>
+    <string name="band_alarm">アラーム</string>
     <string name="band_alarm_alert">Vibrate when alarm sounds</string>
     <string name="band_alert">Band notifications</string>
     <string name="band_connect_fail">"Couldn't connect band"</string>
