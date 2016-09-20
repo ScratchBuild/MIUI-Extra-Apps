@@ -1768,6 +1768,8 @@ to make sure you can receive notifications"</string>
     <string name="mile_fastest">英里最快: %1$s</string>
     <string name="pace">配速</string>
     <string name="rise">爬升: %1$s</string>
+    <string name="running_before_hr_prompt_notice">手环需避开手腕位置</string>
+    <string name="watch_req_with_diff_user">请使用同账户查看</string>
     <string name="time_type_set_failed">"Couldn't set time format, connect your band and try again"</string>
     <string name="cube_ptr_hours_ago">時間前</string>
     <string name="cube_ptr_last_update">最終更新: </string>
@@ -1781,7 +1783,6 @@ to make sure you can receive notifications"</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="data_not_supported">--</string>
-    <string name="running_before_hr_prompt_notice">手环需避开手腕位置</string>
     <string name="running_hour">%d時間</string>
     <string name="running_hour_min" formatted="false">%d時間%d分</string>
     <string name="running_hour_min_sec" formatted="false">%d時間%d分%d秒</string>
