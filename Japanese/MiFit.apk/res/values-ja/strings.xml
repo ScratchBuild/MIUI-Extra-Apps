@@ -1029,8 +1029,8 @@ measurement range (%s)"</string>
     <string name="running_btn_confirm">OK</string>
     <string name="running_btn_continue">戻る</string>
     <string name="running_btn_history">履歴</string>
-    <string name="running_btn_save">Add</string>
-    <string name="running_btn_start">Start</string>
+    <string name="running_btn_save">追加</string>
+    <string name="running_btn_start">開始</string>
     <string name="running_burn">Burned</string>
     <string name="running_cal_burnt">%d Cal</string>
     <string name="running_cal_desc">Burned</string>
@@ -1040,7 +1040,7 @@ measurement range (%s)"</string>
     <string name="running_confirm">OK</string>
     <string name="running_contour_track_failed_to_create">共有できませんでした。ストレージに十分な空き容量があることを確認して下さい。</string>
     <string name="running_cost_cal">%.1f Cal</string>
-    <string name="running_data_loading">Loading…</string>
+    <string name="running_data_loading">読み込み中…</string>
     <string name="running_date_last_month">先月</string>
     <string name="running_date_last_week">先週</string>
     <string name="running_date_this_month">今月</string>
@@ -1244,13 +1244,13 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_recover_now">Restore now</string>
     <string name="running_recover_savelast">Stop and restore</string>
     <string name="running_recover_title">Automatically restore previous running data</string>
-    <string name="running_resume">Resume</string>
+    <string name="running_resume">再開</string>
     <string name="running_set_dist">Distance alert</string>
     <string name="running_set_goal">Goal</string>
     <string name="running_set_pace">Pace alert</string>
     <string name="running_set_pace_desc">Mi Band will vibrate if you run slower</string>
     <string name="running_set_speed">Speed alert</string>
-    <string name="running_settings">Settings</string>
+    <string name="running_settings">設定</string>
     <string name="running_settings_speed">(%1$s/km)</string>
     <string name="running_settings_speed_br">(%1$s/mi)</string>
     <string name="running_share">共有</string>
@@ -1279,13 +1279,13 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_sports_type_crosscountry">Cross-country race</string>
     <string name="running_sports_type_running">Running</string>
     <string name="running_sports_type_walking">Walking</string>
-    <string name="running_start">Start</string>
+    <string name="running_start">開始</string>
     <string name="running_start_time">開始時刻</string>
     <string name="running_state_paused">Pause</string>
     <string name="running_state_stopped">Stop</string>
     <string name="running_step">Steps</string>
     <string name="running_step_frequency">Steps (歩/分)</string>
-    <string name="running_stop">Stop</string>
+    <string name="running_stop">停止</string>
     <string name="running_stop_sport_confirm">End this session?</string>
     <string name="running_stride">Stride</string>
     <string name="running_stride_with_unit">Stride (cm)</string>
@@ -1317,7 +1317,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="runningsafe_tips">"If you've suffered a injury in an accident
 Please contact Zhong An Insurance"</string>
     <string name="saturday">土曜</string>
-    <string name="save">Save</string>
+    <string name="save">保存</string>
     <string name="save_local_success">Saved to Gallery</string>
     <string name="saving_family_failure_title">"Couldn't add new member, check the network and try again"</string>
     <string name="saving_family_member">保存中…</string>
@@ -1754,9 +1754,6 @@ to make sure you can receive notifications"</string>
     <string name="open_gallery">ギャラリーを開く</string>
     <string name="picker_menu_done">完了</string>
     <string name="scan_label">枠の中にQRコードを入れて読み取ります。</string>
-    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
-    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
-    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
     <string name="alert_msg_no_storge_permission">请在系统设置中开启小米运动读写sdcard文件权限</string>
     <string name="alert_title_no_storge_permission">未获取到读写sdcard文件权限</string>
     <string name="altitude">海拔</string>
