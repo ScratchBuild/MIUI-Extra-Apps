@@ -6,12 +6,6 @@
         <item>@string/green</item>
         <item>@string/red</item>
     </string-array>
-    <string-array name="hr_sport">
-        <item>No activity</item>
-        <item>Light</item>
-        <item>Aerobic</item>
-        <item>Heavy</item>
-    </string-array>
     <string-array name="hr_sport_new">
         <item>Light</item>
         <item>Weight</item>
@@ -62,20 +56,6 @@
         <item>Oct</item>
         <item>Nov</item>
         <item>Dec</item>
-    </string-array>
-    <string-array name="months">
-        <item>1月</item>
-        <item>2月</item>
-        <item>3月</item>
-        <item>4月</item>
-        <item>5月</item>
-        <item>6月</item>
-        <item>7月</item>
-        <item>8月</item>
-        <item>9月</item>
-        <item>10月</item>
-        <item>11月</item>
-        <item>12月</item>
     </string-array>
     <string-array name="normandy_help_tips">
         <item>"Huami sensor battery life is 6 months. If you've been using it for a longer period, maybe there's no power left."</item>
