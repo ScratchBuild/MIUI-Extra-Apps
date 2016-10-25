@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="colors">
-        <item>@string/blue</item>
-        <item>@string/orange</item>
-        <item>@string/green</item>
-        <item>@string/red</item>
-    </string-array>
     <string-array name="hr_sport_new">
         <item>Light</item>
         <item>Weight</item>
@@ -106,15 +100,6 @@
         <item>Mi Scale</item>
         <item>Shoes</item>
     </string-array>
-    <string-array name="wear_type">
-        <item>@string/left_hand</item>
-        <item>@string/right_hand</item>
-    </string-array>
-    <string-array name="wear_type_body">
-        <item>@string/left_hand</item>
-        <item>@string/right_hand</item>
-        <item>@string/body</item>
-    </string-array>
     <string-array name="weeks">
         <item>月曜日</item>
         <item>火曜日</item>
@@ -169,5 +154,18 @@
         <item>" kg"</item>
         <item>" Jin"</item>
         <item>" lbs"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>活动</item>
+        <item>ウォーキング</item>
+        <item>散歩</item>
+        <item>快走</item>
+        <item>ジョギング</item>
+        <item>站立</item>
+        <item>静坐</item>
+        <item>轻微活动</item>
+        <item>手环未佩戴</item>
+        <item>手环充电</item>
+        <item>躺</item>
     </string-array>
 </resources>

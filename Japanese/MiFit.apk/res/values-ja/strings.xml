@@ -106,7 +106,9 @@ For example, WeChat:
     <string name="app_notification_alert">アプリ</string>
     <string name="app_notify_access_subtitle">アプリの通知を受け取るにはオンにします</string>
     <string name="app_notify_access_title">通知にアクセスできません</string>
-    <string name="app_notify_not_bound">Pair Mi Band to receive app notifications</string>
+    <string name="app_notify_not_bound">Pair Mi Band to receive alerts</string>
+    <string name="app_notify_sms_access_subtitle">开启后即可使用短信提醒功能</string>
+    <string name="app_notify_sms_access_title">请开启短信读取权限</string>
     <string name="app_notify_tips">Keep band connected to device via Bluetooth</string>
     <string name="app_sleep_report_content">タップして睡眠記録を表示</string>
     <string name="app_sleep_report_title">昨夜は%1$d時間%2$d分眠りました</string>
@@ -205,7 +207,7 @@ Your steps will be displayed in the rankings."</string>
 if you replaced your Mi Band"</string>
     <string name="bind_weixin_new_tips_not_bound">"Old data in WeChat?
 Try syncing on the start page."</string>
-    <string name="bind_weixin_tips_1">Tap «Create QR code» to save it to Gallery</string>
+    <string name="bind_weixin_tips_1">Tap «Generate QR code» to save it to Gallery</string>
     <string name="bind_weixin_tips_2">Scan the QR code from the Gallery with WeChat</string>
     <string name="bind_weixin_title">Compete with friends from WeChat</string>
     <string name="birthday">誕生日</string>
@@ -812,6 +814,8 @@ measurement range (%s)"</string>
     <string name="permission_cam_dialog_msg">Allow Mi Band access camera in the Settings</string>
     <string name="permission_cam_dialog_title">"Can't access camera"</string>
     <string name="permission_location">Access location info</string>
+    <string name="permission_location_dialog_msg">Allow Mi Band access location info in the Settings</string>
+    <string name="permission_location_dialog_title">"Can't access location info"</string>
     <string name="permission_not_set">後で</string>
     <string name="permission_sdcard">Read and write files on SD card</string>
     <string name="permission_set">Settings</string>
@@ -1096,6 +1100,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_lable_mile_fastest">Fastest mile</string>
     <string name="running_lable_mile_slowest">Slowest mile</string>
     <string name="running_lable_pace">Avg pace (min)</string>
+    <string name="running_lock_screen_display">ロック画面の表示</string>
     <string name="running_long_press_to_pause">Pause</string>
     <string name="running_main_avoid_use_indoor">Avoid using GPS indoors</string>
     <string name="running_main_back_button_in_dialog">キャンセル</string>
@@ -1207,7 +1212,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="runningdetail_tab_diagram">Graph</string>
     <string name="runningdetail_tab_pace">Pace</string>
     <string name="runningdetail_tab_track">Routes</string>
-    <string name="runningsafe">Zhong An Insurance:</string>
+    <string name="runningsafe">Zhong An Insurance :</string>
     <string name="runningsafe_tips">"Zhong An Insurance is providing services for you. If you've suffered an injury in an accident, please contact Zhong An Insurance."</string>
     <string name="save">保存</string>
     <string name="save_local_success">Saved to Gallery</string>
