@@ -95,6 +95,19 @@
         <item>お使いの携帯を再起動してみてください</item>
         <item>How to sync shoes data?</item>
     </string-array>
+    <string-array name="timeline_type">
+        <item>Activity</item>
+        <item>Slow walking</item>
+        <item>Walking</item>
+        <item>Fast walking</item>
+        <item>Running</item>
+        <item>Standing</item>
+        <item>Sitting</item>
+        <item>Light activity</item>
+        <item>"Band isn't on"</item>
+        <item>Band charging</item>
+        <item>Lying down</item>
+    </string-array>
     <string-array name="unbind_device_description">
         <item>Mi Band</item>
         <item>Mi Scale</item>
@@ -154,18 +167,5 @@
         <item>" kg"</item>
         <item>" Jin"</item>
         <item>" lbs"</item>
-    </string-array>
-    <string-array name="timeline_type">
-        <item>活动</item>
-        <item>ウォーキング</item>
-        <item>散歩</item>
-        <item>快走</item>
-        <item>ジョギング</item>
-        <item>站立</item>
-        <item>静坐</item>
-        <item>轻微活动</item>
-        <item>手环未佩戴</item>
-        <item>手环充电</item>
-        <item>躺</item>
     </string-array>
 </resources>

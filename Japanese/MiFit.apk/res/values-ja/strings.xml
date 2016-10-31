@@ -42,7 +42,6 @@
     <string name="active_week_duration">Avg activity</string>
     <string name="add">追加</string>
     <string name="add_alert_app">アプリの管理</string>
-    <string name="add_family_member">Add family members to follow their weight info</string>
     <string name="add_family_name_title">Add new member</string>
     <string name="add_family_nickname_hint">"Enter family member's nickname"</string>
     <string name="add_family_weight_low_elect">Change the batteries and connect the scale again</string>
@@ -107,8 +106,8 @@ For example, WeChat:
     <string name="app_notify_access_subtitle">アプリの通知を受け取るにはオンにします</string>
     <string name="app_notify_access_title">通知にアクセスできません</string>
     <string name="app_notify_not_bound">Pair Mi Band to receive alerts</string>
-    <string name="app_notify_sms_access_subtitle">开启后即可使用短信提醒功能</string>
-    <string name="app_notify_sms_access_title">请开启短信读取权限</string>
+    <string name="app_notify_sms_access_subtitle">Turn on to receive SMS alerts</string>
+    <string name="app_notify_sms_access_title">Allow to access SMS</string>
     <string name="app_notify_tips">Keep band connected to device via Bluetooth</string>
     <string name="app_sleep_report_content">タップして睡眠記録を表示</string>
     <string name="app_sleep_report_title">昨夜は%1$d時間%2$d分眠りました</string>
@@ -149,7 +148,6 @@ For example, WeChat:
     <string name="battery_warn_less_0">Out of power, charge your band</string>
     <string name="battery_warn_less_10">Battery is lower than 10%</string>
     <string name="battery_warn_less_5">Battery is low, charge your band</string>
-    <string name="bin_weixin_device_not_connect">Connect Mi Band to add WeChat</string>
     <string name="bind_band_to_analy">Pair Mi Band to analyze your sleep</string>
     <string name="bind_failed_help">"Couldn't pair. Restart Bluetooth and try again."</string>
     <string name="bind_failed_net_error">"Couldn't pair, check network and try again."</string>
@@ -207,9 +205,6 @@ Your steps will be displayed in the rankings."</string>
 if you replaced your Mi Band"</string>
     <string name="bind_weixin_new_tips_not_bound">"Old data in WeChat?
 Try syncing on the start page."</string>
-    <string name="bind_weixin_tips_1">Tap «Generate QR code» to save it to Gallery</string>
-    <string name="bind_weixin_tips_2">Scan the QR code from the Gallery with WeChat</string>
-    <string name="bind_weixin_title">Compete with friends from WeChat</string>
     <string name="birthday">誕生日</string>
     <string name="ble_cycle_txt_open_ble">Turn on</string>
     <string name="ble_cycle_txt_reset">Tap to try again</string>
@@ -231,12 +226,10 @@ Try syncing on the start page."</string>
 "</string>
     <string name="bracelet_notify_text">"Don't forget to put the band on"</string>
     <string name="bracelet_notify_title">充電完了</string>
-    <string name="bracelet_store_desc">Mi Store</string>
     <string name="break_best_step_record">個人記録を更新しました！</string>
     <string name="bt_operation_failed_tips">Bluetooth is not working properly. Wait a minute or two and try again.</string>
     <string name="button_search_friend">検索</string>
     <string name="button_send_care">応援</string>
-    <string name="buy_bracelet_desc">Start with buying a band</string>
     <string name="buy_miband">Buy a Mi Band to make your life smarter</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_focus_fail">"Couldn't unfriend"</string>
@@ -303,12 +296,14 @@ Try syncing on the start page."</string>
     <string name="device_unbind_sync_failed_confirm">"Couldn't sync %s, unsynced data may be lost. Continue anyway?"</string>
     <string name="device_unbinding">Unpairing…</string>
     <string name="dialog_confirm">Got it</string>
+    <string name="discovery_activity">Activity</string>
     <string name="discovery_choose_upload_file">Choose file to upload</string>
     <string name="discovery_event_time_remain_days_hours">残り%1$s日%2$s時間</string>
     <string name="discovery_event_time_remain_hours_minutes">残り%1$s時間%2$s分</string>
     <string name="discovery_event_time_remain_minutes">残り%s分</string>
     <string name="discovery_event_time_remain_none">終了</string>
     <string name="discovery_events">アクティビティ</string>
+    <string name="discovery_run_info">资讯</string>
     <string name="discovery_services">サービス</string>
     <string name="discovery_store">ストア</string>
     <string name="distance">Walking distance</string>
@@ -324,13 +319,13 @@ Try syncing on the start page."</string>
     <string name="enable_id_broadcast_comments">Turn on to be visible to nearby devices and connect to them</string>
     <string name="enable_id_broadcast_query">Turn on Discoverable mode?</string>
     <string name="enable_id_broadcast_query_msg">Turning this feature on may slightly reduce battery life</string>
-    <string name="enable_incoming_call_alert">Turn on incoming call notifications</string>
+    <string name="enable_incoming_call_alert">Turn on incoming call alerts</string>
     <string name="enable_incoming_call_alert_tips">Mi Band will vibrate during incoming calls</string>
     <string name="enable_long_sit_alert">Turn on idle alerts</string>
     <string name="enable_long_sit_alert_tips">Mi Band will vibrate if inactivity lasts for 1 hour</string>
     <string name="enable_phone_alarm">Vibrate when alarm sounds</string>
     <string name="enable_phone_alarm_tips">Mi Band will vibrate when alarm goes off on the phone</string>
-    <string name="enable_sm_alert">Turn on incoming SMS notifications</string>
+    <string name="enable_sm_alert">Turn on incoming SMS alerts</string>
     <string name="enable_sm_alert_tips">Mi Band will vibrate when SMS is received</string>
     <string name="enabled_alarms">On (%s)</string>
     <string name="every_day">毎日</string>
@@ -382,7 +377,6 @@ Continue anyway?"</string>
     <string name="fw_upgrade_success">Firmware updated</string>
     <string name="fw_upgrade_weight_tips">Keep your phone close to the scale</string>
     <string name="fw_upgrade_weight_title">Updating firmware…</string>
-    <string name="gen_qr_code">QRコードを作成</string>
     <string name="generate_baby_weight_message">"Can't see the baby among family members. Add now?"</string>
     <string name="generate_baby_weight_title">"Baby's weight: %1$s"</string>
     <string name="get_image_file_fail">"Can't find image"</string>
@@ -477,7 +471,7 @@ Keep Bluetooth on when running"</string>
     <string name="incoming_call_alert_tips">Remind in %ss</string>
     <string name="incoming_call_delay_alert_tips">Vibrate %ss after first ring</string>
     <string name="incoming_call_delay_dialog_alert_tips">Vibrate %ss after first ring</string>
-    <string name="incoming_call_not_bound">Pair Mi Band to receive incoming call notifications</string>
+    <string name="incoming_call_not_bound">Pair Mi Band to receive incoming call alerts</string>
     <string name="input_family_member_name">名前を入力</string>
     <string name="install_band_correct">Install Mi Band 2 in a right way</string>
     <string name="install_band_from_bottom">Install or remove the core from the back of Mi Band strap</string>
@@ -554,7 +548,7 @@ Open Gallery"</string>
     <string name="label_share_to_friend">Share your QR code to let other people follow you</string>
     <string name="label_sleep">Last night sleep</string>
     <string name="label_sleep_record">%1$s/%2$s Sleep history</string>
-    <string name="label_sleep_start_time">Fall asleep time</string>
+    <string name="label_sleep_start_time">Fell asleep</string>
     <string name="label_step">歩数</string>
     <string name="label_uid">ID: %1$s</string>
     <string name="label_update_time">Update: %s</string>
@@ -581,7 +575,7 @@ Open Gallery"</string>
     <string name="logining">ログイン中…</string>
     <string name="logout">ログアウト</string>
     <string name="logout_commit">OK</string>
-    <string name="logout_content">"You won't receive notifications about incoming calls after you sign out."</string>
+    <string name="logout_content">"You won't receive alerts about incoming calls after you sign out."</string>
     <string name="logout_failed">ログアウトできませんでした</string>
     <string name="logout_ongoing">ログアウト中…</string>
     <string name="logout_saving">データを保存中…</string>
@@ -653,8 +647,8 @@ measurement range (%s)"</string>
     <string name="mili_setting_finding_tips">Frequent searches reduce battery life</string>
     <string name="mili_setting_fw_version">Firmware version</string>
     <string name="mili_setting_ges_screen">Lift wrist to view info</string>
-    <string name="mili_setting_ges_screen_key">Rotate your wrist to switch info on Mi Band</string>
-    <string name="mili_setting_ges_screen_key_tips">Rotate your wrist to switch info on Mi Band when the screen is on</string>
+    <string name="mili_setting_ges_screen_key">Rotate wrist to switch info</string>
+    <string name="mili_setting_ges_screen_key_tips">Rotate wrist to switch info on Mi Band when the screen is on</string>
     <string name="mili_setting_ges_screen_tips">Lift your wrist to view info on Mi Band</string>
     <string name="mili_setting_hr_fw_version">Heart rate firmware version</string>
     <string name="mili_setting_last_charge">%sd since last charge</string>
@@ -700,7 +694,7 @@ measurement range (%s)"</string>
     <string name="mine_open">On</string>
     <string name="mine_person_info">Profile</string>
     <string name="mine_sport_goal">%s歩</string>
-    <string name="mine_status_notify">Status notifications</string>
+    <string name="mine_status_notify">Status alerts</string>
     <string name="mine_step_unit">" 歩"</string>
     <string name="modify_family_nickname">ニックネームを編集</string>
     <string name="modify_family_nickname_hint">ニックネームを入力</string>
@@ -784,7 +778,7 @@ measurement range (%s)"</string>
     <string name="noti_bracelet_low_battery_title">Low battery</string>
     <string name="noti_bracelet_low_battery_title_low">Band is off</string>
     <string name="notification_miui_tips">"Turn on if you don't receive Mi Band alerts"</string>
-    <string name="notification_switch_subtitle">Receive phone notifications when the band is connected</string>
+    <string name="notification_switch_subtitle">Receive phone alerts when the band is connected</string>
     <string name="notification_switch_title">Show status in Notification shade</string>
     <string name="notification_tip">"Turn on if you don't receive Mi Band alerts"</string>
     <string name="notification_title">Show status in the Notification shade</string>
@@ -814,8 +808,8 @@ measurement range (%s)"</string>
     <string name="permission_cam_dialog_msg">Allow Mi Band access camera in the Settings</string>
     <string name="permission_cam_dialog_title">"Can't access camera"</string>
     <string name="permission_location">Access location info</string>
-    <string name="permission_location_dialog_msg">Allow Mi Band access location info in the Settings</string>
-    <string name="permission_location_dialog_title">"Can't access location info"</string>
+    <string name="permission_location_dialog_msg">Allow access to location info in the Settings</string>
+    <string name="permission_location_dialog_title">"Can't get location info"</string>
     <string name="permission_not_set">後で</string>
     <string name="permission_sdcard">Read and write files on SD card</string>
     <string name="permission_set">Settings</string>
@@ -839,7 +833,7 @@ measurement range (%s)"</string>
     <string name="person_info_title">プロフィール</string>
     <string name="phone_alarm">Vibrate when alarm sounds</string>
     <string name="phone_alarm_alert_tips">Keep band connected to device via Bluetooth</string>
-    <string name="phone_alarm_not_bound">Pair Mi Band to receive alarm notifications</string>
+    <string name="phone_alarm_not_bound">Pair Mi Band to receive alarm alerts</string>
     <string name="phone_not_bind">後で</string>
     <string name="phone_number">400-999-9595</string>
     <string name="picker_menu_done">Done</string>
@@ -868,12 +862,12 @@ measurement range (%s)"</string>
     <string name="radio_day">d</string>
     <string name="radio_month">m</string>
     <string name="radio_week">w</string>
-    <string name="reach_goal">Goals notifications</string>
+    <string name="reach_goal">Goal notifications</string>
     <string name="reach_goal_2_for_chanllendge">Reach goal for 2 days in a row to start a streak</string>
     <string name="reach_goal_for_challendge">Reach goals every day</string>
     <string name="reach_goal_subtitle">Mi Band will vibrate when you reach a goal</string>
-    <string name="reach_goal_tips">Pair Mi Band to receive goals notifications</string>
-    <string name="reach_goal_title">Goals notifications</string>
+    <string name="reach_goal_tips">Pair Mi Band to receive goal notifications</string>
+    <string name="reach_goal_title">Goal notifications</string>
     <string name="rebind_weibo_health">Add again</string>
     <string name="record_weight">Add weight</string>
     <string name="red">Red</string>
@@ -952,6 +946,8 @@ measurement range (%s)"</string>
     <string name="running_delete_track_item_confirm">"You won't be able to restore items after you delete them."</string>
     <string name="running_detail_cal_desc">燃焼量 (Cal)</string>
     <string name="running_detail_forefoot_desc">Landing on forefeet</string>
+    <string name="running_detail_max_pace_desc">Fastest pace (min/km)</string>
+    <string name="running_detail_max_pace_desc_br">Fastest pace (min/mi)</string>
     <string name="running_detail_menu_share_title">共有</string>
     <string name="running_detail_pace_desc">ペース (分/km)</string>
     <string name="running_detail_pace_desc_br">ペース (分/mi)</string>
@@ -1007,7 +1003,7 @@ Keep Bluetooth on when running"</string>
     <string name="running_help_fore_feet_try_desc3">3) Make smaller steps when you increase running speed</string>
     <string name="running_help_heart_rate_display_change_desc">"Fasten the band as tightly as you feel comfortable. Wearing too tight or too loose will affect the heart rate results.
 
-Wear the band at the right position around your wrist (except the thinnest part)"</string>
+Wear the band slightly above the thinnest part of your wrist."</string>
     <string name="running_help_heart_rate_display_change_title">Monitor heart rate</string>
     <string name="running_help_heart_rate_display_prompt">Mi Band Pulse and Mi Band 2 are equipped with a heart rate sensor</string>
     <string name="running_help_heart_rate_range_anaerobic_limit">VO₂ max</string>
@@ -1029,7 +1025,7 @@ Wear the band at the right position around your wrist (except the thinnest part)
     <string name="running_help_pace_freq_suggest5">"Turn on Bluetooth and connect Mi Band before running.
 Keep Bluetooth on when running"</string>
     <string name="running_help_pace_freq_target">Step frequency goal</string>
-    <string name="running_help_pace_instruction1">Pace is one of the speed definitions, generally used in a marathon, means the time duration to finish 1 km.</string>
+    <string name="running_help_pace_instruction1">"Pace is one of the speed definitions generally used in a marathon. It's the time required for you to run 1 km."</string>
     <string name="running_help_pace_instruction2">Keep a uniform speed is the key, so steady curve in the Graph means you controlled well.</string>
     <string name="running_help_pace_nospeedperhour_reason">Pace can be measured easier. During a marathon, you can adjust your pace according to the split time of a certain distance</string>
     <string name="running_help_pace_title_nospeedperhour">Why not use speed per hour?</string>
@@ -1040,14 +1036,14 @@ Keep Bluetooth on when running"</string>
     <string name="running_help_slow_run_suggest">Landing on your midfeet or heels strongly affects your knees. Striking the ground with your forefeet requires stronger calf muscles and Achilles tendons</string>
     <string name="running_help_speed_label">ペース</string>
     <string name="running_help_speed_run_label">Tempo run</string>
-    <string name="running_help_speed_suggest1">Pace is one of the speed definitions, generally used in a marathon, means the time duration to finish 1 km.</string>
+    <string name="running_help_speed_suggest1">"Pace is one of the speed definitions generally used in a marathon. It's the time required for you to run 1 km."</string>
     <string name="running_help_speed_suggest2">"Tempo run needs a good control and plan of your physical strength. Strength distribution is the key to a long-distance running, and it depends on the pace you planned to have. With different speeds used, tempo run can divide into easy run, long run and lactate-threshold run, etc. 
 A consistent and continuous speed is needed and beneficial to exert your strength fully in a marathon."</string>
-    <string name="running_help_stride_definition">Stride means the distance covered by a step when walking or running</string>
+    <string name="running_help_stride_definition">Stride means the distance covered by a step when walking or running.</string>
     <string name="running_help_stride_for_you">Find the fittest stride of your own</string>
-    <string name="running_help_stride_for_you_tips">Appropriate stride should be: landing on your midfeet or forefeet to make the landing point fall close to the center of gravity, and press down the foot backward to hold on to the ground</string>
+    <string name="running_help_stride_for_you_tips">Appropriate stride should be: landing on your midfeet or forefeet to make the landing point fall close to the center of gravity, and press down the foot backward to hold on to the ground.</string>
     <string name="running_help_stride_freq_bestfreq">Step frequency goal</string>
-    <string name="running_help_stride_freq_bestfreq_example">Long-distance runners usually make 180 steps per minute. We recommend using this value as your step frequency goal</string>
+    <string name="running_help_stride_freq_bestfreq_example">Long-distance runners usually make 180 steps per minute. We recommend using this value as your step frequency goal.</string>
     <string name="running_help_stride_freq_definition">Step frequency is the number of steps you make per minute when running.</string>
     <string name="running_help_stride_freq_enhancefreq">Increase your step frequency</string>
     <string name="running_help_stride_freq_enhancefreq_reason">Runners usually increase their stride to gain speed. However, using this method can result in muscle damage. You can try to increase your step frequency to gain speed.</string>
@@ -1088,7 +1084,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_hr_disabled_tips">Turn on heart rate sensor in Settings</string>
     <string name="running_hr_unit_desc">心拍数 (BPM)</string>
     <string name="running_hr_unusual_prompt_segment1">Your heart rate is too high</string>
-    <string name="running_hr_unusual_prompt_segment2">Tap to set heart rate notifications</string>
+    <string name="running_hr_unusual_prompt_segment2">Tap to set heart rate alerts</string>
     <string name="running_kg">" kg"</string>
     <string name="running_kilometer">" km"</string>
     <string name="running_kilometers">" km"</string>
@@ -1175,6 +1171,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_speed_with_unit">Speed (km/h)</string>
     <string name="running_sport_state_sr_tips">Pausing now, will resume after you start running</string>
     <string name="running_sports_type_crosscountry">Cross-country race</string>
+    <string name="running_sports_type_indoor_running">Treadmill</string>
     <string name="running_sports_type_running">Running</string>
     <string name="running_sports_type_walking">Walking</string>
     <string name="running_start">開始</string>
@@ -1367,7 +1364,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sleep_notification">Wake up notifications</string>
     <string name="sleep_notification_tip">Remind me to view my sleep info in the morning</string>
     <string name="sleep_notification_title">Turn on wake up notifications</string>
-    <string name="sleep_sleep_time">Fall asleep time</string>
+    <string name="sleep_sleep_time">Fell asleep</string>
     <string name="sleep_statistics_title">Sleep stats</string>
     <string name="sleep_subview_old_sleeplate">After a sleepless night, remember to take a nap during the day.</string>
     <string name="sleep_subview_young_sleeplate">Try not to stay awake at night.</string>
@@ -1376,7 +1373,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sleep_tip_time_clash2">Wake up time should be later than fall asleep time</string>
     <string name="sleep_tip_time_clash3">Wake up time should be earlier than current time</string>
     <string name="sleep_title">Sleep</string>
-    <string name="sleep_wakeup_time">Wake up time</string>
+    <string name="sleep_wakeup_time">Woke up</string>
     <string name="sleep_week_all_time">Avg sleep</string>
     <string name="sleep_week_awake_duration">Avg awake time</string>
     <string name="sleep_week_awake_time">Woke up at</string>
@@ -1384,7 +1381,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sleep_week_go_sleep_time">Fell asleep at</string>
     <string name="sleep_week_light_time">Avg light sleep</string>
     <string name="sm_alert">Incoming SMS</string>
-    <string name="sm_alert_not_bound">Pair Mi Band to receive incoming SMS notifications</string>
+    <string name="sm_alert_not_bound">Pair Mi Band to receive incoming SMS alerts</string>
     <string name="smart_alarm_add">Add</string>
     <string name="smart_alarm_done">Done</string>
     <string name="smart_lock_in_member_space">"Bluetooth unlock not supported in MIUI's second space"</string>
@@ -1395,18 +1392,18 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="smart_play_screen_sleep_title">Only receive when the screen is off</string>
     <string name="smart_shoes">Smart Shoes</string>
     <string name="sms_alert">Incoming SMS</string>
+    <string name="sport_before_hr_prompt_title">Monitor heart rate during workouts</string>
     <string name="sport_detail_statistics">History</string>
     <string name="sport_heart_rate">Take a look at the scheme below to learn how your heart rate zone changes together with the exercise intensity</string>
-    <string name="sport_notifi_tip">Pair Mi Band to receive activity notifications</string>
-    <string name="sport_notification">Activity notifications</string>
+    <string name="sport_notifi_tip">Pair Mi Band to receive activity alerts</string>
+    <string name="sport_notification">Activity alerts</string>
     <string name="sport_notification_tip">Remind me to browse my activity stats daily at 9:30 PM</string>
-    <string name="sport_notification_title">Turn on activity notifications</string>
+    <string name="sport_notification_title">Turn on activity alerts</string>
     <string name="sport_setting">Workout settings</string>
     <string name="sport_setting_new">設定</string>
     <string name="start_download">Downloading in background…</string>
     <string name="start_up_com">www.mi.com</string>
     <string name="start_up_enter">Skip</string>
-    <string name="start_weixin">Open WeChat</string>
     <string name="stat_sleep">In bed for</string>
     <string name="state_bind_failed">"Couldn't pair"</string>
     <string name="state_binded">Paired</string>
@@ -1420,8 +1417,6 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="statistics_week">Weekly</string>
     <string name="statistics_week_step">Avg steps</string>
     <string name="step">" steps"</string>
-    <string name="step1">1. </string>
-    <string name="step2">2. </string>
     <string name="step_calorie">Burned</string>
     <string name="step_chart_no_data">No activity data</string>
     <string name="step_count">Steps</string>
@@ -1431,7 +1426,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="step_new_record">New record</string>
     <string name="step_number">Steps</string>
     <string name="step_reach_goal">%1$d day streak</string>
-    <string name="step_reach_goal_alert">Goals notifications</string>
+    <string name="step_reach_goal_alert">Goal notifications</string>
     <string name="step_reach_goal_text">Reached goal</string>
     <string name="step_statistics_title">Walking stats</string>
     <string name="step_sub_view_left_title">Last 10 days</string>
@@ -1596,8 +1591,6 @@ to make sure you can receive notifications"</string>
     <string name="your_gender">性別</string>
     <string name="your_height">身長</string>
     <string name="your_weight">体重</string>
-    <string name="permission_location_dialog_msg">Allow Mi Band access location info in the Settings</string>
-    <string name="permission_location_dialog_title">"Can't access location info"</string>
     <string name="cube_ptr_hours_ago">時間前</string>
     <string name="cube_ptr_last_update">最終更新: </string>
     <string name="cube_ptr_minutes_ago">分前</string>
