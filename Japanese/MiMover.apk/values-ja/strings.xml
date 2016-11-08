@@ -37,7 +37,7 @@
     <string name="privacy_policy">"プライバシーポリシー"</string>
     <string name="user_manual">"ユーザーガイド"</string>
     <string name="perm_payment_lab">Mi Pay</string>
-    <string name="perm_payment_dspt">Allow app to pay through Mi Pay Service</string>
+    <string name="perm_payment_dspt">"Mi Pay Serviceを通じてのアプリ支払いを許可する"</string>
     <string name="sync_one_time_sync">Touch to sync ( %1$s )</string>
     <string name="no_sim">"SIMカードが検出できません。"</string>
     <string name="activating">Activating…</string>
@@ -62,7 +62,7 @@
     <string name="select_item">"アイテムを選択"</string>
     <string name="send">"送信"</string>
     <string name="close">"閉じる"</string>
-    <string name="more">More</string>
+    <string name="more">"もっと"</string>
     <string name="empty" />
     <string name="solar_term_slight_cold">Slight Cold</string>
     <string name="solar_term_great_cold">Great Cold</string>
@@ -256,13 +256,13 @@
     <string name="web_sso_login_message">"ログイン中…"</string>
     <string name="web_sso_login_fail">"もう一度ログインする必要があります"</string>
     <string name="app_label">Mi Mover</string>
-    <string name="data_item_desc">Data</string>
+    <string name="data_item_desc">"データ"</string>
     <string name="camera_summary">"カメラ設定 (写真を除く)"</string>
     <string name="feature_title_call_log">"通話履歴"</string>
     <string name="feature_title_sms">SMS</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_contacts">"連絡先"</string>
-    <string name="settings_summary">Phone and messaging settings</string>
+    <string name="settings_summary">"通話とメッセージの設定"</string>
     <string name="wifi_title">"Wi-Fi設定"</string>
     <string name="feature_title_account">"アカウント"</string>
     <string name="account_summary">Backup Google Account, Mi Account, and other user data</string>
@@ -310,7 +310,7 @@ and Mi Mover is on"</string>
     <string name="trans_sender_searching_ensurance">"Make sure the old device is on
 Waiting for the old device to connect…"</string>
     <string name="trans_backingup">Backing up …</string>
-    <string name="trans_backingup_no_items">Syncing…</string>
+    <string name="trans_backingup_no_items">"同期中…"</string>
     <string name="trans_restoring">Restoring…</string>
     <string name="trans_sender_time_remained">"%s remaining.
 Don't turn off Wi-Fi.
