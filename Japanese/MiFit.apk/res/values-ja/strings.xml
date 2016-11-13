@@ -269,7 +269,7 @@ Try syncing on the start page."</string>
     <string name="date_yyyymmdd_format">%2$s/%3$s/%1$s</string>
     <string name="day_step_reach_goal">"Reached today's goal"</string>
     <string name="del_family_member">"Delete all %s's data?"</string>
-    <string name="delay_alert">Delay notifications</string>
+    <string name="delay_alert">Delay alerts</string>
     <string name="delete">削除</string>
     <string name="delete_alarm">削除中…</string>
     <string name="delete_alarm_success">正常に削除されました</string>
@@ -370,6 +370,8 @@ Continue anyway?"</string>
     <string name="fw_failed_title">"Couldn't update %s"</string>
     <string name="fw_upgrade_hr_tips">Keep the band close to your phone</string>
     <string name="fw_upgrade_hr_title">Updating heart rate</string>
+    <string name="fw_upgrade_mili_font_title">Updating Mi Band font…</string>
+    <string name="fw_upgrade_mili_resource_title">Updating firmware…</string>
     <string name="fw_upgrade_mili_tips">Keep the band close to your phone</string>
     <string name="fw_upgrade_mili_title">Updating firmware…</string>
     <string name="fw_upgrade_shoes_tips">Keep the phone close to your shoes</string>
@@ -643,7 +645,7 @@ measurement range (%s)"</string>
     <string name="mili_setting_display_item">Mi Band display settings</string>
     <string name="mili_setting_display_item_tips">Choose items displayed on the band</string>
     <string name="mili_setting_find_bracelet">Find band</string>
-    <string name="mili_setting_finding">Searching for band…</string>
+    <string name="mili_setting_finding">Searching for the band…</string>
     <string name="mili_setting_finding_tips">Frequent searches reduce battery life</string>
     <string name="mili_setting_fw_version">Firmware version</string>
     <string name="mili_setting_ges_screen">Lift wrist to view info</string>
@@ -676,7 +678,7 @@ measurement range (%s)"</string>
     <string name="mili_time_display_item_tips">時刻の形式を選択</string>
     <string name="mine_add_more_device">Add device</string>
     <string name="mine_ave_daystep">Avg steps</string>
-    <string name="mine_ave_totaldays">Streak</string>
+    <string name="mine_ave_totaldays">Reached goal</string>
     <string name="mine_ave_totaldays_unit">days</string>
     <string name="mine_ave_totaldistance">Total km</string>
     <string name="mine_ave_totaldistance_british">Total mi</string>
@@ -1311,7 +1313,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoe_sync_fail">"Couldn't sync shoes data"</string>
     <string name="shoes_average_pace_frequency">Avg step frequency</string>
     <string name="shoes_brand">Li-Ning Smart Shoes</string>
-    <string name="shoes_calibrate_connecting">Connecting shoes…</string>
+    <string name="shoes_calibrate_connecting">Connecting…</string>
     <string name="shoes_calibrate_failed">"Couldn't calibrate"</string>
     <string name="shoes_calibrate_failed_tips">"Don't move during the calibration"</string>
     <string name="shoes_calibrate_success">Calibrated successfully</string>
@@ -1577,7 +1579,7 @@ before stepping off the scale."</string>
     <string name="weight_settings_merge_title">Merge duplicate records</string>
     <string name="weight_settting_mac_address">MAC address</string>
     <string name="weight_sync_time">%s synced</string>
-    <string name="weight_syncing">Syncing scale data…</string>
+    <string name="weight_syncing">Syncing…</string>
     <string name="weight_title">"%s's weight"</string>
     <string name="weixin">WeChat</string>
     <string name="weixin_data_updating">Updating WeChat data…</string>
@@ -1591,6 +1593,28 @@ to make sure you can receive notifications"</string>
     <string name="your_gender">性別</string>
     <string name="your_height">身長</string>
     <string name="your_weight">体重</string>
+    <string name="amazfit_app_download_ok">Amazfit Watch app is downloaded successfully</string>
+    <string name="amazfit_watch">Amazfit Watch</string>
+    <string name="amazfit_watch_app">Amazfit Watch</string>
+    <string name="amazfit_watch_bind_failed">"Couldn't pair"</string>
+    <string name="amazfit_watch_mili">Band</string>
+    <string name="amazfit_watch_query_failed">"Couldn't connect to the network, try again"</string>
+    <string name="amazfit_watch_unbind_confirm">Unpair Amazfit Watch from Mi Fit</string>
+    <string name="amazfit_watch_unbind_mili_mutex">To pair watch, unpair the band first</string>
+    <string name="amazfit_watch_unbind_mutex_unbind">Unpair %s</string>
+    <string name="amazfit_watch_unbind_watch_mutex">To pair the band, unpair the watch from Mi Fit</string>
+    <string name="amazfit_watch_watch">Watch</string>
+    <string name="bind_amazfit_watch_subtitle">Pair to view activity and sleep data</string>
+    <string name="bind_amazfit_watch_title">Pair Amazfit Watch</string>
+    <string name="bind_watch">Pair</string>
+    <string name="data_zero">--</string>
+    <string name="discovery_deauth_fail">取消授权失败</string>
+    <string name="download_amazfit_app">Download the Amazfit Watch app</string>
+    <string name="download_now">Download</string>
+    <string name="install_amazfit_tips">Install the Amazfit Watch app</string>
+    <string name="unbind_watch_tips">"Activity and sleep data won't be synced after you unpair.
+You'll be able to change that in the Amazfit Watch app settings."</string>
+    <string name="weight_setting_weight_body_fat">Mi Scale</string>
     <string name="cube_ptr_hours_ago">時間前</string>
     <string name="cube_ptr_last_update">最終更新: </string>
     <string name="cube_ptr_minutes_ago">分前</string>
