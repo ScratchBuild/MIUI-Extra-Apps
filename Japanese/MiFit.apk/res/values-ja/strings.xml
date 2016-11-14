@@ -74,9 +74,9 @@
     <string name="alert_disable">"オフ"</string>
     <string name="alert_enable">"オン"</string>
     <string name="alert_list_title">"バンドの通知"</string>
-    <string name="alert_msg_no_storge_permission">Allow access to SD card in the Settings</string>
-    <string name="alert_msg_unable_start_camera">Allow Mi Band to access camera in the Settings</string>
-    <string name="alert_title_no_storge_permission">"Can't read or write files on SD card"</string>
+    <string name="alert_msg_no_storge_permission">"設定からSDカードへのアクセスを許可します"</string>
+    <string name="alert_msg_unable_start_camera">"設定からカメラへのアクセスをMi Bandに許可します"</string>
+    <string name="alert_title_no_storge_permission">"SDカードのファイルを読み書きできません"</string>
     <string name="alert_title_unable_start_camera">カメラにアクセスできません</string>
     <string name="algo_version">Algorithm: %s</string>
     <string name="altitude">Altitude</string>
@@ -84,7 +84,7 @@
     <string name="ampm_format">hh:mm a</string>
     <string name="ampm_format_hhmmss">hh:mm:ss a</string>
     <string name="anti_theft">紛失防止アラーム</string>
-    <string name="anti_theft_tips">"Mi Band will vibrate when it's disconnected"</string>
+    <string name="anti_theft_tips">"Mi Bandとの接続が切断されたときに振動します"</string>
     <string name="apk_download_ok">Downloaded Mi Fit successfully</string>
     <string name="apk_force_upgrade_wifi_status">"Using mobile data may create additional traffic costs.
 Update anyway?"</string>
@@ -244,7 +244,7 @@ Try syncing on the start page."</string>
     <string name="clear_weight_goal">目標を削除</string>
     <string name="click_to_bind_device">タップしてデバイスとペアリング</string>
     <string name="click_to_measure_heartrate">タップして心拍数を測定</string>
-    <string name="click_to_see_information">Tap the button on Mi Band to view info</string>
+    <string name="click_to_see_information">Mi Bandのボタンをタップして情報を表示</string>
     <string name="click_tolook_for_help">タップしてヘルプを表示</string>
     <string name="close_hr_check">心拍数モードがオフになっています</string>
     <string name="cm">" cm"</string>
@@ -418,8 +418,8 @@ Continue anyway?"</string>
     <string name="help_title_3">Is this band paired with another device?</string>
     <string name="help_title_4">Try rebooting your phone</string>
     <string name="highest">Highest: %1$s</string>
-    <string name="hint_input_remark_name">Enter remark</string>
-    <string name="hint_input_xiaomi_uid">Enter your Mi Account ID</string>
+    <string name="hint_input_remark_name">発言を入力</string>
+    <string name="hint_input_xiaomi_uid">Mi Account IDを入力</string>
     <string name="hold_baby_weight">Weigh infant</string>
     <string name="home_deep_sleep">"Deep sleep "</string>
     <string name="home_sleep">"Sleep "</string>
@@ -537,7 +537,7 @@ firmly on the center of the scale."</string>
     <string name="label_refused">Rejected</string>
     <string name="label_release_to_load">指を離して読み込み</string>
     <string name="label_release_to_refresh">指を離して更新</string>
-    <string name="label_remark_name">Remark</string>
+    <string name="label_remark_name">発言</string>
     <string name="label_remind">Mi Band will vibrate when your heart rate goes above this level</string>
     <string name="label_remind_new">Mi Band will vibrate when your heart rate goes above the set level</string>
     <string name="label_request_add_friend">Friend request</string>
@@ -1451,10 +1451,10 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="time">Time</string>
     <string name="time_type_title">時刻の形式を選択</string>
     <string name="title_activity_about">About</string>
-    <string name="title_activity_remark">Add remark</string>
+    <string name="title_activity_remark">発言を追加</string>
     <string name="title_activity_search_result">検索結果</string>
     <string name="title_activity_setting">設定</string>
-    <string name="title_activity_third_bind">Add accounts</string>
+    <string name="title_activity_third_bind">アカウントを追加</string>
     <string name="title_add_friend">Add</string>
     <string name="title_friend_detail">詳細</string>
     <string name="title_friend_list">Friends</string>
@@ -1545,7 +1545,7 @@ Unlock with Bluetooth device."</string>
     <string name="view_time_tips_2">Set in Profile > Mi Band 2 > Lift wrist to view info</string>
     <string name="wait">読み込み中…</string>
     <string name="watch_req_with_diff_user">Use the same account to view</string>
-    <string name="wear_hand">Band location</string>
+    <string name="wear_hand">Bandの装着位置</string>
     <string name="web_activity_reload_tip">再試行するにはタップ</string>
     <string name="weibo_uninstall_tips">Install Sina Weibo first</string>
     <string name="weibosdk_toast_auth_canceled_f">"Couldn't authorize"</string>
@@ -1610,7 +1610,7 @@ to make sure you can receive notifications"</string>
     <string name="data_zero">--</string>
     <string name="discovery_deauth_fail">取消授权失败</string>
     <string name="download_amazfit_app">Download the Amazfit Watch app</string>
-    <string name="download_now">Download</string>
+    <string name="download_now">ダウンロード</string>
     <string name="install_amazfit_tips">Install the Amazfit Watch app</string>
     <string name="unbind_watch_tips">"Activity and sleep data won't be synced after you unpair.
 You'll be able to change that in the Amazfit Watch app settings."</string>
