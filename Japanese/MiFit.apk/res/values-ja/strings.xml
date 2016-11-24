@@ -85,7 +85,7 @@
     <string name="ampm_format_hhmmss">hh:mm:ss a</string>
     <string name="anti_theft">紛失防止アラーム</string>
     <string name="anti_theft_tips">"Mi Bandとの接続が切断されたときに振動します"</string>
-    <string name="apk_download_ok">Downloaded Mi Fit successfully</string>
+    <string name="apk_download_ok">Mi Fitが正常にダウンロードされました</string>
     <string name="apk_force_upgrade_wifi_status">"Using mobile data may create additional traffic costs.
 Update anyway?"</string>
     <string name="apk_upgrde_title">Update available</string>

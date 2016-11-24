@@ -21,7 +21,7 @@
         <item>"Make sure the band is charged and hasn't run out of power."</item>
         <item>Turn off Bluetooth first, then pair with current device.</item>
         <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
-        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+        <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
     </string-array>
     <string-array name="mili_help_title">
         <item>Is your band charged?</item>
@@ -55,7 +55,7 @@
         <item>"Huami sensor battery life is 6 months. If you've been using it for a longer period, maybe there's no power left."</item>
         <item>Turn off Bluetooth on the other device first, then pair with your phone.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
-        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
+        <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
         <item>Every time you open Mi Fit, it will try to sync data automatically.</item>
     </string-array>
     <string-array name="normandy_help_title">
@@ -84,7 +84,7 @@
         <item>"Huami sensor battery life is 1 year. If you've been using it for a longer period, maybe there's no power left."</item>
         <item>Turn off Bluetooth device first, then pair with current device.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
-        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+        <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
         <item>Every time you open Mi Fit it will try to sync data automatically.</item>
     </string-array>
     <string-array name="shoes_help_title">
@@ -153,7 +153,7 @@
         <item>You can step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
         <item>"If there's no response when you step on the scale, check if the batteries are installed properly."</item>
         <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
-        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+        <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
         <item>Every time you open Mi Fit it will try to sync data automatically.</item>
     </string-array>
     <string-array name="weight_help_title">
