@@ -81,6 +81,19 @@
     <string name="algo_version">Algorithm: %s</string>
     <string name="altitude">Altitude</string>
     <string name="am">AM</string>
+    <string name="amazfit_app_download_ok">Downloaded Amazfit Watch app successfully</string>
+    <string name="amazfit_sport_watch">Amazfit Watch</string>
+    <string name="amazfit_watch">Amazfit Watch</string>
+    <string name="amazfit_watch_app">Amazfit Watch</string>
+    <string name="amazfit_watch_bind_failed">"Couldn't pair"</string>
+    <string name="amazfit_watch_mili">Mi Band</string>
+    <string name="amazfit_watch_query_failed">"Couldn't connect to the network, try again"</string>
+    <string name="amazfit_watch_unbind_confirm">Unpair Amazfit Watch from Mi Fit</string>
+    <string name="amazfit_watch_unbind_confirm_failed">"Couldn't sync watch data. It may be lost if you unpair the watch."</string>
+    <string name="amazfit_watch_unbind_mili_mutex">Unpair the band before pairing the watch</string>
+    <string name="amazfit_watch_unbind_mutex_unbind">Unpair %s</string>
+    <string name="amazfit_watch_unbind_watch_mutex">To pair the band, unpair the watch from Mi Fit</string>
+    <string name="amazfit_watch_watch">Watch</string>
     <string name="ampm_format">hh:mm a</string>
     <string name="ampm_format_hhmmss">hh:mm:ss a</string>
     <string name="anti_theft">紛失防止アラーム</string>
@@ -148,6 +161,8 @@ For example, WeChat:
     <string name="battery_warn_less_0">Out of power, charge your band</string>
     <string name="battery_warn_less_10">Battery is lower than 10%</string>
     <string name="battery_warn_less_5">Battery is low, charge your band</string>
+    <string name="bind_amazfit_watch_subtitle">Pair to view activity and sleep data</string>
+    <string name="bind_amazfit_watch_title">Pair Amazfit Watch</string>
     <string name="bind_band_to_analy">Pair Mi Band to analyze your sleep</string>
     <string name="bind_failed_help">"Couldn't pair. Restart Bluetooth and try again."</string>
     <string name="bind_failed_net_error">"Couldn't pair, check network and try again."</string>
@@ -182,6 +197,7 @@ For example, WeChat:
     <string name="bind_status_connect">Added</string>
     <string name="bind_status_disconnect">Disconnected</string>
     <string name="bind_try_again">再試行</string>
+    <string name="bind_watch">Pair</string>
     <string name="bind_weibo">Sina Weibo</string>
     <string name="bind_weibo_health">Add</string>
     <string name="bind_weibo_health_tip">Steps will be synced with Weibo Fit</string>
@@ -261,6 +277,7 @@ Try syncing on the start page."</string>
     <string name="continue_update">Update</string>
     <string name="customize">カスタム</string>
     <string name="data_loading">読み込み中…</string>
+    <string name="data_zero">--</string>
     <string name="date_mmdd_format">%1$s/%2$s</string>
     <string name="date_month_day_short">%1$d/%2$d</string>
     <string name="date_today">今日</string>
@@ -298,6 +315,7 @@ Try syncing on the start page."</string>
     <string name="dialog_confirm">Got it</string>
     <string name="discovery_activity">Activity</string>
     <string name="discovery_choose_upload_file">アップロードするファイルを選択</string>
+    <string name="discovery_deauth_fail">"Couldn't restrict permissions"</string>
     <string name="discovery_event_time_remain_days_hours">残り%1$s日%2$s時間</string>
     <string name="discovery_event_time_remain_hours_minutes">残り%1$s時間%2$s分</string>
     <string name="discovery_event_time_remain_minutes">残り%s分</string>
@@ -309,7 +327,9 @@ Try syncing on the start page."</string>
     <string name="distance">歩行距離</string>
     <string name="do_not_remind_again">"二度と表示しない"</string>
     <string name="down">Down: %1$s</string>
+    <string name="download_amazfit_app">Download Amazfit Watch app</string>
     <string name="download_failed">アップデートをダウンロードできませんでした</string>
+    <string name="download_now">今すぐダウンロード</string>
     <string name="download_watermark_failed">ダウンロードできませんでした</string>
     <string name="edit">編集</string>
     <string name="edit_app">アプリを管理</string>
@@ -368,9 +388,11 @@ Continue anyway?"</string>
     <string name="fw_failed_tips">Bring the %s closer to your phone and try again</string>
     <string name="fw_failed_tips_1">Bring your phone closer to the %s and try again</string>
     <string name="fw_failed_title">"Couldn't update %s"</string>
+    <string name="fw_upgrade_font">Mi Band fonts</string>
+    <string name="fw_upgrade_hr">Heart rate algorithm</string>
     <string name="fw_upgrade_hr_tips">Keep the band close to your phone</string>
     <string name="fw_upgrade_hr_title">Updating heart rate</string>
-    <string name="fw_upgrade_mili_font_title">Updating Mi Band font…</string>
+    <string name="fw_upgrade_mili_font_title">Updating fonts…</string>
     <string name="fw_upgrade_mili_resource_title">Updating firmware…</string>
     <string name="fw_upgrade_mili_tips">Keep the band close to your phone</string>
     <string name="fw_upgrade_mili_title">Updating firmware…</string>
@@ -475,6 +497,7 @@ Keep Bluetooth on when running"</string>
     <string name="incoming_call_delay_dialog_alert_tips">Vibrate %ss after first ring</string>
     <string name="incoming_call_not_bound">Pair Mi Band to receive incoming call alerts</string>
     <string name="input_family_member_name">名前を入力</string>
+    <string name="install_amazfit_tips">Install Amazfit Watch app</string>
     <string name="install_band_correct">Install Mi Band 2 in a right way</string>
     <string name="install_band_from_bottom">Install or remove the core from the back of Mi Band strap</string>
     <string name="install_qq_tips">Install QQ first</string>
@@ -1242,6 +1265,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="setting_help">Help</string>
     <string name="setting_length_british">Imperial (feet, miles)</string>
     <string name="setting_length_metric">Metric (m, km)</string>
+    <string name="setting_question">Help</string>
     <string name="setting_unit">単位</string>
     <string name="setting_unit_length">長さの単位を設定</string>
     <string name="setting_unit_tip">"You've already paired Mi Scale.
@@ -1349,6 +1373,10 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoes_use_tips_child">Make sure Li-Ning logo is facing up</string>
     <string name="shoes_use_title">Put Huami sensor inside the shoes</string>
     <string name="shoes_use_title_lining">Put Huami sensor inside the shoes</string>
+    <string name="show_contact_info_summary">着信時に電話番号または名前を表示する</string>
+    <string name="show_contact_info_tips">連絡先の情報を表示</string>
+    <string name="show_contact_info_tips_other_lan">電話番号を表示</string>
+    <string name="show_sms_info_summary">手机收到短信时, 手环会显示姓名或号码</string>
     <string name="sleel_tip_has_sleep">This period is already in sleep history</string>
     <string name="sleep_all_time">In bed for</string>
     <string name="sleep_awake">Awake</string>
@@ -1450,6 +1478,10 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="this_week">今週</string>
     <string name="time">Time</string>
     <string name="time_type_title">時刻の形式を選択</string>
+    <string name="tips_call_permission">Allow access to Phone</string>
+    <string name="tips_call_permission_sub">Allow access to Phone to be able to receive call alerts</string>
+    <string name="tips_contact_permission">Allow access to Contacts</string>
+    <string name="tips_contact_permission_sub">"Allow access to Contacts to be able to view caller's name"</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_remark">発言を追加</string>
     <string name="title_activity_search_result">検索結果</string>
@@ -1473,6 +1505,8 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="unbind_mili_tips">Mi Band will stop working after you unpair</string>
     <string name="unbind_qq_health_dialog_title">Unpair QQ Health?</string>
     <string name="unbind_shoes_tips">Running shoes will stop recording activity info after you unpair</string>
+    <string name="unbind_watch_tips">"Activity and sleep data won't be synced after you unpair.
+You'll be able to change that in the Amazfit Watch app settings."</string>
     <string name="unbind_weibo_dialog_title">Unpair Weibo Fit?</string>
     <string name="unbind_weight_tips">"The scale won't record your weight after you unpair"</string>
     <string name="unbinding">Unpairing…</string>
@@ -1575,6 +1609,7 @@ before stepping off the scale."</string>
     <string name="weight_setting_fw_version">Firmware version</string>
     <string name="weight_setting_help">Learn more</string>
     <string name="weight_setting_weight">Mi Scale</string>
+    <string name="weight_setting_weight_body_fat">Mi Scale</string>
     <string name="weight_settings_merge_tips">Merge weigh-ins by the same user within 30s from each other</string>
     <string name="weight_settings_merge_title">Merge duplicate records</string>
     <string name="weight_settting_mac_address">MAC address</string>
@@ -1593,28 +1628,6 @@ to make sure you can receive notifications"</string>
     <string name="your_gender">性別</string>
     <string name="your_height">身長</string>
     <string name="your_weight">体重</string>
-    <string name="amazfit_app_download_ok">Amazfit Watch app is downloaded successfully</string>
-    <string name="amazfit_watch">Amazfit Watch</string>
-    <string name="amazfit_watch_app">Amazfit Watch</string>
-    <string name="amazfit_watch_bind_failed">"Couldn't pair"</string>
-    <string name="amazfit_watch_mili">Band</string>
-    <string name="amazfit_watch_query_failed">"Couldn't connect to the network, try again"</string>
-    <string name="amazfit_watch_unbind_confirm">Unpair Amazfit Watch from Mi Fit</string>
-    <string name="amazfit_watch_unbind_mili_mutex">To pair watch, unpair the band first</string>
-    <string name="amazfit_watch_unbind_mutex_unbind">Unpair %s</string>
-    <string name="amazfit_watch_unbind_watch_mutex">To pair the band, unpair the watch from Mi Fit</string>
-    <string name="amazfit_watch_watch">Watch</string>
-    <string name="bind_amazfit_watch_subtitle">Pair to view activity and sleep data</string>
-    <string name="bind_amazfit_watch_title">Pair Amazfit Watch</string>
-    <string name="bind_watch">Pair</string>
-    <string name="data_zero">--</string>
-    <string name="discovery_deauth_fail">取消授权失败</string>
-    <string name="download_amazfit_app">Download the Amazfit Watch app</string>
-    <string name="download_now">ダウンロード</string>
-    <string name="install_amazfit_tips">Install the Amazfit Watch app</string>
-    <string name="unbind_watch_tips">"Activity and sleep data won't be synced after you unpair.
-You'll be able to change that in the Amazfit Watch app settings."</string>
-    <string name="weight_setting_weight_body_fat">Mi Scale</string>
     <string name="cube_ptr_hours_ago">時間前</string>
     <string name="cube_ptr_last_update">最終更新: </string>
     <string name="cube_ptr_minutes_ago">分前</string>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="hr_sport">
+        <item>Light</item>
+        <item>Weight</item>
+        <item>Aerobic</item>
+        <item>Anaerobic</item>
+        <item>VO₂ max</item>
+    </string-array>
     <string-array name="hr_sport_new">
         <item>Light</item>
         <item>Weight</item>
