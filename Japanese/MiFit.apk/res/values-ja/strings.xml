@@ -33,7 +33,7 @@
     <string name="place_autocomplete_search_hint">検索</string>
     <string name="MiFit">Mi Fit</string>
     <string name="abandon_update">後で</string>
-    <string name="action_scan_friend">Add</string>
+    <string name="action_scan_friend">追加</string>
     <string name="active_calorie">Burned</string>
     <string name="active_distance">Distance</string>
     <string name="active_duration">Activity time</string>
@@ -184,7 +184,7 @@ For example, WeChat:
     <string name="bind_mili_search_tips">Keep the band close to your phone</string>
     <string name="bind_mili_search_title">Searching for band…</string>
     <string name="bind_qq">QQ</string>
-    <string name="bind_qq_health">Add</string>
+    <string name="bind_qq_health">追加</string>
     <string name="bind_qq_health_tip">Steps, sleep, and weight data will be synced with QQ Health</string>
     <string name="bind_qq_health_tip_another_qq">Switch to the current QQ account signed in on your phone to check the data in QQ Health</string>
     <string name="bind_qq_title">Add QQ</string>
@@ -199,7 +199,7 @@ For example, WeChat:
     <string name="bind_try_again">再試行</string>
     <string name="bind_watch">Pair</string>
     <string name="bind_weibo">Sina Weibo</string>
-    <string name="bind_weibo_health">Add</string>
+    <string name="bind_weibo_health">追加</string>
     <string name="bind_weibo_health_tip">Steps will be synced with Weibo Fit</string>
     <string name="bind_weibo_title">Add Sina Weibo</string>
     <string name="bind_weight_confirm">はい</string>
@@ -210,7 +210,7 @@ For example, WeChat:
     <string name="bind_weight_search_tips">Put the scale on the flat surface and step on top</string>
     <string name="bind_weight_search_title">Step on the scale to pair</string>
     <string name="bind_weixin">WeChat</string>
-    <string name="bind_weixin_btn_text">Add</string>
+    <string name="bind_weixin_btn_text">追加</string>
     <string name="bind_weixin_failed">"Couldn't add WeChat"</string>
     <string name="bind_weixin_new_now">Adding…</string>
     <string name="bind_weixin_new_tips">"Tap \"Add\", go to Mi Fit's WeChat account,
@@ -854,7 +854,7 @@ measurement range (%s)"</string>
     <string name="person_info_set_gender_male">男性</string>
     <string name="person_info_set_name_over_max_length">Can enter up to 20 characters</string>
     <string name="person_info_set_saving">保存中…</string>
-    <string name="person_info_set_saving_success">Saved successfully</string>
+    <string name="person_info_set_saving_success">保存に成功しました</string>
     <string name="person_info_title">プロフィール</string>
     <string name="phone_alarm">Vibrate when alarm sounds</string>
     <string name="phone_alarm_alert_tips">Keep band connected to device via Bluetooth</string>
@@ -908,7 +908,7 @@ measurement range (%s)"</string>
     <string name="remind_time">Can remind up to 6 times</string>
     <string name="repeat">Repeat</string>
     <string name="reset_weight_goal">Reset goal</string>
-    <string name="restore">Restore</string>
+    <string name="restore">復元</string>
     <string name="restore_unlock_screen_tips">"You need to set up Bluetooth unlock again after you've replaced the device"</string>
     <string name="restore_unlock_screen_title">Restore Bluetooth screen unlock</string>
     <string name="retry">再試行</string>
@@ -1159,8 +1159,8 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_real_time_mile_pace">ペース (分/mi)</string>
     <string name="running_real_time_pace">ペース (分/km)</string>
     <string name="running_record_total_runtimes">Running for %1$d times</string>
-    <string name="running_recover_notdo">"Don't restore"</string>
-    <string name="running_recover_now">Restore now</string>
+    <string name="running_recover_notdo">復元しない</string>
+    <string name="running_recover_now">今すぐ復元</string>
     <string name="running_recover_savelast">Stop and restore</string>
     <string name="running_recover_title">Automatically restore previous running data</string>
     <string name="running_resume">再開</string>
@@ -1240,14 +1240,14 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="save_local_success">ギャラリーに保存しました</string>
     <string name="saving_family_failure_title">"Couldn't add new member, check the network and try again"</string>
     <string name="saving_family_member">保存中…</string>
-    <string name="saving_success">Save successfully</string>
+    <string name="saving_success">保存に成功しました</string>
     <string name="scan_label">Place the QR code inside the frame</string>
     <string name="screen_lock_text_tip">完了</string>
     <string name="screen_unlock">Screen unlock</string>
-    <string name="sdcarderror">"SD card isn't available"</string>
+    <string name="sdcarderror">"SDカードが使用不可"</string>
     <string name="search_other_mili">Search for other bands</string>
     <string name="search_result_is_empty">"Couldn't find this person"</string>
-    <string name="select_from_camera">Take photo</string>
+    <string name="select_from_camera">写真を撮る</string>
     <string name="select_from_local">ギャラリーから選択</string>
     <string name="select_mili_tips_1">Found a previously paired Mi Band</string>
     <string name="select_mili_tips_2">Tap to pair</string>
@@ -1324,7 +1324,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="share_today_step">Steps today</string>
     <string name="share_topic">\#Mi Fit#</string>
     <string name="share_twitter_label">Twitter</string>
-    <string name="share_uninstall_client">"This app hasn't been installed."</string>
+    <string name="share_uninstall_client">このアプリはインストールされていません。</string>
     <string name="share_weibo_label">Weibo</string>
     <string name="share_weight_bmi">BMI</string>
     <string name="share_weight_current_value">Weight</string>
@@ -1376,7 +1376,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="show_contact_info_summary">着信時に電話番号または名前を表示する</string>
     <string name="show_contact_info_tips">連絡先の情報を表示</string>
     <string name="show_contact_info_tips_other_lan">電話番号を表示</string>
-    <string name="show_sms_info_summary">手机收到短信时, 手环会显示姓名或号码</string>
+    <string name="show_sms_info_summary">SMSの受信時に電話番号または名前を表示する</string>
     <string name="sleel_tip_has_sleep">This period is already in sleep history</string>
     <string name="sleep_all_time">In bed for</string>
     <string name="sleep_awake">Awake</string>
@@ -1398,7 +1398,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sleep_statistics_title">Sleep stats</string>
     <string name="sleep_subview_old_sleeplate">After a sleepless night, remember to take a nap during the day.</string>
     <string name="sleep_subview_young_sleeplate">Try not to stay awake at night.</string>
-    <string name="sleep_tip_edit">Add manually</string>
+    <string name="sleep_tip_edit">手動で追加</string>
     <string name="sleep_tip_time_clash">Fall asleep time should be earlier than wake up time</string>
     <string name="sleep_tip_time_clash2">Wake up time should be later than fall asleep time</string>
     <string name="sleep_tip_time_clash3">Wake up time should be earlier than current time</string>
@@ -1412,7 +1412,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sleep_week_light_time">Avg light sleep</string>
     <string name="sm_alert">Incoming SMS</string>
     <string name="sm_alert_not_bound">Pair Mi Band to receive incoming SMS alerts</string>
-    <string name="smart_alarm_add">Add</string>
+    <string name="smart_alarm_add">追加</string>
     <string name="smart_alarm_done">完了</string>
     <string name="smart_lock_in_member_space">"Bluetooth unlock not supported in MIUI's second space"</string>
     <string name="smart_lock_low_version">Android version is too old, update to 5.0 or later</string>
@@ -1420,7 +1420,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="smart_play_no_app_tip">通知を受信するアプリを選択</string>
     <string name="smart_play_qq">QQ</string>
     <string name="smart_play_screen_sleep_title">Only receive when the screen is off</string>
-    <string name="smart_shoes">Smart Shoes</string>
+    <string name="smart_shoes">スマートシューズ</string>
     <string name="sms_alert">Incoming SMS</string>
     <string name="sport_before_hr_prompt_title">Monitor heart rate during workouts</string>
     <string name="sport_detail_statistics">History</string>
@@ -1433,7 +1433,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sport_setting_new">設定</string>
     <string name="start_download">バックグラウンドでダウンロード中…</string>
     <string name="start_up_com">www.mi.com</string>
-    <string name="start_up_enter">Skip</string>
+    <string name="start_up_enter">スキップ</string>
     <string name="stat_sleep">In bed for</string>
     <string name="state_bind_failed">"Couldn't pair"</string>
     <string name="state_binded">Paired</string>
@@ -1487,7 +1487,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="title_activity_search_result">検索結果</string>
     <string name="title_activity_setting">設定</string>
     <string name="title_activity_third_bind">アカウントを追加</string>
-    <string name="title_add_friend">Add</string>
+    <string name="title_add_friend">追加</string>
     <string name="title_friend_detail">詳細</string>
     <string name="title_friend_list">Friends</string>
     <string name="title_message">Messages</string>
@@ -1574,7 +1574,7 @@ Unlock with Bluetooth device."</string>
     <string name="user_agreement_ux">Enroll in User Experience Program</string>
     <string name="user_plan">Enroll in User Experience Program</string>
     <string name="user_plan_sub_title">"We will learn how you use some of our products' features to improve our products and services. Your data will be used in accordance with our Privacy Policy."</string>
-    <string name="user_protocol">User Agreement and Privacy Policy</string>
+    <string name="user_protocol">利用規約とプライバシーポリシー</string>
     <string name="view_time_tips_1">Lift your wrist to check the time on Mi Band</string>
     <string name="view_time_tips_2">Set in Profile > Mi Band 2 > Lift wrist to view info</string>
     <string name="wait">読み込み中…</string>
@@ -1584,7 +1584,7 @@ Unlock with Bluetooth device."</string>
     <string name="weibo_uninstall_tips">Install Sina Weibo first</string>
     <string name="weibosdk_toast_auth_canceled_f">"Couldn't authorize"</string>
     <string name="weibosdk_toast_auth_failed">"Couldn't pair"</string>
-    <string name="weibosdk_toast_unbind_failed">"Couldn't remove"</string>
+    <string name="weibosdk_toast_unbind_failed">削除できませんでした</string>
     <string name="weight_choose_user_title">Tell me who you are</string>
     <string name="weight_delete_confirm_title">Clear weight goal?</string>
     <string name="weight_delete_title">Delete this record?</string>
