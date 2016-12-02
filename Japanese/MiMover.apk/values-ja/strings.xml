@@ -269,7 +269,7 @@
     <string name="local_select_sysdata">"システム"</string>
     <string name="system_backup_info">"システム設定とホーム画面のレイアウト"</string>
     <string name="local_select_userapp">"アプリ"</string>
-    <string name="software_backup_info">App data</string>
+    <string name="software_backup_info">"アプリのデータ"</string>
     <string name="local_select_account_contact">"アカウントと連絡先"</string>
     <string name="account_contact_backup_info">Google Account, Mi Account, and Contacts data</string>
     <string name="local_select_files">"SDカード"</string>
@@ -284,7 +284,7 @@
     <string name="button_finish">"完了"</string>
     <string name="button_cancel">"キャンセル"</string>
     <string name="button_return">"戻る"</string>
-    <string name="task_canceled_all_local">Canceled</string>
+    <string name="task_canceled_all_local">"キャンセルしました"</string>
     <string name="task_restore_finished_local">"Restored "</string>
     <string name="custom_progress">%d items</string>
     <string name="start_backup">"バックアップ"</string>
@@ -309,9 +309,9 @@ and Mi Mover is on"</string>
     <string name="trans_sender_searching">Searching for new devices</string>
     <string name="trans_sender_searching_ensurance">"Make sure the old device is on
 Waiting for the old device to connect…"</string>
-    <string name="trans_backingup">Backing up …</string>
+    <string name="trans_backingup">"バックアップ中…"</string>
     <string name="trans_backingup_no_items">"同期中…"</string>
-    <string name="trans_restoring">Restoring…</string>
+    <string name="trans_restoring">"復元中…"</string>
     <string name="trans_sender_time_remained">"%s remaining.
 Don't turn off Wi-Fi.
 Keep devices close to each other."</string>
