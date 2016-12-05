@@ -151,7 +151,7 @@ For example, WeChat:
     <string name="baby_weight_warning_content">Make sure the scale, the floor, and your feet are dry</string>
     <string name="band_alarm">アラーム</string>
     <string name="band_alarm_alert">Vibrate when alarm sounds</string>
-    <string name="band_alert">Band notifications</string>
+    <string name="band_alert">Band alerts</string>
     <string name="band_connect_fail">"Couldn't connect band"</string>
     <string name="band_sync_fail">"Couldn't sync band data"</string>
     <string name="battery">Remaining battery</string>
@@ -350,7 +350,7 @@ Try syncing on the start page."</string>
     <string name="enabled_alarms">On (%s)</string>
     <string name="every_day">毎日</string>
     <string name="exit">ログアウト</string>
-    <string name="exit_app">ログアウト</string>
+    <string name="exit_app">終了</string>
     <string name="family_info_key_nickname">ニックネーム</string>
     <string name="family_manager">Manage members</string>
     <string name="family_member">Family member</string>
