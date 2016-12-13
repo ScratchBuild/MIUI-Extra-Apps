@@ -86,7 +86,7 @@
     <string name="amazfit_watch">Amazfit Watch</string>
     <string name="amazfit_watch_app">Amazfit Watch</string>
     <string name="amazfit_watch_bind_failed">"Couldn't pair"</string>
-    <string name="amazfit_watch_mili">Mi Band</string>
+    <string name="amazfit_watch_mili">Band</string>
     <string name="amazfit_watch_query_failed">"Couldn't connect to the network, try again"</string>
     <string name="amazfit_watch_unbind_confirm">Unpair Amazfit Watch from Mi Fit</string>
     <string name="amazfit_watch_unbind_confirm_failed">"Couldn't sync watch data. It may be lost if you unpair the watch."</string>
@@ -129,6 +129,7 @@ For example, WeChat:
     <string name="app_upgrade_filure_title">"Couldn't update"</string>
     <string name="app_version">アプリバージョン: %s</string>
     <string name="average">Average: %1$s</string>
+    <string name="avg_cadence_text">Avg cadence</string>
     <string name="avoid_disturb_not_bound_milipro">Pair Mi Band 2 to use DND mode</string>
     <string name="avoid_disturb_off_time">終了時刻</string>
     <string name="avoid_disturb_on_status_tips">Do not disturb is on</string>
@@ -247,6 +248,7 @@ Try syncing on the start page."</string>
     <string name="button_search_friend">検索</string>
     <string name="button_send_care">応援</string>
     <string name="buy_miband">Buy a Mi Band to make your life smarter</string>
+    <string name="cadence_unit">SPM</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_focus_fail">"Couldn't unfriend"</string>
     <string name="cancel_focus_success">Unfriended successfully</string>
@@ -417,7 +419,7 @@ Continue anyway?"</string>
     <string name="gps_main_pop_band_battery_low">Low battery</string>
     <string name="gps_main_pop_band_connected_show">Connect Mi Band to view data</string>
     <string name="gps_main_pop_knowed">Got it</string>
-    <string name="gps_main_pop_open_ble">Turn on Bluetooth</string>
+    <string name="gps_main_pop_open_ble">Bluetoothをオンにする</string>
     <string name="gps_main_pop_open_hr">Turn on this feature to monitor your heart rate when running</string>
     <string name="gps_main_pop_shoe_connected_show">Pair shoes to view data</string>
     <string name="gps_main_pop_shoe_unconnect">"Shoes aren't connected"</string>
@@ -427,6 +429,12 @@ Continue anyway?"</string>
     <string name="has_close">Off</string>
     <string name="heart_rate">心拍数</string>
     <string name="heart_rate_times">心拍数 %1$d BPM</string>
+    <string name="heart_section">心拍ゾーン</string>
+    <string name="heart_section0">VO₂ max</string>
+    <string name="heart_section1">Anaerobic</string>
+    <string name="heart_section2">Aerobic</string>
+    <string name="heart_section3">Weight</string>
+    <string name="heart_section4">Light</string>
     <string name="heat">燃焼量</string>
     <string name="help">Tap to get help</string>
     <string name="help_info_0">Mi Band is connected to the phone via Bluetooth. The closer the devices are to each other, the easier it is to find the band.</string>
@@ -630,6 +638,7 @@ Open Gallery"</string>
     <string name="main_over_max_range_weight">"Weight exceeds
 measurement range (%s)"</string>
     <string name="male">男性</string>
+    <string name="max_cadence_text">Max cadence</string>
     <string name="max_hr">最大心拍数</string>
     <string name="measure_fail">測定できませんでした</string>
     <string name="measure_heart_rate_sub_title">手首の上にバンドを固定します</string>
@@ -762,6 +771,7 @@ measurement range (%s)"</string>
     <string name="no_sdcard_permission_messgae">Allow access to SD card in the Settings</string>
     <string name="no_sdcard_permission_title">"Can't read or write files on SD card"</string>
     <string name="no_sleep_data">睡眠記録なし</string>
+    <string name="no_speed_data">No speed data</string>
     <string name="no_tip"><u>二度と表示しない</u></string>
     <string name="normandy_connect_fail">センサーに接続できませんでした</string>
     <string name="normandy_connecting">接続中…</string>
@@ -933,7 +943,10 @@ measurement range (%s)"</string>
     <string name="running_auto_pause">Pause automatically</string>
     <string name="running_auto_pause_desc">Pause automatically when session is interrupted</string>
     <string name="running_average_speed">Avg speed</string>
+    <string name="running_avg_speed">Avg speed</string>
+    <string name="running_avg_speed_british_unit">Avg speed (mi/h)</string>
     <string name="running_avg_speed_pace">Average pace</string>
+    <string name="running_avg_speed_unit">Avg speed (km/h)</string>
     <string name="running_backgroud_notification">Running</string>
     <string name="running_before_hr_prompt_content">Fasten your band tightly to increase the accuracy of the data</string>
     <string name="running_before_hr_prompt_notice">Fasten the band above your wrist</string>
@@ -971,6 +984,7 @@ measurement range (%s)"</string>
     <string name="running_delete_track_item_confirm">"You won't be able to restore items after you delete them."</string>
     <string name="running_detail_cal_desc">燃焼量 (Cal)</string>
     <string name="running_detail_forefoot_desc">Landing on forefeet</string>
+    <string name="running_detail_max_hr_desc">最大心拍数 (BPM)</string>
     <string name="running_detail_max_pace_desc">Fastest pace (min/km)</string>
     <string name="running_detail_max_pace_desc_br">Fastest pace (min/mi)</string>
     <string name="running_detail_menu_share_title">共有</string>
@@ -991,7 +1005,9 @@ measurement range (%s)"</string>
     <string name="running_end_save">Saving</string>
     <string name="running_end_time">終了時刻</string>
     <string name="running_failed_to_get_history_neterror">Poor network signal</string>
+    <string name="running_fast_speed_british_unit">Top speed (mph)</string>
     <string name="running_fast_speed_pace">Maximum pace</string>
+    <string name="running_fast_speed_unit">Top speed (km/h)</string>
     <string name="running_gallery">ギャラリー</string>
     <string name="running_get_history_no_more_data">No more data</string>
     <string name="running_gps_cancel">キャンセル</string>
@@ -1110,6 +1126,18 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_hr_unit_desc">心拍数 (BPM)</string>
     <string name="running_hr_unusual_prompt_segment1">Your heart rate is too high</string>
     <string name="running_hr_unusual_prompt_segment2">Tap to set heart rate alerts</string>
+    <string name="running_indoor_averag_heart_rate">Avg heart rate</string>
+    <string name="running_indoor_averag_step_freq">Avg step frequency</string>
+    <string name="running_indoor_band_battery_low">手环电量低, 无法检测</string>
+    <string name="running_indoor_distance_verify">Calibrate distance</string>
+    <string name="running_indoor_end">停止</string>
+    <string name="running_indoor_no_step_tips">"Your phone can't count steps and track your activity"</string>
+    <string name="running_indoor_no_tips_again"><u>"二度と表示しない"</u></string>
+    <string name="running_indoor_not_support_heart">デバイスは心拍数の測定をサポートしていません</string>
+    <string name="running_indoor_start">開始</string>
+    <string name="running_indoor_tight">测量失败, 请戴紧手环</string>
+    <string name="running_indoor_unsupport_step">"手机不支持, 无法使用室内跑步
+绑定手环自由跑起来吧"</string>
     <string name="running_kg">" kg"</string>
     <string name="running_kilometer">" km"</string>
     <string name="running_kilometers">" km"</string>
@@ -1122,6 +1150,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_lable_mile_slowest">Slowest mile</string>
     <string name="running_lable_pace">Avg pace (min)</string>
     <string name="running_lock_screen_display">ロック画面の表示</string>
+    <string name="running_lock_screen_display_tips_permission">システムの権限管理で\"ロック画面の表示\"をオンにしてください</string>
     <string name="running_long_press_to_pause">中断</string>
     <string name="running_main_avoid_use_indoor">Avoid using GPS indoors</string>
     <string name="running_main_back_button_in_dialog">キャンセル</string>
@@ -1193,7 +1222,11 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_slow_speed_pace">Minimum pace</string>
     <string name="running_speed">Running speed</string>
     <string name="running_speed_detail">%.2f km/h</string>
+    <string name="running_speed_unit">単位: km/h</string>
+    <string name="running_speed_unit_mi">単位: mi/h</string>
     <string name="running_speed_with_unit">Speed (km/h)</string>
+    <string name="running_sport_run_indoor">Treadmill</string>
+    <string name="running_sport_run_outdoor">Running</string>
     <string name="running_sport_state_sr_tips">Pausing now, will resume after you start running</string>
     <string name="running_sports_type_crosscountry">Cross-country race</string>
     <string name="running_sports_type_indoor_running">Treadmill</string>
@@ -1218,9 +1251,15 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_tip_hr_bracelet_label">Use Mi Band Pulse</string>
     <string name="running_tip_known">Got it</string>
     <string name="running_tip_open_ble_content">Connect Mi Band to view step frequency</string>
-    <string name="running_tip_open_ble_label">Turn on Bluetooth</string>
+    <string name="running_tip_open_ble_label">Bluetoothをオンにする</string>
     <string name="running_tip_use_bracelet_content">to track your step frequency in real-time</string>
     <string name="running_tip_use_bracelet_label">Use Mi Band</string>
+    <string name="running_total_climb_british_unit">上り坂 (miles)</string>
+    <string name="running_total_climb_unit">上り坂 (km)</string>
+    <string name="running_total_down_british_unit">下り坂 (inches)</string>
+    <string name="running_total_down_unit">下り坂 (m)</string>
+    <string name="running_total_rise_british_unit">Feet climbed</string>
+    <string name="running_total_rise_unit">Meters climbed</string>
     <string name="running_totalstep">Total steps</string>
     <string name="running_unlogin_notice">Sign in to Mi Fit because otherwise running data may be lost</string>
     <string name="running_unsynchronous">Not synced</string>
@@ -1233,6 +1272,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="runningdetail_tab_data">詳細</string>
     <string name="runningdetail_tab_diagram">Graph</string>
     <string name="runningdetail_tab_pace">Pace</string>
+    <string name="runningdetail_tab_speed">Speed</string>
     <string name="runningdetail_tab_track">Routes</string>
     <string name="runningsafe">Zhong An Insurance :</string>
     <string name="runningsafe_tips">"Zhong An Insurance is providing services for you. If you've suffered an injury in an accident, please contact Zhong An Insurance."</string>
@@ -1331,12 +1371,15 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="share_weight_figure">Body type</string>
     <string name="share_weight_hidden_tip">Tap to hide</string>
     <string name="share_weight_last_title">Progress</string>
+    <string name="share_weight_show_tip">詳細を表示</string>
     <string name="share_weight_target_title">Compared to weight goal</string>
     <string name="share_weixin_label">WeChat</string>
     <string name="shoe_connect_fail">"Couldn't connect shoes"</string>
     <string name="shoe_sync_fail">"Couldn't sync shoes data"</string>
     <string name="shoes_average_pace_frequency">Avg step frequency</string>
     <string name="shoes_brand">Li-Ning Smart Shoes</string>
+    <string name="shoes_calibrate_bt_off">Bluetoothをオンにする</string>
+    <string name="shoes_calibrate_connect_timeout">シューズに接続できませんでした、もう一度お試しください</string>
     <string name="shoes_calibrate_connecting">Connecting…</string>
     <string name="shoes_calibrate_failed">"Couldn't calibrate"</string>
     <string name="shoes_calibrate_failed_tips">"Don't move during the calibration"</string>
@@ -1431,6 +1474,8 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sport_notification_title">Turn on activity alerts</string>
     <string name="sport_setting">Workout settings</string>
     <string name="sport_setting_new">設定</string>
+    <string name="sports_type_bike_indoor_ride">Stationary bike</string>
+    <string name="sports_type_bike_ride">Outdoor cycling</string>
     <string name="start_download">バックグラウンドでダウンロード中…</string>
     <string name="start_up_com">www.mi.com</string>
     <string name="start_up_enter">スキップ</string>
@@ -1519,6 +1564,7 @@ You'll be able to change that in the Amazfit Watch app settings."</string>
     <string name="unit_evening">PM</string>
     <string name="unit_foot">" feet"</string>
     <string name="unit_forenoon">AM</string>
+    <string name="unit_heart_rate">BPM</string>
     <string name="unit_hour">h</string>
     <string name="unit_hour_long">h</string>
     <string name="unit_hr">" BPM"</string>
@@ -1534,6 +1580,7 @@ You'll be able to change that in the Amazfit Watch app settings."</string>
     <string name="unit_min_long">" min"</string>
     <string name="unit_moon">PM</string>
     <string name="unit_morning">AM</string>
+    <string name="unit_pace_freq">steps/min</string>
     <string name="unit_sec_short">s</string>
     <string name="unit_sj">" Jin"</string>
     <string name="unit_step">" steps"</string>
@@ -1581,6 +1628,7 @@ Unlock with Bluetooth device."</string>
     <string name="watch_req_with_diff_user">Use the same account to view</string>
     <string name="wear_hand">Bandの装着位置</string>
     <string name="web_activity_reload_tip">再試行するにはタップ</string>
+    <string name="web_title_mili_pro">Mi Band 2</string>
     <string name="weibo_uninstall_tips">Install Sina Weibo first</string>
     <string name="weibosdk_toast_auth_canceled_f">"Couldn't authorize"</string>
     <string name="weibosdk_toast_auth_failed">"Couldn't pair"</string>

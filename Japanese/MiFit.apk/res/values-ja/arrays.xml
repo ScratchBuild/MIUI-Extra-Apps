@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="hr_sport">
-        <item>Light</item>
-        <item>Weight</item>
-        <item>Aerobic</item>
-        <item>Anaerobic</item>
-        <item>VO₂ max</item>
+        <item>心拍ゾーン: 準備運動</item>
+        <item>心拍ゾーン: 脂肪燃焼</item>
+        <item>心拍ゾーン: 心肺強化</item>
+        <item>心拍ゾーン: 耐力强化</item>
+        <item>心拍ゾーン: 无氧极限</item>
     </string-array>
     <string-array name="hr_sport_new">
         <item>Light</item>
@@ -142,7 +142,7 @@
         <item>痩せぎみ</item>
         <item>普通</item>
         <item>太りぎみ</item>
-        <item>肥満</item>
+        <item>肥満 I</item>
     </string-array>
     <string-array name="weight_body_figures_for_child">
         <item>普通</item>
