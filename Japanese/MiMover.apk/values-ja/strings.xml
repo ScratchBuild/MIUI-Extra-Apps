@@ -6,9 +6,6 @@
     <string name="action_mode_select_all">"すべて選択"</string>
     <string name="action_mode_deselect_all">"すべて選択を解除"</string>
     <string name="action_mode_title_empty">"アイテムを選択"</string>
-    <string name="date_picker_label_year" />
-    <string name="date_picker_label_month" />
-    <string name="date_picker_label_day" />
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="yesterday">"昨日"</string>
@@ -63,7 +60,6 @@
     <string name="send">"送信"</string>
     <string name="close">"閉じる"</string>
     <string name="more">"もっと"</string>
-    <string name="empty" />
     <string name="solar_term_slight_cold">Slight Cold</string>
     <string name="solar_term_great_cold">Great Cold</string>
     <string name="solar_term_spring_begins">Spring Begins</string>

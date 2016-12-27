@@ -87,7 +87,7 @@
     <string name="amazfit_watch_app">Amazfit Watch</string>
     <string name="amazfit_watch_bind_failed">"Couldn't pair"</string>
     <string name="amazfit_watch_mili">Band</string>
-    <string name="amazfit_watch_query_failed">"Couldn't connect to the network, try again"</string>
+    <string name="amazfit_watch_query_failed">ネットワークに接続できませんでした、後ほど再試行してください</string>
     <string name="amazfit_watch_unbind_confirm">Unpair Amazfit Watch from Mi Fit</string>
     <string name="amazfit_watch_unbind_confirm_failed">"Couldn't sync watch data. It may be lost if you unpair the watch."</string>
     <string name="amazfit_watch_unbind_mili_mutex">Unpair the band before pairing the watch</string>
@@ -167,7 +167,7 @@ For example, WeChat:
     <string name="bind_band_to_analy">Pair Mi Band to analyze your sleep</string>
     <string name="bind_failed_help">"Couldn't pair. Restart Bluetooth and try again."</string>
     <string name="bind_failed_net_error">"Couldn't pair, check network and try again."</string>
-    <string name="bind_get_help">Tap to get help</string>
+    <string name="bind_get_help">タップしてヘルプを表示</string>
     <string name="bind_google_fit">Google Fit</string>
     <string name="bind_google_fit_btn_text">Google Fitと同期</string>
     <string name="bind_i_know">Got it</string>
@@ -436,7 +436,7 @@ Continue anyway?"</string>
     <string name="heart_section3">Weight</string>
     <string name="heart_section4">Light</string>
     <string name="heat">燃焼量</string>
-    <string name="help">Tap to get help</string>
+    <string name="help">タップしてヘルプを表示</string>
     <string name="help_info_0">Mi Band is connected to the phone via Bluetooth. The closer the devices are to each other, the easier it is to find the band.</string>
     <string name="help_info_1">"If the phone doesn't find the band even when it's close, maybe the band is out of power. Charge the band and try again."</string>
     <string name="help_info_2">"If the band is charged, and the phone still can't find it, try restarting phone's Bluetooth."</string>
@@ -645,9 +645,9 @@ measurement range (%s)"</string>
     <string name="measure_heart_rate_title">動かさないでください</string>
     <string name="measure_hr_correct">Measure the heart rate in a right way</string>
     <string name="measure_hr_tips">"Fasten the band above the wrist and don't move"</string>
-    <string name="measure_tips">Tap to get help</string>
+    <string name="measure_tips">タップしてヘルプを表示</string>
     <string name="message_title_care">Nudges</string>
-    <string name="message_title_friend">Messages</string>
+    <string name="message_title_friend">メッセージ</string>
     <string name="mi_band_alarm">アラーム</string>
     <string name="mi_band_help">ヘルプ</string>
     <string name="miband_alarm_delay_tips_days">Vibrate in %1$sd %2$sh %3$sm</string>
@@ -1535,7 +1535,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="title_add_friend">追加</string>
     <string name="title_friend_detail">詳細</string>
     <string name="title_friend_list">Friends</string>
-    <string name="title_message">Messages</string>
+    <string name="title_message">メッセージ</string>
     <string name="toast_no_more_data">No more data</string>
     <string name="toast_user_info_error">The user info you entered is invalid</string>
     <string name="today">今日</string>
@@ -1652,7 +1652,7 @@ Unlock with Bluetooth device."</string>
     <string name="weight_instable_left_title">"Wait until the LED notification light stops blinking
 before stepping off the scale."</string>
     <string name="weight_low_elec_title">Change scale batteries</string>
-    <string name="weight_measuring">Measuring…</string>
+    <string name="weight_measuring">測定中…</string>
     <string name="weight_overload_title">Weight exceeds measurement range</string>
     <string name="weight_setting_fw_version">Firmware version</string>
     <string name="weight_setting_help">Learn more</string>
@@ -1699,6 +1699,4 @@ to make sure you can receive notifications"</string>
     <string name="running_num_unknown">--</string>
     <string name="running_percent_mark">%</string>
     <string name="running_sec">%d秒</string>
-    <string name="running_today_null" />
-    <string name="running_year_null" />
 </resources>
