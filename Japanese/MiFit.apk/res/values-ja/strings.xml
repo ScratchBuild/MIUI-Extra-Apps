@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">"ホームに移動"</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">"上に移動"</string>
+    <string name="abc_action_menu_overflow_description">"もっと"</string>
+    <string name="abc_action_mode_done">"完了"</string>
+    <string name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string name="abc_activitychooserview_choose_application">"アプリを選択"</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">"検索…"</string>
+    <string name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string name="abc_searchview_description_query">"検索キーワード"</string>
+    <string name="abc_searchview_description_search">"検索"</string>
+    <string name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string name="abc_searchview_description_voice">"音声検索"</string>
+    <string name="abc_shareactionprovider_share_with">"共有"</string>
+    <string name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string name="abc_toolbar_collapse_description">"折りたたむ"</string>
     <string name="common_google_play_services_api_unavailable_text">%1$sには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。</string>
     <string name="common_google_play_services_enable_button">Google Play開発者サービスを有効化</string>
     <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
@@ -33,7 +52,21 @@
     <string name="place_autocomplete_search_hint">検索</string>
     <string name="MiFit">Mi Fit</string>
     <string name="abandon_update">後で</string>
+    <string name="accelerate">加速度</string>
+    <string name="action_badminton">バドミントン</string>
+    <string name="action_basketball">バスケットボール</string>
+    <string name="action_bath">入浴</string>
+    <string name="action_brush_teeth">歯磨き</string>
+    <string name="action_bus">乘车</string>
+    <string name="action_customize">カスタム</string>
+    <string name="action_mark">行为标注</string>
+    <string name="action_pingpong">卓球</string>
+    <string name="action_run">ジョギング</string>
     <string name="action_scan_friend">追加</string>
+    <string name="action_sit">静座</string>
+    <string name="action_sleep">睡眠</string>
+    <string name="action_stand">起立</string>
+    <string name="action_walk">步行</string>
     <string name="active_calorie">Burned</string>
     <string name="active_distance">Distance</string>
     <string name="active_duration">Activity time</string>
@@ -155,6 +188,8 @@ For example, WeChat:
     <string name="band_alert">Band alerts</string>
     <string name="band_connect_fail">"Couldn't connect band"</string>
     <string name="band_sync_fail">"Couldn't sync band data"</string>
+    <string name="basal_metabolism">基礎代謝</string>
+    <string name="basal_metabolism_unit">Cal</string>
     <string name="battery">Remaining battery</string>
     <string name="battery_level">バッテリー残量: %s%%</string>
     <string name="battery_level_left">バッテリー残量</string>
@@ -162,6 +197,8 @@ For example, WeChat:
     <string name="battery_warn_less_0">Out of power, charge your band</string>
     <string name="battery_warn_less_10">Battery is lower than 10%</string>
     <string name="battery_warn_less_5">Battery is low, charge your band</string>
+    <string name="better_score_text">"You're in good health, keep it. Supply yourself with more exercise to keep good physical and mental health"</string>
+    <string name="bf_score">Score %d</string>
     <string name="bind_amazfit_watch_subtitle">Pair to view activity and sleep data</string>
     <string name="bind_amazfit_watch_title">Pair Amazfit Watch</string>
     <string name="bind_band_to_analy">Pair Mi Band to analyze your sleep</string>
@@ -203,9 +240,13 @@ For example, WeChat:
     <string name="bind_weibo_health">追加</string>
     <string name="bind_weibo_health_tip">Steps will be synced with Weibo Fit</string>
     <string name="bind_weibo_title">Add Sina Weibo</string>
+    <string name="bind_weight_bfs">Body Fat Scale</string>
+    <string name="bind_weight_bfs_found_title">Body fat scale found</string>
+    <string name="bind_weight_bfs_not_found_tips">"Couldn't find scale. Make sure the scale is close to the phone and its batteries are charged"</string>
     <string name="bind_weight_confirm">はい</string>
     <string name="bind_weight_found_tips">Do you see %1$s %2$s on the scale?</string>
     <string name="bind_weight_found_title">Scale found</string>
+    <string name="bind_weight_normal">Mi Scale</string>
     <string name="bind_weight_not_found_tips">"Couldn't find scale. Make sure the scale is close to the phone and its batteries are charged"</string>
     <string name="bind_weight_research">いいえ</string>
     <string name="bind_weight_search_tips">Put the scale on the flat surface and step on top</string>
@@ -235,29 +276,68 @@ Try syncing on the start page."</string>
     <string name="ble_open_bluetooth_tip">Tap \"Allow\" in the dialog box</string>
     <string name="ble_phone_not_support">"Can't pair"</string>
     <string name="blue">Blue</string>
+    <string name="blue_tooth_disconnect">Bluetoothが切断されました</string>
     <string name="bluetooth_is_off">Bluetooth is off</string>
     <string name="bmi">BMI</string>
+    <string name="bmi_activity_text">"BMI: weight (kg)/height (m) squared.
+
+You can't judge if you're \"obese\" just by BMI value. With standard BMI, people have more fat and less muscle still can be obese."</string>
+    <string name="bmi_need_attention_for_bmi_high">Your body fat ratio is normal</string>
+    <string name="bmi_need_attention_for_bmi_high_and_nobodyfat">BMI is high now but no body fat data available to be analysed. BMI here is only for reference</string>
+    <string name="bmi_need_attention_for_too_low">Current BMI is too low and not good for your health. You need to improve life style, eat more food and do more exercise to keep fit</string>
+    <string name="bmi_need_attention_for_too_low_18">Current BMI is too low. You need to pay attention to weight changes, improve life style, keep balanced diet, and keep regular work and rest</string>
+    <string name="bmi_not_up_standard">Your BMI exceeds the limit (%s), so does the body fat ratio. You need to do more exercise.</string>
+    <string name="bmr_activity_text">"\"基礎代謝\" refers to the lowest energy required to maintain basic life activities. Basal metabolic rate is decided by how much energy consumed by muscle mass. People with higher basal metabolic rate doesn't gain weight easily.
+
+You can keep fit and balanced intake of meat, fish, soy products and dairy products to increase muscle mass"</string>
+    <string name="bmr_need_attention_infomation">Your standard basal metabolic is %d Cal, people with low basal metabolic rate is more likely to gain weight and feel tired, try to walk for a while after meal and run once a week.</string>
     <string name="body">Neck</string>
+    <string name="body_fat">Body fat</string>
+    <string name="body_fat_label">Body fat %s</string>
+    <string name="body_fat_low_need_attention">Your body fat ratio is low. Fat is an important part of cells and nervous system, and excessive reduction of body fat can cause endocrine disorders</string>
+    <string name="body_fat_need_attention">Too many body fat, please pay attention to diet and do more exercises to keep good health</string>
+    <string name="body_fat_not_up_standard" formatted="false">Your standard body fat ratio range should be %s~%s, still need to lose %s fat</string>
+    <string name="body_fat_not_up_standard_novalue" formatted="false">Your standard body fat ratio range should be %s~%s. Currrent body fat ratio is high, you need to keep balanced diet, improve life style, and do more exercise</string>
+    <string name="body_fat_rate">Body fat ratio</string>
     <string name="body_figures">Body type: %s</string>
+    <string name="body_params_bmi">BMI</string>
+    <string name="body_params_bmr_low">Low</string>
+    <string name="body_score">Body score</string>
+    <string name="body_score_label">Score %d</string>
+    <string name="body_shape">Body type</string>
+    <string name="bodyfat_activity_text">"\"Body fat\" refers to the proportion of fat in total body weight. In addition to lead to obesity, high body fat ratio can also increase the prevalence of many obesity diseases; while low body fat ratio may cause endocrine disorders.
+
+Strong muscles + balanced body fat ratio will give you a good looking and fit body figure"</string>
+    <string name="bone_activity_text">"\"Bone mass\" refers to the amount of calcium, phosphorus, and other matters contained in the bone. Women with less bone mass caused by weight loss or amenorrhoea should pay more attention especially.
+
+Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-minute exercise every day."</string>
+    <string name="bone_need_attention_infomation">"Current bone mass's too low. Try to keep balanced intake of calcium, take 15-minute sunbathing and 20-minute exercise every day"</string>
+    <string name="bone_value">Bone mass</string>
     <string name="bracelet_login_info_2">"By using this product, you are agreeing with Xiaomi's
 "</string>
     <string name="bracelet_notify_text">"Don't forget to put the band on"</string>
     <string name="bracelet_notify_title">充電完了</string>
     <string name="break_best_step_record">個人記録を更新しました！</string>
     <string name="bt_operation_failed_tips">Bluetooth is not working properly. Wait a minute or two and try again.</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_retagging">重新开始</string>
     <string name="button_search_friend">検索</string>
     <string name="button_send_care">応援</string>
     <string name="buy_miband">Buy a Mi Band to make your life smarter</string>
+    <string name="cadence_text">Cadence</string>
     <string name="cadence_unit">SPM</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_focus_fail">"Couldn't unfriend"</string>
     <string name="cancel_focus_success">Unfriended successfully</string>
     <string name="cancel_loading">キャンセル中…</string>
     <string name="cancel_save_tips">変更を破棄しますか？</string>
+    <string name="cannot_analyze">解析できませんでした</string>
     <string name="change_sport_goal_confirm">OK</string>
     <string name="change_sport_goal_tip_not_bound">Pair Mi Band to set activity goal</string>
     <string name="check_lock_screen_pw">Step 2</string>
     <string name="checking_new_apk">確認中…</string>
+    <string name="chest">Chest</string>
+    <string name="choose_device_please">マーカーを使用してデバイスの動作を選択してください</string>
     <string name="choose_weight_manual">体重を選択</string>
     <string name="clear_weight_goal">目標を削除</string>
     <string name="click_to_bind_device">タップしてデバイスとペアリング</string>
@@ -269,15 +349,17 @@ Try syncing on the start page."</string>
     <string name="compare_to_last_time">Progress</string>
     <string name="complete">完了</string>
     <string name="confirm">OK</string>
-    <string name="congratulation_for_over_maxstep">New step count (%1$s) is a record!</string>
-    <string name="congratulation_for_reach_goal">You reached the goal today!</string>
+    <string name="congratulations">おめでとうございます</string>
     <string name="connect_failed">接続できませんでした</string>
     <string name="connected_time">%s synced</string>
     <string name="connecting">Connecting band…</string>
     <string name="connecting_shoes">Connecting device…</string>
     <string name="content_too_short">"Can't be blank"</string>
     <string name="continue_update">Update</string>
+    <string name="contiune_tagging">ラべリングを継続</string>
     <string name="customize">カスタム</string>
+    <string name="customize_action_name_please">请输入要标记的行为名称</string>
+    <string name="data_collect">データ収集</string>
     <string name="data_loading">読み込み中…</string>
     <string name="data_zero">--</string>
     <string name="date_mmdd_format">%1$s/%2$s</string>
@@ -298,8 +380,10 @@ Try syncing on the start page."</string>
     <string name="device_address">MACアドレス</string>
     <string name="device_bind_success">正常にペアリングされました</string>
     <string name="device_binding">ペアリング中…</string>
+    <string name="device_connect_failed">接続に失敗しました</string>
     <string name="device_connecting">接続中…</string>
     <string name="device_data_syncing">同期中…</string>
+    <string name="device_disconnect">切断されました</string>
     <string name="device_select_has_bound">Paired: %s</string>
     <string name="device_select_title">Select devices to pair</string>
     <string name="device_tip_ble_not_open">Bluetoothがオフになっています</string>
@@ -314,7 +398,6 @@ Try syncing on the start page."</string>
     <string name="device_unbind_success">Unpaired</string>
     <string name="device_unbind_sync_failed_confirm">"Couldn't sync %s, unsynced data may be lost. Continue anyway?"</string>
     <string name="device_unbinding">Unpairing…</string>
-    <string name="dialog_confirm">Got it</string>
     <string name="discovery_activity">Activity</string>
     <string name="discovery_choose_upload_file">アップロードするファイルを選択</string>
     <string name="discovery_deauth_fail">"Couldn't restrict permissions"</string>
@@ -322,12 +405,10 @@ Try syncing on the start page."</string>
     <string name="discovery_event_time_remain_hours_minutes">残り%1$s時間%2$s分</string>
     <string name="discovery_event_time_remain_minutes">残り%s分</string>
     <string name="discovery_event_time_remain_none">終了</string>
-    <string name="discovery_events">アクティビティ</string>
     <string name="discovery_run_info">情報</string>
-    <string name="discovery_services">サービス</string>
-    <string name="discovery_store">ストア</string>
     <string name="distance">歩行距離</string>
     <string name="do_not_remind_again">"二度と表示しない"</string>
+    <string name="do_not_upload_in_mobile_network">当前为移动网络, 上传将会消耗一定流量, 稍后会在Wifi下自动上传.</string>
     <string name="down">Down: %1$s</string>
     <string name="download_amazfit_app">Download Amazfit Watch app</string>
     <string name="download_failed">アップデートをダウンロードできませんでした</string>
@@ -336,9 +417,8 @@ Try syncing on the start page."</string>
     <string name="edit">編集</string>
     <string name="edit_app">アプリを管理</string>
     <string name="empty_value">--</string>
-    <string name="enable_app_alert">Turn on Mi Band Alerts</string>
+    <string name="enable_app_alert">Turn on Mi Band alerts</string>
     <string name="enable_broadcast">Turn on Discoverable mode</string>
-    <string name="enable_id_broadcast_comments">Turn on to be visible to nearby devices and connect to them</string>
     <string name="enable_id_broadcast_query">Turn on Discoverable mode?</string>
     <string name="enable_id_broadcast_query_msg">Turning this feature on may slightly reduce battery life</string>
     <string name="enable_incoming_call_alert">Turn on incoming call alerts</string>
@@ -373,6 +453,7 @@ Try syncing on the start page."</string>
     <string name="feedback_title">フィードバック</string>
     <string name="feedback_upload_logfile">ログを送信</string>
     <string name="female">女性</string>
+    <string name="finish_tagging">確定</string>
     <string name="first_set_lock_screen_pw">Step 1</string>
     <string name="focus_fail">追加できませんでした</string>
     <string name="focus_success">Accept</string>
@@ -436,7 +517,6 @@ Continue anyway?"</string>
     <string name="heart_section3">Weight</string>
     <string name="heart_section4">Light</string>
     <string name="heat">燃焼量</string>
-    <string name="help">タップしてヘルプを表示</string>
     <string name="help_info_0">Mi Band is connected to the phone via Bluetooth. The closer the devices are to each other, the easier it is to find the band.</string>
     <string name="help_info_1">"If the phone doesn't find the band even when it's close, maybe the band is out of power. Charge the band and try again."</string>
     <string name="help_info_2">"If the band is charged, and the phone still can't find it, try restarting phone's Bluetooth."</string>
@@ -450,6 +530,7 @@ Continue anyway?"</string>
     <string name="highest">Highest: %1$s</string>
     <string name="hint_input_remark_name">発言を入力</string>
     <string name="hint_input_xiaomi_uid">Mi Account IDを入力</string>
+    <string name="history">履歴</string>
     <string name="hold_baby_weight">Weigh infant</string>
     <string name="home_deep_sleep">"Deep sleep "</string>
     <string name="home_sleep">"Sleep "</string>
@@ -491,6 +572,7 @@ Keep Bluetooth on when running"</string>
     <string name="hr_tips_arrange">Ideal workout heart rate (BPM)</string>
     <string name="hr_unit">" BPM"</string>
     <string name="hr_unit_label">心拍数 (BPM)</string>
+    <string name="huami_shoe">Huami sensor</string>
     <string name="i_know">Got it</string>
     <string name="id_broadcast">Discoverable</string>
     <string name="id_broadcast_not_bound">Pair Mi Band to use Discoverable mode</string>
@@ -508,6 +590,8 @@ Keep Bluetooth on when running"</string>
     <string name="install_amazfit_tips">Install Amazfit Watch app</string>
     <string name="install_band_correct">Install Mi Band 2 in a right way</string>
     <string name="install_band_from_bottom">Install or remove the core from the back of Mi Band strap</string>
+    <string name="install_normandy">Which shoe do you want to install the sensor in?</string>
+    <string name="install_normandy_tips">Correct selection of left and right shoes will ensure more accurate data analysis</string>
     <string name="install_qq_tips">Install QQ first</string>
     <string name="install_weibo_tips">Install Weibo first</string>
     <string name="install_weixin_tips">Install WeChat first</string>
@@ -518,7 +602,7 @@ firmly on the center of the scale."</string>
     <string name="instruction_weight_tips1_1">You can pair multiple devices with a single scale</string>
     <string name="instruction_weight_tips1_2">Weigh-in records will be saved on the scale after you pair a phone</string>
     <string name="instruction_weight_tips1_3">Choose the units that will be used to calculate your weight</string>
-    <string name="instruction_weight_tips1_4">"When the scale's batteries need to be replaced, the scale will show you this"</string>
+    <string name="instruction_weight_tips1_4">"When the scale's batteries need to be replaced, the scale will show you this."</string>
     <string name="instruction_weight_tips1_5">If the following prompt is blinking, maximum weight was exceeded.</string>
     <string name="instruction_weight_tips1_6">Place the scale on a dry surface</string>
     <string name="instruction_weight_tips2_2">Make sure Mi Fit app is open when you weigh in</string>
@@ -528,12 +612,21 @@ firmly on the center of the scale."</string>
     <string name="instruction_weight_title_1">Pair multiple devices</string>
     <string name="instruction_weight_title_2">Keep your paired device close by when you weigh in</string>
     <string name="instruction_weight_title_3">Set units for weigh-in</string>
-    <string name="instruction_weight_title_4">"Replacing the scale's batteries"</string>
+    <string name="instruction_weight_title_4">Change scale batteries</string>
     <string name="instruction_weight_title_5">Maximum weight exceeded</string>
     <string name="instruction_weight_title_6">Weighing in</string>
     <string name="invalid_name">Unsupported characters are found in the name, try again</string>
+    <string name="is_tagging_finish">ラベルの終わりを確定しますか？</string>
     <string name="kilo_cal">" Cal"</string>
     <string name="kilo_fastest">Fastest km: %1$s</string>
+    <string name="lab_data_missing">データが見つかりません</string>
+    <string name="lab_save_success">保存に成功しました</string>
+    <string name="lab_saving">データを保存中</string>
+    <string name="lab_tagging_fail">ラべリングに失敗</string>
+    <string name="lab_upload_cancel">アップロードをキャンセル</string>
+    <string name="lab_upload_fail">アップロードに失敗しました</string>
+    <string name="lab_upload_success">アップロードが成功しました</string>
+    <string name="lab_uploading">アップロード中</string>
     <string name="label_accept_add_friend_by_him">Your friend request was accepted</string>
     <string name="label_accepted">Accepted</string>
     <string name="label_activity">Steps</string>
@@ -587,6 +680,7 @@ Open Gallery"</string>
     <string name="label_update_time">Update: %s</string>
     <string name="label_weight">Last weight</string>
     <string name="lable_qrcode_is_myself">"Can't add yourself as a friend"</string>
+    <string name="laboratory">実験室</string>
     <string name="last_break_goal">Streak ended on %1$d/%2$d. Waiting for a new start!</string>
     <string name="last_month">先月</string>
     <string name="last_reach_goal">Last time, you had a %1$d day streak</string>
@@ -618,7 +712,6 @@ Open Gallery"</string>
     <string name="long_set_alert">Idle alert</string>
     <string name="long_sit">"You haven't moved for over 1 hour"</string>
     <string name="long_sit_alert">Idle alert</string>
-    <string name="long_sit_alert_interval">Interval</string>
     <string name="long_sit_alert_interval_tips">%s分</string>
     <string name="long_sit_alert_start">開始時刻</string>
     <string name="long_sit_alert_stop">終了時刻</string>
@@ -663,6 +756,7 @@ measurement range (%s)"</string>
     <string name="miband_disconnected">"Mi Band isn't connected"</string>
     <string name="miband_tips">"To stop alarm, press the band while it's vibrating"</string>
     <string name="miid_not_support">不明なMi Account</string>
+    <string name="mijia_device_name">米家智能跑鞋</string>
     <string name="mile_fastest">Fastest mile: %1$s</string>
     <string name="mili_connecting">Mi Bandと接続中…</string>
     <string name="mili_data_not_sync">Band data not synced</string>
@@ -679,6 +773,8 @@ measurement range (%s)"</string>
     <string name="mili_setting_find_bracelet">Find band</string>
     <string name="mili_setting_finding">Searching for the band…</string>
     <string name="mili_setting_finding_tips">Frequent searches reduce battery life</string>
+    <string name="mili_setting_full_hr">Daily heart rate</string>
+    <string name="mili_setting_full_hr_tips">Reduces battery life</string>
     <string name="mili_setting_fw_version">Firmware version</string>
     <string name="mili_setting_ges_screen">Lift wrist to view info</string>
     <string name="mili_setting_ges_screen_key">Rotate wrist to switch info</string>
@@ -694,7 +790,6 @@ measurement range (%s)"</string>
     <string name="mili_setting_mili_1a">Mi Band</string>
     <string name="mili_setting_mili_1s">Mi Band Pulse</string>
     <string name="mili_setting_set_color">LED color</string>
-    <string name="mili_setting_set_color_blue">Blue</string>
     <string name="mili_setting_set_wear">Band location</string>
     <string name="mili_setting_set_wear_left">左腕</string>
     <string name="mili_setting_sleep_assist">Heart rate sleep assistant</string>
@@ -706,6 +801,8 @@ measurement range (%s)"</string>
     <string name="mili_setting_vibrate_notify_tips">Show notifications on the phone when the band vibrates</string>
     <string name="mili_settting_mili_nfc">HuaShan</string>
     <string name="mili_settting_mili_pro">Mi Band 2</string>
+    <string name="mili_settting_mili_qinling">Qinling Mountains</string>
+    <string name="mili_settting_mili_rocky">Amazfit Arc</string>
     <string name="mili_time_display_item">時刻の形式</string>
     <string name="mili_time_display_item_tips">時刻の形式を選択</string>
     <string name="mine_add_more_device">Add device</string>
@@ -743,21 +840,37 @@ measurement range (%s)"</string>
     <string name="more">More</string>
     <string name="more_icon_tips">View more icons</string>
     <string name="move_and_capture">Adjust image</string>
+    <string name="muscle">Muscle</string>
+    <string name="muscle_activity_text">"\"Muscle mass\" refers to the mass of skeletal and smooth muscles and other muscle tissues contained water.
+
+Loss of muscle mass will result in a lower basal metabolism and reduce energy consumption, and you'll gain weight or fall ill more easily. More muscles is helpful to improve basal metabolism so as to reduce body fat"</string>
+    <string name="muscle_low_infomation" formatted="false">"Your standard muscle ratio range should be %s~%s. You still need %s more muscles. Eat healthily and do more exercise. More muscles'll protect you better."</string>
+    <string name="muscle_low_infomation_novalue" formatted="false">"Your standard muscle ratio range should be %s~%s. You still need more muscles. Eat healthily and do more exercise. More muscles'll protect you better."</string>
+    <string name="muscle_need_attention_infomation">"You have a lower muscle ratio. Eat healthily and do more exercise. More muscles'll protect you better"</string>
+    <string name="muscle_rate">Muscle</string>
     <string name="mutex_login_content">Your account signed in on another device at %1$s</string>
     <string name="mutex_login_logout">ログアウト</string>
     <string name="mutex_login_relogin">ログインし直す</string>
     <string name="mutex_login_title">Offline notifications</string>
     <string name="name">ニックネーム</string>
+    <string name="need_attention">%d items need your attention:</string>
     <string name="network_error">Connect to the network first</string>
     <string name="network_request_fail">"Couldn't get data"</string>
     <string name="never_reminder">二度と表示しない</string>
     <string name="new_user">New</string>
     <string name="next_step">次へ</string>
     <string name="no_alti_data">No altitude data</string>
-    <string name="no_bind_canot_analy">"Can't analyze sleep until Mi Band is paired"</string>
-    <string name="no_bmi_for_age">"Can't calculate BMI for people younger than 7 years old"</string>
-    <string name="no_bmi_for_height">"Can't calculate BMI for people shorter than 100 cm"</string>
-    <string name="no_bmi_for_not_adult">"Can't calculate BMI for people younger than 18 years old"</string>
+    <string name="no_behavior_tagging_history">過去のデータはありません</string>
+    <string name="no_bind_canot_analy">Mi Bandとペアリングするまで睡眠データを解析できません</string>
+    <string name="no_bmi_for_age">7歳未満の人のBMIを計算できません</string>
+    <string name="no_bmi_for_height">100cm未満の人のBMIを計算できません</string>
+    <string name="no_bmi_for_not_adult">18歳未満の人のBMIを計算できません</string>
+    <string name="no_body_fat_info">データなし</string>
+    <string name="no_body_params_for_age_max">80歳以上の人は分析できません</string>
+    <string name="no_body_params_for_age_min">10歳以下の人は分析できません</string>
+    <string name="no_body_params_for_height_max">225cm以上の人は分析できません</string>
+    <string name="no_body_params_for_height_min">100cm以下の人は分析できません</string>
+    <string name="no_body_params_for_no_measure">データを取得できませんでした</string>
     <string name="no_device_bind">No paired devices</string>
     <string name="no_heart_data">No heart rate data</string>
     <string name="no_measure">"Didn't measure heart rate"</string>
@@ -770,18 +883,22 @@ measurement range (%s)"</string>
     <string name="no_phone_state_permission_title">"Can't get device info"</string>
     <string name="no_sdcard_permission_messgae">Allow access to SD card in the Settings</string>
     <string name="no_sdcard_permission_title">"Can't read or write files on SD card"</string>
+    <string name="no_shape_for_no_measure">"Can't identify body type"</string>
     <string name="no_sleep_data">睡眠記録なし</string>
     <string name="no_speed_data">No speed data</string>
     <string name="no_tip"><u>二度と表示しない</u></string>
+    <string name="nobmi_for_age">7歳未満の人のBMIを計算できません</string>
+    <string name="nobmi_for_height">100cm未満の人のBMIを計算できません</string>
     <string name="normandy_connect_fail">センサーに接続できませんでした</string>
     <string name="normandy_connecting">接続中…</string>
     <string name="normandy_device_help">About Huami sensor</string>
-    <string name="normandy_device_name">Huami sensor</string>
-    <string name="normandy_found_tips">Shake the sensor when the notification light blinks</string>
-    <string name="normandy_found_title">"Shake the sensor to confirm if it's paired"</string>
+    <string name="normandy_device_name">Huami sensor 2</string>
+    <string name="normandy_found_tips">Tap the sensor to pair if the light is on</string>
+    <string name="normandy_found_title">Click the sensor</string>
     <string name="normandy_has_bound_tips">Huami sensor is paired by another person. Ask them to unpair it and try again.</string>
     <string name="normandy_high_battery">Full battery</string>
     <string name="normandy_high_battery_simple">Battery is charged</string>
+    <string name="normandy_left_foot">左足</string>
     <string name="normandy_low_battery">Replace battery</string>
     <string name="normandy_low_battery_fw_tips">"Low battery, can't update firmware"</string>
     <string name="normandy_low_battery_fw_title">"Replace the device's battery"</string>
@@ -790,23 +907,21 @@ measurement range (%s)"</string>
     <string name="normandy_low_battery_simple">Low battery</string>
     <string name="normandy_mid_battery">Low battery</string>
     <string name="normandy_mid_battery_simple">Battery is running low</string>
-    <string name="normandy_not_found_tips">"Couldn't find sensor. Make sure it's charged and close to the phone"</string>
-    <string name="normandy_not_light">"The notification light didn't blink"</string>
+    <string name="normandy_next_step">次へ</string>
+    <string name="normandy_not_found_tips">"Couldn't find sensor. Make sure the sensor is close to the phone and its battery is charged"</string>
+    <string name="normandy_not_light">"My sensor's light is off"</string>
     <string name="normandy_not_shake_help">Keep your sensor away from other sensors when searching</string>
-    <string name="normandy_pull_to_connect">Pull down to connect</string>
-    <string name="normandy_release_to_connect">Release to connect</string>
-    <string name="normandy_searching">Searching…</string>
+    <string name="normandy_right_foot">右足</string>
+    <string name="normandy_searching">Pairing</string>
     <string name="normandy_searching_tips">Keep Huami sensor close to your phone</string>
-    <string name="normandy_status_battery_show">%1$s steps, %2$s%3$s, %4$s</string>
-    <string name="normandy_status_show">%1$s steps, %2$s%3$s</string>
     <string name="normandy_sync_fail">"Couldn't sync with the sensor"</string>
-    <string name="normandy_unbind_tips">Huami sensor will stop recording activity info after you unpair</string>
     <string name="normandy_upgrade_tips">Keep Huami sensor close to your phone</string>
     <string name="normandy_upgrade_title">Updating…</string>
     <string name="not_connect_network">ネットワークに接続できませんでした</string>
     <string name="not_restore">"Don't restore"</string>
     <string name="not_set">Not set</string>
     <string name="not_support_alti_data">Not supported in this device</string>
+    <string name="not_up_to_standard">"%d items didn't reach goals:"</string>
     <string name="noti_bracelet_low_battery_content_high">Battery is lower than 10%</string>
     <string name="noti_bracelet_low_battery_content_low">Out of power, charge your band</string>
     <string name="noti_bracelet_low_battery_content_mid">Battery is low, charge your band</string>
@@ -817,7 +932,7 @@ measurement range (%s)"</string>
     <string name="notification_switch_title">Show status in Notification shade</string>
     <string name="notification_tip">"Turn on if you don't receive Mi Band alerts"</string>
     <string name="notification_title">Show status in the Notification shade</string>
-    <string name="notify_status_motor">"Vibrate: "</string>
+    <string name="notify_status_motor">Vibration</string>
     <string name="notify_status_motor_alarm">Alarm</string>
     <string name="notify_status_motor_auth">Tap when band vibrates</string>
     <string name="notify_status_motor_auth_success">Paired successfully</string>
@@ -827,7 +942,6 @@ measurement range (%s)"</string>
     <string name="notify_status_motor_shut_down">Band is off</string>
     <string name="notify_status_motor_smart_alarm">Early bird alarm</string>
     <string name="notify_status_motor_test">Band motor test</string>
-    <string name="ok">OK</string>
     <string name="only_once">Once</string>
     <string name="open">Turn on</string>
     <string name="open_avoid_disturb_tips">DND mode</string>
@@ -871,9 +985,18 @@ measurement range (%s)"</string>
     <string name="phone_alarm_not_bound">Pair Mi Band to receive alarm alerts</string>
     <string name="phone_not_bind">後で</string>
     <string name="phone_number">400-999-9595</string>
+    <string name="physical_state">Physical condition %s</string>
     <string name="picker_menu_done">完了</string>
-    <string name="play_miband2">Learn more about Mi Band 2</string>
-    <string name="play_miband2_tips">Tap to learn more about Mi Band 2</string>
+    <string name="play_bfat_tips">Tap to learn more</string>
+    <string name="play_miband2">Learn more</string>
+    <string name="play_miband2_tips">Tap to learn more</string>
+    <string name="play_weight_bfs_page2_tip2">"Stand barefoot
+on the sheet metal of the scale"</string>
+    <string name="play_weight_bfs_page2_title">How to measure</string>
+    <string name="play_weight_bfs_page3_tips">You can change the units for weigh-in later</string>
+    <string name="play_weight_bfs_page4_tips1">"When the scale's batteries need to be replaced, the scale will show you this."</string>
+    <string name="play_weight_bfs_page4_tips2">After batteries are replaced, the scale will restart automatically.</string>
+    <string name="play_weight_tips">Tap to learn more</string>
     <string name="please_connect_internet">Connect to the internet first</string>
     <string name="please_input_birthday">誕生日</string>
     <string name="please_input_gender">性別を選択</string>
@@ -885,12 +1008,12 @@ measurement range (%s)"</string>
     <string name="pull_label_sync_data">Pull down to sync</string>
     <string name="pull_to_connect_mili">Pull down to connect Mi Band</string>
     <string name="pull_to_connect_shoes">Pull down to connect shoes</string>
-    <string name="pull_to_refresh_complete">更新しました</string>
-    <string name="pull_to_refresh_loading">更新中…</string>
     <string name="pull_to_refresh_pull_label">画面を引っ張って…</string>
     <string name="pull_to_refresh_refreshing_label">更新中…</string>
     <string name="pull_to_refresh_release_label">指を離して更新…</string>
-    <string name="pull_to_refresh_tip">Pull down to refresh</string>
+    <string name="put_done">完了ne</string>
+    <string name="put_normandy_in_shoes">Follow the steps below to install</string>
+    <string name="put_normandy_in_shoes_tips">Keep the side labeled with huami facing up</string>
     <string name="query_weixin_btn_text">View rankings</string>
     <string name="quite_heart_rate">Resting</string>
     <string name="quite_heart_rate_tip">Heart rate in resting state usually varies between 60 and 100 BPM.</string>
@@ -909,7 +1032,6 @@ measurement range (%s)"</string>
     <string name="refuse_fail">"Couldn't reject"</string>
     <string name="refuse_success">Reject request</string>
     <string name="relation_data_loading">読み込み中…</string>
-    <string name="relation_date_format">MM/dd/yyyy ah:mm</string>
     <string name="relation_loading">読み込み中…</string>
     <string name="relation_myqrcode">My QR code</string>
     <string name="release_to_connect_mili">Release to connect Mi Band</string>
@@ -922,6 +1044,8 @@ measurement range (%s)"</string>
     <string name="restore_unlock_screen_tips">"You need to set up Bluetooth unlock again after you've replaced the device"</string>
     <string name="restore_unlock_screen_title">Restore Bluetooth screen unlock</string>
     <string name="retry">再試行</string>
+    <string name="ride_time">Riding time</string>
+    <string name="ride_total_time">Total time</string>
     <string name="right_hand">右腕</string>
     <string name="rise">Up: %1$s</string>
     <string name="run_hr_instruct">(Running assistant#)</string>
@@ -1002,11 +1126,11 @@ measurement range (%s)"</string>
     <string name="running_distance_unit">距離 (km)</string>
     <string name="running_elevation_rise_british_unit">Feet climbed</string>
     <string name="running_elevation_rise_unit">Meters climbed</string>
-    <string name="running_end_save">Saving</string>
+    <string name="running_end_save">保存中</string>
     <string name="running_end_time">終了時刻</string>
     <string name="running_failed_to_get_history_neterror">Poor network signal</string>
     <string name="running_fast_speed_british_unit">Top speed (mph)</string>
-    <string name="running_fast_speed_pace">Maximum pace</string>
+    <string name="running_fast_speed_pace">Fastest pace</string>
     <string name="running_fast_speed_unit">Top speed (km/h)</string>
     <string name="running_gallery">ギャラリー</string>
     <string name="running_get_history_no_more_data">No more data</string>
@@ -1082,7 +1206,7 @@ Keep Bluetooth on when running"</string>
 A consistent and continuous speed is needed and beneficial to exert your strength fully in a marathon."</string>
     <string name="running_help_stride_definition">Stride means the distance covered by a step when walking or running.</string>
     <string name="running_help_stride_for_you">Find the fittest stride of your own</string>
-    <string name="running_help_stride_for_you_tips">Appropriate stride should be: landing on your midfeet or forefeet to make the landing point fall close to the center of gravity, and press down the foot backward to hold on to the ground.</string>
+    <string name="running_help_stride_for_you_tips">"Land on your forefeet. Make sure the landing point is close to your body's gravity center. Press your feet firmly against the ground with every stride."</string>
     <string name="running_help_stride_freq_bestfreq">Step frequency goal</string>
     <string name="running_help_stride_freq_bestfreq_example">Long-distance runners usually make 180 steps per minute. We recommend using this value as your step frequency goal.</string>
     <string name="running_help_stride_freq_definition">Step frequency is the number of steps you make per minute when running.</string>
@@ -1128,16 +1252,16 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_hr_unusual_prompt_segment2">Tap to set heart rate alerts</string>
     <string name="running_indoor_averag_heart_rate">Avg heart rate</string>
     <string name="running_indoor_averag_step_freq">Avg step frequency</string>
-    <string name="running_indoor_band_battery_low">手环电量低, 无法检测</string>
+    <string name="running_indoor_band_battery_low">Low battery</string>
     <string name="running_indoor_distance_verify">Calibrate distance</string>
-    <string name="running_indoor_end">停止</string>
+    <string name="running_indoor_end">Workout stopped</string>
     <string name="running_indoor_no_step_tips">"Your phone can't count steps and track your activity"</string>
     <string name="running_indoor_no_tips_again"><u>"二度と表示しない"</u></string>
     <string name="running_indoor_not_support_heart">デバイスは心拍数の測定をサポートしていません</string>
     <string name="running_indoor_start">開始</string>
-    <string name="running_indoor_tight">测量失败, 请戴紧手环</string>
-    <string name="running_indoor_unsupport_step">"手机不支持, 无法使用室内跑步
-绑定手环自由跑起来吧"</string>
+    <string name="running_indoor_tight">"Couldn't measure. Fasten the band"</string>
+    <string name="running_indoor_unsupport_step">"Your phone doesn't support this feature
+Pair Mi Band for workouts"</string>
     <string name="running_kg">" kg"</string>
     <string name="running_kilometer">" km"</string>
     <string name="running_kilometers">" km"</string>
@@ -1187,7 +1311,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_prompt_per_kilometer" formatted="false">"You've already run %skm. Time spent: %s. Last km: %s."</string>
     <string name="running_real_time_mile_pace">ペース (分/mi)</string>
     <string name="running_real_time_pace">ペース (分/km)</string>
-    <string name="running_record_total_runtimes">Running for %1$d times</string>
+    <string name="running_record_total_runtimes">Running sessions: %1$d</string>
     <string name="running_recover_notdo">復元しない</string>
     <string name="running_recover_now">今すぐ復元</string>
     <string name="running_recover_savelast">Stop and restore</string>
@@ -1197,6 +1321,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_set_goal">Goal</string>
     <string name="running_set_pace">Pace alert</string>
     <string name="running_set_pace_desc">Mi Band will vibrate if you run slower</string>
+    <string name="running_set_pace_indoor">"(Treadmill isn't supported)"</string>
     <string name="running_set_speed">Speed alert</string>
     <string name="running_settings">設定</string>
     <string name="running_settings_speed">(%1$s/km)</string>
@@ -1278,10 +1403,17 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="runningsafe_tips">"Zhong An Insurance is providing services for you. If you've suffered an injury in an accident, please contact Zhong An Insurance."</string>
     <string name="save">保存</string>
     <string name="save_local_success">ギャラリーに保存しました</string>
+    <string name="save_success">保存しました</string>
+    <string name="saving">保存中…</string>
     <string name="saving_family_failure_title">"Couldn't add new member, check the network and try again"</string>
     <string name="saving_family_member">保存中…</string>
     <string name="saving_success">保存に成功しました</string>
     <string name="scan_label">Place the QR code inside the frame</string>
+    <string name="score">Score %1$d</string>
+    <string name="score_tips_close">Hide</string>
+    <string name="score_tips_open">More</string>
+    <string name="score_unit">score</string>
+    <string name="score_very_bad_hint">This information is for reference only. See your doctor for a full consultation</string>
     <string name="screen_lock_text_tip">完了</string>
     <string name="screen_unlock">Screen unlock</string>
     <string name="sdcarderror">"SDカードが使用不可"</string>
@@ -1291,6 +1423,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="select_from_local">ギャラリーから選択</string>
     <string name="select_mili_tips_1">Found a previously paired Mi Band</string>
     <string name="select_mili_tips_2">Tap to pair</string>
+    <string name="select_shoe_type">Select a sensor</string>
     <string name="selected_alert_apps">Selected apps with alerts</string>
     <string name="send_fail">"Couldn't send friend request"</string>
     <string name="send_success">Friend request sent</string>
@@ -1302,7 +1435,6 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="set_sport_goal">Set activity goals</string>
     <string name="set_weight_goal">Set weight goal</string>
     <string name="setting_about">About</string>
-    <string name="setting_help">Help</string>
     <string name="setting_length_british">Imperial (feet, miles)</string>
     <string name="setting_length_metric">Metric (m, km)</string>
     <string name="setting_question">Help</string>
@@ -1367,13 +1499,15 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="share_uninstall_client">このアプリはインストールされていません。</string>
     <string name="share_weibo_label">Weibo</string>
     <string name="share_weight_bmi">BMI</string>
+    <string name="share_weight_bodyfat">Body fat</string>
     <string name="share_weight_current_value">Weight</string>
     <string name="share_weight_figure">Body type</string>
-    <string name="share_weight_hidden_tip">Tap to hide</string>
+    <string name="share_weight_hidden_tip">詳細を隠す</string>
     <string name="share_weight_last_title">Progress</string>
     <string name="share_weight_show_tip">詳細を表示</string>
     <string name="share_weight_target_title">Compared to weight goal</string>
     <string name="share_weixin_label">WeChat</string>
+    <string name="shoe_bind_failed_help">"Couldn't pair, keep the sensor close to your phone"</string>
     <string name="shoe_connect_fail">"Couldn't connect shoes"</string>
     <string name="shoe_sync_fail">"Couldn't sync shoes data"</string>
     <string name="shoes_average_pace_frequency">Avg step frequency</string>
@@ -1390,12 +1524,18 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoes_count_down_text">%s</string>
     <string name="shoes_device_help">Running shoes help</string>
     <string name="shoes_frequency_unit">steps/min</string>
+    <string name="shoes_km_unit">%1$d km</string>
+    <string name="shoes_left_shoe">Left shoe</string>
     <string name="shoes_left_time">Remaining time/sec</string>
+    <string name="shoes_mile_unit">%1$d miles</string>
+    <string name="shoes_mileage">Distance</string>
     <string name="shoes_not_binded">"Shoes aren't connected"</string>
     <string name="shoes_not_connected">"Shoes aren't connected"</string>
     <string name="shoes_pace_frequency_test">Step frequency test</string>
+    <string name="shoes_place_mode">Placing mode</string>
     <string name="shoes_recalibrate">Calibrate again</string>
     <string name="shoes_restart">Start again</string>
+    <string name="shoes_right_shoe">Right shoe</string>
     <string name="shoes_setting_calibrate">Static calibration</string>
     <string name="shoes_setting_calibrate_tips">"You'll get more accurate data after calibrating"</string>
     <string name="shoes_setting_child_shoes">Li-Ning Kids Smart Shoes</string>
@@ -1418,7 +1558,6 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoes_use_title_lining">Put Huami sensor inside the shoes</string>
     <string name="show_contact_info_summary">着信時に電話番号または名前を表示する</string>
     <string name="show_contact_info_tips">連絡先の情報を表示</string>
-    <string name="show_contact_info_tips_other_lan">電話番号を表示</string>
     <string name="show_sms_info_summary">SMSの受信時に電話番号または名前を表示する</string>
     <string name="sleel_tip_has_sleep">This period is already in sleep history</string>
     <string name="sleep_all_time">In bed for</string>
@@ -1477,6 +1616,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sports_type_bike_indoor_ride">Stationary bike</string>
     <string name="sports_type_bike_ride">Outdoor cycling</string>
     <string name="start_download">バックグラウンドでダウンロード中…</string>
+    <string name="start_tagging">開始</string>
     <string name="start_up_com">www.mi.com</string>
     <string name="start_up_enter">スキップ</string>
     <string name="stat_sleep">In bed for</string>
@@ -1486,6 +1626,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="state_binded_nickname_weibo">Current Weibo account: %s</string>
     <string name="state_close">Off</string>
     <string name="state_unbind_success">Unpaired</string>
+    <string name="statistic">Stats</string>
     <string name="statistics_day">Daily</string>
     <string name="statistics_month">Monthly</string>
     <string name="statistics_step">Steps</string>
@@ -1517,6 +1658,14 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sync_data_label">Syncing data %1$d%%</string>
     <string name="sync_data_label1">Sync data</string>
     <string name="sync_personinfo_failed">同期できませんでした、もう一度試してください</string>
+    <string name="tagging_fail_and_not_save">数据传输失败, 本次标注记录将不保存</string>
+    <string name="tagging_finish">終了</string>
+    <string name="tagging_pause">中断</string>
+    <string name="tagging_resume">再開</string>
+    <string name="tagging_times">×%d</string>
+    <string name="tagging_tip">"开始后, 需保持设备与手机相距不超过5米
+且两者之间不能有物体间隔。"</string>
+    <string name="tagging_tip_extra">当使用手环标注时, 请将手环佩戴在惯用手上。</string>
     <string name="third_in">Add accounts</string>
     <string name="this_measure">Current result</string>
     <string name="this_month">今月</string>
@@ -1524,9 +1673,9 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="time">Time</string>
     <string name="time_type_title">時刻の形式を選択</string>
     <string name="tips_call_permission">Allow access to Phone</string>
-    <string name="tips_call_permission_sub">Allow access to Phone to be able to receive call alerts</string>
+    <string name="tips_call_permission_sub">Allow access to receive call alerts</string>
     <string name="tips_contact_permission">Allow access to Contacts</string>
-    <string name="tips_contact_permission_sub">"Allow access to Contacts to be able to view caller's name"</string>
+    <string name="tips_contact_permission_sub">"Allow access to view caller's name"</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_remark">発言を追加</string>
     <string name="title_activity_search_result">検索結果</string>
@@ -1545,19 +1694,22 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="total_sleep_title">Slept %3$s on %1$d/%2$d</string>
     <string name="turn_on">Turn on</string>
     <string name="unbind">Unpair</string>
+    <string name="unbind_device">未绑定设备</string>
     <string name="unbind_google_fit">Google Fitから削除</string>
     <string name="unbind_mili_support_sensorhub_tips">Band will stop working after you unpair. Steps will be counted by the phone.</string>
-    <string name="unbind_mili_tips">Mi Band will stop working after you unpair</string>
+    <string name="unbind_mili_tips">Band will stop working after you unpair</string>
     <string name="unbind_qq_health_dialog_title">Unpair QQ Health?</string>
     <string name="unbind_shoes_tips">Running shoes will stop recording activity info after you unpair</string>
-    <string name="unbind_watch_tips">"Activity and sleep data won't be synced after you unpair.
-You'll be able to change that in the Amazfit Watch app settings."</string>
+    <string name="unbind_watch_tips">"Steps and sleep data won't be synced after unpairing
+While you can still make changes for the device in app's Settings"</string>
     <string name="unbind_weibo_dialog_title">Unpair Weibo Fit?</string>
+    <string name="unbind_weight_bfs_tips">"The scale won't save any data of you after unpairing"</string>
     <string name="unbind_weight_tips">"The scale won't record your weight after you unpair"</string>
     <string name="unbinding">Unpairing…</string>
     <string name="unit_KC">" Cal"</string>
     <string name="unit_M">" m"</string>
     <string name="unit_afternoon">PM</string>
+    <string name="unit_bike_ride">BPM</string>
     <string name="unit_calorie">" Cal"</string>
     <string name="unit_date_day">d</string>
     <string name="unit_day">" d"</string>
@@ -1612,7 +1764,11 @@ You'll be able to change that in the Amazfit Watch app settings."</string>
 go to Settings > Lock screen &amp; password >
 Unlock with Bluetooth device."</string>
     <string name="unlock_screen_not_bound">Pair Mi Band to use screen unlock</string>
+    <string name="unsupport_milis1">不支持小米手环光感版</string>
+    <string name="unsupport_shoes_marking">该行为不支持使用跑鞋标注</string>
     <string name="update_now">Update</string>
+    <string name="update_unit_failure">"Couldn't connect to the scale to save data"</string>
+    <string name="upload_force_marking_wifi_status">当前使用的是移动网络, 上传将要消耗一定的流量, 确定上传吗?</string>
     <string name="use_phone_tips1">Count steps using phone</string>
     <string name="use_phone_tips2">"Use phone's fitness data when no band is paired"</string>
     <string name="used">"Used "</string>
@@ -1624,8 +1780,20 @@ Unlock with Bluetooth device."</string>
     <string name="user_protocol">利用規約とプライバシーポリシー</string>
     <string name="view_time_tips_1">Lift your wrist to check the time on Mi Band</string>
     <string name="view_time_tips_2">Set in Profile > Mi Band 2 > Lift wrist to view info</string>
+    <string name="visceral_fat_activity_text">"\"Visceral fat\" refers to fat accumulated in the gap of internal organs. High visceral fat level will increase the risk of heart disease, hypertension, hyperlipidemia and other chronic disease.
+
+Visceral fat accumulates easily but reduced hard. You need to maintain a balanced diet and keep aerobic exercise not less than 20 minutes every day"</string>
+    <string name="visceral_high_infomation">Visceral fat level must be reduced to less than 9. Keep doing exercise and having balanced diet</string>
+    <string name="visceral_need_attention_infomation">Current visceral fat level is too high. Doing exercise and having balanced diet can prevent a further increase</string>
+    <string name="visceral_value">Visceral fat</string>
     <string name="wait">読み込み中…</string>
+    <string name="watch">Watch</string>
     <string name="watch_req_with_diff_user">Use the same account to view</string>
+    <string name="water">Water</string>
+    <string name="water_activity_text">"\"Water\" refers to the overall share of water in human body, including the water in your blood, lymph, and other bodily fluids. If you are losing weight, you should pay special attention to water consumption to avoid dehydration.
+
+The measurements which are taken after you just bathed, drank alcohol, or worked out might not be accurate"</string>
+    <string name="water_need_attention_infomation">"Rapid weight loss is often the result of losing water together with fat. That's why measurements which are taken after you just bathed or worked out might not be accurate"</string>
     <string name="wear_hand">Bandの装着位置</string>
     <string name="web_activity_reload_tip">再試行するにはタップ</string>
     <string name="web_title_mili_pro">Mi Band 2</string>
@@ -1633,6 +1801,21 @@ Unlock with Bluetooth device."</string>
     <string name="weibosdk_toast_auth_canceled_f">"Couldn't authorize"</string>
     <string name="weibosdk_toast_auth_failed">"Couldn't pair"</string>
     <string name="weibosdk_toast_unbind_failed">削除できませんでした</string>
+    <string name="weight_babyfat_measure_failure_hint">"Couldn't get info
+Stand on the scale barefoot"</string>
+    <string name="weight_babyfat_measure_failure_hint1">Stand barefoot on the sheet metal of the scale</string>
+    <string name="weight_babyfat_measure_failure_hint2">Keep your feet clean and dry</string>
+    <string name="weight_babyfat_measure_failure_title">"Couldn't get info"</string>
+    <string name="weight_babyfat_measuring">Measuring…</string>
+    <string name="weight_bfs">Body Fat Scale</string>
+    <string name="weight_bfs_delete_title">Remove this record?</string>
+    <string name="weight_bfs_device_help">Help</string>
+    <string name="weight_bfs_setting_help">Learn more</string>
+    <string name="weight_bfs_settting_mac_address">MAC address</string>
+    <string name="weight_bfs_title">"%s's result"</string>
+    <string name="weight_bfs_unit_jin">Jin (500g)</string>
+    <string name="weight_bfs_unit_kg">Metric (kg)</string>
+    <string name="weight_bfs_unit_pound">Imperial (lbs)</string>
     <string name="weight_choose_user_title">Tell me who you are</string>
     <string name="weight_delete_confirm_title">Clear weight goal?</string>
     <string name="weight_delete_title">Delete this record?</string>
@@ -1641,7 +1824,7 @@ Unlock with Bluetooth device."</string>
     <string name="weight_goal">Weight goal</string>
     <string name="weight_help_info_0">Mi Scale is connected to the phone via Bluetooth. The closer the devices are to each other, the easier it is to find the scale.</string>
     <string name="weight_help_info_1">Try to weigh in. If the battery icon is displayed on the scale, replace the batteries.</string>
-    <string name="weight_help_info_2">"If the scale doesn't respond during weigh-in, check if the batteries are installed properly."</string>
+    <string name="weight_help_info_2">"If the scale doesn't respond during weigh-in, check if the batteries are installed properly"</string>
     <string name="weight_help_info_3">"If there's enough battery power, but the phone still can't find the scale, try restarting Bluetooth."</string>
     <string name="weight_help_info_4">After you follow the steps above, exit and open Mi Fit again to connect to the scale.</string>
     <string name="weight_help_title_0">Is your scale too far away?</string>
@@ -1654,11 +1837,14 @@ before stepping off the scale."</string>
     <string name="weight_low_elec_title">Change scale batteries</string>
     <string name="weight_measuring">測定中…</string>
     <string name="weight_overload_title">Weight exceeds measurement range</string>
+    <string name="weight_set_unit">Units of Body Fat Scale</string>
     <string name="weight_setting_fw_version">Firmware version</string>
     <string name="weight_setting_help">Learn more</string>
     <string name="weight_setting_weight">Mi Scale</string>
     <string name="weight_setting_weight_body_fat">Mi Scale</string>
-    <string name="weight_settings_merge_tips">Merge weigh-ins by the same user within 30s from each other</string>
+    <string name="weight_setting_weight_bodyfat">Mi Body Fat Scale</string>
+    <string name="weight_setting_weight_many">Mi Body Fat Scale/Mi Scale</string>
+    <string name="weight_settings_merge_tips">Merge weigh-ins by the same user within 30s</string>
     <string name="weight_settings_merge_title">Merge duplicate records</string>
     <string name="weight_settting_mac_address">MAC address</string>
     <string name="weight_sync_time">%s synced</string>
@@ -1676,18 +1862,12 @@ to make sure you can receive notifications"</string>
     <string name="your_gender">性別</string>
     <string name="your_height">身長</string>
     <string name="your_weight">体重</string>
-    <string name="cube_ptr_hours_ago">時間前</string>
-    <string name="cube_ptr_last_update">最終更新: </string>
-    <string name="cube_ptr_minutes_ago">分前</string>
-    <string name="cube_ptr_pull_down">Pull Down</string>
-    <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
-    <string name="cube_ptr_refresh_complete">Updated.</string>
-    <string name="cube_ptr_refreshing">更新中...</string>
-    <string name="cube_ptr_release_to_refresh">指を離して更新</string>
-    <string name="cube_ptr_seconds_ago">秒前</string>
+    <string name="zoom_in">ズームアウト</string>
+    <string name="zoom_out">ズームイン</string>
+    <string name="unsupport_weight_marking">该行为不支持使用体重秤标注</string>
+    <string name="weight_setting">Scale</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
-    <string name="data_not_supported">--</string>
     <string name="running_hour">%d時間</string>
     <string name="running_hour_min" formatted="false">%d時間%d分</string>
     <string name="running_hour_min_sec" formatted="false">%d時間%d分%d秒</string>

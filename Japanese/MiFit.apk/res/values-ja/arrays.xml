@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="bmi_for_adualt">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Very poor</item>
+        <item>Poor</item>
+        <item>Normal</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>痩せぎみ</item>
+        <item>Balanced skinny</item>
+        <item>Skinny muscular</item>
+        <item>Lacks exercise</item>
+        <item>普通</item>
+        <item>Balanced muscular</item>
+        <item>肥満</item>
+        <item>太りぎみ</item>
+        <item>Thick-set</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Very low</item>
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Insufficient</item>
+        <item>Normal</item>
+        <item>Good</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>"Didn't reach goals"</item>
+        <item>Reached goal</item>
+    </string-array>
     <string-array name="hr_sport">
         <item>心拍ゾーン: 準備運動</item>
         <item>心拍ゾーン: 脂肪燃焼</item>
         <item>心拍ゾーン: 心肺強化</item>
-        <item>心拍ゾーン: 耐力强化</item>
-        <item>心拍ゾーン: 无氧极限</item>
+        <item>心拍ゾーン: Anaerobic</item>
+        <item>心拍ゾーン: VO₂ max</item>
     </string-array>
     <string-array name="hr_sport_new">
         <item>Light</item>
@@ -58,12 +110,17 @@
         <item>Nov</item>
         <item>Dec</item>
     </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Insufficient</item>
+        <item>Normal</item>
+        <item>Good</item>
+    </string-array>
     <string-array name="normandy_help_tips">
         <item>"Huami sensor battery life is 6 months. If you've been using it for a longer period, maybe there's no power left."</item>
         <item>Turn off Bluetooth on the other device first, then pair with your phone.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
-        <item>Every time you open Mi Fit, it will try to sync data automatically.</item>
+        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
     </string-array>
     <string-array name="normandy_help_title">
         <item>Is Huami sensor charged?</item>
@@ -102,6 +159,21 @@
         <item>お使いの携帯を再起動してみてください</item>
         <item>How to sync shoes data?</item>
     </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Obese</item>
+        <item>Overweight</item>
+        <item>"Thick
+-set"</item>
+        <item>"Lacks
+exercise"</item>
+        <item>Balanced</item>
+        <item>"Balanced
+muscular"</item>
+        <item>Skinny</item>
+        <item>Balanced skinny</item>
+        <item>"Skinny
+muscular"</item>
+    </string-array>
     <string-array name="timeline_type">
         <item>Activity</item>
         <item>Slow walking</item>
@@ -120,6 +192,16 @@
         <item>Mi Scale</item>
         <item>Shoes</item>
     </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Insufficient</item>
+        <item>Normal</item>
+        <item>Good</item>
+    </string-array>
     <string-array name="weeks">
         <item>月曜日</item>
         <item>火曜日</item>
@@ -137,6 +219,20 @@
         <item>金</item>
         <item>土</item>
         <item>日</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>You can step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries</item>
+        <item>"If the scale doesn't respond during weigh-in, check if the batteries are installed properly"</item>
+        <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth"</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone"</item>
+        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Is there enough power left?</item>
+        <item>Are the batteries installed properly?</item>
+        <item>Try restarting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+        <item>How to sync your data?</item>
     </string-array>
     <string-array name="weight_body_figures">
         <item>痩せぎみ</item>
