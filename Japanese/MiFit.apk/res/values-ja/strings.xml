@@ -855,7 +855,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="name">ニックネーム</string>
     <string name="need_attention">%d items need your attention:</string>
     <string name="network_error">Connect to the network first</string>
-    <string name="network_request_fail">"Couldn't get data"</string>
+    <string name="network_request_fail">データを取得できませんでした</string>
     <string name="never_reminder">二度と表示しない</string>
     <string name="new_user">New</string>
     <string name="next_step">次へ</string>
@@ -976,7 +976,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="person_info_key_weight">体重</string>
     <string name="person_info_set_gender_female">女性</string>
     <string name="person_info_set_gender_male">男性</string>
-    <string name="person_info_set_name_over_max_length">Can enter up to 20 characters</string>
+    <string name="person_info_set_name_over_max_length">20文字まで入力することができます</string>
     <string name="person_info_set_saving">保存中…</string>
     <string name="person_info_set_saving_success">保存に成功しました</string>
     <string name="person_info_title">プロフィール</string>
@@ -1011,7 +1011,7 @@ on the sheet metal of the scale"</string>
     <string name="pull_to_refresh_pull_label">画面を引っ張って…</string>
     <string name="pull_to_refresh_refreshing_label">更新中…</string>
     <string name="pull_to_refresh_release_label">指を離して更新…</string>
-    <string name="put_done">完了ne</string>
+    <string name="put_done">完了</string>
     <string name="put_normandy_in_shoes">Follow the steps below to install</string>
     <string name="put_normandy_in_shoes_tips">Keep the side labeled with huami facing up</string>
     <string name="query_weixin_btn_text">View rankings</string>
@@ -1135,7 +1135,7 @@ on the sheet metal of the scale"</string>
     <string name="running_gallery">ギャラリー</string>
     <string name="running_get_history_no_more_data">No more data</string>
     <string name="running_gps_cancel">キャンセル</string>
-    <string name="running_gps_locating">Getting location…</string>
+    <string name="running_gps_locating">現在地を取得中…</string>
     <string name="running_gps_main_continue_btn_text">Resume</string>
     <string name="running_gps_main_finish_btn_text">End</string>
     <string name="running_gps_main_statistics_cost_time_disc">Time</string>
@@ -1215,7 +1215,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_help_stride_nolarge">Take a smaller stride</string>
     <string name="running_help_stride_nolarge_reason">For most amateur runners, slow step frequency and big stride will make the landing point of the feet fall in front of the center of gravity. Like braking, it will force you move backwards, thus bring poor energy efficiency and higher risks of injury.</string>
     <string name="running_helper">Run</string>
-    <string name="running_history">History</string>
+    <string name="running_history">履歴</string>
     <string name="running_history_12hours_format">%1$s %2$s</string>
     <string name="running_history_child_date_format">%1$d</string>
     <string name="running_history_date" formatted="false">"%d/%d
@@ -1239,7 +1239,7 @@ A consistent and continuous speed is needed and beneficial to exert your strengt
     <string name="running_history_record_sync_success">Synced successfully</string>
     <string name="running_history_record_unsync_count">"You haven't synced %d items"</string>
     <string name="running_history_release">Release to refresh</string>
-    <string name="running_history_title">History</string>
+    <string name="running_history_title">履歴</string>
     <string name="running_history_total_calorie">Total burned (Cal)</string>
     <string name="running_history_total_distance">Distance (km)</string>
     <string name="running_history_total_distance_br">Distance (mi)</string>
@@ -1605,7 +1605,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="smart_shoes">スマートシューズ</string>
     <string name="sms_alert">Incoming SMS</string>
     <string name="sport_before_hr_prompt_title">Monitor heart rate during workouts</string>
-    <string name="sport_detail_statistics">History</string>
+    <string name="sport_detail_statistics">履歴</string>
     <string name="sport_heart_rate">Take a look at the scheme below to learn how your heart rate zone changes together with the exercise intensity</string>
     <string name="sport_notifi_tip">Pair Mi Band to receive activity alerts</string>
     <string name="sport_notification">Activity alerts</string>
@@ -1806,12 +1806,12 @@ Stand on the scale barefoot"</string>
     <string name="weight_babyfat_measure_failure_hint1">Stand barefoot on the sheet metal of the scale</string>
     <string name="weight_babyfat_measure_failure_hint2">Keep your feet clean and dry</string>
     <string name="weight_babyfat_measure_failure_title">"Couldn't get info"</string>
-    <string name="weight_babyfat_measuring">Measuring…</string>
+    <string name="weight_babyfat_measuring">測定中…</string>
     <string name="weight_bfs">Body Fat Scale</string>
     <string name="weight_bfs_delete_title">Remove this record?</string>
     <string name="weight_bfs_device_help">Help</string>
     <string name="weight_bfs_setting_help">Learn more</string>
-    <string name="weight_bfs_settting_mac_address">MAC address</string>
+    <string name="weight_bfs_settting_mac_address">MACアドレス</string>
     <string name="weight_bfs_title">"%s's result"</string>
     <string name="weight_bfs_unit_jin">Jin (500g)</string>
     <string name="weight_bfs_unit_kg">Metric (kg)</string>
@@ -1846,7 +1846,7 @@ before stepping off the scale."</string>
     <string name="weight_setting_weight_many">Mi Body Fat Scale/Mi Scale</string>
     <string name="weight_settings_merge_tips">Merge weigh-ins by the same user within 30s</string>
     <string name="weight_settings_merge_title">Merge duplicate records</string>
-    <string name="weight_settting_mac_address">MAC address</string>
+    <string name="weight_settting_mac_address">MACアドレス</string>
     <string name="weight_sync_time">%s synced</string>
     <string name="weight_syncing">Syncing…</string>
     <string name="weight_title">"%s's weight"</string>
