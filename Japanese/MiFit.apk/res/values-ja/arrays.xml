@@ -14,8 +14,8 @@
     <string-array name="bmi_for_not_chinese">
         <item>Low</item>
         <item>Normal</item>
+        <item>Borderline high</item>
         <item>High</item>
-        <item>Very high</item>
         <item>Very high</item>
     </string-array>
     <string-array name="body_score_leval">
@@ -116,11 +116,11 @@
         <item>Good</item>
     </string-array>
     <string-array name="normandy_help_tips">
-        <item>"Huami sensor battery life is 6 months. If you've been using it for a longer period, maybe there's no power left."</item>
+        <item>"If you can't find the sensor, replace it's battery and try again."</item>
         <item>Turn off Bluetooth on the other device first, then pair with your phone.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
-        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
+        <item>Mi Fit will sync data automatically every time you open the app.</item>
     </string-array>
     <string-array name="normandy_help_title">
         <item>Is Huami sensor charged?</item>
@@ -149,7 +149,7 @@
         <item>Turn off Bluetooth device first, then pair with current device.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
-        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
+        <item>Mi Fit will sync data automatically every time you open the app.</item>
     </string-array>
     <string-array name="shoes_help_title">
         <item>Shake Huami sensor</item>
@@ -162,17 +162,13 @@
     <string-array name="show_body_shape_array">
         <item>Obese</item>
         <item>Overweight</item>
-        <item>"Thick
--set"</item>
-        <item>"Lacks
-exercise"</item>
+        <item>Thick-set</item>
+        <item>"Lacks exercise"</item>
         <item>Balanced</item>
-        <item>"Balanced
-muscular"</item>
+        <item>"Balanced muscular"</item>
         <item>Skinny</item>
         <item>Balanced skinny</item>
-        <item>"Skinny
-muscular"</item>
+        <item>"Skinny muscular"</item>
     </string-array>
     <string-array name="timeline_type">
         <item>Activity</item>
@@ -221,11 +217,11 @@ muscular"</item>
         <item>日</item>
     </string-array>
     <string-array name="weight_bfs_help_tips">
-        <item>You can step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries</item>
+        <item>Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
         <item>"If the scale doesn't respond during weigh-in, check if the batteries are installed properly"</item>
-        <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth"</item>
+        <item>"If the band is charged but the phone can't see it, try restarting phone's Bluetooth."</item>
         <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone"</item>
-        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
+        <item>Mi Fit will sync data automatically every time you open the app.</item>
     </string-array>
     <string-array name="weight_bfs_help_title">
         <item>Is there enough power left?</item>
@@ -253,18 +249,11 @@ muscular"</item>
         <item>肥満 II</item>
     </string-array>
     <string-array name="weight_help_tips">
-        <item>You can step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
-        <item>"If there's no response when you step on the scale, check if the batteries are installed properly."</item>
-        <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
+        <item>Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
+        <item>"If the scale doesn't respond during weigh-in, check if the batteries are installed properly."</item>
+        <item>"If the band is charged but the phone can't see it, try restarting phone's Bluetooth."</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
-        <item>Every time you open Mi Fit it will try to sync data automatically.</item>
-    </string-array>
-    <string-array name="weight_help_title">
-        <item>バッテリー残量は充分ありますか？</item>
-        <item>電池は正しくインストールされていますか？</item>
-        <item>Bluetoothを再起動してみてください</item>
-        <item>お使いの携帯を再起動してみてください</item>
-        <item>How does Mi Scale sync data?</item>
+        <item>Mi Fit will sync data automatically every time you open the app</item>
     </string-array>
     <string-array name="weight_unit">
         <item>" kg"</item>
