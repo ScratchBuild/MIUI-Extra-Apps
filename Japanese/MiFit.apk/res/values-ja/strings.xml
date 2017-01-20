@@ -149,8 +149,8 @@ For example, WeChat:
     <string name="app_day_report_title_rank">Ahead of %1$s people today</string>
     <string name="app_name">Mi Fit</string>
     <string name="app_notification_alert">Mi Band alerts</string>
-    <string name="app_notify_access_error_subtitle">"Check Mi Fit's permissions"</string>
-    <string name="app_notify_access_error_title">Error occurred</string>
+    <string name="app_notify_access_error_subtitle">Mi Fitの権限を確認してください</string>
+    <string name="app_notify_access_error_title">エラーが発生しました</string>
     <string name="app_notify_access_subtitle">アプリの通知を受け取るにはオンにします</string>
     <string name="app_notify_access_title">通知にアクセスできません</string>
     <string name="app_notify_not_bound">Pair Mi Band to receive alerts</string>
@@ -321,7 +321,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="bt_operation_failed_tips">Bluetooth is not working properly. Wait a minute or two and try again.</string>
     <string name="btn_confirm">OK</string>
     <string name="btn_retagging">Start again</string>
-    <string name="btn_upload_continue">Continue</string>
+    <string name="btn_upload_continue">続行</string>
     <string name="btn_upload_inwifi">Upload automatically when connected to Wi-Fi</string>
     <string name="button_search_friend">検索</string>
     <string name="button_send_care">応援</string>
@@ -333,7 +333,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="cancel_focus_success">Unfriended successfully</string>
     <string name="cancel_loading">キャンセル中…</string>
     <string name="cancel_save_tips">変更を破棄しますか？</string>
-    <string name="cancel_tagging">Cancel</string>
+    <string name="cancel_tagging">キャンセル</string>
     <string name="cannot_analyze">解析できませんでした</string>
     <string name="cannot_delete">At least keep a record</string>
     <string name="change_sport_goal_confirm">OK</string>
@@ -1546,7 +1546,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoes_connecting">Connecting shoes…</string>
     <string name="shoes_device_help">Running shoes help</string>
     <string name="shoes_frequency_unit">steps/min</string>
-    <string name="shoes_left_shoe">Left</string>
+    <string name="shoes_left_shoe">左足</string>
     <string name="shoes_left_time">Remaining time/sec</string>
     <string name="shoes_not_binded">"Shoes aren't connected"</string>
     <string name="shoes_not_connected">"Shoes aren't connected"</string>
@@ -1554,7 +1554,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoes_place_mode">Placing mode</string>
     <string name="shoes_recalibrate">Calibrate again</string>
     <string name="shoes_restart">Start again</string>
-    <string name="shoes_right_shoe">Right</string>
+    <string name="shoes_right_shoe">右足</string>
     <string name="shoes_setting_calibrate">Static calibration</string>
     <string name="shoes_setting_calibrate_tips">"You'll get more accurate data after calibrating"</string>
     <string name="shoes_setting_child_shoes">Li-Ning Kids Smart Shoes</string>
