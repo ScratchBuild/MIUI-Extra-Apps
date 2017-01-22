@@ -57,9 +57,9 @@
     <string name="action_basketball">バスケットボール</string>
     <string name="action_bath">入浴</string>
     <string name="action_brush_teeth">歯磨き</string>
-    <string name="action_bus">乘车</string>
+    <string name="action_bus">By bus</string>
     <string name="action_customize">カスタム</string>
-    <string name="action_mark">行为标注</string>
+    <string name="action_mark">Behavior tagging</string>
     <string name="action_pingpong">卓球</string>
     <string name="action_run">ジョギング</string>
     <string name="action_scan_friend">追加</string>
@@ -687,7 +687,7 @@ Open Gallery"</string>
     <string name="label_update_time">Update: %s</string>
     <string name="label_weight">Last weight</string>
     <string name="lable_qrcode_is_myself">"Can't add yourself as a friend"</string>
-    <string name="laboratory">実験室</string>
+    <string name="laboratory">Additional features</string>
     <string name="last_break_goal">Streak ended on %1$d/%2$d. Waiting for a new start!</string>
     <string name="last_month">先月</string>
     <string name="last_reach_goal">Last time, you had a %1$d day streak</string>
@@ -1156,7 +1156,7 @@ with your bare feet"</string>
 Keep Bluetooth on when running."</string>
     <string name="running_help_fore_feet_compare">Landing techniques</string>
     <string name="running_help_fore_feet_compare_desc">Striking the ground with your forefeet requires stronger calf muscles and Achilles tendons; landing on your midfeet or heels strongly affects your knees.</string>
-    <string name="running_help_fore_feet_display_prompt">Only smart shoes can analyze the way you land your feet on the ground.</string>
+    <string name="running_help_fore_feet_display_prompt">Only smart shoes can analyze your landing technique</string>
     <string name="running_help_fore_feet_try">Landing on forefeet</string>
     <string name="running_help_fore_feet_try_desc1">"When your knees require more protection, you can try landing on your forefeet more.
 
@@ -1435,7 +1435,7 @@ Pair Mi Band for workouts"</string>
     <string name="select_from_local">ギャラリーから選択</string>
     <string name="select_mili_tips_1">Found a previously paired Mi Band</string>
     <string name="select_mili_tips_2">Tap to pair</string>
-    <string name="select_shoe_type">Select a sensor</string>
+    <string name="select_shoe_type">Select sensor</string>
     <string name="selected_alert_apps">Selected apps with alerts</string>
     <string name="send_fail">"Couldn't send friend request"</string>
     <string name="send_success">Friend request sent</string>
@@ -1678,10 +1678,12 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sync_data_label">Syncing data %1$d%%</string>
     <string name="sync_data_label1">Sync data</string>
     <string name="sync_personinfo_failed">同期できませんでした、もう一度試してください</string>
+    <string name="tagging_end">End this session</string>
     <string name="tagging_fail_and_not_save">"Couldn't transfer and save data"</string>
     <string name="tagging_finish">終了</string>
     <string name="tagging_pause">中断</string>
     <string name="tagging_resume">再開</string>
+    <string name="tagging_time_too_short">The tagging is too short to be recorded</string>
     <string name="tagging_times">×%d</string>
     <string name="tagging_tip">"Keep the device no farther than 5 m from your phone.
 Make sure there are no objects between them."</string>
