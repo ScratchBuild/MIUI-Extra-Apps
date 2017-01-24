@@ -47,9 +47,9 @@
     <string name="sim_changed_reactivate_notice">Your carrier may charge for an SMS message used to reactivate this service.</string>
     <string name="sim_changed_reactivate_int_notice">Your carrier may charge for an international SMS message used to reactivate this service.</string>
     <string name="error_title">"同期できませんでした"</string>
-    <string name="error_unauthorized">Sync has been turned off due to too many sign-in attempts.</string>
-    <string name="error_forbidden">Sync has been turned off due to problems with your Mi Account.</string>
-    <string name="error_not_acceptable">Sync has been turned off.</string>
+    <string name="error_unauthorized">"ログインの回数が多すぎるため、同期がオフになっています。"</string>
+    <string name="error_forbidden">"Mi Accountに問題があるため、同期がオフになっています。"</string>
+    <string name="error_not_acceptable">"同期がオフになっています。"</string>
     <string name="sim_unavailable">"SIMカードが使用できません。"</string>
     <string name="sim_locked">""SIMカードがロックされています。""</string>
     <string name="sim_not_ready">"SIM カードは使用中です。後でもう一度試してください。"</string>
@@ -321,8 +321,8 @@ Time spent: %s"</string>
     <string name="trans_detail_category_userdata">"アプリ"</string>
     <string name="trans_detail_category_account">"アカウントと連絡先"</string>
     <string name="trans_detail_category_files">"ファイル"</string>
-    <string name="trans_sending_completed">Sent successfully</string>
-    <string name="trans_receiving_completed">Received successfully</string>
+    <string name="trans_sending_completed">"送信が完了しました"</string>
+    <string name="trans_receiving_completed">"受信が完了しました"</string>
     <string name="trans_time_format_second">Less than one minute</string>
     <string name="trans_progress_subdescript_transing_sender">Sending %1$s, %2$s completed</string>
     <string name="trans_progress_subdescript_transing_receiver">Receiving %1$s, %2$s completed</string>

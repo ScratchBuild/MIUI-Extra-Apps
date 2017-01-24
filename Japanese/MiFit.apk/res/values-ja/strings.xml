@@ -159,7 +159,7 @@ For example, WeChat:
     <string name="app_notify_tips">Keep the band connected to the phone via Bluetooth</string>
     <string name="app_sleep_report_content">タップして睡眠記録を表示</string>
     <string name="app_sleep_report_title">昨夜は%1$d時間%2$d分眠りました</string>
-    <string name="app_upgrade_filure_btn">Got it</string>
+    <string name="app_upgrade_filure_btn">OK</string>
     <string name="app_upgrade_filure_content">"Couldn't get info, check your network connection and try again"</string>
     <string name="app_upgrade_filure_title">"Couldn't update"</string>
     <string name="app_version">アプリバージョン: %s</string>
@@ -208,7 +208,7 @@ For example, WeChat:
     <string name="bind_get_help">タップしてヘルプを表示</string>
     <string name="bind_google_fit">Google Fit</string>
     <string name="bind_google_fit_btn_text">Google Fitと同期</string>
-    <string name="bind_i_know">Got it</string>
+    <string name="bind_i_know">OK</string>
     <string name="bind_mi_weight_howto_tips">Learn more</string>
     <string name="bind_mili_connect_title">Connecting band</string>
     <string name="bind_mili_found_tips">Tap the band to confirm when you feel vibration</string>
@@ -265,11 +265,11 @@ if you replaced your Mi Band"</string>
     <string name="bind_weixin_new_tips_not_bound">"Old data in WeChat?
 Try syncing on the start page."</string>
     <string name="birthday">誕生日</string>
-    <string name="ble_cycle_txt_open_ble">Turn on</string>
+    <string name="ble_cycle_txt_open_ble">オンにする</string>
     <string name="ble_cycle_txt_reset">再試行するにはタップ</string>
     <string name="ble_equal_system_4_3_sub_title">Current Android version is 4.3. Update to 4.4 for stable use.</string>
     <string name="ble_equal_system_4_3_title">Android version is too old</string>
-    <string name="ble_known">Got it</string>
+    <string name="ble_known">OK</string>
     <string name="ble_low_system_4_3_sub_title">Android version should be 4.4 or later</string>
     <string name="ble_no_network_tip">ネットワークに接続できませんでした</string>
     <string name="ble_not_open">Bluetooth is off</string>
@@ -390,7 +390,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="device_select_has_bound">Paired: %s</string>
     <string name="device_select_title">Select devices to pair</string>
     <string name="device_tip_ble_not_open">Bluetoothがオフになっています</string>
-    <string name="device_tip_bt_open">Turn on</string>
+    <string name="device_tip_bt_open">オンにする</string>
     <string name="device_tip_connect_succeed">接続に成功しました</string>
     <string name="device_tip_connecting">接続中…</string>
     <string name="device_unbind">Unpair</string>
@@ -450,9 +450,9 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="feedback_detail_problem">詳細</string>
     <string name="feedback_empty">フィードバック内容を入力してください。</string>
     <string name="feedback_input_correct_contact_info">メールアドレスを入力</string>
-    <string name="feedback_knew">Got it</string>
+    <string name="feedback_knew">OK</string>
     <string name="feedback_submit_failed">送信できませんでした</string>
-    <string name="feedback_submit_success">正常に送信しました</string>
+    <string name="feedback_submit_success">送信が完了しました</string>
     <string name="feedback_title">フィードバック</string>
     <string name="feedback_upload_logfile">ログを送信</string>
     <string name="female">女性</string>
@@ -464,7 +464,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="forefeet_ground_contact">Landing on forefeet</string>
     <string name="friend_list_get_error">"Couldn't load friends list"</string>
     <string name="friend_new_user_guide">Nudge your friend to make their band vibrate.</string>
-    <string name="friend_new_user_guide_ok">Got it</string>
+    <string name="friend_new_user_guide_ok">OK</string>
     <string name="friend_new_user_guide_ok_toast">Nudged</string>
     <string name="friend_set_nick_name_failed">ニックネームを設定できませんでした</string>
     <string name="friend_unfollow_confirm_body">"You won't be able to view this person's activity and sleep data.
@@ -502,12 +502,12 @@ Continue anyway?"</string>
     <string name="give_up">破棄する</string>
     <string name="goal_weight_for_figure">Weight goal: %s</string>
     <string name="googlefit">Google Fit</string>
-    <string name="got_it">Got it</string>
-    <string name="gotit">Got it</string>
+    <string name="got_it">OK</string>
+    <string name="gotit">OK</string>
     <string name="gps_main_normal_bottom_lock_slide_unlock">Slide to unlock</string>
     <string name="gps_main_pop_band_battery_low">Low battery</string>
     <string name="gps_main_pop_band_connected_show">Connect Mi Band to view data</string>
-    <string name="gps_main_pop_knowed">Got it</string>
+    <string name="gps_main_pop_knowed">OK</string>
     <string name="gps_main_pop_open_ble">Bluetoothをオンにする</string>
     <string name="gps_main_pop_open_hr">Turn on this feature to monitor your heart rate when running</string>
     <string name="gps_main_pop_shoe_connected_show">Pair shoes to view data</string>
@@ -582,7 +582,7 @@ Keep Bluetooth on when running."</string>
     <string name="hr_unit">" BPM"</string>
     <string name="hr_unit_label">心拍数 (BPM)</string>
     <string name="huami_shoe">Huami sensor</string>
-    <string name="i_know">Got it</string>
+    <string name="i_know">OK</string>
     <string name="id_broadcast">Discoverable</string>
     <string name="id_broadcast_not_bound">Pair Mi Band to turn on Discoverable mode</string>
     <string name="idbroadcast_logo_tips">Turn on to be visible to nearby devices</string>
@@ -945,7 +945,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="notify_status_motor_smart_alarm">Early bird alarm</string>
     <string name="notify_status_motor_test">Band motor test</string>
     <string name="only_once">Once</string>
-    <string name="open">Turn on</string>
+    <string name="open">オンにする</string>
     <string name="open_avoid_disturb_tips">DND mode</string>
     <string name="open_gallery">ギャラリーを開く</string>
     <string name="open_weight_settings_merge_title">重複する記録を統合</string>
@@ -1068,7 +1068,7 @@ with your bare feet"</string>
     <string name="running_backgroud_notification">Running</string>
     <string name="running_before_hr_prompt_content">"Make sure the band isn't loose."</string>
     <string name="running_before_hr_prompt_notice">Fasten your band exactly above your wrist.</string>
-    <string name="running_before_hr_prompt_ok">Got it</string>
+    <string name="running_before_hr_prompt_ok">OK</string>
     <string name="running_before_hr_prompt_title">Monitor heart rate</string>
     <string name="running_ble_off">Bluetooth is off</string>
     <string name="running_bracelet_not_connect">"Band isn't connected"</string>
@@ -1137,7 +1137,7 @@ with your bare feet"</string>
     <string name="running_gps_main_statistics_speed_disc">ペース (分/km)</string>
     <string name="running_gps_main_statistics_speed_disc_br">ペース (分/mi)</string>
     <string name="running_gps_poor_signal">Get to a place with better GPS signal to continue.</string>
-    <string name="running_gps_turnon">Turn on</string>
+    <string name="running_gps_turnon">オンにする</string>
     <string name="running_help">ヘルプ</string>
     <string name="running_help_adjust_speed">ペース</string>
     <string name="running_help_flight_ratio">Flight ratio</string>
@@ -1385,7 +1385,7 @@ Pair Mi Band for workouts"</string>
     <string name="running_tip_hr_ble_content">Connect Mi Band to view heart rate</string>
     <string name="running_tip_hr_bracelet_content">Heart rate data available</string>
     <string name="running_tip_hr_bracelet_label">Use Mi Band Pulse</string>
-    <string name="running_tip_known">Got it</string>
+    <string name="running_tip_known">OK</string>
     <string name="running_tip_open_ble_content">Connect Mi Band to view step frequency</string>
     <string name="running_tip_open_ble_label">Bluetoothをオンにする</string>
     <string name="running_tip_use_bracelet_content">to track your step frequency in real-time</string>
@@ -1714,7 +1714,7 @@ Make sure there are no objects between them."</string>
     <string name="today_sync_failed">同期できませんでした</string>
     <string name="total_record_data">Kept records for %1$d days, total</string>
     <string name="total_sleep_title">Slept %3$s on %1$d/%2$d</string>
-    <string name="turn_on">Turn on</string>
+    <string name="turn_on">オンにする</string>
     <string name="unbind">Unpair</string>
     <string name="unbind_device">No paired devices</string>
     <string name="unbind_google_fit">Google Fitから削除</string>
@@ -1867,8 +1867,8 @@ before stepping off the scale."</string>
     <string name="weight_settings_merge_title">Merge duplicate records</string>
     <string name="weight_settting_mac_address">MACアドレス</string>
     <string name="weight_sync_time">%s synced</string>
-    <string name="weight_syncing">Syncing…</string>
-    <string name="weight_title">"%s's weight"</string>
+    <string name="weight_syncing">同期中…</string>
+    <string name="weight_title">%sの体重</string>
     <string name="weixin">WeChat</string>
     <string name="weixin_data_updating">Updating WeChat data…</string>
     <string name="white_list_tips">"Add Mi Fit to the Exceptions
