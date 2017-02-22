@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="label">MIUI SDK</string>
-    <string name="abc_action_bar_up_description">"上に移動"</string>
-    <string name="abc_action_bar_home_description">"ホームに移動"</string>
+    <string name="abc_action_bar_up_description">"上へ移動"</string>
+    <string name="abc_action_bar_home_description">"ホームへ移動"</string>
     <string name="action_mode_select_all">"すべて選択"</string>
     <string name="action_mode_deselect_all">"すべて選択を解除"</string>
     <string name="action_mode_title_empty">"アイテムを選択"</string>
@@ -285,14 +285,14 @@
     <string name="custom_progress">%d items</string>
     <string name="start_backup">"バックアップ"</string>
     <string name="unknown_hint">"不明"</string>
-    <string name="select_backup_item">Choose items</string>
+    <string name="select_backup_item">"アイテムを選択"</string>
     <string name="apps_and_data_item_desc">"アプリとデータ"</string>
     <string name="dir_date_format">yyyyMMdd_HHmmss</string>
-    <string name="notif_backup_complete_title">Backed up successfully</string>
-    <string name="notif_backup_title">Back up data</string>
-    <string name="notif_backup_content">Backing up user data</string>
-    <string name="notif_restore_title">Restore data</string>
-    <string name="notif_restore_content">Restoring user data</string>
+    <string name="notif_backup_complete_title">"バックアップが完了しました"</string>
+    <string name="notif_backup_title">"データのバックアップ"</string>
+    <string name="notif_backup_content">"ユーザーデータのバックアップ中"</string>
+    <string name="notif_restore_title">"データの復元"</string>
+    <string name="notif_restore_content">"ユーザーデータの復元中"</string>
     <string name="trans_sender">"I'm a sender"</string>
     <string name="trans_receiver">"I'm a recipient"</string>
     <string name="trans_main_tutor">Move contacts, call history, messages, home screen layout, apps, settings, etc. to a new device</string>
