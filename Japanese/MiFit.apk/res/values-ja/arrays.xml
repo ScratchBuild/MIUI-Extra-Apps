@@ -115,20 +115,6 @@
         <item>Normal</item>
         <item>Good</item>
     </string-array>
-    <string-array name="normandy_help_tips">
-        <item>"If you can't find the sensor, replace it's battery and try again."</item>
-        <item>Turn off Bluetooth on the other device first, then pair with your phone.</item>
-        <item>Try rebooting your phone, and then pair the band.</item>
-        <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
-        <item>Mi Fit will sync data automatically every time you open the app.</item>
-    </string-array>
-    <string-array name="normandy_help_title">
-        <item>Is Huami sensor charged?</item>
-        <item>Is this Huami sensor paired with another device?</item>
-        <item>Bluetoothを再起動してみてください</item>
-        <item>お使いの携帯を再起動してみてください</item>
-        <item>How do I sync data with the sensor?</item>
-    </string-array>
     <string-array name="running_months">
         <item>1月</item>
         <item>2月</item>
@@ -144,8 +130,8 @@
         <item>12月</item>
     </string-array>
     <string-array name="shoes_help_tips">
-        <item>"If you don't use Huami sensor for a long time, it goes to sleep. Try to shake it"</item>
-        <item>"Huami sensor battery life is 1 year. If you've been using it for a longer period, maybe there's no power left."</item>
+        <item>Huami sensor will stop working when rested for a long time. Shake it and try again.</item>
+        <item>"If you can't find the sensor, replace it's battery and try again."</item>
         <item>Turn off Bluetooth device first, then pair with current device.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
@@ -157,7 +143,7 @@
         <item>Is this Huami sensor paired with another device?</item>
         <item>Bluetoothを再起動してみてください</item>
         <item>お使いの携帯を再起動してみてください</item>
-        <item>How to sync shoes data?</item>
+        <item>How do I sync data with the sensor?</item>
     </string-array>
     <string-array name="show_body_shape_array">
         <item>Obese</item>
@@ -184,7 +170,7 @@
         <item>Lying down</item>
     </string-array>
     <string-array name="unbind_device_description">
-        <item>Mi Band</item>
+        <item>Band</item>
         <item>Mi Scale</item>
         <item>Shoes</item>
     </string-array>
