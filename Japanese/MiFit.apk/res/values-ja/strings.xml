@@ -293,7 +293,7 @@ You can't judge if you're \"obese\" just by BMI value. With standard BMI, people
     <string name="bmi_not_up_standard">Your BMI exceeds the limit (%s), so does the body fat ratio. You need to do more exercise.</string>
     <string name="bmr_activity_text">"\"基礎代謝\" refers to the lowest energy required to maintain basic life activities. Basal metabolic rate is decided by how much energy consumed by muscle mass. People with higher basal metabolic rate doesn't gain weight easily.
 
-You can keep fit and balanced intake of meat, fish, soy products and dairy products to increase muscle mass"</string>
+You can keep fit and balanced intake of meat, fish, soy products and dairy products to increase muscle mass."</string>
     <string name="bmr_need_attention_infomation">Your standard basal metabolic is %d Cal, people with low basal metabolic rate is more likely to gain weight and feel tired, try to walk for a while after meal and run once a week.</string>
     <string name="body">Neck</string>
     <string name="body_fat">Body fat</string>
@@ -311,7 +311,7 @@ You can keep fit and balanced intake of meat, fish, soy products and dairy produ
     <string name="body_shape">Body type</string>
     <string name="bodyfat_activity_text">"\"Body fat\" refers to the proportion of fat in total body weight. In addition to obesity, high body fat ratio can also increase the prevalence of many obesity diseases; while low body fat ratio may cause endocrine disorders.
 
-Strong muscles plus balanced body fat ratio will make you a good looking and fit body figure"</string>
+Strong muscles plus balanced body fat ratio will make you a good looking and fit body figure."</string>
     <string name="bone_activity_text">"\"Bone mass\" refers to the amount of calcium, phosphorus, and other matters contained in the bone. Women with less bone mass caused by weight loss or amenorrhoea should pay more attention especially.
 
 Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-minute exercise every day."</string>
@@ -630,12 +630,12 @@ firmly on the center of the scale."</string>
     <string name="instruction_weight_title_5">Maximum weight exceeded</string>
     <string name="instruction_weight_title_6">Weighing in</string>
     <string name="invalid_name">Unsupported characters are found in the name, try again</string>
-    <string name="is_tagging_finish">ラベルの終わりを確定しますか？</string>
+    <string name="is_tagging_finish">セッションを終了しますか？</string>
     <string name="kilo_cal">" Cal"</string>
     <string name="kilo_fastest">Fastest km: %1$s</string>
     <string name="lab_data_missing">データが見つかりません</string>
-    <string name="lab_tagging_fail">ラべリングに失敗</string>
-    <string name="lab_upload_cancel">アップロードをキャンセル</string>
+    <string name="lab_tagging_fail">タグ付けできませんでした</string>
+    <string name="lab_upload_cancel">キャンセル</string>
     <string name="lab_upload_fail">アップロードに失敗しました</string>
     <string name="lab_upload_success">アップロードが成功しました</string>
     <string name="lab_uploading">アップロード中</string>
@@ -815,6 +815,7 @@ measurement range (%s)"</string>
     <string name="mili_setting_vibrate_notify">Band notifications</string>
     <string name="mili_setting_vibrate_notify_tips">Show notifications on the phone when the band vibrates</string>
     <string name="mili_settting_mili_nfc">Midong Payment Band</string>
+    <string name="mili_settting_mili_peyto">巢湖手环</string>
     <string name="mili_settting_mili_pro">Mi Band 2</string>
     <string name="mili_settting_mili_qinling">Qinling Mountains</string>
     <string name="mili_settting_mili_rocky">Amazfit Arc</string>
@@ -858,7 +859,7 @@ measurement range (%s)"</string>
     <string name="muscle">Muscle</string>
     <string name="muscle_activity_text">"\"Muscle mass\" refers to the mass of skeletal and smooth muscles and other muscle tissues contained water.
 
-Loss of muscle mass will result in a lower basal metabolism and reduce energy consumption, and you'll gain weight or fall ill more easily. Getting more muscles is helpful to improve basal metabolism so as to reduce body fat"</string>
+Loss of muscle mass will result in a lower basal metabolism and reduce energy consumption, and you'll gain weight or fall ill more easily. Getting more muscles is helpful to improve basal metabolism so as to reduce body fat."</string>
     <string name="muscle_low_infomation">Your standard muscle ratio range should be %1$s~%2$s. You still need %3$s more muscles. Do more strength training and less aerobic exercise to improve muscle mass. Ensure enough calorie intake before and after your exercise.</string>
     <string name="muscle_low_infomation_novalue">Your standard muscle ratio range should be %1$s~%2$s. You still need more muscles. Do more strength training and less aerobic exercise to improve muscle mass. Ensure enough calorie intake before and after your exercise.</string>
     <string name="muscle_need_attention_infomation">Your muscle ratio is relatively low. Pay attention to your nutrition and exercise more in order to gain muscle mass. Higher muscle ratio will help you build a healthier lifestyle.</string>
@@ -1639,6 +1640,8 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sport_delete_record_loading">Deleting…</string>
     <string name="sport_detail_statistics">履歴</string>
     <string name="sport_heart_rate">Take a look at the scheme below to learn how your heart rate zone changes together with the exercise intensity</string>
+    <string name="sport_help_cycling_up_hill">上坡距离</string>
+    <string name="sport_help_cycling_up_hill_desc">指的是在上坡的路段实际共经过的里程，将下图中三角形比拟为一个上坡，上坡距离即为三角形的斜线段。</string>
     <string name="sport_notifi_tip">Pair band to receive activity alerts</string>
     <string name="sport_notification">Activity alerts</string>
     <string name="sport_notification_tip">Remind me to browse my activity stats daily at 9:30 PM</string>
@@ -1768,6 +1771,7 @@ You can still make changes for the device in app's Settings."</string>
     <string name="unit_moon">PM</string>
     <string name="unit_morning">AM</string>
     <string name="unit_pace_freq">steps/min</string>
+    <string name="unit_sec">s</string>
     <string name="unit_sec_short">s</string>
     <string name="unit_sj">" Jin"</string>
     <string name="unit_step">" steps"</string>
@@ -1816,7 +1820,7 @@ You can turn this feature off in the Settings."</string>
     <string name="view_time_tips_2">Set in Profile > Mi Band 2 > Lift wrist to view info</string>
     <string name="visceral_fat_activity_text">"\"Visceral fat\" refers to fat accumulated in the gap of internal organs. High visceral fat level will increase the risk of heart disease, hypertension, hyperlipidemia and other chronic disease.
 
-Visceral fat accumulates easily, but it's very hard to be reduced. You need to maintain a balanced diet and keep aerobic exercise not less than 20 minutes every day"</string>
+Visceral fat accumulates easily, but it's very hard to be reduced. You need to maintain a balanced diet and keep aerobic exercise not less than 20 minutes every day."</string>
     <string name="visceral_high_infomation">Visceral fat level must be reduced to less than 9. Keep doing exercise and having balanced diet.</string>
     <string name="visceral_need_attention_infomation">Current visceral fat level is too high. Doing exercise and having balanced diet can prevent a further increase</string>
     <string name="visceral_value">Visceral fat level</string>
@@ -1826,7 +1830,7 @@ Visceral fat accumulates easily, but it's very hard to be reduced. You need to m
     <string name="water">Water</string>
     <string name="water_activity_text">"\"Water\" refers to the overall share of water in human body, including the water in your blood, lymph, and other bodily fluids. If you are losing weight, you should pay special attention to water consumption to avoid dehydration.
 
-The measurements which are taken after you just bathed, drank alcohol, or worked out might not be accurate"</string>
+The measurements which are taken after you just bathed, drank alcohol, or worked out might not be accurate."</string>
     <string name="water_need_attention_infomation">"Rapid weight loss is often the result of losing water together with fat. That's why measurements which are taken after you just bathed or worked out might not be accurate."</string>
     <string name="wear_hand">Bandの装着位置</string>
     <string name="web_activity_reload_tip">再試行するにはタップ</string>
@@ -1896,6 +1900,9 @@ to make sure you can receive notifications"</string>
     <string name="your_weight">体重</string>
     <string name="zoom_in">ズームアウト</string>
     <string name="zoom_out">ズームイン</string>
+    <string name="instruction_weight1_tips1_6">Place the scale on a dry surface</string>
+    <string name="instruction_weight1_tips2_6">Make sure you stand on the center of the scale</string>
+    <string name="low_version_code">软件版本低</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="running_hour">%d時間</string>

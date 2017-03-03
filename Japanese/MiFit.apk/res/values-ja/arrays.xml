@@ -214,7 +214,6 @@
         <item>Are the batteries installed properly?</item>
         <item>Try restarting Bluetooth</item>
         <item>Try rebooting your phone</item>
-        <item>How to sync your data?</item>
     </string-array>
     <string-array name="weight_body_figures">
         <item>痩せぎみ</item>
@@ -239,7 +238,6 @@
         <item>"If the scale doesn't respond during weigh-in, check if the batteries are installed properly."</item>
         <item>"If the band is charged but the phone can't see it, try restarting phone's Bluetooth."</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
-        <item>Mi Fit will sync data automatically every time you open the app</item>
     </string-array>
     <string-array name="weight_unit">
         <item>" kg"</item>
