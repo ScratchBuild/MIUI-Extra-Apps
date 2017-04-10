@@ -130,7 +130,7 @@
         <item>12月</item>
     </string-array>
     <string-array name="shoes_help_tips">
-        <item>Huami sensor will stop working when rested for a long time. Shake it and try again.</item>
+        <item>Sensor will stop working when rested for a long time. Shake it and try again.</item>
         <item>"If you can't find the sensor, replace it's battery and try again."</item>
         <item>Turn off Bluetooth device first, then pair with current device.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
@@ -138,9 +138,9 @@
         <item>Mi Fit will sync data automatically every time you open the app.</item>
     </string-array>
     <string-array name="shoes_help_title">
-        <item>Shake Huami sensor</item>
-        <item>Is Huami sensor charged?</item>
-        <item>Is this Huami sensor paired with another device?</item>
+        <item>Shake sensor</item>
+        <item>Is sensor charged?</item>
+        <item>Is this sensor paired with another device?</item>
         <item>Bluetoothを再起動してみてください</item>
         <item>お使いの携帯を再起動してみてください</item>
         <item>How do I sync data with the sensor?</item>
@@ -165,8 +165,8 @@
         <item>Standing</item>
         <item>Sitting</item>
         <item>Light activity</item>
-        <item>"Band isn't on"</item>
-        <item>Band charging</item>
+        <item>Not wearing</item>
+        <item>Charging…</item>
         <item>Lying down</item>
     </string-array>
     <string-array name="unbind_device_description">
@@ -207,7 +207,6 @@
         <item>"If the scale doesn't respond during weigh-in, check if the batteries are installed properly"</item>
         <item>"If the band is charged but the phone can't see it, try restarting phone's Bluetooth."</item>
         <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone"</item>
-        <item>Mi Fit will sync data automatically every time you open the app.</item>
     </string-array>
     <string-array name="weight_bfs_help_title">
         <item>Is there enough power left?</item>
