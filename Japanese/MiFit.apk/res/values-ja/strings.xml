@@ -1362,8 +1362,8 @@ Pair Mi Band for workouts"</string>
     <string name="running_record_total_runtimes">Running sessions: %1$d</string>
     <string name="running_recover_notdo">復元しない</string>
     <string name="running_recover_now">今すぐ復元</string>
-    <string name="running_recover_savelast">Stop and restore</string>
-    <string name="running_recover_title">Automatically restore previous running data</string>
+    <string name="running_recover_savelast">Stop and save</string>
+    <string name="running_recover_title">Restore last activity data automatically</string>
     <string name="running_resume">再開</string>
     <string name="running_set_dist">Distance alert</string>
     <string name="running_set_goal">Goal</string>
@@ -1564,13 +1564,13 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="share_weight_bodyfat">Body fat</string>
     <string name="share_weight_current_value">Weight</string>
     <string name="share_weight_figure">Body type</string>
-    <string name="share_weight_hidden_tip">詳細を隠す</string>
+    <string name="share_weight_hidden_tip">詳細を非表示</string>
     <string name="share_weight_last_title">Progress</string>
     <string name="share_weight_show_tip">詳細を表示</string>
     <string name="share_weight_target_title">Compared to weight goal</string>
     <string name="share_weixin_label">WeChat</string>
     <string name="shoe_bind_failed_help">"Couldn't pair, keep the sensor close to your phone"</string>
-    <string name="shoe_brand_mijia">米家智能跑鞋</string>
+    <string name="shoe_brand_mijia">Mi Smart Shoes</string>
     <string name="shoe_connect_fail">"Couldn't connect shoes"</string>
     <string name="shoe_sync_fail">"Couldn't sync shoes data"</string>
     <string name="shoes_average_pace_frequency">Avg step frequency</string>
@@ -1672,8 +1672,8 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sport_delete_record_loading">Deleting…</string>
     <string name="sport_detail_statistics">履歴</string>
     <string name="sport_heart_rate">Take a look at the scheme below to learn how your heart rate zone changes together with the exercise intensity</string>
-    <string name="sport_help_cycling_up_hill">上坡距离</string>
-    <string name="sport_help_cycling_up_hill_desc">指的是在上坡的路段实际共经过的里程，将下图中三角形比拟为一个上坡，上坡距离即为三角形的斜线段。</string>
+    <string name="sport_help_cycling_up_hill">Uphill</string>
+    <string name="sport_help_cycling_up_hill_desc">"It refers to the distance of total steps you've made during the workouts. To illustrate this concept, you can take the oblique line of the triangle below as the uphill distance."</string>
     <string name="sport_notifi_tip">Pair band to receive activity alerts</string>
     <string name="sport_notification">Activity alerts</string>
     <string name="sport_notification_tip">Remind me to browse my activity stats daily at 9:30 PM</string>
