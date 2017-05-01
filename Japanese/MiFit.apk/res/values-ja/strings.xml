@@ -435,7 +435,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="discovery_run_info">情報</string>
     <string name="distance">歩行距離</string>
     <string name="do_not_remind_again">"二度と表示しない"</string>
-    <string name="do_not_upload_in_mobile_network">Use mobile data to upload?</string>
+    <string name="do_not_upload_in_mobile_network">モバイルデータを使用してアップロードしますか？</string>
     <string name="down">Down: %1$s</string>
     <string name="download_amazfit_app">Download Amazfit Watch app</string>
     <string name="download_failed">アップデートをダウンロードできませんでした</string>
@@ -1416,9 +1416,9 @@ Pair Mi Band for workouts"</string>
     <string name="running_step_frequency">Steps (歩/分)</string>
     <string name="running_stop">停止</string>
     <string name="running_stop_sport_confirm">End this session?</string>
-    <string name="running_stride">Stride</string>
-    <string name="running_stride_with_british_unit">Stride (inch)</string>
-    <string name="running_stride_with_unit">Stride (cm)</string>
+    <string name="running_stride">歩幅</string>
+    <string name="running_stride_with_british_unit">歩幅 (inch)</string>
+    <string name="running_stride_with_unit">歩幅 (cm)</string>
     <string name="running_synchronous">Synced</string>
     <string name="running_time_desc">Time</string>
     <string name="running_tip_conn_shoes">Pair shoes to view step frequency</string>
@@ -1840,7 +1840,7 @@ You can turn this feature off in the Settings."</string>
     <string name="unsupport_shoes_marking">"Running shoes tagging isn't supported"</string>
     <string name="update_now">Update</string>
     <string name="update_unit_failure">"Couldn't connect to the scale to save data"</string>
-    <string name="upload_force_marking_wifi_status">Use mobile data to upload data?</string>
+    <string name="upload_force_marking_wifi_status">モバイルデータを使用してデータをアップロードしますか？</string>
     <string name="use_phone_tips1">Count steps using phone</string>
     <string name="use_phone_tips2">"Use phone's fitness data when no band is paired"</string>
     <string name="used">"Used "</string>
@@ -1867,7 +1867,7 @@ Visceral fat accumulates easily, but it's very hard to be reduced. You need to m
 The measurements which are taken after you just bathed, drank alcohol, or worked out might not be accurate."</string>
     <string name="water_need_attention_infomation">"Rapid weight loss is often the result of losing water together with fat. That's why measurements which are taken after you just bathed or worked out might not be accurate."</string>
     <string name="watermark_category_sport">Watermark</string>
-    <string name="watermark_category_sticker">Sticker</string>
+    <string name="watermark_category_sticker">ステッカー</string>
     <string name="wear_hand">Bandの装着位置</string>
     <string name="web_activity_reload_tip">再試行するにはタップ</string>
     <string name="web_title_mili_pro">Mi Band 2</string>
@@ -1939,8 +1939,6 @@ to make sure you can receive notifications"</string>
     <string name="hmid_signing_in">Signing in</string>
     <string name="mili_settting_mili_peyto">Chaohu</string>
     <string name="mili_settting_mili_tempo">Tempo</string>
-    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
-    <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="running_hour">%d時間</string>
     <string name="running_hour_min" formatted="false">%d時間%d分</string>
     <string name="running_hour_min_sec" formatted="false">%d時間%d分%d秒</string>
@@ -1952,6 +1950,4 @@ to make sure you can receive notifications"</string>
     <string name="running_num_unknown">--</string>
     <string name="running_percent_mark">%</string>
     <string name="running_sec">%d秒</string>
-    <string name="tag_distance">TAG_DISTANCE</string>
-    <string name="tag_view_heart_rate_alarm">VIEW_HEART_RATE_ALARM</string>
 </resources>
