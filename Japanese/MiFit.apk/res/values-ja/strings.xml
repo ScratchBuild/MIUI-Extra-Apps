@@ -64,7 +64,7 @@
     <string name="action_driving">ドライブ</string>
     <string name="action_mark">Behavior tagging</string>
     <string name="action_pingpong">卓球</string>
-    <string name="action_rope">縄跳び</string> 
+    <string name="action_rope">縄跳び</string>
     <string name="action_run">ジョギング</string>
     <string name="action_scan_friend">追加</string>
     <string name="action_sit">静座</string>
@@ -95,6 +95,7 @@
     <string name="alarm2_help_title_02">Long press the band to stop alarm</string>
     <string name="alarm_clock_lazy_summary">Alarm will sound in every 10 min, long press the band to stop</string>
     <string name="alarm_clock_lazy_title">Snooze mode</string>
+    <string name="alarm_clock_repeat">Period</string>
     <string name="alarm_clock_set_time">Set alarm time</string>
     <string name="alarm_close_failed">"オフにできませんでした"</string>
     <string name="alarm_delete_failed">削除できませんでした</string>
@@ -129,6 +130,7 @@
     <string name="alert_title_no_storge_permission">"SDカードのファイルを読み書きできません"</string>
     <string name="alert_title_unable_start_camera">カメラにアクセスできません</string>
     <string name="algo_version">Algorithm: %s</string>
+    <string name="alipay_data_updating">Updating data…</string>
     <string name="altitude">Altitude</string>
     <string name="am">AM</string>
     <string name="amazfit_app_download_ok">App downloaded</string>
@@ -217,9 +219,30 @@ For example, WeChat:
     <string name="battery_warn_less_10">Battery is lower than 10%</string>
     <string name="battery_warn_less_5">Battery is low, charge your band</string>
     <string name="better_score_text">"Looks like you're in good shape. Keep being active and reach new heights one step at a time."</string>
+    <string name="bind_alipay">Alipay</string>
+    <string name="bind_alipay_bound_tips">"Can't see the latest data?
+
+Go to Mi Fit's Home to sync data again."</string>
+    <string name="bind_alipay_btn">追加</string>
+    <string name="bind_alipay_fail">"Couldn't add"</string>
+    <string name="bind_alipay_install">Install Alipay first</string>
+    <string name="bind_alipay_tips">"Tap \"Add\", go to Alipay's authorization page,
+and tap \"OK\". 
+
+Your steps will be displayed in the rankings."</string>
+    <string name="bind_alipay_title">Add Alipay</string>
+    <string name="bind_alipay_unbind">削除</string>
+    <string name="bind_alipay_unbind_verify">Remove Alipay?</string>
     <string name="bind_amazfit_watch_subtitle">Pair to view activity and sleep data</string>
     <string name="bind_amazfit_watch_title">Pair</string>
     <string name="bind_band_to_analy">Pair band to analyze your sleep</string>
+    <string name="bind_chaohu_connect_title">Connecting…</string>
+    <string name="bind_chaohu_found_title">Confirm pairing on the watch</string>
+    <string name="bind_chaohu_more_devices_tips">Keep your watch away from other watches when searching</string>
+    <string name="bind_chaohu_not_found_tips">"Couldn't find watch. Make sure it's charged and close to the phone."</string>
+    <string name="bind_chaohu_not_shake">"Watch hasn't received pairing request"</string>
+    <string name="bind_chaohu_search_tips">Keep the watch close to your phone</string>
+    <string name="bind_chaohu_search_title">Searching…</string>
     <string name="bind_failed_help">"Couldn't pair. Restart Bluetooth and try again."</string>
     <string name="bind_failed_net_error">"Couldn't pair, check network and try again."</string>
     <string name="bind_get_help">タップしてヘルプを表示</string>
@@ -228,6 +251,7 @@ For example, WeChat:
     <string name="bind_i_know">OK</string>
     <string name="bind_mi_weight_howto_tips">Learn more</string>
     <string name="bind_mili_connect_title">Connecting band</string>
+    <string name="bind_mili_failed">"Couldn't pair, keep the band close to your phone and try again"</string>
     <string name="bind_mili_found_tips">Tap the band to confirm when you feel vibration</string>
     <string name="bind_mili_found_tips_pro">"Tap the band to pair while it's vibrating"</string>
     <string name="bind_mili_found_title">Tap the band</string>
@@ -246,11 +270,11 @@ For example, WeChat:
     <string name="bind_qq_health_tip">Steps, sleep, and weight data will be synced with QQ Health</string>
     <string name="bind_qq_health_tip_another_qq">Switch to the current QQ account signed in on your phone to check the data in QQ Health</string>
     <string name="bind_qq_title">Add QQ</string>
-    <string name="bind_shoes_capture_tips">Scan the QR code on sensor</string>
+    <string name="bind_shoes_capture_tips">Scan QR code</string>
     <string name="bind_shoes_capture_title">Pair shoes</string>
-    <string name="bind_shoes_invalid_qr_help">"Invalid QR code. Scan QR code on sensor. Make sure it's visible."</string>
-    <string name="bind_shoes_not_found_tips">"Couldn't find sensor. Bring it closer to the phone and try again."</string>
-    <string name="bind_shoes_search_tips">Keep sensor close to your phone</string>
+    <string name="bind_shoes_invalid_qr_help">"Invalid QR code. Scan QR code on the Smart Chip. Make sure it's visible."</string>
+    <string name="bind_shoes_not_found_tips">"Couldn't find the Smart Chip. Bring it closer to the phone and try again."</string>
+    <string name="bind_shoes_search_tips">Keep the Smart Chip close to your phone</string>
     <string name="bind_shoes_search_title">ペアリング中…</string>
     <string name="bind_status_connect">Added</string>
     <string name="bind_status_disconnect">Disconnected</string>
@@ -277,8 +301,8 @@ For example, WeChat:
     <string name="bind_weixin_btn_text">追加</string>
     <string name="bind_weixin_failed">"Couldn't add WeChat"</string>
     <string name="bind_weixin_new_now">Adding…</string>
-    <string name="bind_weixin_new_tips">"Tap \"Add\", go to Mi Fit's WeChat account,
-and tap \"Add device\". 
+    <string name="bind_weixin_new_tips">"Tap \"Access\", go to Huami technology's WeChat account,
+and tap \"Add device\".
 
 Your steps will be displayed in the rankings."</string>
     <string name="bind_weixin_new_tips_bound"><u>Add WeChat</u>" again
@@ -360,6 +384,12 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="cannot_delete">At least keep a record</string>
     <string name="change_sport_goal_confirm">OK</string>
     <string name="change_sport_goal_tip_not_bound">Pair band to set activity goal</string>
+    <string name="chaohu_device_help">Help</string>
+    <string name="chaohu_setting_long_press">Long press the button</string>
+    <string name="chaohu_setting_run_indoor">Treadmill</string>
+    <string name="chaohu_setting_run_outdoor">Outdoor running</string>
+    <string name="chaohu_setting_run_ride">Outdoor cycling</string>
+    <string name="chaohu_setting_run_walk">Walking</string>
     <string name="check_lock_screen_pw">Step 2</string>
     <string name="checking_new_apk">確認中…</string>
     <string name="chest">Chest</string>
@@ -417,6 +447,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="device_tip_bt_open">オンにする</string>
     <string name="device_tip_connect_succeed">接続に成功しました</string>
     <string name="device_tip_connecting">接続中…</string>
+    <string name="device_tip_shoes">Shake the running shoes to activate the Smart Chip</string>
     <string name="device_unbind">Unpair</string>
     <string name="device_unbind_confirm">Unpair %s?</string>
     <string name="device_unbind_connect_failed_confirm">"%s isn't connected, unsynced data may be lost. Continue anyway?"</string>
@@ -437,7 +468,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="do_not_remind_again">"二度と表示しない"</string>
     <string name="do_not_upload_in_mobile_network">モバイルデータを使用してアップロードしますか？</string>
     <string name="down">Down: %1$s</string>
-    <string name="download_amazfit_app">Download Amazfit Watch app</string>
+    <string name="download_amazfit_app">Download Amazfit Pace app</string>
     <string name="download_failed">アップデートをダウンロードできませんでした</string>
     <string name="download_now">今すぐダウンロード</string>
     <string name="download_watermark_failed">ダウンロードできませんでした</string>
@@ -457,6 +488,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="enable_sm_alert">Turn on incoming SMS alerts</string>
     <string name="enable_sm_alert_tips">Band will vibrate when SMS is received</string>
     <string name="enabled_alarms">On (%s)</string>
+    <string name="error_connect_alipay">"Couldn't access to Alipay, check your network connection and try again"</string>
     <string name="error_connect_weixin">"Couldn't connect to WeChat, check your network and try again"</string>
     <string name="every_day">毎日</string>
     <string name="exit">ログアウト</string>
@@ -501,6 +533,10 @@ Continue anyway?"</string>
     <string name="fw_failed_tips">Bring the %s closer to your phone and try again</string>
     <string name="fw_failed_tips_1">Bring your phone closer to the %s and try again</string>
     <string name="fw_failed_title">"Couldn't update %s"</string>
+    <string name="fw_upgrade_agps_failed_tips">Keep the band close to your phone and make sure the network is connected</string>
+    <string name="fw_upgrade_agps_failed_title">"Couldn't update AGPS"</string>
+    <string name="fw_upgrade_agps_tips">Keep the band close to your phone and make sure the network is connected</string>
+    <string name="fw_upgrade_agps_title">Updating AGPS…</string>
     <string name="fw_upgrade_font">Band fonts</string>
     <string name="fw_upgrade_hr">Heart rate algorithm</string>
     <string name="fw_upgrade_hr_tips">Keep the band close to your phone</string>
@@ -606,7 +642,6 @@ Keep Bluetooth on when running."</string>
     <string name="hr_tips_arrange">Ideal workout heart rate (BPM)</string>
     <string name="hr_unit">" BPM"</string>
     <string name="hr_unit_label">心拍数 (BPM)</string>
-    <string name="huami_shoe">Huami sensor</string>
     <string name="i_know">OK</string>
     <string name="id_broadcast">Discoverable</string>
     <string name="id_broadcast_not_bound">Pair band to turn on Discoverable mode</string>
@@ -625,8 +660,8 @@ Keep Bluetooth on when running."</string>
     <string name="install_amazfit_tips">Install \"Amazfit Pace\" app</string>
     <string name="install_band_correct">Install Mi Band 2 in a right way</string>
     <string name="install_band_from_bottom">Install or remove the core from the back of band strap</string>
-    <string name="install_normandy">Which shoe do you want to install the sensor in?</string>
-    <string name="install_normandy_tips">"To ensure more accurate data analysis, select the shoe you've put the sensor in."</string>
+    <string name="install_normandy">Which shoe do you want to install the Smart Chip in?</string>
+    <string name="install_normandy_tips">"To ensure more accurate data analysis, select the shoe you've put the Smart Chip in."</string>
     <string name="install_qq_tips">Install QQ first</string>
     <string name="install_weibo_tips">Install Weibo first</string>
     <string name="install_weixin_tips">Install WeChat first</string>
@@ -715,7 +750,7 @@ Open Gallery"</string>
     <string name="label_update_time">Update: %s</string>
     <string name="label_weight">Last weight</string>
     <string name="lable_qrcode_is_myself">"Can't add yourself as a friend"</string>
-    <string name="laboratory">Additional features</string>
+    <string name="laboratory">Experimental</string>
     <string name="last_break_goal">Streak ended on %1$d/%2$d. Waiting for a new start!</string>
     <string name="last_month">先月</string>
     <string name="last_reach_goal">Last time, you had a %1$d day streak</string>
@@ -810,6 +845,7 @@ measurement range (%s)"</string>
     <string name="mili_setting_display_item">Band display settings</string>
     <string name="mili_setting_display_item_tips">Choose items displayed on the band</string>
     <string name="mili_setting_find_bracelet">Find band</string>
+    <string name="mili_setting_find_chaohu">Find watch</string>
     <string name="mili_setting_finding">Searching for the band…</string>
     <string name="mili_setting_finding_tips">Frequent searches reduce battery life</string>
     <string name="mili_setting_full_hr">Daily heart rate</string>
@@ -927,13 +963,14 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="no_sleep_data">睡眠記録なし</string>
     <string name="no_speed_data">No speed data</string>
     <string name="no_tip"><u>二度と表示しない</u></string>
-    <string name="normandy_connect_fail">センサーに接続できませんでした</string>
-    <string name="normandy_device_help">About Sensor</string>
-    <string name="normandy_device_name">Amazfit Smart Chip 2</string>
-    <string name="normandy_found_tips">Shake your sensor to pair when the light is on</string>
-    <string name="normandy_found_title">Shake the sensor</string>
-    <string name="normandy_has_bound_tips">Sensor is paired by another person. Ask them to unpair it and try again.</string>
-    <string name="normandy_high_battery">Full battery</string>
+    <string name="normandy_connect_fail">"Couldn't connect to the Smart Chip"</string>
+    <string name="normandy_device_help">Help</string>
+    <string name="normandy_found_tips">Shake your Smart Chip to pair when the light is on</string>
+    <string name="normandy_found_title">Shake the Smart Chip</string>
+    <string name="normandy_fw_failed">"Couldn't update"</string>
+    <string name="normandy_fw_failed_tips">Bring your phone closer to the Smart Chip and try again</string>
+    <string name="normandy_has_bound_tips">Smart Chip is paired by another person. Ask them to unpair it and try again.</string>
+    <string name="normandy_high_battery">Battery is charged</string>
     <string name="normandy_high_battery_simple">Battery is charged</string>
     <string name="normandy_low_battery">Replace battery</string>
     <string name="normandy_low_battery_fw_tips">"Low battery, can't update firmware"</string>
@@ -944,13 +981,13 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="normandy_mid_battery">Low battery</string>
     <string name="normandy_mid_battery_simple">Battery is running low</string>
     <string name="normandy_next_step">次へ</string>
-    <string name="normandy_not_found_tips">"Couldn't find sensor. Make sure the sensor is close to the phone and its battery is charged."</string>
-    <string name="normandy_not_light">"My sensor's light is off"</string>
-    <string name="normandy_not_shake_help">Keep your sensor away from other sensors when searching</string>
-    <string name="normandy_searching">Searching the sensor</string>
-    <string name="normandy_searching_tips">Keep sensor close to your phone</string>
-    <string name="normandy_sync_fail">"Couldn't sync with the sensor"</string>
-    <string name="normandy_upgrade_tips">Keep sensor close to your phone</string>
+    <string name="normandy_not_found_tips">"Couldn't find the Smart Chip. Make sure the chip is close to the phone and its battery is charged."</string>
+    <string name="normandy_not_light">"My Smart Chip's light is off"</string>
+    <string name="normandy_not_shake_help">Keep your Smart Chip away from other chips when searching</string>
+    <string name="normandy_searching">Searching the Smart Chip</string>
+    <string name="normandy_searching_tips">Keep Smart Chip close to your phone</string>
+    <string name="normandy_sync_fail">"Couldn't sync Smart Chip data."</string>
+    <string name="normandy_upgrade_tips">Keep Smart Chip close to your phone</string>
     <string name="normandy_upgrade_title">Updating…</string>
     <string name="not_connect_network">ネットワークに接続できませんでした</string>
     <string name="not_restore">"Don't restore"</string>
@@ -1026,6 +1063,7 @@ with your bare feet"</string>
     <string name="play_weight_bfs_page4_tips1">"When the scale's batteries need to be replaced, the scale will show you this,"</string>
     <string name="play_weight_bfs_page4_tips2">After batteries are replaced, the scale will restart automatically.</string>
     <string name="play_weight_tips">Tap to learn more</string>
+    <string name="play_with_device">Learn more about %s</string>
     <string name="please_connect_internet">Connect to the internet first</string>
     <string name="please_input_birthday">誕生日</string>
     <string name="please_input_gender">性別を選択</string>
@@ -1070,7 +1108,7 @@ with your bare feet"</string>
     <string name="remind_time1">Can go off up to</string>
     <string name="remind_time2">6</string>
     <string name="remind_time3">times</string>
-    <string name="repeat">Repeat</string>
+    <string name="repeat">Custom</string>
     <string name="reset_weight_goal">Reset goal</string>
     <string name="restore">復元</string>
     <string name="restore_unlock_screen_tips">"You need to set up Bluetooth unlock again after you've replaced the device"</string>
@@ -1475,7 +1513,8 @@ Pair Mi Band for workouts"</string>
     <string name="select_from_local">ギャラリーから選択</string>
     <string name="select_mili_tips_1">Found a previously paired band</string>
     <string name="select_mili_tips_2">Tap to pair</string>
-    <string name="select_shoe_type">Select sensor</string>
+    <string name="select_shoe_type">Select Smart Chip</string>
+    <string name="select_watch_title">Select watch to pair</string>
     <string name="selected_alert_apps">Selected apps with alerts</string>
     <string name="send_fail">"Couldn't send friend request"</string>
     <string name="send_success">Friend request sent</string>
@@ -1487,8 +1526,18 @@ Pair Mi Band for workouts"</string>
     <string name="set_sport_goal">Set activity goals</string>
     <string name="set_weight_goal">Set weight goal</string>
     <string name="setting_about">About</string>
+    <string name="setting_heartrate_detect">Heart rate detection</string>
+    <string name="setting_heartrate_detect_auto">Automatic heart rate detection</string>
+    <string name="setting_heartrate_detect_auto_tips">Monitor your heart rate for 24 hours will reduce the battery life</string>
+    <string name="setting_heartrate_detect_close">Turn off</string>
+    <string name="setting_heartrate_detect_select">Select heart rate detection method</string>
+    <string name="setting_heartrate_detect_sleep">Sleep aids detection</string>
+    <string name="setting_heartrate_detect_sleep_tips">It will be turned on after you fell asleep automatically to analyze the REM</string>
     <string name="setting_length_british">Imperial (feet, miles)</string>
     <string name="setting_length_metric">Metric (m, km)</string>
+    <string name="setting_peyto_apps">Watch settings</string>
+    <string name="setting_peyto_apps_tips">Set if the watch app needs to be shown</string>
+    <string name="setting_peyto_long_press_set_title">Long press to quick start</string>
     <string name="setting_question">Help</string>
     <string name="setting_unit">単位</string>
     <string name="setting_unit_length">長さの単位を設定</string>
@@ -1496,6 +1545,12 @@ Pair Mi Band for workouts"</string>
 You can change the measurement unit manually in the battery section of the scale."</string>
     <string name="setting_unit_weight">重さの単位を設定</string>
     <string name="setting_update">アップデートを確認</string>
+    <string name="setting_weather">天気の設定</string>
+    <string name="setting_weather_alert">Weather alerts push</string>
+    <string name="setting_weather_city">都市</string>
+    <string name="setting_weather_temp">温度の単位</string>
+    <string name="setting_weather_temp_c">摂氏 ℃</string>
+    <string name="setting_weather_temp_f">華氏 ℉</string>
     <string name="setting_weight_british">Imperial (lbs)</string>
     <string name="setting_weight_metric">Metric (kg)</string>
     <string name="setting_weight_shijin">Jin (500g)</string>
@@ -1569,7 +1624,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="share_weight_show_tip">詳細を表示</string>
     <string name="share_weight_target_title">Compared to weight goal</string>
     <string name="share_weixin_label">WeChat</string>
-    <string name="shoe_bind_failed_help">"Couldn't pair, keep the sensor close to your phone"</string>
+    <string name="shoe_bind_failed_help">"Couldn't pair, keep the Smart Chip close to your phone"</string>
     <string name="shoe_brand_mijia">Mi Smart Shoes</string>
     <string name="shoe_connect_fail">"Couldn't connect shoes"</string>
     <string name="shoe_sync_fail">"Couldn't sync shoes data"</string>
@@ -1584,7 +1639,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoes_calibrate_suggestion">Stand with your feet shoulder width apart for 5 seconds</string>
     <string name="shoes_calibrating">Calibrating…</string>
     <string name="shoes_connecting">Connecting shoes…</string>
-    <string name="shoes_device_help">About Sensor</string>
+    <string name="shoes_device_help">Help</string>
     <string name="shoes_frequency_unit">steps/min</string>
     <string name="shoes_left_shoe">左足</string>
     <string name="shoes_left_time">Remaining time/sec</string>
@@ -1613,8 +1668,8 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="shoes_use_ok">完了</string>
     <string name="shoes_use_tips">Make sure QR code is facing down</string>
     <string name="shoes_use_tips_child">Make sure Li-Ning logo is facing up</string>
-    <string name="shoes_use_title">Put sensor inside the shoes</string>
-    <string name="shoes_use_title_lining">Put sensor inside the shoes</string>
+    <string name="shoes_use_title">Put the Smart Chip into the shoe</string>
+    <string name="shoes_use_title_lining">Put the Smart Chip into running shoe</string>
     <string name="show_contact_info_summary">着信時に電話番号または名前を表示する</string>
     <string name="show_contact_info_tips">連絡先の情報を表示</string>
     <string name="show_sms_info_summary">SMSの受信時に電話番号または名前を表示する</string>
@@ -1652,7 +1707,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="sleep_week_go_sleep_time">Fell asleep at</string>
     <string name="sleep_week_light_time">Avg light sleep</string>
     <string name="slope_change_pie_chart_down_label">Downhill</string>
-    <string name="slope_change_pie_chart_flat_label">Level ground</string>
+    <string name="slope_change_pie_chart_flat_label">Flat</string>
     <string name="slope_change_pie_chart_up_label">Uphill</string>
     <string name="sm_alert">Incoming SMS</string>
     <string name="sm_alert_not_bound">Pair band to receive incoming SMS alerts</string>
@@ -1692,6 +1747,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="state_bind_failed">"Couldn't pair"</string>
     <string name="state_binded">Paired</string>
     <string name="state_binded_nickname">Current QQ account: %s</string>
+    <string name="state_binded_nickname_alipay">Added Alipay: %s</string>
     <string name="state_binded_nickname_weibo">Current Weibo account: %s</string>
     <string name="state_close">Off</string>
     <string name="state_unbind_success">Unpaired</string>
@@ -1764,16 +1820,17 @@ Make sure there are no objects between them."</string>
     <string name="top_speed">Top speed: %1$s</string>
     <string name="total_record_data">Kept records for %1$d days, total</string>
     <string name="total_sleep_title">Slept %3$s on %1$d/%2$d</string>
+    <string name="total_sleep_title_new">%2$s sleep %1$s</string>
     <string name="turn_on">オンにする</string>
     <string name="unbind">Unpair</string>
     <string name="unbind_device">No paired devices</string>
     <string name="unbind_google_fit">Google Fitから削除</string>
-    <string name="unbind_mili_support_sensorhub_tips">Band will stop working after you unpair. Steps will be counted by the phone.</string>
-    <string name="unbind_mili_tips">Band will stop working after you unpair</string>
+    <string name="unbind_mili_support_sensorhub_tips">%s will stop working after you unpair. Steps will be counted by the phone.</string>
+    <string name="unbind_mili_tips">%s will stop working after you unpair</string>
     <string name="unbind_qq_health_dialog_title">Unpair QQ Health?</string>
     <string name="unbind_shoes_tips">Running shoes will stop recording activity info after you unpair</string>
-    <string name="unbind_watch_tips">"Steps and sleep data won't be synced after unpairing.
-You can still make changes for the device in app's Settings."</string>
+    <string name="unbind_watch_tips">"Activity and sleep data won't be synced after you unpair.
+You'll be able to change that in the Amazfit Watch app settings."</string>
     <string name="unbind_weibo_dialog_title">Unpair Weibo Fit?</string>
     <string name="unbind_weight_bfs_tips">"The scale won't save any data of you after unpairing"</string>
     <string name="unbind_weight_tips">"The scale won't record your weight after you unpair"</string>
@@ -1870,6 +1927,7 @@ The measurements which are taken after you just bathed, drank alcohol, or worked
     <string name="watermark_category_sticker">ステッカー</string>
     <string name="wear_hand">Bandの装着位置</string>
     <string name="web_activity_reload_tip">再試行するにはタップ</string>
+    <string name="web_activity_retry_tip">Check and try again</string>
     <string name="web_title_mili_pro">Mi Band 2</string>
     <string name="weibo_uninstall_tips">Install Sina Weibo first</string>
     <string name="weibosdk_toast_auth_canceled_f">"Couldn't authorize"</string>
@@ -1937,8 +1995,11 @@ to make sure you can receive notifications"</string>
     <string name="zoom_in">ズームアウト</string>
     <string name="zoom_out">ズームイン</string>
     <string name="hmid_signing_in">Signing in</string>
-    <string name="mili_settting_mili_peyto">Chaohu</string>
+    <string name="huami_shoe">Amazfit Smart Chip</string>
+    <string name="mili_settting_mili_peyto">Amazift Watch Lite</string>
     <string name="mili_settting_mili_tempo">Tempo</string>
+    <string name="normandy_device_name">Amazfit Smart Chip 2</string>
+    <string name="normandy_help_tips">"If you can't find the Smart Chip, replace it's battery and try again."</string>
     <string name="running_hour">%d時間</string>
     <string name="running_hour_min" formatted="false">%d時間%d分</string>
     <string name="running_hour_min_sec" formatted="false">%d時間%d分%d秒</string>

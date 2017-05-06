@@ -52,6 +52,18 @@
         <item>"Didn't reach goals"</item>
         <item>Reached goal</item>
     </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>"Try to press the button on the watch, if the watch screen is off, plug it in to charge it''s battery."</item>
+        <item>Turn off Bluetooth first, then pair with current device.</item>
+        <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Is your watch charged?</item>
+        <item>Is this watch paired with another device?</item>
+        <item>Try restarting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+    </string-array>
     <string-array name="hr_sport">
         <item>心拍ゾーン: 準備運動</item>
         <item>心拍ゾーン: 脂肪燃焼</item>
@@ -129,21 +141,31 @@
         <item>11月</item>
         <item>12月</item>
     </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>ダイヤルプレート</item>
+        <item>ステータス</item>
+        <item>アクティビティ</item>
+        <item>天気</item>
+        <item>アラーム</item>
+        <item>タイマー</item>
+        <item>コンパス</item>
+        <item>その他の設定</item>
+    </string-array>
     <string-array name="shoes_help_tips">
-        <item>Sensor will stop working when rested for a long time. Shake it and try again.</item>
-        <item>"If you can't find the sensor, replace it's battery and try again."</item>
+        <item>"If you don't use Smart Chip for a long time, it will go to sleep. Try to shake it."</item>
+        <item>"Smart Chip battery life is 1 year. If you've been using it for a longer period, maybe there's no power left."</item>
         <item>Turn off Bluetooth device first, then pair with current device.</item>
         <item>Try rebooting your phone, and then pair the band.</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
-        <item>Mi Fit will sync data automatically every time you open the app.</item>
+        <item>Tap the running shoes data and enter the next activity page to sync data automatically</item>
     </string-array>
     <string-array name="shoes_help_title">
-        <item>Shake sensor</item>
-        <item>Is sensor charged?</item>
-        <item>Is this sensor paired with another device?</item>
+        <item>Shake Smart Chip</item>
+        <item>Is the battery charged?</item>
+        <item>Is this Smart Chip paired with another device?</item>
         <item>Bluetoothを再起動してみてください</item>
         <item>お使いの携帯を再起動してみてください</item>
-        <item>How do I sync data with the sensor?</item>
+        <item>How to sync your data?</item>
     </string-array>
     <string-array name="show_body_shape_array">
         <item>Obese</item>
@@ -173,6 +195,7 @@
         <item>Band</item>
         <item>Mi Scale</item>
         <item>Shoes</item>
+        <item>Watch</item>
     </string-array>
     <string-array name="visceral_fat_leval">
         <item>Normal</item>
@@ -203,12 +226,14 @@
         <item>日</item>
     </string-array>
     <string-array name="weight_bfs_help_tips">
+        <item>Turn off Bluetooth first, then pair with current device.</item>
         <item>Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
-        <item>"If the scale doesn't respond during weigh-in, check if the batteries are installed properly"</item>
-        <item>"If the band is charged but the phone can't see it, try restarting phone's Bluetooth."</item>
-        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone"</item>
+        <item>"If there's no response when you step on the scale, check if the batteries are installed properly."</item>
+        <item>"If the battery is charged, while you still can't find the device after you bring the phone closer to it, try to restart the phone's Bluetooth."</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
     </string-array>
     <string-array name="weight_bfs_help_title">
+        <item>Is this scale paired with another device?</item>
         <item>Is there enough power left?</item>
         <item>Are the batteries installed properly?</item>
         <item>Try restarting Bluetooth</item>
