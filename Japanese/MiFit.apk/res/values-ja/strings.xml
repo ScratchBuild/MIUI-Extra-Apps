@@ -555,7 +555,7 @@ Continue anyway?"</string>
     <string name="generate_baby_weight_message">"Can't see the baby among family members. Add now?"</string>
     <string name="generate_baby_weight_title">"Baby's weight: %1$s"</string>
     <string name="get_history_error_refresh_please">"Couldn't get info, pull down to refresh"</string>
-    <string name="get_image_file_fail">"Can't find image"</string>
+    <string name="get_image_file_fail">画像が見つかりません</string>
     <string name="get_notification_access_tips">Allow Mi Fit access notifications</string>
     <string name="gf_bind_fail">追加できませんでした</string>
     <string name="gf_bind_succ">追加しました</string>
