@@ -561,7 +561,7 @@ Continue anyway?"</string>
     <string name="gf_bind_succ">追加しました</string>
     <string name="gf_tips">Steps and sleep data will be synced with Google Fit</string>
     <string name="give_up">破棄する</string>
-    <string name="goal_weight_for_figure">Weight goal: %s</string>
+    <string name="goal_weight_for_figure">目標体重: %s</string>
     <string name="googlefit">Google Fit</string>
     <string name="got_it">OK</string>
     <string name="gotit">OK</string>
@@ -895,7 +895,7 @@ measurement range (%s)"</string>
     <string name="mine_item_sleep_result_notify">Wake up notifications</string>
     <string name="mine_item_sport_goal">Activity goal</string>
     <string name="mine_item_sport_result_notify">Activity alerts</string>
-    <string name="mine_item_weight_goal">Weight goal</string>
+    <string name="mine_item_weight_goal">目標体重</string>
     <string name="mine_more">More</string>
     <string name="mine_open">On</string>
     <string name="mine_person_info">Profile</string>
@@ -1524,7 +1524,7 @@ Pair Mi Band for workouts"</string>
     <string name="set_lock_distance_title">Set unlock range</string>
     <string name="set_rssi_failed">"Couldn't set"</string>
     <string name="set_sport_goal">Set activity goals</string>
-    <string name="set_weight_goal">Set weight goal</string>
+    <string name="set_weight_goal">目標体重を設定</string>
     <string name="setting_about">About</string>
     <string name="setting_heartrate_detect">Heart rate detection</string>
     <string name="setting_heartrate_detect_auto">Automatic heart rate detection</string>
@@ -1947,11 +1947,11 @@ The measurements which are taken after you just bathed, drank alcohol, or worked
     <string name="weight_bfs_unit_kg">Metric (kg)</string>
     <string name="weight_bfs_unit_pound">Imperial (lbs)</string>
     <string name="weight_choose_user_title">Tell me who you are</string>
-    <string name="weight_delete_confirm_title">Clear weight goal?</string>
+    <string name="weight_delete_confirm_title">目標体重を消去しますか？</string>
     <string name="weight_delete_title">Delete this record?</string>
     <string name="weight_device_help">Mi Scale help</string>
     <string name="weight_family_info_title">Family info</string>
-    <string name="weight_goal">Weight goal</string>
+    <string name="weight_goal">目標体重</string>
     <string name="weight_help_info_0">Mi Scale is connected to the phone via Bluetooth. The closer the devices are to each other, the easier it is to find the scale.</string>
     <string name="weight_help_info_1">Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</string>
     <string name="weight_help_info_2">"If the scale doesn't respond during weigh-in, check if the batteries are installed properly"</string>
