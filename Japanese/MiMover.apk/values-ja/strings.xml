@@ -368,4 +368,35 @@ Waiting for the transfer…"</string>
 Similar files on the new device will be overwritten"</string>
     <string name="trans_select_data_no_space">"%s available on the new device
 Select files again or free up storage"</string>
+    <string name="trans_calculating_base_size">"Calculating app's base size"</string>
+    <string name="trans_calculating">Calculating...</string>
+    <string name="trans_native_no_space">"This device has no enough space
+Please clean out at least %s"</string>
+    <string name="trans_calculating_app_sd_size">Calculating data size to be sent, %s scanned</string>
+    <string name="trans_please_waiting">Please wait ...</string>
+    <string name="trans_connect_failed_title">Connect failed</string>
+    <string name="trans_connect_failed_message">"Connect failed, please retry or reboot. And on the other device, please tap [I'm a sender], or relaunch Mi Mover after reboot."</string>
+    <string name="trans_retry">Retry</string>
+    <string name="trans_start_failed_title">Start failed</string>
+    <string name="trans_start_failed_message">Start failed, please retry or reboot and try again</string>
+    <string name="trans_open_location_title">Turn on location services</string>
+    <string name="trans_open_location_message">Turn on location services to get the list of available Wi-Fi networks.</string>
+    <string name="trans_open_location_button">Turn on</string>
+    <string name="trans_intro_title">FAQ</string>
+    <string name="trans_intro_question_1">1. How do I use Mi Mover?</string>
+    <string name="trans_intro_desc_old">"Tap \"I'm a sender\\. Scan the QR code on the new phone, wait until Mi Mover figures out which files to send, and tap \"Send\"."</string>
+    <string name="trans_intro_question_2">2. What should I do if Mi Mover got stuck on a certain step?</string>
+    <string name="trans_intro_desc_2">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
+    <string name="trans_intro_question_3">"3. Why can't I use Wi-Fi during transfers?"</string>
+    <string name="trans_intro_desc_3">"Mi Mover uses Wi-Fi to transfer files. That's why you can't connect to the internet using Wi-Fi on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using Wi-Fi during transfers."</string>
+    <string name="trans_intro_question_4">"4. Why does Mi Mover tell me there isn't enough storage space on my old phone?"</string>
+    <string name="trans_intro_desc_4">Storage space on old devices is used for creating transfer packages. Make sure you have at least 500MB - 1GB of available storage on your old phone before you start a transfer.</string>
+    <string name="trans_intro_question_5">"5. Why aren't some apps transferred successfully?"</string>
+    <string name="trans_intro_desc_5">There are several reasons why that may happen: system and app version compatibility issues, network problems, compatibility issues specific to a particular device, etc.</string>
+    <string name="trans_intro_question_6">"6. Why won't some apps start on a new device?"</string>
+    <string name="trans_intro_desc_6">Some app profiles (e-banking, finance, etc.) are associated with specific device due to security reasons. Try clearing the app data or re-installing the app on a new device.</string>
+    <string name="trans_intro_question_7">"7. Why can't Mi Mover transfer contacts, messages, and call history?"</string>
+    <string name="trans_intro_desc_7">"Most possibly, Mi Mover doesn't have permissions to do that. You can change this in the Settings."</string>
+    <string name="trans_intro_question_8">"8. Why can't 2 phones connect?"</string>
+    <string name="trans_intro_desc_8">Location services should be turned on on the devices so that Mi Mover could use the Wi-Fi channel to transfer data. Make sure you turned on GPS on the devices.</string>
 </resources>
