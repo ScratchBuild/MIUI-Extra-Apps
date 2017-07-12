@@ -14,7 +14,7 @@
     <string-array name="bmi_for_not_chinese">
         <item>Low</item>
         <item>Normal</item>
-        <item>Borderline high</item>
+        <item>Increased</item>
         <item>High</item>
         <item>Very high</item>
     </string-array>
@@ -53,7 +53,7 @@
         <item>Reached goal</item>
     </string-array>
     <string-array name="chaohu_help_tips">
-        <item>"Try to press the button on the watch, if the watch screen is off, plug it in to charge it''s battery."</item>
+        <item>Try to press the button on the watch, if the watch screen is off, plug it in to charge its battery.</item>
         <item>Turn off Bluetooth first, then pair with current device.</item>
         <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
         <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
@@ -63,6 +63,26 @@
         <item>Is this watch paired with another device?</item>
         <item>Try restarting Bluetooth</item>
         <item>Try rebooting your phone</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>New hand for fitness training</item>
+        <item>Had basic fitness experience</item>
+        <item>Had rich fitness experience and built a good shape</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Elementary</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Aiming to burn fat</item>
+        <item>Aiming to shape body</item>
+        <item>Aiming to build muscles</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Cutting</item>
+        <item>Shaping</item>
+        <item>Bulking</item>
     </string-array>
     <string-array name="hr_sport">
         <item>心拍ゾーン: 準備運動</item>
@@ -82,11 +102,6 @@
         <item>Close</item>
         <item>Near</item>
         <item>Far</item>
-    </string-array>
-    <string-array name="long_sit_items">
-        <item>60分</item>
-        <item>90分</item>
-        <item>120分</item>
     </string-array>
     <string-array name="mili_help_tips">
         <item>"Make sure the band is charged and hasn't run out of power."</item>
@@ -152,15 +167,15 @@
         <item>その他の設定</item>
     </string-array>
     <string-array name="shoes_help_tips">
-        <item>"If you don't use Smart Chip for a long time, it will go to sleep. Try to shake it."</item>
-        <item>"Smart Chip battery life is 1 year. If you've been using it for a longer period, maybe there's no power left."</item>
-        <item>Turn off Bluetooth device first, then pair with current device.</item>
-        <item>Try rebooting your phone, and then pair the band.</item>
+        <item>"Smart chip will stop working if you don't use it for a long time. Shake it and try again."</item>
+        <item>"Amazfit Smart Chip battery life is 1 year. If you've been using it for a longer period, maybe there's no power left."</item>
+        <item>Turn off Bluetooth first, then pair with current device.</item>
+        <item>"If the smart chip is charged, but can't be detected when you bring the phone close to it, try rebooting the phone's Bluetooth."</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
         <item>Tap the running shoes data and enter the next activity page to sync data automatically</item>
     </string-array>
     <string-array name="shoes_help_title">
-        <item>Shake Smart Chip</item>
+        <item>Shake the smart chip</item>
         <item>Is the battery charged?</item>
         <item>Is this Smart Chip paired with another device?</item>
         <item>Bluetoothを再起動してみてください</item>
@@ -191,6 +206,12 @@
         <item>Charging…</item>
         <item>Lying down</item>
     </string-array>
+    <string-array name="train_difficulity">
+        <item>Not limited</item>
+        <item>Elementary, 1</item>
+        <item>Intermediate, 2</item>
+        <item>Advanced, 3</item>
+    </string-array>
     <string-array name="unbind_device_description">
         <item>Band</item>
         <item>Mi Scale</item>
@@ -206,6 +227,15 @@
         <item>Insufficient</item>
         <item>Normal</item>
         <item>Good</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
     </string-array>
     <string-array name="weeks">
         <item>月曜日</item>
@@ -225,6 +255,12 @@
         <item>土</item>
         <item>日</item>
     </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Underweight</item>
+        <item>Balanced</item>
+        <item>Overweight</item>
+        <item>Obese</item>
+    </string-array>
     <string-array name="weight_bfs_help_tips">
         <item>Turn off Bluetooth first, then pair with current device.</item>
         <item>Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
@@ -234,16 +270,10 @@
     </string-array>
     <string-array name="weight_bfs_help_title">
         <item>Is this scale paired with another device?</item>
-        <item>Is there enough power left?</item>
+        <item>"Check the scale's battery"</item>
         <item>Are the batteries installed properly?</item>
         <item>Try restarting Bluetooth</item>
         <item>Try rebooting your phone</item>
-    </string-array>
-    <string-array name="weight_body_figures">
-        <item>痩せぎみ</item>
-        <item>普通</item>
-        <item>太りぎみ</item>
-        <item>肥満 I</item>
     </string-array>
     <string-array name="weight_body_figures_for_child">
         <item>普通</item>
@@ -256,12 +286,6 @@
         <item>太りぎみ</item>
         <item>肥満 I</item>
         <item>肥満 II</item>
-    </string-array>
-    <string-array name="weight_help_tips">
-        <item>Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
-        <item>"If the scale doesn't respond during weigh-in, check if the batteries are installed properly."</item>
-        <item>"If the band is charged but the phone can't see it, try restarting phone's Bluetooth."</item>
-        <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
     </string-array>
     <string-array name="weight_unit">
         <item>" kg"</item>
