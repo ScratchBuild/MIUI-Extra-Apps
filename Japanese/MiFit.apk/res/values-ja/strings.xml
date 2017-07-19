@@ -19,6 +19,29 @@
     <string name="abc_shareactionprovider_share_with">"共有"</string>
     <string name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
     <string name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b>にアクセスして、上のコードを入力してください。</string>
+    <string name="com_facebook_image_download_unknown_error">画像のダウンロードで何らかのエラーが発生しました。</string>
+    <string name="com_facebook_internet_permission_error_message">WebViewにログインするには、インターネットへのアクセスが必要です</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifestエラー</string>
+    <string name="com_facebook_like_button_liked">「いいね！」しました</string>
+    <string name="com_facebook_like_button_not_liked">いいね！</string>
+    <string name="com_facebook_loading">読み込み中です…</string>
+    <string name="com_facebook_loginview_cancel_action">キャンセル</string>
+    <string name="com_facebook_loginview_log_in_button">ログイン</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Facebookでログイン</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebookでログイン</string>
+    <string name="com_facebook_loginview_log_out_action">ログアウト</string>
+    <string name="com_facebook_loginview_log_out_button">ログアウト</string>
+    <string name="com_facebook_loginview_logged_in_as">%1$sとしてログイン中</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebookでログイン中</string>
+    <string name="com_facebook_send_button_text">送信</string>
+    <string name="com_facebook_share_button_text">シェアする</string>
+    <string name="com_facebook_smart_device_instructions">アカウントをリンクするには、モバイル機器でFacebookアプリを開いて、お知らせをご確認ください。</string>
+    <string name="com_facebook_smart_device_instructions_or">- または -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">別のアカウントでログイン</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">%1$sとしてログイン</string>
+    <string name="com_facebook_smart_login_confirmation_title">ログインを実行</string>
+    <string name="com_facebook_tooltip_default">アプリと共有する情報をコントロールすることができます。</string>
     <string name="common_google_play_services_api_unavailable_text">%1$sには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。</string>
     <string name="common_google_play_services_enable_button">Google Play開発者サービスを有効化</string>
     <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
@@ -55,6 +78,7 @@
     <string name="exo_controls_previous_description">前のトラック</string>
     <string name="exo_controls_rewind_description">巻き戻し</string>
     <string name="exo_controls_stop_description">停止</string>
+    <string name="messenger_send_button_text">送信</string>
     <string name="place_autocomplete_clear_button">検索をクリア</string>
     <string name="place_autocomplete_search_hint">検索</string>
     <string name="search_menu_title">検索</string>
@@ -506,7 +530,6 @@ You won't be able to join in training after %s"</string>
     <string name="data_loading">読み込み中…</string>
     <string name="data_zero">--</string>
     <string name="date_mmdd_format">%1$s/%2$s</string>
-    <string name="date_month_day_short">%1$d/%2$d</string>
     <string name="date_today">今日</string>
     <string name="date_year_month">MMM yyyy</string>
     <string name="date_yyyymm_format">%2$s/%1$s</string>
@@ -788,7 +811,8 @@ Keep Bluetooth on when running."</string>
     <string name="incoming_call_delay_alert_tips">Vibrate %ss after first ring</string>
     <string name="incoming_call_delay_dialog_alert_tips">Vibrate %ss after first ring</string>
     <string name="incoming_call_not_bound">Pair band to receive incoming call alerts</string>
-    <string name="input_family_member_name">名前を入力</string>
+    <string name="indownloading">ダウンロード中…</string>
+    <string name="input_city_name">都市名を入力</string>
     <string name="input_out_of_max">Enter up to %d characters</string>
     <string name="install_amazfit_tips">Install \"Amazfit Pace\" app</string>
     <string name="install_band_correct">Install Mi Band 2 in a right way</string>
@@ -1958,6 +1982,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="smart_alarm_add">追加</string>
     <string name="smart_alarm_done">完了</string>
     <string name="smart_lock_in_member_space">"Bluetooth unlock not supported in MIUI's second space"</string>
+    <string name="smart_lock_in_member_space_watch">"Can't unlock Second space using Bluetooth devices"</string>
     <string name="smart_lock_low_version">Android version is too old, update to 5.0 or later</string>
     <string name="smart_play_no_app_tip">通知を受信するアプリを選択</string>
     <string name="smart_play_screen_sleep_title">Only receive when the screen is off</string>
@@ -2075,6 +2100,7 @@ Download all videos of this course (%.1fMB)?"</string>
     <string name="sync_personinfo_failed">同期できませんでした</string>
     <string name="sync_device_log_success">Synced device logs successfully</string>
     <string name="sync_personinfo_failed">"Couldn't sync, try again"</string>
+    <string name="sync_watch_fail">同期できませんでした</string>
     <string name="tagging_fail_and_not_save">"Couldn't transfer and save data"</string>
     <string name="tagging_finish">終了</string>
     <string name="tagging_pause">中断</string>
@@ -2087,7 +2113,6 @@ Make sure there are no objects between them."</string>
     <string name="they_also_training_this">"They're also doing exercises"</string>
     <string name="third_bind">Add accounts</string>
     <string name="third_bind_alipay">Alipay,</string>
-    <string name="third_bind_base">Sync data with WeChat, QQ, %1$s%2$s Weibo</string>
     <string name="third_bind_googlefit">Google Fit,</string>
     <string name="this_measure">Current result</string>
     <string name="this_month">今月</string>
@@ -2408,14 +2433,16 @@ before stepping off the scale."</string>
     <string name="can_not_play_video">无法播放训练视频</string>
     <string name="training_max_hr">Maximum Heart Rate</string>
     <string name="training_min_hr">Minimum Heart Rate</string>
+    <string name="third_bind_base_1">Sync data with WeChat, Alipay, and Google Fit</string>
+    <string name="third_bind_base_2">Sync data with WeChat and Google Fit</string>
+    <string name="third_bind_base_3">Sync data with WeChat, QQ, Alipay, and Weibo</string>
+    <string name="third_bind_base_4">Sync data with WeChat, QQ, and Weibo</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
     <string name="exit_fail">退出失败</string>
     <string name="fri">五</string>
     <string name="huami_shoe">Amazfit Smart Chip</string>
-    <string name="huami_shoe_select">"Amazfit
-Smart Chip"</string>
     <string name="lab_history_12hours_format">%1$s    %2$s - %3$s</string>
     <string name="left_parentheses">(</string>
     <string name="mili_settting_mili_peyto">Amazfit Bip</string>
@@ -2423,13 +2450,9 @@ Smart Chip"</string>
 Bip"</string>
     <string name="mili_settting_mili_tempo">Tempo</string>
     <string name="normandy_device_name">Amazfit Smart Chip 2</string>
-    <string name="normandy_device_name_select">"Amazfit
-Smart Chip 2"</string>
-    <string name="smart_lock_in_member_space_watch">"Can't unlock Second space using Bluetooth devices"</string>
     <string name="speed_eng_unit_km">km/h</string>
     <string name="speed_eng_unit_mile">mph</string>
     <string name="sun">日</string>
-    <string name="sync_watch_fail">"Couldn't sync data"</string>
     <string name="thur">四</string>
     <string name="training_playing_go">GO</string>
     <string name="training_reminder">训练提醒</string>
