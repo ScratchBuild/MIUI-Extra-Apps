@@ -95,6 +95,7 @@
     <string name="account_bind_wechat">WeChat account</string>
     <string name="account_binded">Added</string>
     <string name="account_binding">Adding…</string>
+    <string name="account_id">Account ID:</string>
     <string name="account_unbind_failed">"Couldn't remove, try again"</string>
     <string name="account_unbind_mi_notifi">Remove \"Mi Account\"?</string>
     <string name="account_unbind_success">Removed successfully</string>
@@ -237,7 +238,7 @@ For example, WeChat:
     <string name="app_upgrade_filure_btn">OK</string>
     <string name="app_upgrade_filure_content">"Couldn't get info, check your network connection and try again"</string>
     <string name="app_upgrade_filure_title">"Couldn't update"</string>
-    <string name="app_version">アプリバージョン: %s</string>
+    <string name="app_version_3">アプリバージョン</string>
     <string name="auto_locate">Get location automatically</string>
     <string name="average">Average: %1$s</string>
     <string name="average_heart_rate">Avg heart rate</string>
@@ -314,6 +315,7 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_chaohu_not_shake">"Watch hasn't received pairing request"</string>
     <string name="bind_chaohu_search_tips">Keep the watch close to your phone</string>
     <string name="bind_chaohu_search_title">Searching…</string>
+    <string name="bind_device_has_bound">Band is paired by other people. Ask them to unpair it or contact our customer service and try again.</string>
     <string name="bind_failed_auth_deny">Pairing request is refused, bring it close to the phone and try again</string>
     <string name="bind_failed_help">"Couldn't pair. Restart Bluetooth and try again."</string>
     <string name="bind_failed_net_error">"Couldn't pair, check network and try again."</string>
@@ -503,6 +505,7 @@ Connect your device to the network during the session."</string>
     <string name="close_hr_check">心拍数モードがオフになっています</string>
     <string name="cm">" cm"</string>
     <string name="commit">Submit</string>
+    <string name="commit_log">Upload log (It helps us locate the problem)</string>
     <string name="compare_to_last_time">Progress</string>
     <string name="complete">完了</string>
     <string name="confirm">OK</string>
@@ -512,6 +515,7 @@ Connect your device to the network during the session."</string>
     <string name="connect_failed">接続できませんでした</string>
     <string name="connected_time">%s synced</string>
     <string name="connecting_shoes">Connecting device…</string>
+    <string name="contact_content_title">Contact Info</string>
     <string name="content_too_short">"Can't be blank"</string>
     <string name="continue_update">Update</string>
     <string name="contiune_clear">Continue to clear</string>
@@ -552,6 +556,7 @@ You won't be able to join in training after %s"</string>
     <string name="device_connect_failed">接続に失敗しました</string>
     <string name="device_connecting">接続中…</string>
     <string name="device_data_syncing">同期中…</string>
+    <string name="device_log_syncing">Syncing watch log %1$d%%</string>
     <string name="device_select_title">Select devices to pair</string>
     <string name="device_shoe">Running shoes</string>
     <string name="device_tip_ble_not_open">Bluetoothがオフになっています</string>
@@ -581,6 +586,7 @@ You won't be able to join in training after %s"</string>
     <string name="download_all_training">Download all</string>
     <string name="download_all_training_videos">Download all training videos</string>
     <string name="download_amazfit_app">Download Amazfit Pace app</string>
+    <string name="download_ccb">Download the app</string>
     <string name="download_current_day_training">Only today</string>
     <string name="download_failed">アップデートをダウンロードできませんでした</string>
     <string name="download_medias_failed">"Couldn't download files"</string>
@@ -588,6 +594,7 @@ You won't be able to join in training after %s"</string>
     <string name="download_training_video">Download training videos</string>
     <string name="download_watermark_failed">ダウンロードできませんでした</string>
     <string name="downloading">Downloading…</string>
+    <string name="dredge_now">今すぐ開始</string>
     <string name="early_start_xday_training">Start training in advance: day %d</string>
     <string name="edit">編集</string>
     <string name="edit_app">アプリを管理</string>
@@ -628,6 +635,7 @@ You won't be able to join in training after %s"</string>
     <string name="feedback_confirm_cancel_info">メッセージの編集を破棄しますか？</string>
     <string name="feedback_contact_detail">Enter your email so we could contact you</string>
     <string name="feedback_content">Describe the issue you want to report</string>
+    <string name="feedback_content_title">フィードバック</string>
     <string name="feedback_empty">フィードバック内容を入力してください。</string>
     <string name="feedback_input_correct_contact_info">メールアドレスを入力</string>
     <string name="feedback_knew">OK</string>
@@ -635,6 +643,7 @@ You won't be able to join in training after %s"</string>
     <string name="feedback_submit_success">送信が完了しました</string>
     <string name="feedback_title">フィードバック</string>
     <string name="feedback_upload_logfile">ログを送信</string>
+    <string name="feedback_upload_watch_log">Watch log</string>
     <string name="female">女性</string>
     <string name="finish_tagging">確定</string>
     <string name="finished_today_training_course">"Finished today's training course"</string>
@@ -643,10 +652,15 @@ You won't be able to join in training after %s"</string>
     <string name="focus_fail">追加できませんでした</string>
     <string name="focus_success">Accept</string>
     <string name="forefeet_ground_contact">Landing on forefeet</string>
+    <string name="friend_add_failed">追加できませんでした</string>
     <string name="friend_list_get_error">"Couldn't load friends list"</string>
     <string name="friend_new_user_guide">Nudge your friend to make their band vibrate.</string>
     <string name="friend_new_user_guide_ok">OK</string>
     <string name="friend_new_user_guide_ok_toast">Nudged</string>
+    <string name="friend_not_add_yourself">自分自身を追加することはできません</string>
+    <string name="friend_search_hint">ユーザーIDを入力</string>
+    <string name="friend_search_loading">検索中…</string>
+    <string name="friend_search_not_exist">ユーザーは存在しません</string>
     <string name="friend_set_nick_name_failed">ニックネームを設定できませんでした</string>
     <string name="friend_unfollow_confirm_body">"You won't be able to view this person's activity and sleep data.
 Continue anyway?"</string>
@@ -801,6 +815,7 @@ Keep Bluetooth on when running."</string>
     <string name="i_know">OK</string>
     <string name="id_broadcast">Discoverable</string>
     <string name="id_broadcast_not_bound">Pair band to turn on Discoverable mode</string>
+    <string name="id_copied">IDをコピーしました</string>
     <string name="idbroadcast_logo_tips">Turn on to be visible to nearby devices</string>
     <string name="identify_broadcast">Discoverable</string>
     <string name="incoming_call_alert">通話着信</string>
@@ -861,6 +876,7 @@ firmly on the center of the scale."</string>
     <string name="label_accept_add_friend_by_him">Your friend request was accepted</string>
     <string name="label_accepted">Accepted</string>
     <string name="label_activity">Steps</string>
+    <string name="label_add_failed">追加できませんでした</string>
     <string name="label_calorie">Burned (Cal)</string>
     <string name="label_care_time_by_me">Nudge %s</string>
     <string name="label_care_time_by_other">Nudge %s</string>
@@ -896,6 +912,7 @@ to view their activity and sleep info"</string>
     <string name="label_remind_new">Band will vibrate when your heart rate goes above the set level</string>
     <string name="label_request_add_friend">Friend request</string>
     <string name="label_scan_add">QRコードの読み取り</string>
+    <string name="label_search_add">Add friends by their IDs</string>
     <string name="label_search_result_empty">このアカウントは存在しません。</string>
     <string name="label_share_info1">Scan QR code to add a friend</string>
     <string name="label_share_info2">"Save QR code > Open Mi Fit >
@@ -980,6 +997,7 @@ The data will be saved automatically"</string>
     <string name="measure_hr_tips">"Fasten the band above your wrist and don't move"</string>
     <string name="measure_tips">タップしてヘルプを表示</string>
     <string name="medias_all_downloaded">Videos are downloaded</string>
+    <string name="member_add_save_cancle">Discard this weigh-in?</string>
     <string name="member_add_weight_item_auto">Step on the scale to measure</string>
     <string name="member_add_weight_item_manual">Select weight</string>
     <string name="member_detail_title">Family info</string>
@@ -1136,6 +1154,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="no_body_params_for_no_measure">"Couldn't get your data, can't analyze %s"</string>
     <string name="no_bodyfat_data">No body fat data</string>
     <string name="no_device_bind">No paired devices</string>
+    <string name="no_exercise">No activities</string>
     <string name="no_heart_data">No heart rate data</string>
     <string name="no_heart_rate_data">No heart rate data</string>
     <string name="no_heartrate_data">No heart rate data</string>
@@ -1221,6 +1240,11 @@ Still download videos (%.2fMB)?"</string>
     <string name="over_max_range_weight_text">Maximum weight: %s</string>
     <string name="over_the_max_user_count">Can add up to 16 people in one family</string>
     <string name="pace">Pace</string>
+    <string name="pair_ccb_func_1">Quick Pass</string>
+    <string name="pair_ccb_func_2">Traffic</string>
+    <string name="pair_ccb_func_3">Cardless ATM withdrawals</string>
+    <string name="pair_ccb_tips">"Switching to China Construction Bank's NFC app…You will get a virtual payment card in 3 steps.And start enjoying smart payments."</string>
+    <string name="pair_ccb_title">Pair the app</string>
     <string name="per_go_setting">Go to Settings</string>
     <string name="percentage">%</string>
     <string name="permission_cam">Allow Mi Fit to access to \"camera\"</string>
@@ -2113,6 +2137,10 @@ Make sure there are no objects between them."</string>
     <string name="they_also_training_this">"They're also doing exercises"</string>
     <string name="third_bind">Add accounts</string>
     <string name="third_bind_alipay">Alipay,</string>
+    <string name="third_bind_base_1">Sync data with WeChat, Alipay, and Google Fit</string>
+    <string name="third_bind_base_2">Sync data with WeChat and Google Fit</string>
+    <string name="third_bind_base_3">Sync data with WeChat, QQ, Alipay, and Weibo</string>
+    <string name="third_bind_base_4">Sync data with WeChat, QQ, and Weibo</string>
     <string name="third_bind_googlefit">Google Fit,</string>
     <string name="this_measure">Current result</string>
     <string name="this_month">今月</string>
@@ -2132,6 +2160,7 @@ Make sure there are no objects between them."</string>
     <string name="title_add_friend">追加</string>
     <string name="title_friend_detail">詳細</string>
     <string name="title_friend_list">Friends</string>
+    <string name="title_friend_search">追加</string>
     <string name="title_message">メッセージ</string>
     <string name="title_what_is_max_hr_remind">What is the high heart rate alert?</string>
     <string name="toast_no_more_data">No more data</string>
@@ -2174,6 +2203,10 @@ Make sure there are no objects between them."</string>
     <string name="training_rest_next_action">Next  : </string>
     <string name="training_subject">Special training</string>
     <string name="training_time">Mi Fit %s</string>
+    <string name="tw__composer_hint">いまどうしてる?</string>
+    <string name="tw__login_btn_txt">Twitterにログイン</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__post_tweet">ツイート</string>
     <string name="unbind">Unpair</string>
     <string name="unbind_device">No paired devices</string>
     <string name="unbind_google_fit">Google Fitから削除</string>
@@ -2272,7 +2305,8 @@ You can turn this feature off in the Settings."</string>
     <string name="user_add_new_list_select">Select</string>
     <string name="user_add_new_toast_failed">"Couldn't add new users, check your network and try again"</string>
     <string name="user_agreement">利用規約とプライバシーポリシー</string>
-    <string name="user_agreement_prefix">"Before you use Mi Fit, you must agree with its "</string>
+    <string name="user_agreement_prefix">I agree to</string>
+    <string name="user_agreement_update">利用規約とプライバシーポリシーが更新されました</string>
     <string name="user_agreement_ux">Enroll in User Experience Program</string>
     <string name="user_plan">Enroll in User Experience Program</string>
     <string name="user_plan_sub_title">We will learn how you use the products to improve our products and services. Your data will be used in accordance with our Privacy Policy.</string>
@@ -2433,10 +2467,6 @@ before stepping off the scale."</string>
     <string name="can_not_play_video">无法播放训练视频</string>
     <string name="training_max_hr">Maximum Heart Rate</string>
     <string name="training_min_hr">Minimum Heart Rate</string>
-    <string name="third_bind_base_1">Sync data with WeChat, Alipay, and Google Fit</string>
-    <string name="third_bind_base_2">Sync data with WeChat and Google Fit</string>
-    <string name="third_bind_base_3">Sync data with WeChat, QQ, Alipay, and Weibo</string>
-    <string name="third_bind_base_4">Sync data with WeChat, QQ, and Weibo</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
@@ -2445,6 +2475,7 @@ before stepping off the scale."</string>
     <string name="huami_shoe">Amazfit Smart Chip</string>
     <string name="lab_history_12hours_format">%1$s    %2$s - %3$s</string>
     <string name="left_parentheses">(</string>
+    <string name="load_end">No more data</string>
     <string name="mili_settting_mili_peyto">Amazfit Bip</string>
     <string name="mili_settting_mili_peyto_select_watch">"Amazfit
 Bip"</string>
@@ -2452,6 +2483,7 @@ Bip"</string>
     <string name="normandy_device_name">Amazfit Smart Chip 2</string>
     <string name="speed_eng_unit_km">km/h</string>
     <string name="speed_eng_unit_mile">mph</string>
+    <string name="sport_walking_backgroud_notification">正在行走</string>
     <string name="sun">日</string>
     <string name="thur">四</string>
     <string name="training_playing_go">GO</string>

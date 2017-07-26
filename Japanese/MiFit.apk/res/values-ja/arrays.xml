@@ -40,8 +40,8 @@
         <item>Very low</item>
         <item>Low</item>
         <item>Normal</item>
+        <item>Increased</item>
         <item>High</item>
-        <item>Very high</item>
     </string-array>
     <string-array name="bone_leval">
         <item>Insufficient</item>
@@ -57,12 +57,14 @@
         <item>Turn off Bluetooth first, then pair with current device.</item>
         <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
         <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
+        <item>"Watch data can't be synced when you're doing exercise. End the session and try again."</item>
     </string-array>
     <string-array name="chaohu_help_title">
         <item>Is your watch charged?</item>
         <item>Is this watch paired with another device?</item>
         <item>Try restarting Bluetooth</item>
         <item>Try rebooting your phone</item>
+        <item>"Can't sync data during workouts"</item>
     </string-array>
     <string-array name="difficulty_content">
         <item>New hand for fitness training</item>
@@ -165,6 +167,16 @@
         <item>タイマー</item>
         <item>コンパス</item>
         <item>その他の設定</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>ダイヤルプレート</item>
+        <item>ステータス</item>
+        <item>通知</item>
+        <item>アクティビティ</item>
+        <item>天気</item>
+        <item>アラーム</item>
+        <item>タイマー</item>
+        <item>設定</item>
     </string-array>
     <string-array name="shoes_help_tips">
         <item>"Smart chip will stop working if you don't use it for a long time. Shake it and try again."</item>
