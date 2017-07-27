@@ -62,8 +62,8 @@
     <string-array name="chaohu_help_title">
         <item>Is your watch charged?</item>
         <item>Is this watch paired with another device?</item>
-        <item>Try restarting Bluetooth</item>
-        <item>Try rebooting your phone</item>
+        <item>Bluetoothを再起動してみてください</item>
+        <item>お使いの携帯を再起動してみてください</item>
         <item>"Can't sync data during workouts"</item>
     </string-array>
     <string-array name="difficulty_content">
@@ -195,13 +195,13 @@
         <item>How to sync your data?</item>
     </string-array>
     <string-array name="show_body_shape_array">
-        <item>Obese</item>
-        <item>Overweight</item>
+        <item>肥満</item>
+        <item>太りぎみ</item>
         <item>Thick-set</item>
         <item>"Lacks exercise"</item>
-        <item>Balanced</item>
+        <item>普通</item>
         <item>"Balanced muscular"</item>
-        <item>Skinny</item>
+        <item>痩せぎみ</item>
         <item>Balanced skinny</item>
         <item>"Skinny muscular"</item>
     </string-array>
@@ -268,24 +268,24 @@
         <item>日</item>
     </string-array>
     <string-array name="weight3_body_figures">
-        <item>Underweight</item>
-        <item>Balanced</item>
-        <item>Overweight</item>
-        <item>Obese</item>
+        <item>痩せぎみ</item>
+        <item>普通</item>
+        <item>太りぎみ</item>
+        <item>肥満</item>
     </string-array>
     <string-array name="weight_bfs_help_tips">
         <item>Turn off Bluetooth first, then pair with current device.</item>
         <item>Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
         <item>"If there's no response when you step on the scale, check if the batteries are installed properly."</item>
         <item>"If the battery is charged, while you still can't find the device after you bring the phone closer to it, try to restart the phone's Bluetooth."</item>
-        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
+        <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
     </string-array>
     <string-array name="weight_bfs_help_title">
         <item>Is this scale paired with another device?</item>
         <item>"Check the scale's battery"</item>
         <item>Are the batteries installed properly?</item>
-        <item>Try restarting Bluetooth</item>
-        <item>Try rebooting your phone</item>
+        <item>Bluetoothを再起動してみてください</item>
+        <item>お使いの携帯を再起動してみてください</item>
     </string-array>
     <string-array name="weight_body_figures_for_child">
         <item>普通</item>

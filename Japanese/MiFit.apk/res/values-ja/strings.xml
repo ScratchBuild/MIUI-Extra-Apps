@@ -87,7 +87,7 @@
     <string name="accelerate">加速度</string>
     <string name="account_bind">追加</string>
     <string name="account_bind_failed">"Couldn't add, try again"</string>
-    <string name="account_bind_load_failed">"Couldn't get info"</string>
+    <string name="account_bind_load_failed">情報を取得できませんでした</string>
     <string name="account_bind_loading">Getting info…</string>
     <string name="account_bind_mi">Mi Account</string>
     <string name="account_bind_success">Added successfully</string>
@@ -120,7 +120,7 @@
     <string name="action_sit">静座</string>
     <string name="action_sit_up">Sit-ups</string>
     <string name="action_sleep">睡眠</string>
-    <string name="action_stairs">Climb stairs</string>
+    <string name="action_stairs">階段を上る</string>
     <string name="action_stand">起立</string>
     <string name="action_walk">步行</string>
     <string name="active_calorie">Burned</string>
@@ -193,7 +193,7 @@
     <string name="amazfit_watch">Amazfit Pace</string>
     <string name="amazfit_watch_app">Amazfit Pace</string>
     <string name="amazfit_watch_bind_failed">"Couldn't pair"</string>
-    <string name="amazfit_watch_query_failed">"Couldn't connect to the network, try again"</string>
+    <string name="amazfit_watch_query_failed">ネットワークに接続できませんでした、もう一度お試しください</string>
     <string name="amazfit_watch_select_watch">"Amazfit
 Pace"</string>
     <string name="amazfit_watch_unbind_confirm">Unpair Amazfit Pace from Mi Fit</string>
@@ -206,10 +206,10 @@ Pace"</string>
     <string name="anti_theft">紛失防止アラーム</string>
     <string name="anti_theft_tips">"Mi Bandとの接続が切断されたときに振動します"</string>
     <string name="anti_theft_tips_watch">"Watch will vibrate when it's disconnected"</string>
-    <string name="apgs_sync_fail">"Couldn't update AGPS data"</string>
+    <string name="apgs_sync_fail">AGPSデータを更新できませんでした</string>
     <string name="apk_download_ok">Mi Fitが正常にダウンロードされました</string>
     <string name="apk_force_upgrade_wifi_status">Using mobile data may create additional traffic costs.Update anyway?</string>
-    <string name="apk_upgrde_title">Update available</string>
+    <string name="apk_upgrde_title">更新が利用可能</string>
     <string name="apk_uptodate">Current version is up to date</string>
     <string name="app_alert">"App alerts
 These apps can show their icons on band:
@@ -236,8 +236,8 @@ For example, WeChat:
     <string name="app_sleep_report_content">タップして睡眠記録を表示</string>
     <string name="app_sleep_report_title">昨夜は%1$d時間%2$d分眠りました</string>
     <string name="app_upgrade_filure_btn">OK</string>
-    <string name="app_upgrade_filure_content">"Couldn't get info, check your network connection and try again"</string>
-    <string name="app_upgrade_filure_title">"Couldn't update"</string>
+    <string name="app_upgrade_filure_content">情報を取得できませんでした、ネットワーク接続を確認してもう一度お試しください</string>
+    <string name="app_upgrade_filure_title">更新できませんでした</string>
     <string name="app_version_3">アプリバージョン</string>
     <string name="auto_locate">Get location automatically</string>
     <string name="average">Average: %1$s</string>
@@ -671,18 +671,18 @@ Continue anyway?"</string>
     <string name="function_refresh">Refresh</string>
     <string name="fw_failed_tips">Bring the %s closer to your phone and try again</string>
     <string name="fw_failed_tips_1">Bring your phone closer to the %s and try again</string>
-    <string name="fw_failed_title">"Couldn't update %s"</string>
+    <string name="fw_failed_title">%sを更新できませんでした</string>
     <string name="fw_upgrade_agps_failed_tips">Keep the band close to your phone and make sure the network is connected</string>
-    <string name="fw_upgrade_agps_failed_title">"Couldn't update AGPS"</string>
+    <string name="fw_upgrade_agps_failed_title">AGPSを更新できませんでした</string>
     <string name="fw_upgrade_agps_tips">Keep the band close to your phone and make sure the network is connected</string>
     <string name="fw_upgrade_agps_title">Updating AGPS…</string>
     <string name="fw_upgrade_chaohu_failed_tips">Bring your phone closer to the watch and try again</string>
-    <string name="fw_upgrade_chaohu_failed_title">"Couldn't update"</string>
-    <string name="fw_upgrade_chaohu_gps_failed_title">"Couldn't update"</string>
+    <string name="fw_upgrade_chaohu_failed_title">更新できませんでした</string>
+    <string name="fw_upgrade_chaohu_gps_failed_title">更新できませんでした</string>
     <string name="fw_upgrade_chaohu_gps_title">Updating GPS…</string>
     <string name="fw_upgrade_chaohu_tips">Keep the watch close to your phone</string>
     <string name="fw_upgrade_chaohu_title">Updating…</string>
-    <string name="fw_upgrade_font_failed_title">"Couldn't update"</string>
+    <string name="fw_upgrade_font_failed_title">更新できませんでした</string>
     <string name="fw_upgrade_hr">Heart rate algorithm</string>
     <string name="fw_upgrade_hr_tips">Keep the band close to your phone</string>
     <string name="fw_upgrade_hr_title">Updating heart rate</string>
@@ -690,7 +690,7 @@ Continue anyway?"</string>
     <string name="fw_upgrade_mili_resource_title">Updating resources…</string>
     <string name="fw_upgrade_mili_tips">Keep the band close to your phone</string>
     <string name="fw_upgrade_mili_title">Updating firmware…</string>
-    <string name="fw_upgrade_res_failed_title">"Couldn't update"</string>
+    <string name="fw_upgrade_res_failed_title">更新できませんでした</string>
     <string name="fw_upgrade_shoes_tips">Keep the phone close to your shoes</string>
     <string name="fw_upgrade_shoes_title">Updating firmware…</string>
     <string name="fw_upgrade_success">Updated successfully</string>
@@ -700,7 +700,7 @@ Continue anyway?"</string>
     <string name="fw_upgrade_weight_title">Updating firmware…</string>
     <string name="generate_baby_weight_message">"Can't see the baby among family members. Add now?"</string>
     <string name="generate_baby_weight_title">"Baby's weight: %1$s"</string>
-    <string name="get_history_error_refresh_please">"Couldn't get info, pull down to refresh"</string>
+    <string name="get_history_error_refresh_please">"情報を取得できませんでした、pull down to refresh"</string>
     <string name="get_image_file_fail">画像が見つかりません</string>
     <string name="get_notification_access_tips">Allow Mi Fit access notifications</string>
     <string name="gf_bind_fail">追加できませんでした</string>
@@ -894,7 +894,7 @@ to view their activity and sleep info"</string>
     <string name="label_message_empty">Empty</string>
     <string name="label_message_too_busy">Too many nudges. Try again later.</string>
     <string name="label_mileage">距離</string>
-    <string name="label_more">More</string>
+    <string name="label_more">その他</string>
     <string name="label_my_qrcode">My QR code</string>
     <string name="label_no_care_time_by_me">No nudges</string>
     <string name="label_no_update">"Haven't updated yet"</string>
@@ -1090,7 +1090,7 @@ The data will be saved automatically"</string>
     <string name="mine_item_sport_result_notify">Activity alerts</string>
     <string name="mine_item_weight_goal">目標体重</string>
     <string name="mine_medal">Medals</string>
-    <string name="mine_more">More</string>
+    <string name="mine_more">その他</string>
     <string name="mine_open">On</string>
     <string name="mine_report">Weekly report</string>
     <string name="mine_sport_goal">%s歩</string>
@@ -1102,12 +1102,12 @@ The data will be saved automatically"</string>
     <string name="modify_height">身長</string>
     <string name="modify_nickname">ニックネームを編集</string>
     <string name="modify_nickname_hint">ニックネームを入力</string>
-    <string name="modify_weight">Weight</string>
+    <string name="modify_weight">体重</string>
     <string name="monday_to_friday">月曜から金曜</string>
     <string name="month">m</string>
     <string name="month_day">%1$d/%2$d</string>
     <string name="month_day_step1">steps on %1$d/%2$d</string>
-    <string name="more">More</string>
+    <string name="more">その他</string>
     <string name="more_icon_tips">View more icons</string>
     <string name="move_and_capture">Adjust image</string>
     <string name="move_time">Time used</string>
@@ -1127,7 +1127,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="my_training_course_day">My courses/training day</string>
     <string name="name">ニックネーム</string>
     <string name="need_attention">%d items need your attention:</string>
-    <string name="net_not_work">"Couldn't connect to the network"</string>
+    <string name="net_not_work">ネットワークに接続できませんでした</string>
     <string name="network_error">Connect to the network first</string>
     <string name="network_request_fail">データを取得できませんでした</string>
     <string name="network_tips">Make sure Wi-Fi network or mobile data is available</string>
@@ -1175,7 +1175,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="normandy_connect_fail">"Couldn't connect to the Smart Chip"</string>
     <string name="normandy_found_tips">Shake your smart chip to pair when the light is on</string>
     <string name="normandy_found_title">Shake the smart chip</string>
-    <string name="normandy_fw_failed">"Couldn't update"</string>
+    <string name="normandy_fw_failed">更新できませんでした</string>
     <string name="normandy_fw_failed_tips">Bring your phone closer to the Smart Chip and try again</string>
     <string name="normandy_has_bound_tips">Smart Chip is paired by another person. Ask them to unpair it and try again.</string>
     <string name="normandy_help_tips">"If you can't find the smart chip, replace it's battery and try again."</string>
@@ -1314,7 +1314,7 @@ with your bare feet"</string>
     <string name="reach_goal_tips">Pair band to receive goal notifications</string>
     <string name="reach_goal_title">Goal notifications</string>
     <string name="read_less">Hide</string>
-    <string name="read_more">More</string>
+    <string name="read_more">その他</string>
     <string name="rebind_weibo_health">Add again</string>
     <string name="recommend_training">Recommended training</string>
     <string name="record_weight">Add weight</string>
@@ -1467,7 +1467,7 @@ Wear the band slightly above the thinnest part of your wrist."</string>
     <string name="running_help_heart_rate_display_prompt">Mi Band Pulse and Mi Band 2 are equipped with a heart rate sensor</string>
     <string name="running_help_heart_rate_range_anaerobic_limit">VO₂ max</string>
     <string name="running_help_heart_rate_range_desc">Your exercise heart rate zone is calculated as below. Select the appropriate heart rate zone can significantly increase the exercise efficiency.</string>
-    <string name="running_help_heart_rate_range_fat_burning">Weight</string>
+    <string name="running_help_heart_rate_range_fat_burning">体重</string>
     <string name="running_help_heart_rate_range_heart_lung_strengthen">Aerobic</string>
     <string name="running_help_heart_rate_range_stamina_strengthen">Anaerobic</string>
     <string name="running_help_heart_rate_range_title">Heart rate zone</string>
@@ -1528,7 +1528,7 @@ Here's how you can keep it shorter: don't land on your heels, shorten your strid
     <string name="running_history_date" formatted="false">"%d/%d
 %d"</string>
     <string name="running_history_empty_prompt">No running records yet</string>
-    <string name="running_history_exception_prompt">"Couldn't get info, pull down to refresh"</string>
+    <string name="running_history_exception_prompt">"情報を取得できませんでした、pull down to refresh"</string>
     <string name="running_history_group_distance">%1$.2f km</string>
     <string name="running_history_group_distance_br">%1$.2fmi</string>
     <string name="running_history_group_time_format">MMMM yyyy</string>
