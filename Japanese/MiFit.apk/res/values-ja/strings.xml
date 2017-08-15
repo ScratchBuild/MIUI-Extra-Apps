@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">"ホームへ移動"</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_action_bar_up_description">"上へ移動"</string>
-    <string name="abc_action_menu_overflow_description">"もっと"</string>
-    <string name="abc_action_mode_done">"完了"</string>
-    <string name="abc_activity_chooser_view_see_all">"すべて表示"</string>
-    <string name="abc_activitychooserview_choose_application">"アプリを選択"</string>
+    <string name="abc_action_bar_home_description">ホームへ移動</string>
+    <string name="abc_action_bar_home_description_format">%1$s、%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s、%2$s、%3$s</string>
+    <string name="abc_action_bar_up_description">上へ移動</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
+    <string name="abc_action_mode_done">完了</string>
+    <string name="abc_activity_chooser_view_see_all">すべて表示</string>
+    <string name="abc_activitychooserview_choose_application">アプリの選択</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
-    <string name="abc_search_hint">"検索…"</string>
-    <string name="abc_searchview_description_clear">"検索キーワードを削除"</string>
-    <string name="abc_searchview_description_query">"検索キーワード"</string>
-    <string name="abc_searchview_description_search">"検索"</string>
-    <string name="abc_searchview_description_submit">"検索キーワードを送信"</string>
-    <string name="abc_searchview_description_voice">"音声検索"</string>
-    <string name="abc_shareactionprovider_share_with">"共有"</string>
-    <string name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
-    <string name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="abc_search_hint">検索…</string>
+    <string name="abc_searchview_description_clear">検索キーワードを削除</string>
+    <string name="abc_searchview_description_query">検索キーワード</string>
+    <string name="abc_searchview_description_search">検索</string>
+    <string name="abc_searchview_description_submit">検索キーワードを送信</string>
+    <string name="abc_searchview_description_voice">音声検索</string>
+    <string name="abc_shareactionprovider_share_with">共有</string>
+    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b>にアクセスして、上のコードを入力してください。</string>
     <string name="com_facebook_image_download_unknown_error">画像のダウンロードで何らかのエラーが発生しました。</string>
     <string name="com_facebook_internet_permission_error_message">WebViewにログインするには、インターネットへのアクセスが必要です</string>
@@ -438,8 +438,7 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="bone_value">Bone mass</string>
     <string name="bound_qq_tips">"Steps and sleep data will be synced to QQ Health after you sync band data every time.
 Connect your device to the network during the session."</string>
-    <string name="bracelet_login_info_2">"By using this product, you are agreeing with Xiaomi's
-"</string>
+    <string name="bracelet_login_info_2">By using this product, you are agreeing with</string>
     <string name="bracelet_notify_text">"Don't forget to put the band on"</string>
     <string name="bracelet_notify_title">充電完了</string>
     <string name="break_best_step_record">個人記録を更新しました！</string>
@@ -627,7 +626,7 @@ You won't be able to join in training after %s"</string>
     <string name="exit_training_course">Exit training courses</string>
     <string name="family_info_key_nickname">ニックネーム</string>
     <string name="family_manager">Manage members</string>
-    <string name="family_member">Family member</string>
+    <string name="family_member">Family members</string>
     <string name="fastest">Fastest: %1$s</string>
     <string name="featured_articles">Featured articles</string>
     <string name="feedback_abandon">破棄</string>
@@ -1177,7 +1176,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="normandy_found_title">Shake the smart chip</string>
     <string name="normandy_fw_failed">更新できませんでした</string>
     <string name="normandy_fw_failed_tips">Bring your phone closer to the Smart Chip and try again</string>
-    <string name="normandy_has_bound_tips">Smart Chip is paired by another person. Ask them to unpair it and try again.</string>
+    <string name="normandy_has_bound_tips">Smart chip is paired by other people. Ask them to unpair it or contact our customer service and try again.</string>
     <string name="normandy_help_tips">"If you can't find the smart chip, replace it's battery and try again."</string>
     <string name="normandy_high_battery">Battery is charged</string>
     <string name="normandy_low_battery">Replace battery</string>
@@ -1292,8 +1291,8 @@ with your bare feet"</string>
     <string name="popularity_training">Popular courses</string>
     <string name="pre_measure">Previous result</string>
     <string name="pull_label_sync_data">Pull down to sync</string>
-    <string name="pull_to_refresh_pull_label">Pull down to sync</string>
-    <string name="pull_to_refresh_refreshing_label">Syncing…</string>
+    <string name="pull_to_refresh_pull_label">画面を引っ張って…</string>
+    <string name="pull_to_refresh_refreshing_label">読み込み中…</string>
     <string name="pull_to_refresh_release_label">指を離して更新…</string>
     <string name="put_done">完了</string>
     <string name="put_normandy_in_shoes_tips">Make sure the rope points at the same direction of heel</string>
@@ -2005,7 +2004,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="sm_alert_not_bound">Pair band to receive incoming SMS alerts</string>
     <string name="smart_alarm_add">追加</string>
     <string name="smart_alarm_done">完了</string>
-    <string name="smart_lock_in_member_space">"Bluetooth unlock not supported in MIUI's second space"</string>
+    <string name="smart_lock_in_member_space">"Can't unlock Second space using Bluetooth devices"</string>
     <string name="smart_lock_in_member_space_watch">"Can't unlock Second space using Bluetooth devices"</string>
     <string name="smart_lock_low_version">Android version is too old, update to 5.0 or later</string>
     <string name="smart_play_no_app_tip">通知を受信するアプリを選択</string>
@@ -2470,6 +2469,7 @@ before stepping off the scale."</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="bind_device_chaohu_has_bound">Watch is paired by other people. Ask them to unpair it or contact our customer service and try again.</string>
     <string name="exit_fail">退出失败</string>
     <string name="fri">五</string>
     <string name="huami_shoe">Amazfit Smart Chip</string>
