@@ -106,7 +106,9 @@
         <item>Far</item>
     </string-array>
     <string-array name="mili_help_tips">
-        <item>"Make sure the band is charged and hasn't run out of power."</item>
+        <item>"Tap the band to check if the device is charged before you pair a Mi Band 2 or other bands.
+
+Charge the band before you pair a Mi Band or Mi Band Pulse."</item>
         <item>Turn off Bluetooth first, then pair with current device.</item>
         <item>"If the band is charged, but the phone can't see it, try restarting phone's Bluetooth."</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>

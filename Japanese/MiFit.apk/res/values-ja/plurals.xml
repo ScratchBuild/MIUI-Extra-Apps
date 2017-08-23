@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="course_will_start_xdays_after">
+        <item quantity="other">The course begins in %d days</item>
+        <item quantity="one">The course begins in %d day</item>
+    </plurals>
     <plurals name="exercise_total_runtimes">
         <item quantity="other">%1$d activities</item>
         <item quantity="one">%1$d activity</item>
+    </plurals>
+    <plurals name="have_finish_x_times_training">
+        <item quantity="other">Finished %d training sessions</item>
+        <item quantity="one">Finished %d training session</item>
+    </plurals>
+    <plurals name="how_many_times">
+        <item quantity="other">Session %d</item>
+        <item quantity="one">Session %d</item>
     </plurals>
     <plurals name="numberFoot">
         <item quantity="other">%sフィート</item>
@@ -12,40 +24,28 @@
         <item quantity="other">%sインチ</item>
         <item quantity="one">%sインチ</item>
     </plurals>
-    <plurals name="picker_number_of_items_selected">
-        <item quantity="other">%1$d件を選択中</item>
-        <item quantity="one">%1$d件を選択中</item>
-    </plurals>
-    <plurals name="course_will_start_xdays_after">
-        <item quantity="other">Courses will start in %d days</item>
-        <item quantity="one">Courses will start in %d day</item>
-    </plurals>
-    <plurals name="have_finish_x_times_training">
-        <item quantity="other">已完成%d次训练</item>
-        <item quantity="one">已完成%d次训练</item>
-    </plurals>
-    <plurals name="how_many_times">
-        <item quantity="other">%d times</item>
-        <item quantity="one">%d time</item>
-    </plurals>
     <plurals name="people_attended">
         <item quantity="other">%d participants</item>
         <item quantity="one">%d participant</item>
     </plurals>
+    <plurals name="picker_number_of_items_selected">
+        <item quantity="other">%1$d件を選択中</item>
+        <item quantity="one">%1$d件を選択中</item>
+    </plurals>
     <plurals name="start_train_after_x_day">
-        <item quantity="other">Start in %s days</item>
-        <item quantity="one">Start in %s day</item>
+        <item quantity="other">Begins in %s days</item>
+        <item quantity="one">Begins in %s day</item>
     </plurals>
     <plurals name="train_day_format">
-        <item quantity="other">Last training %d days ago</item>
-        <item quantity="one">Last training %d day ago</item>
+        <item quantity="other">Last training: %d days ago</item>
+        <item quantity="one">Last training: %d day ago</item>
     </plurals>
     <plurals name="training_playing_title_time">
         <item quantity="other"> %1$d 秒</item>
         <item quantity="one"> %1$d 秒</item>
     </plurals>
     <plurals name="training_playing_title_times">
-        <item quantity="other"> %1$d 次</item>
-        <item quantity="one"> %1$d 次</item>
+        <item quantity="other"> %1$d  times</item>
+        <item quantity="one"> %1$d  time</item>
     </plurals>
 </resources>

@@ -96,10 +96,12 @@
     <string name="account_binded">Added</string>
     <string name="account_binding">Adding…</string>
     <string name="account_id">Account ID:</string>
+    <string name="account_unbind">Unpair</string>
+    <string name="account_unbind_check">Unpair?</string>
     <string name="account_unbind_failed">"Couldn't remove, try again"</string>
-    <string name="account_unbind_mi_notifi">Remove \"Mi Account\"?</string>
+    <string name="account_unbind_mi_notifi">"After unpairing, you won't be able to view current data by Mi Account"</string>
     <string name="account_unbind_success">Removed successfully</string>
-    <string name="account_unbind_wechat_notifi">Remove \"WeChat account\"?</string>
+    <string name="account_unbind_wechat_notifi">"After unpairing, you won't be able to view current data by WeChat account"</string>
     <string name="account_unbinding">Removing…</string>
     <string name="action">Action</string>
     <string name="action_badminton">バドミントン</string>
@@ -270,7 +272,7 @@ For example, WeChat:
     <string name="band_sync_fail">"Couldn't sync band data"</string>
     <string name="basal_metabolism">基礎代謝</string>
     <string name="basal_metabolism_unit">Cal</string>
-    <string name="battery">Remaining battery</string>
+    <string name="battery">Battery</string>
     <string name="battery_level">バッテリー残量: %s%%</string>
     <string name="battery_low">Low battery</string>
     <string name="battery_warn_less_0">Out of power, charge your band</string>
@@ -315,10 +317,11 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_chaohu_not_shake">"Watch hasn't received pairing request"</string>
     <string name="bind_chaohu_search_tips">Keep the watch close to your phone</string>
     <string name="bind_chaohu_search_title">Searching…</string>
-    <string name="bind_device_has_bound">Band is paired by other people. Ask them to unpair it or contact our customer service and try again.</string>
+    <string name="bind_device_chaohu_has_bound">Watch is paired by other people. Ask them to unpair it or contact our customer service and try again.</string>
+    <string name="bind_device_has_bound">"Couldn't pair, contact customer service"</string>
     <string name="bind_failed_auth_deny">Pairing request is refused, bring it close to the phone and try again</string>
-    <string name="bind_failed_help">"Couldn't pair. Restart Bluetooth and try again."</string>
-    <string name="bind_failed_net_error">"Couldn't pair, check network and try again."</string>
+    <string name="bind_failed_help">"Couldn't pair, Restart Bluetooth and try again"</string>
+    <string name="bind_failed_net_error">"Couldn't pair, check network and try again"</string>
     <string name="bind_get_help">タップしてヘルプを表示</string>
     <string name="bind_google_fit">Google Fit</string>
     <string name="bind_google_fit_btn_text">Google Fitと同期</string>
@@ -326,10 +329,12 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_mi_weight_howto_tips">Learn more</string>
     <string name="bind_mili_connect_title">Connecting band</string>
     <string name="bind_mili_failed">"Couldn't pair, keep the band close to your phone and try again"</string>
+    <string name="bind_mili_found_not_shake">"Band hasn't received pairing request"</string>
     <string name="bind_mili_found_tips">Tap the band to confirm when you feel vibration</string>
     <string name="bind_mili_found_tips_pro">"Tap the band to pair while it's vibrating"</string>
     <string name="bind_mili_found_title">Tap the band</string>
     <string name="bind_mili_found_title_pro">Press the band</string>
+    <string name="bind_mili_found_title_tempo">Confirm on the band</string>
     <string name="bind_mili_more_devices_tips">Keep your band away from other bands when searching</string>
     <string name="bind_mili_not_found_tips">"Couldn't find band. Make sure it's charged and close to the phone."</string>
     <string name="bind_mili_not_shake">"My band didn't vibrate"</string>
@@ -438,7 +443,8 @@ Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-min
     <string name="bone_value">Bone mass</string>
     <string name="bound_qq_tips">"Steps and sleep data will be synced to QQ Health after you sync band data every time.
 Connect your device to the network during the session."</string>
-    <string name="bracelet_login_info_2">By using this product, you are agreeing with</string>
+    <string name="bracelet_dialog_info">Tap to agree to %1$s and %2$s</string>
+    <string name="bracelet_login_info">By signing in, you agree to \"%1$s\" and \"%2$s\"</string>
     <string name="bracelet_notify_text">"Don't forget to put the band on"</string>
     <string name="bracelet_notify_title">充電完了</string>
     <string name="break_best_step_record">個人記録を更新しました！</string>
@@ -457,6 +463,7 @@ Connect your device to the network during the session."</string>
     <string name="calendar_tommorrow">Tomorrow</string>
     <string name="calendar_week">w</string>
     <string name="calorie">Calories</string>
+    <string name="can_not_play_video">"Can't play the video"</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_focus_fail">"Couldn't unfriend"</string>
     <string name="cancel_focus_success">Unfriended successfully</string>
@@ -465,6 +472,7 @@ Connect your device to the network during the session."</string>
     <string name="cancel_tagging">キャンセル</string>
     <string name="cannot_analyze">解析できませんでした</string>
     <string name="cannot_delete">At least keep a record</string>
+    <string name="ccb_app_version_low">Update the app to the latest version</string>
     <string name="change_sport_goal_confirm">OK</string>
     <string name="change_sport_goal_tip_not_bound">Pair band to set activity goal</string>
     <string name="chaohu_alarm">Watch alarm</string>
@@ -555,7 +563,8 @@ You won't be able to join in training after %s"</string>
     <string name="device_connect_failed">接続に失敗しました</string>
     <string name="device_connecting">接続中…</string>
     <string name="device_data_syncing">同期中…</string>
-    <string name="device_log_syncing">Syncing watch log %1$d%%</string>
+    <string name="device_log_syncing">Syncing watch logs %1$d%%</string>
+    <string name="device_log_syncing_band">Syncing band logs %1$d%%</string>
     <string name="device_select_title">Select devices to pair</string>
     <string name="device_shoe">Running shoes</string>
     <string name="device_tip_ble_not_open">Bluetoothがオフになっています</string>
@@ -622,6 +631,7 @@ You won't be able to join in training after %s"</string>
     <string name="exercise_hr_section">Heart rate zone</string>
     <string name="exit">ログアウト</string>
     <string name="exit_app">終了</string>
+    <string name="exit_fail">"Couldn't leave"</string>
     <string name="exit_training">Exit training</string>
     <string name="exit_training_course">Exit training courses</string>
     <string name="family_info_key_nickname">ニックネーム</string>
@@ -629,6 +639,10 @@ You won't be able to join in training after %s"</string>
     <string name="family_member">Family members</string>
     <string name="fastest">Fastest: %1$s</string>
     <string name="featured_articles">Featured articles</string>
+    <string name="feed_back_band_disconnected">Make sure the band is connected before you send logs</string>
+    <string name="feed_back_bluetooth_off">Turn on Bluetooth and connect to the watch before you send logs</string>
+    <string name="feed_back_watch_disconnected">Make sure the watch is connected before you send logs</string>
+    <string name="feed_back_watch_log_sync_fail">"Couldn't sync watch logs"</string>
     <string name="feedback_abandon">破棄</string>
     <string name="feedback_checkoutbox_msg">(It helps us locate the problem)</string>
     <string name="feedback_confirm_cancel_info">メッセージの編集を破棄しますか？</string>
@@ -641,6 +655,7 @@ You won't be able to join in training after %s"</string>
     <string name="feedback_submit_failed">送信できませんでした</string>
     <string name="feedback_submit_success">送信が完了しました</string>
     <string name="feedback_title">フィードバック</string>
+    <string name="feedback_upload_band_log">Band logs</string>
     <string name="feedback_upload_logfile">ログを送信</string>
     <string name="feedback_upload_watch_log">Watch log</string>
     <string name="female">女性</string>
@@ -699,6 +714,9 @@ Continue anyway?"</string>
     <string name="fw_upgrade_weight_title">Updating firmware…</string>
     <string name="generate_baby_weight_message">"Can't see the baby among family members. Add now?"</string>
     <string name="generate_baby_weight_title">"Baby's weight: %1$s"</string>
+    <string name="ges_screen_type_all_day">All day turn on time</string>
+    <string name="ges_screen_type_close">Turn off</string>
+    <string name="ges_screen_type_time">Schedule turn on time</string>
     <string name="get_history_error_refresh_please">"情報を取得できませんでした、pull down to refresh"</string>
     <string name="get_image_file_fail">画像が見つかりません</string>
     <string name="get_notification_access_tips">Allow Mi Fit access notifications</string>
@@ -937,6 +955,7 @@ The data will be saved automatically"</string>
     <string name="light_color_title">LED color that shows workout progress</string>
     <string name="loaction_msg">Allow Mi Fit to search for and connect to devices after turning it on</string>
     <string name="loaction_tips">Turn on Location access</string>
+    <string name="load_end">No more data</string>
     <string name="load_error">"Couldn't load data"</string>
     <string name="load_fail">データを取得できませんでした</string>
     <string name="load_failed">Check the network and try again</string>
@@ -1045,7 +1064,8 @@ The data will be saved automatically"</string>
     <string name="mili_setting_ges_screen">Lift wrist to view info</string>
     <string name="mili_setting_ges_screen_key">Rotate wrist to switch info</string>
     <string name="mili_setting_ges_screen_key_tips">Rotate wrist to switch info on band when the screen is on</string>
-    <string name="mili_setting_ges_screen_tips">Lift your wrist to view info on band</string>
+    <string name="mili_setting_ges_screen_tips">Lift wrist to view info on the band</string>
+    <string name="mili_setting_ges_screen_tips_watch">Lift wrist to view info on the watch</string>
     <string name="mili_setting_hr_fw_version">Heart rate firmware version</string>
     <string name="mili_setting_last_charge">%sd since last charge</string>
     <string name="mili_setting_last_charge_today">Charged today</string>
@@ -1171,6 +1191,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="no_sleep_data">睡眠記録なし</string>
     <string name="no_speed_data">No speed data</string>
     <string name="no_tip"><u>二度と表示しない</u></string>
+    <string name="no_training_hr_data">"Couldn't get data"</string>
     <string name="normandy_connect_fail">"Couldn't connect to the Smart Chip"</string>
     <string name="normandy_found_tips">Shake your smart chip to pair when the light is on</string>
     <string name="normandy_found_title">Shake the smart chip</string>
@@ -1242,8 +1263,8 @@ Still download videos (%.2fMB)?"</string>
     <string name="pair_ccb_func_1">Quick Pass</string>
     <string name="pair_ccb_func_2">Traffic</string>
     <string name="pair_ccb_func_3">Cardless ATM withdrawals</string>
-    <string name="pair_ccb_tips">"Switching to China Construction Bank's NFC app…You will get a virtual payment card in 3 steps.And start enjoying smart payments."</string>
-    <string name="pair_ccb_title">Pair the app</string>
+    <string name="pair_ccb_tips">"Switching to China Construction Bank's NFC app…Get a virtual payment card in 3 steps. And start enjoying smart payments."</string>
+    <string name="pair_ccb_title">Start to use QuickPass</string>
     <string name="per_go_setting">Go to Settings</string>
     <string name="percentage">%</string>
     <string name="permission_cam">Allow Mi Fit to access to \"camera\"</string>
@@ -1739,6 +1760,14 @@ Pair the band and start running"</string>
     <string name="send_fail">"Couldn't send friend request"</string>
     <string name="send_success">Friend request sent</string>
     <string name="sending">送信中…</string>
+    <string name="sensitive_data_agree">OK</string>
+    <string name="sensitive_data_disagree">Decline</string>
+    <string name="sensitive_data_mili">Activities, sleep, heart rate (band with heart rate sensor)</string>
+    <string name="sensitive_data_shoes">Activity</string>
+    <string name="sensitive_data_watch">Activities, sleep, heart rate</string>
+    <string name="sensitive_data_weight">Weight, body composition (body fat ratio, muscle mass, water ratio, basal metabolism, visceral fat level, bone mass, body type, BMI, body score)</string>
+    <string name="sensitive_dialog_title">The following data will be collected after you pair the device:</string>
+    <string name="sensitive_dialog_title_shoes">Activity data will be collected after you pair the device</string>
     <string name="sensor_sync_fail">"Couldn't sync SensorHub data"</string>
     <string name="set_alarm">Set alarm</string>
     <string name="set_lock_distance_title">Set unlock range</string>
@@ -1754,14 +1783,16 @@ Pair the band and start running"</string>
     <string name="setting_heartrate_detect_auto">Automatic heart rate detection</string>
     <string name="setting_heartrate_detect_close">Turn off</string>
     <string name="setting_heartrate_detect_select">Select heart rate detection method</string>
-    <string name="setting_heartrate_detect_sleep">Sleep detection assistant</string>
+    <string name="setting_heartrate_detect_sleep">Sleep assistant</string>
     <string name="setting_length_british">Imperial (feet, miles)</string>
     <string name="setting_length_metric">Metric (m, km)</string>
     <string name="setting_peyto_apps">Choose items below to be displayed on the watch</string>
     <string name="setting_peyto_apps_tips">Choose items to be displayed on the watch</string>
     <string name="setting_peyto_apps_title">Watch display settings</string>
+    <string name="setting_peyto_apps_title_band">Band display settings</string>
     <string name="setting_peyto_long_press_set_title">Long press to quick start</string>
     <string name="setting_question">Help</string>
+    <string name="setting_tempo_apps_tips">Choose items to be displayed on the band</string>
     <string name="setting_unit">単位</string>
     <string name="setting_unit_length">長さの単位を設定</string>
     <string name="setting_unit_tip">"You've already paired Mi Scale.
@@ -2041,6 +2072,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="sport_setting">Workout settings</string>
     <string name="sport_setting_new">設定</string>
     <string name="sport_type_train">Training</string>
+    <string name="sport_walking_backgroud_notification">Walking</string>
     <string name="sports_type_bike_indoor_ride">Stationary bike</string>
     <string name="sports_type_bike_ride">Outdoor cycling</string>
     <string name="sports_type_elliptical_trainer">Elliptical trainer</string>
@@ -2048,7 +2080,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="start_one_scientific_training">Start a scientific training</string>
     <string name="start_tagging">開始</string>
     <string name="start_training_course_xtime">Start training: day %d</string>
-    <string name="start_training_right_now">Start No.%d round training</string>
+    <string name="start_training_right_now">Start No.%d training session</string>
     <string name="start_up_com">www.mi.com</string>
     <string name="start_up_enter">スキップ</string>
     <string name="start_up_new_version_content_custom">Rearrange items to be displayed</string>
@@ -2143,7 +2175,9 @@ Make sure there are no objects between them."</string>
     <string name="third_bind_googlefit">Google Fit,</string>
     <string name="this_measure">Current result</string>
     <string name="this_month">今月</string>
+    <string name="this_month_no_activities">No activities this month</string>
     <string name="this_week">今週</string>
+    <string name="this_week_no_activities">No activities this week</string>
     <string name="time">Time</string>
     <string name="time_type_title">時刻の形式を選択</string>
     <string name="times">times</string>
@@ -2179,15 +2213,17 @@ Make sure there are no objects between them."</string>
     <string name="training_before_hr_prompt_notice">Fasten the device tightly to increase the accuracy of the data</string>
     <string name="training_before_hr_prompt_title">Monitor heart rate during workouts</string>
     <string name="training_cache_clear_warning">"After clearing cache, you need to download again the training videos you've downloaded before"</string>
-    <string name="training_close_dialog_title">End of this training</string>
+    <string name="training_close_dialog_title">End this session</string>
     <string name="training_collection">Training collection</string>
-    <string name="training_consume_time_min">Trained for  %1$d  min</string>
-    <string name="training_consume_time_sec">Trained for %1$d  sec</string>
+    <string name="training_consume_time_min">Trained for  %1$d m</string>
+    <string name="training_consume_time_sec">Trained for %1$d s</string>
     <string name="training_course_item_day">Day %d</string>
     <string name="training_course_will_start">Training will start soon</string>
     <string name="training_knowledge">Fitness knowledge</string>
+    <string name="training_max_hr">Maximum Heart Rate</string>
+    <string name="training_min_hr">Minimum Heart Rate</string>
     <string name="training_notify">Training alerts</string>
-    <string name="training_notify_content">训练课程第%1$d天，%2$d分钟的%3$s等你去完成</string>
+    <string name="training_notify_content">"You've had %1$d days training. Go on to take %3$s exercises for %2$dm."</string>
     <string name="training_notify_time">Training alert time</string>
     <string name="training_out_date">Expired</string>
     <string name="training_playing_hr_default">--</string>
@@ -2307,8 +2343,12 @@ You can turn this feature off in the Settings."</string>
     <string name="user_agreement_prefix">I agree to</string>
     <string name="user_agreement_update">利用規約とプライバシーポリシーが更新されました</string>
     <string name="user_agreement_ux">Enroll in User Experience Program</string>
+    <string name="user_experience_info">Tap to agree to %1$s</string>
+    <string name="user_experience_update">User Experience Program updated</string>
     <string name="user_plan">Enroll in User Experience Program</string>
     <string name="user_plan_sub_title">We will learn how you use the products to improve our products and services. Your data will be used in accordance with our Privacy Policy.</string>
+    <string name="user_plan_sub_title_click">Tap to view details</string>
+    <string name="user_privacy">Privacy Policy</string>
     <string name="user_protocol">利用規約とプライバシーポリシー</string>
     <string name="view_time_tips_1">Lift your wrist to check the time on band</string>
     <string name="view_time_tips_2">Set in Profile > Mi Band 2 > Lift wrist to view info</string>
@@ -2316,7 +2356,7 @@ You can turn this feature off in the Settings."</string>
 
 Visceral fat accumulates easily, but it's very hard to be reduced. You need to maintain a balanced diet and keep aerobic exercise not less than 20 minutes every day."</string>
     <string name="visceral_high_infomation">Visceral fat level must be reduced to less than 9. Keep doing exercise and having balanced diet.</string>
-    <string name="visceral_need_attention_infomation">Current visceral fat level is too high. Doing exercise and having balanced diet can prevent a further increase</string>
+    <string name="visceral_need_attention_infomation">Current visceral fat level is too high. Doing exercise and having balanced diet can prevent a further increase.</string>
     <string name="visceral_value">Visceral fat level</string>
     <string name="wait">読み込み中…</string>
     <string name="watch_connect_fail">"Couldn't connect to watch"</string>
@@ -2340,6 +2380,7 @@ The measurements which are taken after you just bathed, drank alcohol, or worked
 Wear the band slightly above the thinnest part of your wrist."</string>
     <string name="wear_hand">Bandの装着位置</string>
     <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_description">%1$s. %2$s later.</string>
     <string name="weather_extra_fog">Heavy fog</string>
     <string name="weather_extra_heavy_fog">Severe fog</string>
     <string name="weather_extra_rainstorm">Heavy rainstorm</string>
@@ -2463,27 +2504,22 @@ before stepping off the scale."</string>
     <string name="your_weight">体重</string>
     <string name="zoom_in">ズームアウト</string>
     <string name="zoom_out">ズームイン</string>
-    <string name="can_not_play_video">无法播放训练视频</string>
-    <string name="training_max_hr">Maximum Heart Rate</string>
-    <string name="training_min_hr">Minimum Heart Rate</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
-    <string name="bind_device_chaohu_has_bound">Watch is paired by other people. Ask them to unpair it or contact our customer service and try again.</string>
-    <string name="exit_fail">退出失败</string>
     <string name="fri">五</string>
     <string name="huami_shoe">Amazfit Smart Chip</string>
     <string name="lab_history_12hours_format">%1$s    %2$s - %3$s</string>
     <string name="left_parentheses">(</string>
-    <string name="load_end">No more data</string>
     <string name="mili_settting_mili_peyto">Amazfit Bip</string>
     <string name="mili_settting_mili_peyto_select_watch">"Amazfit
 Bip"</string>
-    <string name="mili_settting_mili_tempo">Tempo</string>
+    <string name="mili_settting_mili_pro_i">Mi Band - HRX</string>
+    <string name="mili_settting_mili_tempo">Amazfit Band</string>
+    <string name="mon">一</string>
     <string name="normandy_device_name">Amazfit Smart Chip 2</string>
     <string name="speed_eng_unit_km">km/h</string>
     <string name="speed_eng_unit_mile">mph</string>
-    <string name="sport_walking_backgroud_notification">正在行走</string>
     <string name="sun">日</string>
     <string name="thur">四</string>
     <string name="training_playing_go">GO</string>
