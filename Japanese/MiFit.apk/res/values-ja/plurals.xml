@@ -48,4 +48,22 @@
         <item quantity="other"> %1$d  times</item>
         <item quantity="one"> %1$d  time</item>
     </plurals>
+    <plurals name="bf3_compare_last_mon">
+        <item quantity="other">%1$d日以上前</item>
+    </plurals>
+    <plurals name="bodyfat_3_health">
+        <item quantity="other">%d 项健康指标</item>
+    </plurals>
+    <plurals name="bodyfat_3_need_attention">
+        <item quantity="other">%d 项需关注指标</item>
+    </plurals>
+    <plurals name="bodyfat_3_not_up_to_standard">
+        <item quantity="other">%d 项未达标指标</item>
+    </plurals>
+    <plurals name="mili_setting_last_charge">
+        <item quantity="other">距上次充电已%d天</item>
+    </plurals>
+    <plurals name="training_notify_content">
+        <item quantity="other">训练课程第%1$d天，%2$d分钟的%3$s等你去完成</item>
+    </plurals>
 </resources>
