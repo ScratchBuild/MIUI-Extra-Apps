@@ -134,6 +134,7 @@
     <string name="active_week_calorie">Total burned</string>
     <string name="active_week_distance">Total distance</string>
     <string name="active_week_duration">Avg activity</string>
+    <string name="ad">広告</string>
     <string name="add_alarm_tips">Add up to %d alarms</string>
     <string name="add_alert_app">アプリの管理</string>
     <string name="add_family_nickname_hint">"Enter family member's nickname"</string>
@@ -449,6 +450,7 @@ Connect your device to the network during the session."</string>
     <string name="cache_clearing">Clearing</string>
     <string name="cadence_text">Cadence</string>
     <string name="cadence_unit">RPM</string>
+    <string name="cal_with_unit">燃焼量 (kCal)</string>
     <string name="calendar_next_week">Next week</string>
     <string name="calendar_today">Today</string>
     <string name="calendar_tommorrow">Tomorrow</string>
@@ -502,7 +504,7 @@ Connect your device to the network during the session."</string>
     <string name="close_hr_check">心拍数モードがオフになっています</string>
     <string name="cm">" cm"</string>
     <string name="commit">Submit</string>
-    <string name="commit_log">Upload log (It helps us locate the problem)</string>
+    <string name="commit_log">Send logs (It helps us locate the problem)</string>
     <string name="compare_to_last_time">Progress</string>
     <string name="complete">完了</string>
     <string name="confirm">OK</string>
@@ -627,9 +629,7 @@ You won't be able to join in training after %s"</string>
     <string name="family_member">Family members</string>
     <string name="fastest">Fastest: %1$s</string>
     <string name="featured_articles">Featured articles</string>
-    <string name="feed_back_band_disconnected">Make sure the band is connected before you send logs</string>
-    <string name="feed_back_bluetooth_off">Turn on Bluetooth and connect to the watch before you send logs</string>
-    <string name="feed_back_watch_disconnected">Make sure the watch is connected before you send logs</string>
+    <string name="feed_back_device_conn_fail">接続に失敗しました、もう一度お試しください</string>
     <string name="feed_back_watch_log_sync_fail">"Couldn't sync watch logs"</string>
     <string name="feedback_abandon">破棄</string>
     <string name="feedback_confirm_cancel_info">メッセージの編集を破棄しますか？</string>
@@ -674,7 +674,7 @@ Continue anyway?"</string>
     <string name="fw_upgrade_agps_failed_tips">Keep the band close to your phone and make sure the network is connected</string>
     <string name="fw_upgrade_agps_failed_title">AGPSを更新できませんでした</string>
     <string name="fw_upgrade_agps_tips">Keep the band close to your phone and make sure the network is connected</string>
-    <string name="fw_upgrade_agps_title">Updating AGPS…</string>
+    <string name="fw_upgrade_agps_title">Updating A-GPS…</string>
     <string name="fw_upgrade_chaohu_failed_tips">Bring your phone closer to the watch and try again</string>
     <string name="fw_upgrade_chaohu_failed_title">更新できませんでした</string>
     <string name="fw_upgrade_chaohu_gps_failed_title">更新できませんでした</string>
@@ -983,6 +983,7 @@ The data will be saved automatically"</string>
     <string name="love_success">Nudged</string>
     <string name="low_version_code">アプリのバージョンが古すぎます</string>
     <string name="mac">Bluetoothアドレス:</string>
+    <string name="mac_address_copied">MACアドレスをコピーしました</string>
     <string name="makeup_xday_training">Start missed training: day %d</string>
     <string name="male">男性</string>
     <string name="max_cadence_text">Max cadence</string>
@@ -1123,6 +1124,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="mutex_login_title">Offline notifications</string>
     <string name="my_training_course">My courses</string>
     <string name="my_training_course_day">My courses/training day</string>
+    <string name="my_training_summary">我的训练简报</string>
     <string name="name">ニックネーム</string>
     <string name="net_not_work">ネットワークに接続できませんでした</string>
     <string name="network_error">Connect to the network first</string>
@@ -1287,7 +1289,7 @@ with your bare feet"</string>
     <string name="pull_to_refresh_pull_label">画面を引っ張って…</string>
     <string name="pull_to_refresh_refreshing_label">読み込み中…</string>
     <string name="pull_to_refresh_release_label">指を離して更新…</string>
-    <string name="put_done">完了</string>
+    <string name="put_done">インストール済み</string>
     <string name="put_normandy_in_shoes_tips">Make sure the rope points at the same direction of heel</string>
     <string name="query_all">All</string>
     <string name="query_weixin_btn_text">View rankings</string>
@@ -1750,6 +1752,10 @@ Pair the band and start running"</string>
     <string name="setting_heartrate_detect">Heart rate detection</string>
     <string name="setting_heartrate_detect_auto">Automatic heart rate detection</string>
     <string name="setting_heartrate_detect_close">Turn off</string>
+    <string name="setting_heartrate_detect_freq">テスト間隔</string>
+    <string name="setting_heartrate_detect_freq_1">1分</string>
+    <string name="setting_heartrate_detect_freq_10">10分</string>
+    <string name="setting_heartrate_detect_freq_30">30分</string>
     <string name="setting_heartrate_detect_select">Select heart rate detection method</string>
     <string name="setting_heartrate_detect_sleep">Sleep assistant</string>
     <string name="setting_length_british">Imperial (feet, miles)</string>
@@ -2115,7 +2121,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="suggest_download_all_training">"You're using Wi-Fi network
 Download all videos of this course (%.1fMB)?"</string>
     <string name="suggest_training_for_you">Recommended</string>
-    <string name="sync_agps_data_label">Updating AGPS %1$d%%</string>
+    <string name="sync_agps_data_label">Updating A-GPS %1$d%%</string>
     <string name="sync_data">Syncing data %1$s</string>
     <string name="sync_data_label">Syncing data %1$d%%</string>
     <string name="sync_data_label1">Sync data</string>
@@ -2460,22 +2466,18 @@ before stepping off the scale."</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
-    <string name="ad">広告</string>
-    <string name="cal_with_unit">燃焼量 (kCal)</string>
     <string name="feed_back_bluetooth_off_band">Mi Bandのログをアップロードするには、Bluetoothをオンにしてください</string>
     <string name="feed_back_device_conn_fail">接続に失敗しました、もう一度お試しください</string>
     <string name="fri">五</string>
     <string name="huami_shoe">Amazfit Smart Chip</string>
     <string name="lab_history_12hours_format">%1$s    %2$s - %3$s</string>
     <string name="left_parentheses">(</string>
-    <string name="mac_address_copied">MACアドレスをコピーしました</string>
     <string name="mili_settting_mili_peyto">Amazfit Bip</string>
     <string name="mili_settting_mili_peyto_select_watch">"Amazfit
 Bip"</string>
     <string name="mili_settting_mili_pro_i">Mi Band - HRX</string>
     <string name="mili_settting_mili_tempo">Amazfit Band</string>
     <string name="mon">一</string>
-    <string name="my_training_summary">我的训练简报</string>
     <string name="normandy_device_name">Amazfit Smart Chip 2</string>
     <string name="setting_heartrate_detect_freq">検出頻度</string>
     <string name="setting_heartrate_detect_freq_1">1分ごと</string>

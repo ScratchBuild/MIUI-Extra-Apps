@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="bf3_compare_last_mon">
+        <item quantity="other">Compared with %1$dd ago</item>
+        <item quantity="one">Compared with %1$dd ago</item>
+    </plurals>
+    <plurals name="bodyfat_3_health">
+        <item quantity="other">Reached %d goals</item>
+        <item quantity="one">Reached %d goal</item>
+    </plurals>
+    <plurals name="bodyfat_3_need_attention">
+        <item quantity="other">%d items need your attention</item>
+        <item quantity="one">%d item needs your attention</item>
+    </plurals>
+    <plurals name="bodyfat_3_not_up_to_standard">
+        <item quantity="other">"%d items didn't reach goals"</item>
+        <item quantity="one">"%d item didn't reach goals"</item>
+    </plurals>
     <plurals name="course_will_start_xdays_after">
         <item quantity="other">The course begins in %d days</item>
         <item quantity="one">The course begins in %d day</item>
@@ -15,6 +31,10 @@
     <plurals name="how_many_times">
         <item quantity="other">Session %d</item>
         <item quantity="one">Session %d</item>
+    </plurals>
+    <plurals name="mili_setting_last_charge">
+        <item quantity="other">%dd since last charge</item>
+        <item quantity="one">%dd since last charge</item>
     </plurals>
     <plurals name="numberFoot">
         <item quantity="other">%sフィート</item>
@@ -40,6 +60,9 @@
         <item quantity="other">Last training: %d days ago</item>
         <item quantity="one">Last training: %d day ago</item>
     </plurals>
+    <plurals name="training_notify_content">
+        <item quantity="other">训练课程第%1$d天，%2$d分钟的%3$s等你去完成</item>
+    </plurals>
     <plurals name="training_playing_title_time">
         <item quantity="other"> %1$d 秒</item>
         <item quantity="one"> %1$d 秒</item>
@@ -47,23 +70,5 @@
     <plurals name="training_playing_title_times">
         <item quantity="other"> %1$d  times</item>
         <item quantity="one"> %1$d  time</item>
-    </plurals>
-    <plurals name="bf3_compare_last_mon">
-        <item quantity="other">%1$d日以上前</item>
-    </plurals>
-    <plurals name="bodyfat_3_health">
-        <item quantity="other">%d 项健康指标</item>
-    </plurals>
-    <plurals name="bodyfat_3_need_attention">
-        <item quantity="other">%d 项需关注指标</item>
-    </plurals>
-    <plurals name="bodyfat_3_not_up_to_standard">
-        <item quantity="other">%d 项未达标指标</item>
-    </plurals>
-    <plurals name="mili_setting_last_charge">
-        <item quantity="other">距上次充电已%d天</item>
-    </plurals>
-    <plurals name="training_notify_content">
-        <item quantity="other">训练课程第%1$d天，%2$d分钟的%3$s等你去完成</item>
     </plurals>
 </resources>
