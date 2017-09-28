@@ -114,18 +114,18 @@ Charge the band before you pair a Mi Band or Mi Band Pulse."</item>
         <item>Bluetoothを再起動しても問題が解決しない場合は、携帯を再起動してみてください。</item>
     </string-array>
     <string-array name="mili_help_title">
-        <item>Is your band charged?</item>
-        <item>Is this band paired with another device?</item>
+        <item>バンドは充電されていますか？</item>
+        <item>バンドは他のデバイスとペアリングされていますか？</item>
         <item>Bluetoothを再起動してみてください</item>
         <item>お使いの携帯を再起動してみてください</item>
     </string-array>
     <string-array name="mili_pro_display_items">
-        <item>時刻</item>
+        <item>時間</item>
         <item>歩数</item>
         <item>距離</item>
         <item>カロリー</item>
         <item>心拍数</item>
-        <item>バッテリー残量</item>
+        <item>バッテリー</item>
     </string-array>
     <string-array name="month_list">
         <item>Jan</item>
@@ -191,7 +191,7 @@ Charge the band before you pair a Mi Band or Mi Band Pulse."</item>
     <string-array name="shoes_help_title">
         <item>Shake the smart chip</item>
         <item>Is the battery charged?</item>
-        <item>Is this Smart Chip paired with another device?</item>
+        <item>Is this smart chip paired with another device?</item>
         <item>Bluetoothを再起動してみてください</item>
         <item>お使いの携帯を再起動してみてください</item>
         <item>How to sync your data?</item>

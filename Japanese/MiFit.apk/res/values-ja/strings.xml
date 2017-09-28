@@ -212,7 +212,7 @@ Pace"</string>
     <string name="anti_theft_tips_watch">"Watch will vibrate when it's disconnected"</string>
     <string name="apgs_sync_fail">AGPSデータを更新できませんでした</string>
     <string name="apk_download_ok">Mi Fitが正常にダウンロードされました</string>
-    <string name="apk_force_upgrade_wifi_status">Using mobile data may create additional traffic costs.Update anyway?</string>
+    <string name="apk_force_upgrade_wifi_status">Using mobile data may create additional traffic costs. Update anyway?</string>
     <string name="apk_upgrde_title">更新が利用可能</string>
     <string name="apk_uptodate">Current version is up to date</string>
     <string name="app_alert">"App alerts
@@ -274,7 +274,7 @@ For example, WeChat:
     <string name="band_sync_fail">"Couldn't sync band data"</string>
     <string name="basal_metabolism">基礎代謝</string>
     <string name="battery">Battery</string>
-    <string name="battery_level">バッテリー残量: %s%%</string>
+    <string name="battery_level">バッテリー: %s%%</string>
     <string name="battery_low">Low battery</string>
     <string name="battery_warn_less_0">Out of power, charge your band</string>
     <string name="battery_warn_less_0_watch">Out of power, charge your watch</string>
@@ -347,7 +347,7 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_shoes_capture_title">Pair shoes</string>
     <string name="bind_shoes_invalid_qr_help">Invalid QR code, scan the code on the smart chip</string>
     <string name="bind_shoes_not_found_tips">"Couldn't find the smart chip. Bring it closer to the phone."</string>
-    <string name="bind_shoes_search_tips">Keep the Smart Chip close to your phone</string>
+    <string name="bind_shoes_search_tips">Keep the smart chip close to your phone</string>
     <string name="bind_shoes_search_title">ペアリング中…</string>
     <string name="bind_status_connect">Added</string>
     <string name="bind_status_disconnect">Disconnected</string>
@@ -361,7 +361,7 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_weight_bfs_found_title">Body Composition Scale found</string>
     <string name="bind_weight_bfs_not_found_tips">"Couldn't find scale. Make sure the batteries are charged and installed properly."</string>
     <string name="bind_weight_confirm">はい</string>
-    <string name="bind_weight_found_tips">Do you see %2$s%3$s on the %1$s?</string>
+    <string name="bind_weight_found_tips">Do you see %2$s %3$s on the %1$s?</string>
     <string name="bind_weight_found_title">Scale found</string>
     <string name="bind_weight_normal">Scale</string>
     <string name="bind_weight_not_found_tips">"Couldn't find scale. Make sure the batteries are charged and installed properly."</string>
@@ -463,6 +463,7 @@ Connect your device to the network during the session."</string>
     <string name="cancel_tagging">キャンセル</string>
     <string name="cannot_analyze">解析できませんでした</string>
     <string name="cannot_delete">At least keep a record</string>
+    <string name="ccb_app_name">CCB NFC app</string>
     <string name="ccb_app_version_low">Update the app to the latest version</string>
     <string name="change_sport_goal_confirm">OK</string>
     <string name="change_sport_goal_tip_not_bound">Pair band to set activity goal</string>
@@ -512,7 +513,7 @@ Connect your device to the network during the session."</string>
     <string name="connect_failed">接続できませんでした</string>
     <string name="connected_time">%s synced</string>
     <string name="connecting_shoes">Connecting device…</string>
-    <string name="contact_content_title">Contact Info</string>
+    <string name="contact_content_title">Contact info</string>
     <string name="content_too_short">"Can't be blank"</string>
     <string name="continue_update">Update</string>
     <string name="contiune_clear">Continue to clear</string>
@@ -560,7 +561,7 @@ You won't be able to join in training after %s"</string>
     <string name="device_tip_ble_not_open">Bluetoothがオフになっています</string>
     <string name="device_tip_connect_succeed">接続に成功しました</string>
     <string name="device_tip_connecting">接続中…</string>
-    <string name="device_tip_shoes">Shake the running shoes to activate the Smart Chip</string>
+    <string name="device_tip_shoes">Shake the running shoes to activate the smart chip</string>
     <string name="device_unbind">Unpair</string>
     <string name="device_unbind_confirm">Unpair %s?</string>
     <string name="device_unbind_connect_failed_confirm">"%s isn't connected, unsynced data may be lost. Continue anyway?"</string>
@@ -583,7 +584,8 @@ You won't be able to join in training after %s"</string>
     <string name="down">Down: %1$s</string>
     <string name="download_all_training">Download all</string>
     <string name="download_all_training_videos">Download all training videos</string>
-    <string name="download_ccb">Download the app</string>
+    <string name="download_ccb">Download CCB NFC app</string>
+    <string name="download_ccb_tips">Download and install the latest CCB NFC app. Get a virtual payment card in 3 steps. And start enjoying smart payments.</string>
     <string name="download_current_day_training">Only today</string>
     <string name="download_failed">アップデートをダウンロードできませんでした</string>
     <string name="download_medias_failed">"Couldn't download files"</string>
@@ -618,6 +620,7 @@ You won't be able to join in training after %s"</string>
     <string name="every_day">毎日</string>
     <string name="exer_data_empty">No history data</string>
     <string name="exercise_hr_section">Heart rate zone</string>
+    <string name="exercise_type_all">All activities</string>
     <string name="exit">ログアウト</string>
     <string name="exit_app">終了</string>
     <string name="exit_fail">"Couldn't leave"</string>
@@ -731,6 +734,7 @@ Continue anyway?"</string>
     <string name="has_not_train_yet">"Haven't done any exercises"</string>
     <string name="has_train_today">Finished exercises today</string>
     <string name="heart_rate">心拍数</string>
+    <string name="heart_rate_average">平均心拍数</string>
     <string name="heart_rate_chart">Heart rate chart</string>
     <string name="heart_rate_manual_measure_value">Manually measured results</string>
     <string name="heart_rate_max">Maximum heart rate</string>
@@ -793,6 +797,7 @@ Continue anyway?"</string>
     <string name="hr_section_heart_lung_strengthen">Aerobic</string>
     <string name="hr_section_other" />
     <string name="hr_section_relax">No activities</string>
+    <string name="hr_section_rest">Relaxed</string>
     <string name="hr_section_stamina_strengthen">Anaerobic</string>
     <string name="hr_section_warm_up">Light</string>
     <string name="hr_sport">Active</string>
@@ -859,6 +864,8 @@ firmly on the center of the scale."</string>
     <string name="instruction_weight_title_5">Maximum weight exceeded</string>
     <string name="instruction_weight_title_6">Weighing in</string>
     <string name="invalid_name">Unsupported characters are found in the name, try again</string>
+    <string name="invisible_item_tips">Move items unnecessary to be displayed on the first page here</string>
+    <string name="invisible_item_title">Hidden items</string>
     <string name="is_tagging_finish">セッションを終了しますか？</string>
     <string name="join_free_training">Join in free training</string>
     <string name="join_training">Join in training</string>
@@ -1026,7 +1033,7 @@ The data will be saved automatically"</string>
     <string name="mili_low_battery_tips">Make sure battery level is more than 10% to update</string>
     <string name="mili_low_battery_tips_watch">Make sure battery level is more than 10% to update</string>
     <string name="mili_low_battery_title">Charge your band</string>
-    <string name="mili_low_battery_title_watch">Please charge the watch</string>
+    <string name="mili_low_battery_title_watch">Charge the watch</string>
     <string name="mili_not_connected">"Band isn't connected"</string>
     <string name="mili_pro_display_item_title">Choose items displayed on the band</string>
     <string name="mili_pro_illustration_title">Mi Band 2 icons</string>
@@ -1104,7 +1111,7 @@ The data will be saved automatically"</string>
     <string name="monday_to_friday">月曜から金曜</string>
     <string name="month">m</string>
     <string name="month_day">%1$d/%2$d</string>
-    <string name="month_day_step1">steps on %1$d/%2$d</string>
+    <string name="month_day_step1">Steps on %1$d/%2$d</string>
     <string name="more">その他</string>
     <string name="more_icon_tips">View more icons</string>
     <string name="move_and_capture">Adjust image</string>
@@ -1173,7 +1180,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="normandy_found_tips">Shake your smart chip to pair when the light is on</string>
     <string name="normandy_found_title">Shake the smart chip</string>
     <string name="normandy_fw_failed">更新できませんでした</string>
-    <string name="normandy_fw_failed_tips">Bring your phone closer to the Smart Chip and try again</string>
+    <string name="normandy_fw_failed_tips">Bring your phone closer to the smart chip and try again</string>
     <string name="normandy_help_tips">"If you can't find the smart chip, replace it's battery and try again."</string>
     <string name="normandy_high_battery">Battery is charged</string>
     <string name="normandy_low_battery">Replace battery</string>
@@ -1183,12 +1190,12 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="normandy_low_battery_notification_title">"Device's battery is low"</string>
     <string name="normandy_mid_battery">Low battery</string>
     <string name="normandy_next_step">次へ</string>
-    <string name="normandy_not_found_tips">"Couldn't find the Smart Chip. Make sure the chip is close to the phone and its battery is charged."</string>
+    <string name="normandy_not_found_tips">"Couldn't find the smart chip. Make sure the chip is close to the phone and its battery is charged."</string>
     <string name="normandy_not_light">"My smart chip's light is off"</string>
-    <string name="normandy_not_shake_help">Keep your Smart Chip away from other chips when searching</string>
+    <string name="normandy_not_shake_help">Keep your smart chip away from other chips when searching</string>
     <string name="normandy_searching">Searching…</string>
     <string name="normandy_searching_tips">Keep smart chip close to your phone</string>
-    <string name="normandy_upgrade_tips">Keep Smart Chip close to your phone</string>
+    <string name="normandy_upgrade_tips">Keep smart chip close to your phone</string>
     <string name="normandy_upgrade_title">Updating…</string>
     <string name="not_connect_network">ネットワークに接続できませんでした</string>
     <string name="not_limit_body_part">Not limited</string>
@@ -1229,6 +1236,9 @@ Still download videos (%.2fMB)?"</string>
     <string name="open">オンにする</string>
     <string name="open_avoid_disturb_tips">DND mode</string>
     <string name="open_gallery">ギャラリーを開く</string>
+    <string name="open_loaction_msg">Allow Mi Fit to search for and connect to devices after turning it on</string>
+    <string name="open_loaction_per_msg">Access to location services is required in order to connect to devices via Bluetooth</string>
+    <string name="open_loaction_per_title">Allow access to location</string>
     <string name="orange">Orange</string>
     <string name="over_max_range_weight">Maximum %s</string>
     <string name="over_max_range_weight_text">Maximum weight: %s</string>
@@ -1374,7 +1384,6 @@ with your bare feet"</string>
     <string name="running_cal_with_unit">Burned (Cal)</string>
     <string name="running_cancel">キャンセル</string>
     <string name="running_confirm">OK</string>
-    <string name="running_contour_track_failed_to_create">共有できませんでした。ストレージに十分な空き容量があることを確認して下さい。</string>
     <string name="running_cost_cal">%.1f Cal</string>
     <string name="running_data_loading">読み込み中…</string>
     <string name="running_date_last_month">先月</string>
@@ -1408,8 +1417,8 @@ with your bare feet"</string>
     <string name="running_distance_detail">%.2f km</string>
     <string name="running_distance_mile_unit">距離 (mi)</string>
     <string name="running_distance_unit">距離 (km)</string>
-    <string name="running_elevation_rise_british_unit">Feet climbed</string>
-    <string name="running_elevation_rise_unit">Meters climbed</string>
+    <string name="running_elevation_rise_british_unit">Uphill (feet)</string>
+    <string name="running_elevation_rise_unit">Uphill (m)</string>
     <string name="running_end_save">保存中</string>
     <string name="running_end_time">終了時刻</string>
     <string name="running_failed_to_get_history_neterror">Poor network signal</string>
@@ -1723,7 +1732,7 @@ Pair the band and start running"</string>
     <string name="select_from_local">ギャラリー</string>
     <string name="select_mili_tips_1">Found a previously paired band</string>
     <string name="select_mili_tips_2">Tap the list to pair</string>
-    <string name="select_shoe_type">Select Smart Chip</string>
+    <string name="select_shoe_type">Select smart chip</string>
     <string name="select_watch_title">Select a watch to pair</string>
     <string name="selected_alert_apps">Selected apps with alerts</string>
     <string name="send_fail">"Couldn't send friend request"</string>
@@ -1908,7 +1917,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="sleep_3_compare_sub">Compared with the same age users from the same area</string>
     <string name="sleep_3_deep">Deep sleep %1$s</string>
     <string name="sleep_3_dream">REM %1$s</string>
-    <string name="sleep_3_goal_title">You sleep better than %1$s of users</string>
+    <string name="sleep_3_goal_title">Sleep better than %1$s of users</string>
     <string name="sleep_3_goal_title_99">99% of people sleep better than me</string>
     <string name="sleep_3_into">Fell asleep speed</string>
     <string name="sleep_3_later">Snooze time</string>
@@ -1942,7 +1951,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="sleep_3_qa_sleep_start">"Try going to bed around 22:00. Staying up late isn't good for your immune system and speeds up ageing."</string>
     <string name="sleep_3_qa_sleep_start_late">Fell asleep late</string>
     <string name="sleep_3_qa_sleep_start_too_late">Fell asleep too late</string>
-    <string name="sleep_3_qa_sleep_time">"It's better to sleep for 7-9 hours everyday. Lack of sleep may cause physical and mental damages."</string>
+    <string name="sleep_3_qa_sleep_time">"It's better to sleep for 7-9 hours every day. Lack of sleep may cause physical and mental damages."</string>
     <string name="sleep_3_qa_sleep_time_short">Sleep time is short</string>
     <string name="sleep_3_qa_sleep_time_too_short">Sleep time is too short</string>
     <string name="sleep_3_qa_sleep_wake">Light sleep</string>
@@ -1966,6 +1975,9 @@ for 5 seconds to get more accurate data"</string>
     <string name="sleep_notification_title">Turn on wake up notifications</string>
     <string name="sleep_sleep_time">Fell asleep</string>
     <string name="sleep_statistics_title">Sleep stats</string>
+    <string name="sleep_subview_awake_sleep">Awake</string>
+    <string name="sleep_subview_deep_sleep">Deep sleep</string>
+    <string name="sleep_subview_light_sleep">Light sleep</string>
     <string name="sleep_subview_old_sleeplate">After a sleepless night, remember to take a nap during the day.</string>
     <string name="sleep_subview_young_sleeplate">Try not to stay awake at night.</string>
     <string name="sleep_tip_edit">手動で追加</string>
@@ -2305,7 +2317,7 @@ You'll be able to change that in the Amazfit Watch app settings."</string>
     <string name="user_add_new_list_select">Select</string>
     <string name="user_add_new_toast_failed">"Couldn't add new users, check your network and try again"</string>
     <string name="user_agreement">利用規約とプライバシーポリシー</string>
-    <string name="user_agreement_prefix">I agree to</string>
+    <string name="user_agreement_title">Software Usage Agreement and Policy</string>
     <string name="user_agreement_update">利用規約とプライバシーポリシーが更新されました</string>
     <string name="user_agreement_ux">Enroll in User Experience Program</string>
     <string name="user_experience_info">Tap to agree to %1$s</string>
@@ -2344,6 +2356,8 @@ The measurements which are taken after you just bathed, drank alcohol, or worked
 
 Wear the band slightly above the thinnest part of your wrist."</string>
     <string name="wear_hand">Bandの装着位置</string>
+    <string name="wear_ring_to_measure_rest_hr">Put the band on during sleeping to measure</string>
+    <string name="wear_watch_to_measure_rest_hr">Put the watch on during sleeping to measure</string>
     <string name="weather_cloudy">Cloudy</string>
     <string name="weather_description">%1$s. %2$s later.</string>
     <string name="weather_extra_fog">Heavy fog</string>
@@ -2462,6 +2476,8 @@ before stepping off the scale."</string>
     <string name="your_weight">体重</string>
     <string name="zoom_in">ズームアウト</string>
     <string name="zoom_out">ズームイン</string>
+    <string name="open_loaction_cam_per_msg">Accesses to location services and camera are required in order to connect to devices via Bluetooth</string>
+    <string name="open_loaction_per_cam_title">Allow access to location and camera</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
@@ -2480,16 +2496,15 @@ Bip"</string>
     <string name="speed_eng_unit_mile">mph</string>
     <string name="sun">日</string>
     <string name="thur">四</string>
+    <string name="training_hr">心拍数</string>
     <string name="training_playing_go">GO</string>
     <string name="training_reminder">训练提醒</string>
+    <string name="training_timer">時間</string>
     <string name="tue">二</string>
     <string name="wed">三</string>
     <string name="x_month">%d月</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
     <string name="xiaomi_external_storage_unavailable">Storage unavailable, please check the SD card.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Introducing version %1$s
 Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducing version %1$s
@@ -2502,8 +2517,6 @@ Delta update size: %2$s"</string>
     <string name="running_main_gps_go">G0!</string>
     <string name="running_min">%d分</string>
     <string name="running_min_sec" formatted="false">%d分%d秒</string>
-    <string name="running_num_unknown">--</string>
-    <string name="running_percent_mark">%</string>
     <string name="running_sec">%d秒</string>
     <string name="sport_internal_setting_gps_line">Draw Real GPS Line</string>
     <string name="sport_internal_setting_gps_point">Gen Test GPS Point</string>
