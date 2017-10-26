@@ -155,7 +155,6 @@
     <string name="air_quality_very_bad">Very poor</string>
     <string name="air_quality_very_good">Great</string>
     <string name="alarm_clock_lazy_summary">Alarm will sound in every 10 min, long press the band to stop</string>
-    <string name="alarm_clock_lazy_summary_watch">The device will vibrate again in 10 min after you tap \"Remind me later\"</string>
     <string name="alarm_clock_lazy_tip">"To stop vibration, tap the band while it's vibrating"</string>
     <string name="alarm_clock_lazy_title">Snooze mode</string>
     <string name="alarm_clock_repeat">Period</string>
@@ -195,12 +194,12 @@
     <string name="amazfit_sport_watch">Amazfit Pace</string>
     <string name="amazfit_sport_watch_lite">Amazfit Bip</string>
     <string name="amazfit_watch">Amazfit Pace</string>
-    <string name="amazfit_watch_app">Amazfit Pace</string>
+    <string name="amazfit_watch_app">Amazfit Watch</string>
     <string name="amazfit_watch_bind_failed">"Couldn't pair"</string>
     <string name="amazfit_watch_query_failed">ネットワークに接続できませんでした、もう一度お試しください</string>
     <string name="amazfit_watch_select_watch">"Amazfit
 Pace"</string>
-    <string name="amazfit_watch_unbind_confirm">Unpair Amazfit Pace from Mi Fit</string>
+    <string name="amazfit_watch_unbind_confirm">Unpair watch from Mi Fit</string>
     <string name="amazfit_watch_unbind_confirm_failed">"Couldn't sync watch data. It may be lost if you unpair the watch."</string>
     <string name="amazfit_watch_unbind_mili_mutex">Unpair the band before pairing the watch</string>
     <string name="amazfit_watch_unbind_mutex_unbind">Unpair %s</string>
@@ -308,7 +307,7 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_alipay_unbind">削除</string>
     <string name="bind_alipay_unbind_verify">Remove Alipay?</string>
     <string name="bind_amazfit_watch_subtitle">Pair to view activity and sleep data</string>
-    <string name="bind_amazfit_watch_title">Pair</string>
+    <string name="bind_amazfit_watch_title">Pair Amazfit Pace</string>
     <string name="bind_band_to_analy">Pair band to analyze your sleep</string>
     <string name="bind_chaohu_found_title">Confirm pairing on the watch</string>
     <string name="bind_chaohu_more_devices_tips">Keep your watch away from other watches when searching</string>
@@ -361,7 +360,7 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_weight_bfs_found_title">Body Composition Scale found</string>
     <string name="bind_weight_bfs_not_found_tips">"Couldn't find scale. Make sure the batteries are charged and installed properly."</string>
     <string name="bind_weight_confirm">はい</string>
-    <string name="bind_weight_found_tips">Do you see %2$s %3$s on the %1$s?</string>
+    <string name="bind_weight_found_tips">Do you see %2$s%3$s on the %1$s?</string>
     <string name="bind_weight_found_title">Scale found</string>
     <string name="bind_weight_normal">Scale</string>
     <string name="bind_weight_not_found_tips">"Couldn't find scale. Make sure the batteries are charged and installed properly."</string>
@@ -748,6 +747,7 @@ Continue anyway?"</string>
     <string name="heart_section2">Aerobic</string>
     <string name="heart_section3">Weight</string>
     <string name="heart_section4">Light</string>
+    <string name="heart_section5">Relaxed</string>
     <string name="heat">燃焼量</string>
     <string name="help_info_0">Mi Band is connected to the phone via Bluetooth. The closer the devices are to each other, the easier it is to find the band.</string>
     <string name="help_info_1">"If the phone doesn't find the band even when it's close, maybe the band is out of power. Charge the band and try again."</string>
@@ -833,7 +833,7 @@ Keep Bluetooth on when running."</string>
     <string name="indownloading">ダウンロード中…</string>
     <string name="input_city_name">都市名を入力</string>
     <string name="input_out_of_max">Enter up to %d characters</string>
-    <string name="install_amazfit_tips">Install \"Amazfit Pace\" app</string>
+    <string name="install_amazfit_tips">Install the Amazfit Watch app</string>
     <string name="install_band_correct">Install Mi Band 2 in a right way</string>
     <string name="install_band_from_bottom">Install or remove the core from the back of band strap</string>
     <string name="install_normandy">Which shoe do you want to install the smart chip in?</string>
@@ -958,6 +958,10 @@ The data will be saved automatically"</string>
     <string name="lock_screen_first_step">Set up screen unlock</string>
     <string name="lock_screen_second_step">Set up Bluetooth unlock</string>
     <string name="lock_screen_second_step_watch">Unlock with the watch</string>
+    <string name="login_error_content">問題の特定に役立てるため、エラーログを送信しますか？</string>
+    <string name="login_error_feedback">フィードバック</string>
+    <string name="login_error_feedback_submitted">送信しました</string>
+    <string name="login_error_title">ログインできません</string>
     <string name="login_failed">ログインできません</string>
     <string name="login_mi">Mi Account</string>
     <string name="login_success">ログインしました</string>
@@ -1130,7 +1134,7 @@ Loss of muscle mass will result in a lower basal metabolism and reduce energy co
     <string name="mutex_login_title">Offline notifications</string>
     <string name="my_training_course">My courses</string>
     <string name="my_training_course_day">My courses/training day</string>
-    <string name="my_training_summary">我的训练简报</string>
+    <string name="my_training_summary">My training report</string>
     <string name="name">ニックネーム</string>
     <string name="net_not_work">ネットワークに接続できませんでした</string>
     <string name="network_error">Connect to the network first</string>
@@ -1236,7 +1240,9 @@ Still download videos (%.2fMB)?"</string>
     <string name="open">オンにする</string>
     <string name="open_avoid_disturb_tips">DND mode</string>
     <string name="open_gallery">ギャラリーを開く</string>
+    <string name="open_loaction_cam_per_msg">Bluetooth経由でデバイスに接続するには、位置情報サービスとカメラへのアクセスが必要です</string>
     <string name="open_loaction_msg">Allow Mi Fit to search for and connect to devices after turning it on</string>
+    <string name="open_loaction_per_cam_title">位置情報とカメラへのアクセスを許可する</string>
     <string name="open_loaction_per_msg">Access to location services is required in order to connect to devices via Bluetooth</string>
     <string name="open_loaction_per_title">Allow access to location</string>
     <string name="orange">Orange</string>
@@ -1247,7 +1253,7 @@ Still download videos (%.2fMB)?"</string>
     <string name="pair_ccb_func_1">Quick Pass</string>
     <string name="pair_ccb_func_2">Traffic</string>
     <string name="pair_ccb_func_3">Cardless ATM withdrawals</string>
-    <string name="pair_ccb_tips">"Switching to China Construction Bank's NFC app…Get a virtual payment card in 3 steps. And start enjoying smart payments."</string>
+    <string name="pair_ccb_tips">Switching to China Construction Bank (CCB) NFC app…Get a virtual payment card in 3 steps. And start enjoying smart payments.</string>
     <string name="pair_ccb_title">Start to use QuickPass</string>
     <string name="per_go_setting">Go to Settings</string>
     <string name="percentage">%</string>
@@ -1637,7 +1643,7 @@ Pair the band and start running"</string>
     <string name="running_settings_speed">(%1$s/km)</string>
     <string name="running_settings_speed_br">(%1$s/mi)</string>
     <string name="running_share">共有</string>
-    <string name="running_share_as_sport_summary">My sport brief</string>
+    <string name="running_share_as_sport_summary">My activity report</string>
     <string name="running_share_img_failed_to_create">共有できませんでした。ストレージに十分な空き容量があることを確認して下さい。</string>
     <string name="running_share_to_mypace">My pace</string>
     <string name="running_share_to_sport_trace">My routes</string>
@@ -1861,7 +1867,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="share_weight_show_tip">詳細を表示</string>
     <string name="share_weight_target_title">Compared to weight goal</string>
     <string name="share_weixin_label">WeChat</string>
-    <string name="shoe_bind_failed_help">"Couldn't pair, keep the Smart Chip close to your phone"</string>
+    <string name="shoe_bind_failed_help">"Couldn't pair, keep the smart chip close to your phone"</string>
     <string name="shoe_brand_mijia">Mi Smart Shoes</string>
     <string name="shoe_connect_fail">"Couldn't connect shoes"</string>
     <string name="shoe_sync_fail">"Couldn't sync shoes data"</string>
@@ -1897,7 +1903,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="shoes_use_ok">完了</string>
     <string name="shoes_use_tips">Make sure QR code is facing down</string>
     <string name="shoes_use_tips_child">Make sure Li-Ning logo is facing up</string>
-    <string name="shoes_use_title">Put the Smart Chip into the shoe</string>
+    <string name="shoes_use_title">Put the smart chip into the shoe</string>
     <string name="show_contact_info_summary">着信時に電話番号または名前を表示する</string>
     <string name="show_contact_info_summary_watch">着信時に電話番号または名前を表示する</string>
     <string name="show_contact_info_tips">連絡先の情報を表示</string>
@@ -2200,9 +2206,10 @@ Make sure there are no objects between them."</string>
     <string name="training_consume_time_sec">Trained for %1$d s</string>
     <string name="training_course_item_day">Day %d</string>
     <string name="training_course_will_start">Training will start soon</string>
+    <string name="training_hr">心拍数</string>
     <string name="training_knowledge">Fitness knowledge</string>
-    <string name="training_max_hr">Maximum Heart Rate</string>
-    <string name="training_min_hr">Minimum Heart Rate</string>
+    <string name="training_max_hr">最大心拍数</string>
+    <string name="training_min_hr">最小心拍数</string>
     <string name="training_notify">Training alerts</string>
     <string name="training_notify_time">Training alert time</string>
     <string name="training_out_date">Expired</string>
@@ -2216,13 +2223,15 @@ Make sure there are no objects between them."</string>
     <string name="training_rest_day">Rest day</string>
     <string name="training_rest_interval_time">Paused for %1$d  sec</string>
     <string name="training_rest_next_action">Next  : </string>
+    <string name="training_share_to_topic">\#Mi Fit#</string>
     <string name="training_subject">Special training</string>
     <string name="training_time">Mi Fit %s</string>
+    <string name="training_timer">Time</string>
     <string name="tw__composer_hint">いまどうしてる?</string>
     <string name="tw__login_btn_txt">Twitterにログイン</string>
     <string name="tw__max_tweet_chars">140</string>
     <string name="tw__post_tweet">ツイート</string>
-    <string name="unable_sync_in_sport">运动中无法同步数据</string>
+    <string name="unable_sync_in_sport">"トレーニング中はデータを同期できません"</string>
     <string name="unbind">Unpair</string>
     <string name="unbind_device">No paired devices</string>
     <string name="unbind_google_fit">Google Fitから削除</string>
@@ -2476,8 +2485,6 @@ before stepping off the scale."</string>
     <string name="your_weight">体重</string>
     <string name="zoom_in">ズームアウト</string>
     <string name="zoom_out">ズームイン</string>
-    <string name="open_loaction_cam_per_msg">Accesses to location services and camera are required in order to connect to devices via Bluetooth</string>
-    <string name="open_loaction_per_cam_title">Allow access to location and camera</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
@@ -2491,7 +2498,12 @@ Bip"</string>
     <string name="mili_settting_mili_pro_i">Mi Band - HRX</string>
     <string name="mili_settting_mili_tempo">Amazfit Band</string>
     <string name="mon">一</string>
+    <string name="no_rest_heart_rate">无静息心率</string>
     <string name="normandy_device_name">Amazfit Smart Chip 2</string>
+    <string name="setting_heartrate_detect_auto_desc">24小时检测心率，会降低续航时长</string>
+    <string name="setting_heartrate_detect_sleep_desc">用以提高睡眠检测精度，会降低续航时长</string>
+    <string name="share_close">关闭</string>
+    <string name="share_mifit_success">前往米动圈查看</string>
     <string name="speed_eng_unit_km">km/h</string>
     <string name="speed_eng_unit_mile">mph</string>
     <string name="sun">日</string>
@@ -2499,7 +2511,6 @@ Bip"</string>
     <string name="training_hr">心拍数</string>
     <string name="training_playing_go">GO</string>
     <string name="training_reminder">训练提醒</string>
-    <string name="training_timer">時間</string>
     <string name="tue">二</string>
     <string name="wed">三</string>
     <string name="x_month">%d月</string>

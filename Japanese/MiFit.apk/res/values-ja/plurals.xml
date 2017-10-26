@@ -61,7 +61,8 @@
         <item quantity="one">Last training: %d day ago</item>
     </plurals>
     <plurals name="training_notify_content">
-        <item quantity="other">训练课程第%1$d天，%2$d分钟的%3$s等你去完成</item>
+        <item quantity="other">"You've had %1$d days training. Go on to take %3$s exercises for %2$dm."</item>
+        <item quantity="one">"You've had %1$d day training. Go on to take %3$s exercises for %2$dm."</item>
     </plurals>
     <plurals name="training_playing_title_time">
         <item quantity="other"> %1$d 秒</item>
