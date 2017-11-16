@@ -20,6 +20,10 @@
         <item quantity="other">The course begins in %d days</item>
         <item quantity="one">The course begins in %d day</item>
     </plurals>
+    <plurals name="download_time">
+        <item quantity="other">%d downloads</item>
+        <item quantity="one">%d download</item>
+    </plurals>
     <plurals name="exercise_total_runtimes">
         <item quantity="other">%1$d activities</item>
         <item quantity="one">%1$d activity</item>
