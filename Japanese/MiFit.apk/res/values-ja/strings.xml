@@ -192,7 +192,7 @@
     <string name="all_training">All courses</string>
     <string name="altitude">Altitude</string>
     <string name="am">AM</string>
-    <string name="amazfit_app_download_ok">App downloaded</string>
+    <string name="amazfit_app_download_ok">Downloaded</string>
     <string name="amazfit_sport_watch">Amazfit Pace</string>
     <string name="amazfit_sport_watch_lite">Amazfit Bip</string>
     <string name="amazfit_watch">Amazfit Pace</string>
@@ -224,6 +224,7 @@ For example, WeChat:
     <string name="app_day_report_title">Walked %1$d steps today. Cool!</string>
     <string name="app_day_report_title_low">Walked %1$d steps</string>
     <string name="app_day_report_title_rank">Ahead of %1$s of users today</string>
+    <string name="app_dia_should_be_first">"Can't sort watch faces"</string>
     <string name="app_name">Mi Fit</string>
     <string name="app_notification_alert">App alerts</string>
     <string name="app_notify_access_error_subtitle">Mi Fitの権限を確認してください</string>
@@ -235,6 +236,7 @@ For example, WeChat:
     <string name="app_notify_sms_access_title">Allow access to SMS</string>
     <string name="app_notify_tips">Keep the band connected to the phone via Bluetooth</string>
     <string name="app_notify_tips_watch">Keep the watch connected to the phone via Bluetooth</string>
+    <string name="app_setting_not_support_hidden">"Can't hide devices"</string>
     <string name="app_sleep_report_content">タップして睡眠記録を表示</string>
     <string name="app_sleep_report_title">昨夜は%1$d時間%2$d分眠りました</string>
     <string name="app_upgrade_filure_btn">OK</string>
@@ -316,6 +318,7 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_chaohu_search_tips">Keep the watch close to your phone</string>
     <string name="bind_chaohu_search_title">Searching…</string>
     <string name="bind_device_has_bound">"Couldn't pair, contact customer service"</string>
+    <string name="bind_device_has_bound_2">"Couldn't pair, restore the band to factory settings and try again"</string>
     <string name="bind_failed_auth_deny">Pairing request is refused, bring it close to the phone and try again</string>
     <string name="bind_failed_help">"Couldn't pair, Restart Bluetooth and try again"</string>
     <string name="bind_failed_net_error">"Couldn't pair, check network and try again"</string>
@@ -323,25 +326,41 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_google_fit">Google Fit</string>
     <string name="bind_google_fit_btn_text">Google Fitと同期</string>
     <string name="bind_i_know">OK</string>
+    <string name="bind_message_resend">Send again</string>
+    <string name="bind_message_send_failure">"Couldn't send"</string>
+    <string name="bind_message_send_success">Sent successfully</string>
     <string name="bind_mi_weight_howto_tips">Learn more</string>
     <string name="bind_mili_connect_title">Connecting band</string>
+    <string name="bind_mili_connecting">接続中…</string>
+    <string name="bind_mili_found_next">続行するにはバンドをタップ</string>
     <string name="bind_mili_found_not_shake">"Band hasn't received pairing request"</string>
+    <string name="bind_mili_found_sub">Tap the band to confirm when you feel vibration</string>
     <string name="bind_mili_found_tips">Tap the band to confirm when you feel vibration</string>
     <string name="bind_mili_found_tips_pro">"Tap the band to pair while it's vibrating"</string>
     <string name="bind_mili_found_title">Tap the band</string>
     <string name="bind_mili_found_title_pro">Press the band</string>
     <string name="bind_mili_found_title_tempo">Confirm on the band</string>
+    <string name="bind_mili_input_number">Enter the number on the band</string>
+    <string name="bind_mili_input_sub">After entering, tap OK to restore factory settings</string>
     <string name="bind_mili_more_devices_tips">Keep your band away from other bands when searching</string>
     <string name="bind_mili_not_found_tips">"Couldn't find band. Make sure it's charged and close to the phone."</string>
     <string name="bind_mili_not_shake">"My band didn't vibrate"</string>
     <string name="bind_mili_not_shake_help">Keep your band away from other bands when searching</string>
+    <string name="bind_mili_pair_failure">"Couldn't pair the band"</string>
+    <string name="bind_mili_reset">Resetting the band…</string>
+    <string name="bind_mili_reset_failure">"Couldn't restore, bring the band close to your phone and try again"</string>
+    <string name="bind_mili_reset_success">"Band has been restored to factory settings
+Try to pair again after rebooting"</string>
     <string name="bind_mili_search_tips">Keep the band close to your phone</string>
     <string name="bind_mili_search_title">Searching…</string>
+    <string name="bind_mili_time_out">Invalid verification code, try again</string>
+    <string name="bind_not_right_now">後で</string>
     <string name="bind_qq">QQ</string>
     <string name="bind_qq_health">追加</string>
     <string name="bind_qq_health_tip">"After pairing,  steps, sleep, and weight data will be synced with QQ Health"</string>
     <string name="bind_qq_health_tip_another_qq">Switch to the current QQ account signed in on your phone to check the data in QQ Health</string>
     <string name="bind_qq_title">Add QQ</string>
+    <string name="bind_restore_factory">Restore factory settings</string>
     <string name="bind_shoes_capture_tips">Scan QR code</string>
     <string name="bind_shoes_capture_title">Pair shoes</string>
     <string name="bind_shoes_invalid_qr_help">Invalid QR code, scan the code on the smart chip</string>
@@ -360,7 +379,7 @@ Your steps will be displayed in the rankings."</string>
     <string name="bind_weight_bfs_found_title">Body Composition Scale found</string>
     <string name="bind_weight_bfs_not_found_tips">"Couldn't find scale. Make sure the batteries are charged and installed properly."</string>
     <string name="bind_weight_confirm">はい</string>
-    <string name="bind_weight_found_tips">Do you see %2$s%3$s on the %1$s?</string>
+    <string name="bind_weight_found_tips">Do you see %2$s %3$s on the %1$s?</string>
     <string name="bind_weight_found_title">Scale found</string>
     <string name="bind_weight_normal">Scale</string>
     <string name="bind_weight_not_found_tips">"Couldn't find scale. Make sure the batteries are charged and installed properly."</string>
@@ -379,6 +398,8 @@ and tap \"Add device\".
 Your steps will be displayed in the rankings."</string>
     <string name="bind_weixin_new_tips_not_bound">"Old data in WeChat?
 Try syncing on the start page."</string>
+    <string name="bing_mili_reset_un_support">"Reset the band after you update to the latest version of the firmware
+Contact to customer support"</string>
     <string name="birthday">誕生日</string>
     <string name="ble_equal_system_4_3_sub_title">Current Android version is 4.3. Update to 4.4 for stable use.</string>
     <string name="ble_equal_system_4_3_title">Android version is too old</string>
@@ -430,7 +451,7 @@ Strong muscles plus balanced body fat ratio will make you a good looking and fit
     <string name="bone_activity_text">"\"Bone mass\" refers to the amount of calcium, phosphorus, and other matters contained in the bone. Women with less bone mass caused by weight loss or amenorrhoea should pay more attention especially.
 
 Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-minute exercise every day."</string>
-    <string name="bone_need_attention_infomation">Your bone ratio is relatively low. Eat more high-calcium foods, sunbathe and exercise for 15-20 minutes every day.</string>
+    <string name="bone_need_attention_infomation">Your bone ratio is relatively low. Eat more high–calcium foods, sunbathe and exercise for 15-20 minutes every day.</string>
     <string name="bone_value">Bone mass</string>
     <string name="bound_qq_tips">"Steps and sleep data will be synced to QQ Health after you sync band data every time.
 Connect your device to the network during the session."</string>
@@ -623,6 +644,7 @@ You won't be able to join in training after %s"</string>
     <string name="error_connect_weixin">"Couldn't connect to WeChat, check your network and try again"</string>
     <string name="every_day">毎日</string>
     <string name="exer_data_empty">No history data</string>
+    <string name="exercise">Exercise</string>
     <string name="exercise_hr_section">Heart rate zone</string>
     <string name="exercise_type_all">All activities</string>
     <string name="exit">ログアウト</string>
@@ -652,6 +674,7 @@ You won't be able to join in training after %s"</string>
     <string name="feedback_upload_logfile">ログを送信</string>
     <string name="feedback_upload_watch_log">Watch logs</string>
     <string name="female">女性</string>
+    <string name="find_phone_notification_tips">%s is searching for this phone</string>
     <string name="finish_tagging">OK</string>
     <string name="finished_today_training_course">"Finished today's training course"</string>
     <string name="first_set_lock_screen_pw">Step 1</string>
@@ -838,7 +861,6 @@ Keep Bluetooth on when running."</string>
     <string name="incoming_call_not_bound">Pair band to receive incoming call alerts</string>
     <string name="indownloading">ダウンロード中…</string>
     <string name="input_city_name">都市名を入力</string>
-    <string name="input_out_of_max">Enter up to %d characters</string>
     <string name="install_amazfit_tips">Install the Amazfit Watch app</string>
     <string name="install_band_correct">Install Mi Band 2 in a right way</string>
     <string name="install_band_from_bottom">Install or remove the core from the back of band strap</string>
@@ -870,7 +892,9 @@ firmly on the center of the scale."</string>
     <string name="instruction_weight_title_5">Maximum weight exceeded</string>
     <string name="instruction_weight_title_6">Weighing in</string>
     <string name="invalid_name">Unsupported characters are found in the name, try again</string>
-    <string name="invisible_item_tips">Move items unnecessary to be displayed on the first page here</string>
+    <string name="invisible_item_app_band_tips">"Move items that don't need to be displayed on band here"</string>
+    <string name="invisible_item_app_watch_tips">"Move items that don't need to be displayed on watch here"</string>
+    <string name="invisible_item_tips">"Move items that don't need to be displayed on the first page here"</string>
     <string name="invisible_item_title">Hidden items</string>
     <string name="is_tagging_finish">セッションを終了しますか？</string>
     <string name="join_free_training">Join in free training</string>
@@ -969,6 +993,25 @@ The data will be saved automatically"</string>
     <string name="lock_screen_first_step">Set up screen unlock</string>
     <string name="lock_screen_second_step">Set up Bluetooth unlock</string>
     <string name="lock_screen_second_step_watch">Unlock with the watch</string>
+    <string name="login">ログイン</string>
+    <string name="login_email_account_example">"Email       E.g.: xiaomi@huami.com"</string>
+    <string name="login_email_account_or_password_error">Account or password incorrect</string>
+    <string name="login_email_forget_password">Reset password</string>
+    <string name="login_email_forget_password_commit">OK</string>
+    <string name="login_email_forget_password_email_send_content">"Message's been sent"</string>
+    <string name="login_email_forget_password_email_send_to">The email to reset password has been sent to:</string>
+    <string name="login_email_forget_password_reset">Sign in to your email to reset password.</string>
+    <string name="login_email_forget_password_verification_code_error">The code you entered is incorrect</string>
+    <string name="login_email_input_email">Email</string>
+    <string name="login_email_input_password">Password</string>
+    <string name="login_email_password_example">"Password       Letter + number, enter more than 8 digits"</string>
+    <string name="login_email_password_length_error">Enter more than 8 digits</string>
+    <string name="login_email_regist">登録</string>
+    <string name="login_email_regist_finish">Sign up</string>
+    <string name="login_email_regist_success">Signed up successfully</string>
+    <string name="login_email_regist_success_content">Tap \"Next\" to complete personal info</string>
+    <string name="login_email_regist_success_next">次へ</string>
+    <string name="login_email_verification_code">Verification code</string>
     <string name="login_error_content">問題の特定に役立てるため、エラーログを送信しますか？</string>
     <string name="login_error_feedback">フィードバック</string>
     <string name="login_error_feedback_submitted">送信しました</string>
@@ -1298,6 +1341,9 @@ Still download videos (%.2fMB)?"</string>
     <string name="phone_alarm">Vibrate when alarm sounds</string>
     <string name="phone_alarm_alert_tips">Keep band connected to device via Bluetooth</string>
     <string name="phone_alarm_not_bound">Pair band to use phone alarm</string>
+    <string name="phone_alarm_remind_cancel">後で</string>
+    <string name="phone_alarm_remind_confirm">許可</string>
+    <string name="phone_alarm_remind_message">画面のロック解除を許可しますか？</string>
     <string name="phone_number">400-999-9595</string>
     <string name="picker_menu_done">完了</string>
     <string name="play_bfat_tips">Tap to learn more</string>
@@ -1625,7 +1671,7 @@ Pair the band and start running"</string>
     <string name="running_main_title">Run</string>
     <string name="running_map_mode">マップモード</string>
     <string name="running_marathon_cost_time">It takes %s to run a marathon with this pace</string>
-    <string name="running_mile">mi</string>
+    <string name="running_mile">" mi"</string>
     <string name="running_miles">" mi"</string>
     <string name="running_no_bracelet_tips">Connect band to setup</string>
     <string name="running_no_gps">You need to turn on GPS first to get more accurate data</string>
@@ -1738,6 +1784,7 @@ Pair the band and start running"</string>
     <string name="runningsafe">Zhong An Insurance :</string>
     <string name="runningsafe_tips">"Zhong An Insurance is providing services for you. If you've suffered an injury in an accident, please contact Zhong An Insurance."</string>
     <string name="save">保存</string>
+    <string name="save_failed">保存できませんでした</string>
     <string name="save_local_success">ギャラリーに保存しました</string>
     <string name="save_success">保存しました</string>
     <string name="saving">保存中…</string>
@@ -1779,6 +1826,15 @@ Pair the band and start running"</string>
     <string name="setting">Settings</string>
     <string name="setting_about">About</string>
     <string name="setting_account_bind">Add account</string>
+    <string name="setting_app_activities">Activities</string>
+    <string name="setting_app_alarm">Alarm</string>
+    <string name="setting_app_compass">Compass</string>
+    <string name="setting_app_dialplate">Watch face</string>
+    <string name="setting_app_moreset">Settings</string>
+    <string name="setting_app_notification">Notifications</string>
+    <string name="setting_app_status">Status</string>
+    <string name="setting_app_timer">Timer</string>
+    <string name="setting_app_weather">Weather</string>
     <string name="setting_auto_pause_unsupport_indoor">"Treadmill isn't supported"</string>
     <string name="setting_beta">ベータ版をお試しください</string>
     <string name="setting_beta_risk">ベータ版使用時のリスクを理解しています</string>
@@ -1851,6 +1907,7 @@ You can change the measurement unit manually in the battery section of the scale
     <string name="share_fail">"Couldn't share"</string>
     <string name="share_give_up">Cancel the sharing</string>
     <string name="share_give_up_yes">OK</string>
+    <string name="share_instagram_label">Instagram</string>
     <string name="share_last_continue">Last streak</string>
     <string name="share_line_label">Line</string>
     <string name="share_mifit_circle_label">Mi Fit circle</string>
@@ -1998,7 +2055,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="sleep_3_qa_sleep_start">"Try going to bed around 22:00. Staying up late isn't good for your immune system and speeds up ageing."</string>
     <string name="sleep_3_qa_sleep_start_late">Fell asleep late</string>
     <string name="sleep_3_qa_sleep_start_too_late">Fell asleep too late</string>
-    <string name="sleep_3_qa_sleep_time">"It's better to sleep for 7-9 hours every day. Lack of sleep may cause physical and mental damages."</string>
+    <string name="sleep_3_qa_sleep_time">"It's better to sleep for 7–9 hours every day. Lack of sleep may cause physical and mental damages."</string>
     <string name="sleep_3_qa_sleep_time_short">Sleep time is short</string>
     <string name="sleep_3_qa_sleep_time_too_short">Sleep time is too short</string>
     <string name="sleep_3_qa_sleep_wake">Light sleep</string>
@@ -2055,6 +2112,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="slp3_sleep_feeling_pre_today">Today I feel: %1$s</string>
     <string name="slp3_sleep_feeling_title">How do you feel today?</string>
     <string name="slp_best_title">Highest score</string>
+    <string name="slp_can_not_ana_score">"Can't analyze score"</string>
     <string name="slp_feeling_bad">Exhausted</string>
     <string name="slp_feeling_desc">"Accurate feedback is helpful
  to get better sleep analysis"</string>
@@ -2106,6 +2164,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="sports_type_bike_indoor_ride">Stationary bike</string>
     <string name="sports_type_bike_ride">Outdoor cycling</string>
     <string name="sports_type_elliptical_trainer">Elliptical trainer</string>
+    <string name="sports_type_work_out">Exercise</string>
     <string name="start_download">バックグラウンドでダウンロード中…</string>
     <string name="start_one_scientific_training">Start a scientific training</string>
     <string name="start_tagging">開始</string>
@@ -2198,8 +2257,8 @@ Make sure there are no objects between them."</string>
     <string name="tagging_tip_extra">Put the band on the dominant hand to make sure the measurements are correct.</string>
     <string name="they_also_training_this">"They're also doing exercises"</string>
     <string name="third_bind">Add accounts</string>
-    <string name="third_bind_base_1">Sync data with WeChat, Alipay, and Google Fit</string>
-    <string name="third_bind_base_2">Sync data with WeChat and Google Fit</string>
+    <string name="third_bind_base_1">WeChat, QQ, Alipay, Google Fit, etc.</string>
+    <string name="third_bind_base_2">WeChat, QQ, Google Fit, etc.</string>
     <string name="third_bind_base_3">Sync data with WeChat, QQ, Alipay, and Weibo</string>
     <string name="third_bind_base_4">Sync data with WeChat, QQ, and Weibo</string>
     <string name="this_measure">Current result</string>
@@ -2386,9 +2445,11 @@ You'll be able to change that in the Amazfit Watch app settings."</string>
 
 Visceral fat accumulates easily, but it's very hard to be reduced. You need to maintain a balanced diet and keep aerobic exercise not less than 20 minutes every day."</string>
     <string name="visceral_high_infomation">Visceral fat level must be reduced to less than 9. Keep doing exercise and having balanced diet.</string>
-    <string name="visceral_need_attention_infomation">Current visceral fat level is too high. Doing exercise and having balanced diet can prevent a further increase.</string>
+    <string name="visceral_need_attention_infomation">Current visceral fat level is too high. Doing exercise and having balanced diet can prevent a further increase</string>
     <string name="visceral_value">Visceral fat</string>
     <string name="wait">読み込み中…</string>
+    <string name="watch_alipay_content">Swipe right on the watch display to view the payment page</string>
+    <string name="watch_alipay_title">Pay by Alipay</string>
     <string name="watch_connect_fail">"Couldn't connect to watch"</string>
     <string name="watch_connected">Watch is connected</string>
     <string name="watch_data_not_sync">"Data aren't synced"</string>
@@ -2423,7 +2484,7 @@ Wear the band slightly above the thinnest part of your wrist."</string>
     <string name="wear_ring_to_measure_rest_hr">Put the band on during sleeping to measure</string>
     <string name="wear_watch_to_measure_rest_hr">Put the watch on during sleeping to measure</string>
     <string name="weather_cloudy">Cloudy</string>
-    <string name="weather_description">%1$s. %2$s later.</string>
+    <string name="weather_description">%1$s to %2$s</string>
     <string name="weather_extra_fog">Heavy fog</string>
     <string name="weather_extra_heavy_fog">Severe fog</string>
     <string name="weather_extra_rainstorm">Heavy rainstorm</string>
@@ -2548,17 +2609,18 @@ before stepping off the scale."</string>
     <string name="mili_settting_mili_peyto_select_watch">"Amazfit
 Bip"</string>
     <string name="mili_settting_mili_pro_i">Mi Band - HRX</string>
-    <string name="mili_settting_mili_tempo">Amazfit Band</string>
+    <string name="mili_settting_mili_tempo">Amazfit Cor</string>
+    <string name="mili_settting_mili_wuhan">Wuhan</string>
     <string name="mon">一</string>
     <string name="normandy_device_name">Amazfit Smart Chip 2</string>
     <string name="speed_eng_unit_km">km/h</string>
     <string name="speed_eng_unit_mile">mph</string>
     <string name="sun">日</string>
     <string name="thur">四</string>
-    <string name="training_hr">心拍数</string>
     <string name="training_playing_go">GO</string>
     <string name="training_reminder">训练提醒</string>
     <string name="tue">二</string>
+    <string name="watch_skin_low_battery_tempo">手环电量低于10%, 请充电后再重试</string>
     <string name="wed">三</string>
     <string name="x_month">%d月</string>
     <string name="xiaomi_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
