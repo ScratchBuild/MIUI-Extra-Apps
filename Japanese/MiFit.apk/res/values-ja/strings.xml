@@ -398,8 +398,8 @@ and tap \"Add device\".
 Your steps will be displayed in the rankings."</string>
     <string name="bind_weixin_new_tips_not_bound">"Old data in WeChat?
 Try syncing on the start page."</string>
-    <string name="bing_mili_reset_un_support">"Reset the band after you update to the latest version of the firmware
-Contact to customer support"</string>
+    <string name="bing_mili_reset_un_support">"Can't reset. Firmware is too old.
+Contact customer support."</string>
     <string name="birthday">誕生日</string>
     <string name="ble_equal_system_4_3_sub_title">Current Android version is 4.3. Update to 4.4 for stable use.</string>
     <string name="ble_equal_system_4_3_title">Android version is too old</string>
@@ -451,7 +451,7 @@ Strong muscles plus balanced body fat ratio will make you a good looking and fit
     <string name="bone_activity_text">"\"Bone mass\" refers to the amount of calcium, phosphorus, and other matters contained in the bone. Women with less bone mass caused by weight loss or amenorrhoea should pay more attention especially.
 
 Try to keep balanced intake of calcium, and take 15-minute sunbathing and 20-minute exercise every day."</string>
-    <string name="bone_need_attention_infomation">Your bone ratio is relatively low. Eat more high–calcium foods, sunbathe and exercise for 15-20 minutes every day.</string>
+    <string name="bone_need_attention_infomation">Your bone ratio is relatively low. Eat more high–calcium foods, sunbathe and exercise for 15–20 minutes every day.</string>
     <string name="bone_value">Bone mass</string>
     <string name="bound_qq_tips">"Steps and sleep data will be synced to QQ Health after you sync band data every time.
 Connect your device to the network during the session."</string>
@@ -596,6 +596,7 @@ You won't be able to join in training after %s"</string>
     <string name="difficulity">Difficulty</string>
     <string name="dis_notify">Disconnection reminder</string>
     <string name="dis_notify_tips">Band will vibrate when disconnected</string>
+    <string name="dis_notify_tips_watch">Watch will vibrate when disconnected</string>
     <string name="discovery_choose_upload_file">アップロードするファイルを選択</string>
     <string name="discovery_deauth_fail">"Couldn't restrict permissions"</string>
     <string name="discovery_status_error">"Couldn't load data, tap the screen to try again"</string>
@@ -642,6 +643,33 @@ You won't be able to join in training after %s"</string>
     <string name="enabled_alarms">On (%s)</string>
     <string name="error_connect_alipay">"Couldn't connect to Alipay, check your network connection and try again"</string>
     <string name="error_connect_weixin">"Couldn't connect to WeChat, check your network and try again"</string>
+    <string name="event_remind_add_event">Add event</string>
+    <string name="event_remind_custom">Custom</string>
+    <string name="event_remind_day_of_month">Day %d</string>
+    <string name="event_remind_delete_fail">"Couldn't delete"</string>
+    <string name="event_remind_delete_success">Deleted successfully</string>
+    <string name="event_remind_deleting">Deleting…</string>
+    <string name="event_remind_dialog_title">Delete this event reminder?</string>
+    <string name="event_remind_ended">Ended (%d)</string>
+    <string name="event_remind_every_month">Every month</string>
+    <string name="event_remind_every_month_tips">Every month (Remind on day %d)</string>
+    <string name="event_remind_every_week">Every week</string>
+    <string name="event_remind_every_year">Every year</string>
+    <string name="event_remind_everyday">Every day</string>
+    <string name="event_remind_full">Add up to 60 event reminders</string>
+    <string name="event_remind_input_title">Enter event title</string>
+    <string name="event_remind_later">Later (%d)</string>
+    <string name="event_remind_no_data">Tap the button to add an event reminder</string>
+    <string name="event_remind_once">Once</string>
+    <string name="event_remind_period">Period</string>
+    <string name="event_remind_save_fail">"Couldn't save"</string>
+    <string name="event_remind_saved">Saved successfully</string>
+    <string name="event_remind_saving">Saving…</string>
+    <string name="event_remind_time">Remind on %s</string>
+    <string name="event_remind_time_before">Reminder time must be later than current time</string>
+    <string name="event_remind_title">Event reminder</string>
+    <string name="event_remind_today">Today (%d)</string>
+    <string name="event_remind_tomorrow">Tomorrow (%d)</string>
     <string name="every_day">毎日</string>
     <string name="exer_data_empty">No history data</string>
     <string name="exercise">Exercise</string>
@@ -682,6 +710,7 @@ You won't be able to join in training after %s"</string>
     <string name="focus_fail">追加できませんでした</string>
     <string name="focus_success">Accept</string>
     <string name="forefeet_ground_contact">Landing on forefeet</string>
+    <string name="friday">金</string>
     <string name="friend_list_get_error">"Couldn't load friends list"</string>
     <string name="friend_new_user_guide">Nudge your friend to make their band vibrate.</string>
     <string name="friend_new_user_guide_ok">OK</string>
@@ -711,6 +740,7 @@ Continue anyway?"</string>
     <string name="fw_upgrade_chaohu_gps_title">Updating GPS…</string>
     <string name="fw_upgrade_chaohu_tips">Keep the watch close to your phone</string>
     <string name="fw_upgrade_chaohu_title">Updating…</string>
+    <string name="fw_upgrade_connecting">Connecting to %s</string>
     <string name="fw_upgrade_font_failed_title">更新できませんでした</string>
     <string name="fw_upgrade_hr">Heart rate algorithm</string>
     <string name="fw_upgrade_hr_tips">Keep the band close to your phone</string>
@@ -720,6 +750,7 @@ Continue anyway?"</string>
     <string name="fw_upgrade_mili_tips">Keep the band close to your phone</string>
     <string name="fw_upgrade_mili_title">Updating firmware…</string>
     <string name="fw_upgrade_res_failed_title">更新できませんでした</string>
+    <string name="fw_upgrade_retry">Trying to update again</string>
     <string name="fw_upgrade_shoes_tips">Keep the phone close to your shoes</string>
     <string name="fw_upgrade_shoes_title">Updating firmware…</string>
     <string name="fw_upgrade_success">Updated successfully</string>
@@ -996,22 +1027,32 @@ The data will be saved automatically"</string>
     <string name="login">ログイン</string>
     <string name="login_email_account_example">"Email       E.g.: xiaomi@huami.com"</string>
     <string name="login_email_account_or_password_error">Account or password incorrect</string>
+    <string name="login_email_email_format_error">Enter correct email address</string>
     <string name="login_email_forget_password">Reset password</string>
     <string name="login_email_forget_password_commit">OK</string>
-    <string name="login_email_forget_password_email_send_content">"Message's been sent"</string>
+    <string name="login_email_forget_password_email_send_content">Message has been sent</string>
     <string name="login_email_forget_password_email_send_to">The email to reset password has been sent to:</string>
     <string name="login_email_forget_password_reset">Sign in to your email to reset password.</string>
     <string name="login_email_forget_password_verification_code_error">The code you entered is incorrect</string>
+    <string name="login_email_have_registered_error">This email has been registered</string>
     <string name="login_email_input_email">Email</string>
     <string name="login_email_input_password">Password</string>
-    <string name="login_email_password_example">"Password       Letter + number, enter more than 8 digits"</string>
+    <string name="login_email_password_diff">"Passwords don't match"</string>
+    <string name="login_email_password_example">"Password       Letters + numbers, enter more than 8 characters"</string>
+    <string name="login_email_password_format_error">Password must be letters + numbers</string>
     <string name="login_email_password_length_error">Enter more than 8 digits</string>
+    <string name="login_email_password_reset_error">"Couldn't change, try again"</string>
+    <string name="login_email_password_reseting">Resetting password…</string>
     <string name="login_email_regist">登録</string>
     <string name="login_email_regist_finish">Sign up</string>
     <string name="login_email_regist_success">Signed up successfully</string>
     <string name="login_email_regist_success_content">Tap \"Next\" to complete personal info</string>
     <string name="login_email_regist_success_next">次へ</string>
+    <string name="login_email_registing">読み込み中…</string>
+    <string name="login_email_sending_new_password">送信中…</string>
+    <string name="login_email_sending_new_password_error">"Couldn't send, try again"</string>
     <string name="login_email_verification_code">Verification code</string>
+    <string name="login_email_verification_code_error">The code you entered is incorrect</string>
     <string name="login_error_content">問題の特定に役立てるため、エラーログを送信しますか？</string>
     <string name="login_error_feedback">フィードバック</string>
     <string name="login_error_feedback_submitted">送信しました</string>
@@ -1092,6 +1133,12 @@ The data will be saved automatically"</string>
     <string name="mile_fastest">Fastest mile: %1$s</string>
     <string name="mili_data_not_sync">Band data not synced</string>
     <string name="mili_device_help">Band help</string>
+    <string name="mili_fw_info_font">Fonts (%s)</string>
+    <string name="mili_fw_info_fw">Firmware (%s)</string>
+    <string name="mili_fw_info_gps">GPS (%s)</string>
+    <string name="mili_fw_info_res">Resources (%s)</string>
+    <string name="mili_fw_info_upgrad_not">Not updated</string>
+    <string name="mili_fw_info_upgraded">Updated</string>
     <string name="mili_low_battery_tips">Make sure battery level is more than 10% to update</string>
     <string name="mili_low_battery_tips_watch">Make sure battery level is more than 10% to update</string>
     <string name="mili_low_battery_title">Charge your band</string>
@@ -1110,6 +1157,7 @@ The data will be saved automatically"</string>
     <string name="mili_setting_finding1">Searching for band</string>
     <string name="mili_setting_finding1_watch">Searching for watch</string>
     <string name="mili_setting_finding_tips">Frequent searches reduce battery life</string>
+    <string name="mili_setting_fw_upgrade">Update to the latest version</string>
     <string name="mili_setting_fw_version">Firmware version</string>
     <string name="mili_setting_ges_screen">Lift wrist to view info</string>
     <string name="mili_setting_ges_screen_key">Rotate wrist to switch info</string>
@@ -1170,6 +1218,7 @@ The data will be saved automatically"</string>
     <string name="modify_nickname">ニックネームを編集</string>
     <string name="modify_nickname_hint">ニックネームを入力</string>
     <string name="modify_weight">体重</string>
+    <string name="monday">月</string>
     <string name="monday_to_friday">月曜から金曜</string>
     <string name="month">m</string>
     <string name="month_day">%1$d/%2$d</string>
@@ -1319,8 +1368,11 @@ Still download videos (%.2fMB)?"</string>
     <string name="per_go_setting">Go to Settings</string>
     <string name="percentage">%</string>
     <string name="permission_cam">Allow Mi Fit to access to \"camera\"</string>
+    <string name="permission_contact">Mi Fit requests to get access to the \"Contacts\"</string>
     <string name="permission_location">Allow Mi Fit to get your \"location\"</string>
+    <string name="permission_phone">Mi Fit requests to get access to the \"Phone\"</string>
     <string name="permission_sdcard">Allow Mi Fit to access to \"storage\"</string>
+    <string name="permission_sms">Mi Fit requests to get access to the \"Messaging\"</string>
     <string name="permisson_tips_dialog_msg">Tap \"OK\" to allow Mi Fit to get permissions below in Settings.</string>
     <string name="permisson_tips_dialog_title">Notifications</string>
     <string name="person_info_finish">完了</string>
@@ -1389,6 +1441,7 @@ with your bare feet"</string>
     <string name="read_more">その他</string>
     <string name="rebind_weibo_health">Add again</string>
     <string name="recommend_training">Recommended training</string>
+    <string name="recommended_topics">Featured</string>
     <string name="record_weight">Add weight</string>
     <string name="red">Red</string>
     <string name="refuse_fail">"Couldn't reject"</string>
@@ -1781,8 +1834,9 @@ Pair the band and start running"</string>
     <string name="runningdetail_tab_pace">Pace</string>
     <string name="runningdetail_tab_speed">Speed</string>
     <string name="runningdetail_tab_track">Routes</string>
-    <string name="runningsafe">Zhong An Insurance :</string>
+    <string name="runningsafe">Zhong An Insurance:</string>
     <string name="runningsafe_tips">"Zhong An Insurance is providing services for you. If you've suffered an injury in an accident, please contact Zhong An Insurance."</string>
+    <string name="saturday">土</string>
     <string name="save">保存</string>
     <string name="save_failed">保存できませんでした</string>
     <string name="save_local_success">ギャラリーに保存しました</string>
@@ -1830,6 +1884,7 @@ Pair the band and start running"</string>
     <string name="setting_app_alarm">Alarm</string>
     <string name="setting_app_compass">Compass</string>
     <string name="setting_app_dialplate">Watch face</string>
+    <string name="setting_app_exercise">Exercise</string>
     <string name="setting_app_moreset">Settings</string>
     <string name="setting_app_notification">Notifications</string>
     <string name="setting_app_status">Status</string>
@@ -1856,7 +1911,7 @@ Pair the band and start running"</string>
     <string name="setting_heartrate_detect_auto">Automatic heart rate detection</string>
     <string name="setting_heartrate_detect_auto_desc">24-hour heart rate monitor will reduce battery life</string>
     <string name="setting_heartrate_detect_close">Turn off detection</string>
-    <string name="setting_heartrate_detect_freq">テスト間隔</string>
+    <string name="setting_heartrate_detect_freq">検出頻度</string>
     <string name="setting_heartrate_detect_freq_1">1分</string>
     <string name="setting_heartrate_detect_freq_10">10分</string>
     <string name="setting_heartrate_detect_freq_30">30分</string>
@@ -2099,6 +2154,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="slope_change_pie_chart_down_label">Downhill</string>
     <string name="slope_change_pie_chart_flat_label">Flat</string>
     <string name="slope_change_pie_chart_up_label">Uphill</string>
+    <string name="slowest">Slowest: %1$s</string>
     <string name="slp3_compare_dp_suf">You have longer deep sleep than %1$d%% of people</string>
     <string name="slp3_compare_dp_suf_2">%1$d%% of people have longer deep sleep than me</string>
     <string name="slp3_compare_suf">You fell asleep earlier than %1$d%% of people</string>
@@ -2237,6 +2293,7 @@ for 5 seconds to get more accurate data"</string>
     <string name="suggest_download_all_training">"You're using Wi-Fi network
 Download all videos of this course (%.1fMB)?"</string>
     <string name="suggest_training_for_you">Recommended</string>
+    <string name="sunday">日</string>
     <string name="sync_agps_data_label">Updating A-GPS %1$d%%</string>
     <string name="sync_data">Syncing data %1$s</string>
     <string name="sync_data_label">Syncing data %1$d%%</string>
@@ -2266,6 +2323,7 @@ Make sure there are no objects between them."</string>
     <string name="this_month_no_activities">No activities this month</string>
     <string name="this_week">今週</string>
     <string name="this_week_no_activities">No activities this week</string>
+    <string name="thursday">木</string>
     <string name="time">Time</string>
     <string name="time_offset">データ収集時のオフセット時間 (単位：時)</string>
     <string name="time_type_title">時刻の形式を選択</string>
@@ -2330,6 +2388,7 @@ Make sure there are no objects between them."</string>
     <string name="training_time">Mi Fit %s</string>
     <string name="training_timer">Time</string>
     <string name="try_again">ダウンロードできませんでした、もう一度お試しください</string>
+    <string name="tuesday">火</string>
     <string name="tw__composer_hint">いまどうしてる?</string>
     <string name="tw__login_btn_txt">Twitterにログイン</string>
     <string name="tw__max_tweet_chars">140</string>
@@ -2448,7 +2507,8 @@ Visceral fat accumulates easily, but it's very hard to be reduced. You need to m
     <string name="visceral_need_attention_infomation">Current visceral fat level is too high. Doing exercise and having balanced diet can prevent a further increase</string>
     <string name="visceral_value">Visceral fat</string>
     <string name="wait">読み込み中…</string>
-    <string name="watch_alipay_content">Swipe right on the watch display to view the payment page</string>
+    <string name="watch_alipay_content">Swipe right on the watch face to view the payment page</string>
+    <string name="watch_alipay_content_band">Swipe right on the watch face to view the payment page</string>
     <string name="watch_alipay_title">Pay by Alipay</string>
     <string name="watch_connect_fail">"Couldn't connect to watch"</string>
     <string name="watch_connected">Watch is connected</string>
@@ -2463,6 +2523,7 @@ Visceral fat accumulates easily, but it's very hard to be reduced. You need to m
     <string name="watch_skin_bluetooth_off">最初にBluetoothをオンにする</string>
     <string name="watch_skin_conn_fail">接続できませんでした、もう一度お試しください</string>
     <string name="watch_skin_low_battery">バッテリー残量が10%未満です、時計を充電してもう一度お試しください</string>
+    <string name="watch_skin_low_battery_tempo">バッテリー残量が10%未満です、時計を充電してもう一度お試しください</string>
     <string name="watch_skin_network_error">ネットワークを確認して、もう一度お試しください</string>
     <string name="watch_skin_open_bluetooth">最初にBluetoothをオンにする</string>
     <string name="watch_skin_setting">時計のスキン設定</string>
@@ -2531,6 +2592,7 @@ Wear the band slightly above the thinnest part of your wrist."</string>
     <string name="web_activity_retry_tip">Check and try again</string>
     <string name="web_title_mili_pro">Mi Band 2</string>
     <string name="wechat_uninstall">Install WeChat first</string>
+    <string name="wednesday">水</string>
     <string name="weibo_uninstall_tips">Install Sina Weibo first</string>
     <string name="weibosdk_toast_auth_canceled_f">"Couldn't authorize"</string>
     <string name="weibosdk_toast_auth_failed">"Couldn't pair"</string>
