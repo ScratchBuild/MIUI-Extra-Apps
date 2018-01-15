@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="app_day_report_title_rank">
+        <item quantity="other">Ahead of %d%% of users today</item>
+        <item quantity="one">Ahead of %d%% of user today</item>
+    </plurals>
     <plurals name="bf3_compare_last_mon">
         <item quantity="other">Compared with %1$dd ago</item>
         <item quantity="one">Compared with %1$dd ago</item>
@@ -36,13 +40,29 @@
         <item quantity="other">Session %d</item>
         <item quantity="one">Session %d</item>
     </plurals>
+    <plurals name="incoming_call_delay_dialog_alert_tips">
+        <item quantity="other">Vibrate %d seconds after first ring</item>
+        <item quantity="one">Vibrate %d second after first ring</item>
+    </plurals>
     <plurals name="input_out_of_max">
         <item quantity="other">最大%d文字まで入力できます</item>
         <item quantity="one">最大%d文字まで入力できます</item>
     </plurals>
+    <plurals name="message_center_hour">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="message_center_minute">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
     <plurals name="mili_setting_last_charge">
         <item quantity="other">%dd since last charge</item>
         <item quantity="one">%dd since last charge</item>
+    </plurals>
+    <plurals name="next_rest_time_seconds">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
     </plurals>
     <plurals name="numberFoot">
         <item quantity="other">%sフィート</item>
@@ -60,13 +80,81 @@
         <item quantity="other">%1$d件を選択中</item>
         <item quantity="one">%1$d件を選択中</item>
     </plurals>
+    <plurals name="run_insurance_remain_time_day">
+        <item quantity="other">Running Insurance expires in %1$d days, tap to renew</item>
+        <item quantity="one">Running Insurance expires in %1$d day, tap to renew</item>
+    </plurals>
+    <plurals name="running_history_record_sync_fail_unsync_count">
+        <item quantity="other">You have %d datas not synced</item>
+        <item quantity="one">You have %d data not synced</item>
+    </plurals>
+    <plurals name="running_history_record_unsync_count">
+        <item quantity="other">"You haven't synced %d items"</item>
+        <item quantity="one">"You haven't synced %d item"</item>
+    </plurals>
+    <plurals name="running_record_cycle_times">
+        <item quantity="other">骑行 %1$d次</item>
+        <item quantity="one">骑行 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_elli_times">
+        <item quantity="other">椭圆机 %1$d次</item>
+        <item quantity="one">椭圆机 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_run_times">
+        <item quantity="other">跑步 %1$d次</item>
+        <item quantity="one">跑步 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_training_times">
+        <item quantity="other">训练 %1$d次</item>
+        <item quantity="one">训练 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_walk_times">
+        <item quantity="other">健走 %1$d次</item>
+        <item quantity="one">健走 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_workout_times">
+        <item quantity="other">锻炼 %1$d次</item>
+        <item quantity="one">锻炼 %1$d次</item>
+    </plurals>
+    <plurals name="share_continue_max_day">
+        <item quantity="other">Personal best: %d days</item>
+        <item quantity="one">Personal best: %d day</item>
+    </plurals>
+    <plurals name="share_step_rank">
+        <item quantity="other">Ahead of %d%% of users</item>
+        <item quantity="one">Ahead of %d%% of user</item>
+    </plurals>
+    <plurals name="sleep_3_goal_title">
+        <item quantity="other">Sleep better than %d%% of users</item>
+        <item quantity="one">Sleep better than %d%% of user</item>
+    </plurals>
     <plurals name="start_train_after_x_day">
         <item quantity="other">Begins in %s days</item>
         <item quantity="one">Begins in %s day</item>
     </plurals>
+    <plurals name="step_3_fr_header_rate_compare">
+        <item quantity="other">Ahead of %d%% of users</item>
+        <item quantity="one">Ahead of %d%% of user</item>
+    </plurals>
+    <plurals name="step_top_goal">
+        <item quantity="other">Personal best: %d days</item>
+        <item quantity="one">Personal best: %d day</item>
+    </plurals>
+    <plurals name="total_record_data">
+        <item quantity="other">Kept records for %d days, total</item>
+        <item quantity="one">Kept records for %d day, total</item>
+    </plurals>
     <plurals name="train_day_format">
         <item quantity="other">Last training: %d days ago</item>
         <item quantity="one">Last training: %d day ago</item>
+    </plurals>
+    <plurals name="training_consume_time_min">
+        <item quantity="other">Trained for  %1$d m</item>
+        <item quantity="one">Trained for  %1$d m</item>
+    </plurals>
+    <plurals name="training_consume_time_sec">
+        <item quantity="other">Trained for %1$d s</item>
+        <item quantity="one">Trained for %1$d s</item>
     </plurals>
     <plurals name="training_notify_content">
         <item quantity="other">"You've had %1$d days training. Go on to take %3$s exercises for %2$dm."</item>
@@ -79,5 +167,17 @@
     <plurals name="training_playing_title_times">
         <item quantity="other"> %1$d  times</item>
         <item quantity="one"> %1$d  time</item>
+    </plurals>
+    <plurals name="training_rest_interval_time">
+        <item quantity="other">Paused for %1$d  sec</item>
+        <item quantity="one">Paused for %1$d  sec</item>
+    </plurals>
+    <plurals name="with_minute_time">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="with_unit_times">
+        <item quantity="other">%d times</item>
+        <item quantity="one">%d time</item>
     </plurals>
 </resources>
